@@ -1171,6 +1171,7 @@ export default function SearchPage() {
                     key={voter.voterId || index}
                     onClick={() => toggleVoterSelection(voter.voterId)}
                     style={{
+                      position: 'relative',
                       background: isSelected ? '#fff3e0' : 'white',
                       borderRadius: '12px',
                       padding: '12px',
@@ -1187,6 +1188,25 @@ export default function SearchPage() {
                       minHeight: isGridView ? 'auto' : '72px'
                     }}
                   >
+                    {/* Serial Number Badge */}
+                    {isGridView && (
+                      <div style={{
+                        position: 'absolute',
+                        top: '8px',
+                        left: '8px',
+                        background: '#ff6b35',
+                        color: 'white',
+                        padding: '4px 12px',
+                        borderRadius: '6px',
+                        fontSize: '13px',
+                        fontWeight: '700',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                        zIndex: 10
+                      }}>
+                        #{voter.serialNumber}
+                      </div>
+                    )}
+
                     {/* Checkbox */}
                     <div style={{
                       width: '44px',
@@ -1237,6 +1257,22 @@ export default function SearchPage() {
 
                     {/* Voter Info */}
                     <div style={{ flex: 1, minWidth: 0 }}>
+                      {/* Serial Number Badge for List View */}
+                      {!isGridView && (
+                        <div style={{
+                          display: 'inline-block',
+                          background: '#ff6b35',
+                          color: 'white',
+                          padding: '2px 8px',
+                          borderRadius: '4px',
+                          fontSize: '11px',
+                          fontWeight: '700',
+                          marginBottom: '4px',
+                          marginRight: '8px'
+                        }}>
+                          #{voter.serialNumber}
+                        </div>
+                      )}
                       <div style={{
                         fontSize: isGridView ? '18px' : '16px',
                         fontWeight: '700',
@@ -1244,7 +1280,8 @@ export default function SearchPage() {
                         marginBottom: isGridView ? '8px' : '4px',
                         overflow: isGridView ? 'visible' : 'hidden',
                         textOverflow: isGridView ? 'normal' : 'ellipsis',
-                        whiteSpace: isGridView ? 'normal' : 'nowrap'
+                        whiteSpace: isGridView ? 'normal' : 'nowrap',
+                        display: !isGridView ? 'inline' : 'block'
                       }}>
                         {voter.name || 'Name not available'}
                       </div>
@@ -1256,13 +1293,13 @@ export default function SearchPage() {
                       }}>
                         {isGridView ? (
                           <div>
-                            <div>#{voter.serialNumber} • {voter.voterId}</div>
+                            <div>{voter.voterId}</div>
                             <div>{t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'}</div>
                             <div>{t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}</div>
                           </div>
                         ) : (
                           <div>
-                            #{voter.serialNumber} • {voter.voterId}
+                            {voter.voterId}
                             <br />
                             {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}
                           </div>
