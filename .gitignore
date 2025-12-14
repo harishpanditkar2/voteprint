@@ -1,0 +1,62 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Testing
+coverage/
+
+# Next.js
+.next/
+out/
+build/
+dist/
+
+# Production
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Vercel
+.vercel
+
+# Temporary files
+*.tmp
+*.temp
+
+# Uploaded files
+public/uploads/*
+!public/uploads/.gitkeep
+
+# Generated PDFs
+public/pdfs/*
+!public/pdfs/.gitkeep
+
+# Downloads
+public/downloads/*
+!public/downloads/.gitkeep
+
+# Cached data
+data/voters.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Debug
+.cache/
