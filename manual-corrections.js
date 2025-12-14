@@ -2,7 +2,7 @@ const fs = require('fs');
 const path = require('path');
 
 // Correct polling center address for all voters
-const pollingCenterAddress = 'मतदान केंद्र क्र. 3 - खोली क्र. 2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्राजीनगर, बारामती';
+const pollingCenterAddress = 'मतदान केंद्र क्र. 1 - खोली क्र. 1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती';
 
 // Manual OCR data provided by user - all 30 voters
 const manualData = [
