@@ -96,7 +96,7 @@
     "createdAt": "2025-12-14T15:49:22.412Z"
   },
   {
-    "serialNumber": "4",
+    "serialNumber": "5",
     "voterId": "XUA7224801",
     "partNumber": "201/138/146",
     "pageNumber": 2,
@@ -128,7 +128,7 @@
     "createdAt": "2025-12-14T15:49:22.412Z"
   },
   {
-    "serialNumber": "5",
+    "serialNumber": "7",
     "voterId": "XUA7224645",
     "partNumber": "201/138/147",
     "pageNumber": 2,
@@ -160,13 +160,13 @@
     "createdAt": "2025-12-14T15:49:22.412Z"
   },
   {
-    "serialNumber": "6",
+    "serialNumber": "4",
     "voterId": "XUA7225162",
     "partNumber": "201/138/148",
     "pageNumber": 2,
     "name": "खुशबु मंहमदरफिक बागवान",
     "age": "29",
-    "gender": "M",
+    "gender": "F",
     "fatherName": "",
     "relativeDetail": "",
     "houseNumber": "I",
@@ -192,13 +192,13 @@
     "createdAt": "2025-12-14T15:49:22.412Z"
   },
   {
-    "serialNumber": "7",
+    "serialNumber": "6",
     "voterId": "XUA7224819",
     "partNumber": "201/138/149",
     "pageNumber": 2,
-    "name": "करिश्मा शब्बीर बागवान",
+    "name": "इमरान शब्बीर बागवान",
     "age": "28",
-    "gender": "F",
+    "gender": "M",
     "fatherName": "",
     "relativeDetail": "",
     "houseNumber": "“",
