@@ -59,12 +59,22 @@ voters.forEach(voter => {
     voter.name = manual.name;
     voter.age = manual.age;
     voter.gender = manual.gender;
+    voter.partNumber = manual.partNumber;
     voter.nameStatus = 'manually_verified';
     corrected++;
   }
 });
 
 console.log(`✅ Corrected ${corrected} voters with manual data`);
+
+// IMPORTANT: Sort voters by serial number to maintain correct sequence
+voters.sort((a, b) => {
+  const serialA = parseInt(a.serialNumber);
+  const serialB = parseInt(b.serialNumber);
+  return serialA - serialB;
+});
+
+console.log(`📋 Sorted ${voters.length} voters by serial number`);
 
 // Save updated voters.json
 fs.writeFileSync(votersPath, JSON.stringify(voters, null, 2), 'utf-8');

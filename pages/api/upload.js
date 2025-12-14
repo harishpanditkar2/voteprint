@@ -69,10 +69,42 @@ export default async function handler(req, res) {
 
     console.log(`✓ Extracted ${voters.length} voters`);
 
+    // AUTOMATION: Sort voters by serial number to maintain correct sequence
+    voters.sort((a, b) => {
+      const serialA = parseInt(a.serialNumber) || 0;
+      const serialB = parseInt(b.serialNumber) || 0;
+      return serialA - serialB;
+    });
+    console.log(`📋 Sorted ${voters.length} voters by serial number`);
+
+    // AUTOMATION: Validate sequence
+    const sequenceErrors = [];
+    voters.forEach((voter, index) => {
+      const expectedSerial = (index + 1).toString();
+      if (voter.serialNumber !== expectedSerial) {
+        sequenceErrors.push({
+          position: index + 1,
+          expected: expectedSerial,
+          actual: voter.serialNumber,
+          voterId: voter.voterId
+        });
+      }
+    });
+
+    if (sequenceErrors.length > 0) {
+      console.warn(`⚠️ Found ${sequenceErrors.length} sequence mismatches - correcting automatically`);
+      // Auto-correct serial numbers to match position
+      voters.forEach((voter, index) => {
+        voter.serialNumber = (index + 1).toString();
+      });
+    }
+
     return res.status(200).json({
       success: true,
       message: `Successfully extracted ${voters.length} voters from PDF`,
       voterCount: voters.length,
+      sequenceValidated: sequenceErrors.length === 0,
+      sequenceCorrected: sequenceErrors.length > 0,
       voters: voters.slice(0, 10)
     });
   } catch (error) {
