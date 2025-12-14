@@ -9,7 +9,7 @@ const manualData = [
   { serial: 4, voterId: 'XUA7224801', partNumber: '201/138/146', name: 'खुशबु मंहमदरफिक बागवान', age: '31', gender: 'F' },
   { serial: 5, voterId: 'XUA7224645', partNumber: '201/138/147', name: 'अंजुम गणी बागवान', age: '31', gender: 'F' },
   { serial: 6, voterId: 'XUA7225162', partNumber: '201/138/148', name: 'इमरान शब्बीर बागवान', age: '29', gender: 'M' },
-  { serial: 7, voterId: 'XUA7224819', partNumber: '201/138/149', name: 'करिश्मा शब्बीर बागवान', age: '31', gender: 'F' },
+  { serial: 7, voterId: 'XUA7224819', partNumber: '201/138/149', name: 'करिश्मा शब्बीर बागवान', age: '28', gender: 'F' },
   { serial: 8, voterId: 'XUA7224942', partNumber: '201/138/150', name: 'अनिता नविनकुमार बखडा', age: '54', gender: 'F' },
   { serial: 9, voterId: 'XUA7224959', partNumber: '201/138/151', name: 'श्रेयंस नविनकुमार बखडा', age: '31', gender: 'M' },
   { serial: 10, voterId: 'XUA7224785', partNumber: '201/138/152', name: 'जयश्री अतुल भुजबळ', age: '37', gender: 'F' },
