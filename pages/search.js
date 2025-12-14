@@ -10,6 +10,8 @@ export default function SearchPage() {
   const [error, setError] = useState(null);
   const [selectedVoters, setSelectedVoters] = useState([]);
   const [generating, setGenerating] = useState(false);
+  const [generatingPDF, setGeneratingPDF] = useState(false);
+  const [printing, setPrinting] = useState(false);
   const [zoomedImage, setZoomedImage] = useState(null);
   const [editingVoter, setEditingVoter] = useState(null);
   const [editForm, setEditForm] = useState({});
@@ -197,6 +199,29 @@ export default function SearchPage() {
       age: voter.age || '',
       gender: voter.gender || ''
     });
+  };
+
+  const handleGeneratePDF = (voter) => {
+    setGeneratingPDF(true);
+    window.open(`/api/generate-pdf?voterId=${voter.voterId}`, '_blank');
+    setTimeout(() => setGeneratingPDF(false), 1000);
+  };
+
+  const handlePrintVoter = async (voter) => {
+    setPrinting(true);
+    try {
+      const response = await fetch(`/api/print?voterId=${voter.voterId}`, { method: 'POST' });
+      if (response.ok) {
+        alert('Print job sent successfully!');
+      } else {
+        alert('Failed to send print job');
+      }
+    } catch (error) {
+      console.error('Print error:', error);
+      alert('Error sending print job');
+    } finally {
+      setPrinting(false);
+    }
   };
 
   const closeEditModal = () => {
@@ -1082,27 +1107,84 @@ export default function SearchPage() {
               </div>
             )}
 
+            {/* View Toggle */}
+            {filteredVoters.length > 0 && (
+              <div style={{
+                display: 'flex',
+                gap: '8px',
+                marginBottom: '16px',
+                justifyContent: 'flex-end'
+              }}>
+                <button
+                  onClick={() => setViewMode('list')}
+                  style={{
+                    padding: '8px 16px',
+                    background: viewMode === 'list' ? '#ff6b35' : 'white',
+                    color: viewMode === 'list' ? 'white' : '#666',
+                    border: '2px solid ' + (viewMode === 'list' ? '#ff6b35' : '#e5e7eb'),
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px'
+                  }}
+                >
+                  <span>☰</span> List
+                </button>
+                <button
+                  onClick={() => setViewMode('grid')}
+                  style={{
+                    padding: '8px 16px',
+                    background: viewMode === 'grid' ? '#ff6b35' : 'white',
+                    color: viewMode === 'grid' ? 'white' : '#666',
+                    border: '2px solid ' + (viewMode === 'grid' ? '#ff6b35' : '#e5e7eb'),
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '6px'
+                  }}
+                >
+                  <span>⊞</span> Grid
+                </button>
+              </div>
+            )}
+
             {/* Voter List */}
             {filteredVoters.length > 0 ? (
-              <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {filteredVoters.map((voter, index) => (
+              <div style={{ 
+                display: viewMode === 'grid' ? 'grid' : 'flex',
+                flexDirection: viewMode === 'list' ? 'column' : undefined,
+                gridTemplateColumns: viewMode === 'grid' ? 'repeat(auto-fit, minmax(380px, 1fr))' : undefined,
+                gap: '12px'
+              }}>
+                {filteredVoters.map((voter, index) => {
+                  const isGridView = viewMode === 'grid';
+                  const isSelected = selectedVoters.includes(voter.voterId);
+                  
+                  return (
                   <div
                     key={voter.voterId || index}
                     onClick={() => toggleVoterSelection(voter.voterId)}
                     style={{
-                      background: selectedVoters.includes(voter.voterId) ? '#fff3e0' : 'white',
+                      background: isSelected ? '#fff3e0' : 'white',
                       borderRadius: '12px',
                       padding: '12px',
-                      boxShadow: selectedVoters.includes(voter.voterId) 
+                      boxShadow: isSelected 
                         ? '0 4px 12px rgba(255, 107, 53, 0.2)' 
                         : '0 1px 3px rgba(0,0,0,0.1)',
                       display: 'flex',
+                      flexDirection: isGridView ? 'column' : 'row',
                       gap: '12px',
-                      alignItems: 'center',
+                      alignItems: isGridView ? 'stretch' : 'center',
                       cursor: 'pointer',
-                      border: selectedVoters.includes(voter.voterId) ? '2px solid #ff6b35' : '2px solid transparent',
+                      border: isSelected ? '2px solid #ff6b35' : '2px solid transparent',
                       transition: 'all 0.2s',
-                      minHeight: '72px'
+                      minHeight: isGridView ? 'auto' : '72px'
                     }}
                   >
                     {/* Checkbox */}
@@ -1115,12 +1197,12 @@ export default function SearchPage() {
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      background: selectedVoters.includes(voter.voterId) ? '#ff6b35' : 'white',
+                      background: isSelected ? '#ff6b35' : 'white',
                       color: 'white',
                       fontSize: '20px',
                       fontWeight: 'bold'
                     }}>
-                      {selectedVoters.includes(voter.voterId) && '✓'}
+                      {isSelected && '✓'}
                     </div>
 
                     {/* Voter Image Thumbnail */}
@@ -1131,13 +1213,14 @@ export default function SearchPage() {
                           setZoomedImage(voter.cardImage);
                         }}
                         style={{
-                          width: '56px',
-                          height: '72px',
-                          minWidth: '56px',
+                          width: isGridView ? '100%' : '56px',
+                          height: isGridView ? '150px' : '72px',
+                          minWidth: isGridView ? 'auto' : '56px',
                           borderRadius: '6px',
                           overflow: 'hidden',
                           border: '2px solid #e5e7eb',
-                          background: '#f8f9fa'
+                          background: '#f8f9fa',
+                          cursor: 'zoom-in'
                         }}
                       >
                         <img 
@@ -1155,13 +1238,13 @@ export default function SearchPage() {
                     {/* Voter Info */}
                     <div style={{ flex: 1, minWidth: 0 }}>
                       <div style={{
-                        fontSize: '16px',
+                        fontSize: isGridView ? '18px' : '16px',
                         fontWeight: '700',
                         color: '#1a1a1a',
-                        marginBottom: '4px',
-                        overflow: 'hidden',
-                        textOverflow: 'ellipsis',
-                        whiteSpace: 'nowrap'
+                        marginBottom: isGridView ? '8px' : '4px',
+                        overflow: isGridView ? 'visible' : 'hidden',
+                        textOverflow: isGridView ? 'normal' : 'ellipsis',
+                        whiteSpace: isGridView ? 'normal' : 'nowrap'
                       }}>
                         {voter.name || 'Name not available'}
                       </div>
@@ -1169,16 +1252,26 @@ export default function SearchPage() {
                         fontSize: '13px',
                         color: '#666666',
                         fontWeight: '500',
-                        lineHeight: '1.4'
+                        lineHeight: isGridView ? '1.8' : '1.4'
                       }}>
-                        #{voter.serialNumber} • {voter.voterId}
-                        <br />
-                        {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}
+                        {isGridView ? (
+                          <div>
+                            <div>#{voter.serialNumber} • {voter.voterId}</div>
+                            <div>{t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'}</div>
+                            <div>{t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}</div>
+                          </div>
+                        ) : (
+                          <div>
+                            #{voter.serialNumber} • {voter.voterId}
+                            <br />
+                            {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}
+                          </div>
+                        )}
                       </div>
                     </div>
 
                     {/* Action Buttons */}
-                    <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
+                    <div style={{ display: 'flex', gap: '4px', flexShrink: 0, flexDirection: isGridView ? 'row' : 'row', justifyContent: isGridView ? 'flex-end' : 'flex-start' }}>
                       <button
                         onClick={(e) => openEditModal(voter, e)}
                         style={{
@@ -1198,15 +1291,43 @@ export default function SearchPage() {
                         ✏️
                       </button>
                       <button
-                        onClick={(e) => printVoter(voter, e)}
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handleGeneratePDF(voter);
+                        }}
+                        disabled={generatingPDF}
                         style={{
                           width: '44px',
                           height: '44px',
-                          background: '#f3f4f6',
+                          background: generatingPDF ? '#d1d5db' : '#ff6b35',
+                          color: 'white',
                           border: 'none',
                           borderRadius: '8px',
                           fontSize: '16px',
-                          cursor: 'pointer',
+                          cursor: generatingPDF ? 'not-allowed' : 'pointer',
+                          display: 'flex',
+                          alignItems: 'center',
+                          justifyContent: 'center'
+                        }}
+                        title={t.pdf}
+                      >
+                        📄
+                      </button>
+                      <button
+                        onClick={(e) => {
+                          e.stopPropagation();
+                          handlePrintVoter(voter);
+                        }}
+                        disabled={printing}
+                        style={{
+                          width: '44px',
+                          height: '44px',
+                          background: printing ? '#d1d5db' : '#10b981',
+                          color: 'white',
+                          border: 'none',
+                          borderRadius: '8px',
+                          fontSize: '16px',
+                          cursor: printing ? 'not-allowed' : 'pointer',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center'
@@ -1217,7 +1338,8 @@ export default function SearchPage() {
                       </button>
                     </div>
                   </div>
-                ))}
+                  );
+                })}
               </div>
             ) : (
               <div style={{
