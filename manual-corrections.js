@@ -1,6 +1,9 @@
 const fs = require('fs');
 const path = require('path');
 
+// Correct polling center address for all voters
+const pollingCenterAddress = 'मतदान केंद्र क्र. 3 - खोली क्र. 2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्राजीनगर, बारामती';
+
 // Manual OCR data provided by user - all 30 voters
 const manualData = [
   { serial: 1, voterId: 'XUA7224868', partNumber: '201/138/143', name: 'गजानन यशवंत अनासपुरे', age: '82', gender: 'M' },
@@ -63,9 +66,12 @@ voters.forEach(voter => {
     voter.nameStatus = 'manually_verified';
     corrected++;
   }
+  // Update polling center address for all voters
+  voter.pollingCenter = pollingCenterAddress;
 });
 
 console.log(`✅ Corrected ${corrected} voters with manual data`);
+console.log(`✅ Updated polling center address for all voters`);
 
 // IMPORTANT: Sort voters by serial number to maintain correct sequence
 voters.sort((a, b) => {
