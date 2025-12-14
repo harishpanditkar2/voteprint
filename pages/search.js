@@ -1171,7 +1171,7 @@ export default function SearchPage() {
                         fontWeight: '500',
                         lineHeight: '1.4'
                       }}>
-                        #{voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber} • {voter.voterId}
+                        #{voter.serialNumber} • {voter.voterId}
                         <br />
                         {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}
                       </div>
