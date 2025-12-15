@@ -47,6 +47,14 @@ public/downloads/*
 # Cached data
 data/voters.json
 
+# Large files for deployment
+pdflist/images/*.zip
+pdflist/**/*.pdf
+output/*.json
+public/data/*.backup*
+*.traineddata
+public/voter-cards/*.jpg
+
 # OS
 .DS_Store
 Thumbs.db

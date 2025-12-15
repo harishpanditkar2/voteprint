@@ -19,6 +19,20 @@ export default function SearchPage() {
   const [viewMode, setViewMode] = useState(typeof window !== 'undefined' && window.innerWidth < 768 ? 'grid' : 'list'); // 'list' or 'grid'
   const [showFilters, setShowFilters] = useState(true);
   const [language, setLanguage] = useState('mr'); // 'mr' (Marathi) or 'en' (English)
+  const [showAddVoterForm, setShowAddVoterForm] = useState(false);
+  const [newVoterForm, setNewVoterForm] = useState({
+    name_english: '',
+    name_marathi: '',
+    voter_id: '',
+    serial_number: '',
+    ward: '',
+    booth: '',
+    age: '',
+    gender: '',
+    father_husband_name: '',
+    house_number: '',
+    polling_center: ''
+  });
   
   // Pagination state
   const [currentPage, setCurrentPage] = useState(1);
@@ -51,6 +65,7 @@ export default function SearchPage() {
       edit: 'संपादित करा',
       print: 'प्रिंट करा',
       generatePDF: 'PDF तयार करा',
+      addVoter: 'मतदार जोडा',
       age: 'वय',
       gender: 'लिंग',
       ward: 'प्रभाग',
@@ -78,6 +93,7 @@ export default function SearchPage() {
       edit: 'Edit',
       print: 'Print',
       generatePDF: 'Generate PDF',
+      addVoter: 'Add Voter',
       age: 'Age',
       gender: 'Gender',
       ward: 'Ward',
@@ -255,6 +271,45 @@ export default function SearchPage() {
   const closeEditModal = () => {
     setEditingVoter(null);
     setEditForm({});
+  };
+
+  const handleAddVoter = async () => {
+    setSaving(true);
+
+    try {
+      const response = await fetch('/api/add-voter', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(newVoterForm)
+      });
+
+      const data = await response.json();
+
+      if (response.ok) {
+        setAllVoters(prev => [...prev, data.voter]);
+        alert('Voter added successfully!');
+        setShowAddVoterForm(false);
+        setNewVoterForm({
+          name_english: '',
+          name_marathi: '',
+          voter_id: '',
+          serial_number: '',
+          ward: '',
+          booth: '',
+          age: '',
+          gender: '',
+          father_husband_name: '',
+          house_number: '',
+          polling_center: ''
+        });
+      } else {
+        alert('Error: ' + data.error);
+      }
+    } catch (err) {
+      alert('Network error: ' + err.message);
+    } finally {
+      setSaving(false);
+    }
   };
 
   const handleEditFormChange = (field, value) => {
@@ -951,6 +1006,26 @@ export default function SearchPage() {
                       {activeFiltersCount}
                     </span>
                   )}
+                </button>
+
+                <button
+                  onClick={() => setShowAddVoterForm(true)}
+                  style={{
+                    padding: '10px 20px',
+                    background: '#4CAF50',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '10px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  <span>➕</span>
+                  {t.addVoter}
                 </button>
 
                 <div style={{
@@ -1863,6 +1938,409 @@ export default function SearchPage() {
                   }}
                 >
                   {saving ? '💾 Saving...' : '✓ Save'}
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Add Voter Modal */}
+      {showAddVoterForm && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: 'rgba(0,0,0,0.8)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 1000,
+          padding: '20px'
+        }}>
+          <div style={{
+            background: 'white',
+            borderRadius: '16px',
+            maxWidth: '600px',
+            width: '100%',
+            maxHeight: '90vh',
+            overflow: 'auto'
+          }}>
+            <div style={{
+              padding: '20px',
+              borderBottom: '2px solid #f3f4f6',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}>
+              <h2 style={{
+                margin: 0,
+                fontSize: '20px',
+                fontWeight: '800',
+                color: '#1a1a1a'
+              }}>
+                ➕ {t.addVoter}
+              </h2>
+              <button
+                onClick={() => setShowAddVoterForm(false)}
+                style={{
+                  background: '#f3f4f6',
+                  border: 'none',
+                  borderRadius: '8px',
+                  width: '36px',
+                  height: '36px',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                  fontWeight: 'bold'
+                }}
+              >
+                ×
+              </button>
+            </div>
+
+            <div style={{ padding: '20px' }}>
+              <div style={{ display: 'grid', gap: '16px' }}>
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666'
+                  }}>
+                    Name (English) *
+                  </label>
+                  <input
+                    type="text"
+                    value={newVoterForm.name_english}
+                    onChange={(e) => setNewVoterForm({...newVoterForm, name_english: e.target.value})}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666'
+                  }}>
+                    नाव (मराठी) *
+                  </label>
+                  <input
+                    type="text"
+                    value={newVoterForm.name_marathi}
+                    onChange={(e) => setNewVoterForm({...newVoterForm, name_marathi: e.target.value})}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Voter ID *
+                    </label>
+                    <input
+                      type="text"
+                      value={newVoterForm.voter_id}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, voter_id: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Serial Number *
+                    </label>
+                    <input
+                      type="text"
+                      value={newVoterForm.serial_number}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, serial_number: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Ward *
+                    </label>
+                    <input
+                      type="text"
+                      value={newVoterForm.ward}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, ward: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Booth *
+                    </label>
+                    <input
+                      type="text"
+                      value={newVoterForm.booth}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, booth: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Age
+                    </label>
+                    <input
+                      type="number"
+                      value={newVoterForm.age}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, age: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666'
+                    }}>
+                      Gender
+                    </label>
+                    <select
+                      value={newVoterForm.gender}
+                      onChange={(e) => setNewVoterForm({...newVoterForm, gender: e.target.value})}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        cursor: 'pointer',
+                        outline: 'none'
+                      }}
+                    >
+                      <option value="">Select</option>
+                      <option value="M">Male</option>
+                      <option value="F">Female</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666'
+                  }}>
+                    Father/Husband Name
+                  </label>
+                  <input
+                    type="text"
+                    value={newVoterForm.father_husband_name}
+                    onChange={(e) => setNewVoterForm({...newVoterForm, father_husband_name: e.target.value})}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666'
+                  }}>
+                    House Number
+                  </label>
+                  <input
+                    type="text"
+                    value={newVoterForm.house_number}
+                    onChange={(e) => setNewVoterForm({...newVoterForm, house_number: e.target.value})}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666'
+                  }}>
+                    Polling Center
+                  </label>
+                  <input
+                    type="text"
+                    value={newVoterForm.polling_center}
+                    onChange={(e) => setNewVoterForm({...newVoterForm, polling_center: e.target.value})}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+              </div>
+
+              <div style={{
+                marginTop: '20px',
+                paddingTop: '20px',
+                borderTop: '2px solid #f3f4f6',
+                display: 'flex',
+                gap: '12px'
+              }}>
+                <button
+                  onClick={() => setShowAddVoterForm(false)}
+                  disabled={saving}
+                  style={{
+                    flex: 1,
+                    padding: '14px',
+                    background: '#f3f4f6',
+                    color: '#666666',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '800',
+                    cursor: saving ? 'not-allowed' : 'pointer',
+                    opacity: saving ? 0.5 : 1
+                  }}
+                >
+                  Cancel
+                </button>
+                <button
+                  onClick={handleAddVoter}
+                  disabled={saving || !newVoterForm.name_english || !newVoterForm.voter_id}
+                  style={{
+                    flex: 1,
+                    padding: '14px',
+                    background: saving ? '#cbd5e0' : '#4CAF50',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '800',
+                    cursor: (saving || !newVoterForm.name_english || !newVoterForm.voter_id) ? 'not-allowed' : 'pointer',
+                    opacity: (saving || !newVoterForm.name_english || !newVoterForm.voter_id) ? 0.5 : 1
+                  }}
+                >
+                  {saving ? '💾 Adding...' : '✓ Add Voter'}
                 </button>
               </div>
             </div>
