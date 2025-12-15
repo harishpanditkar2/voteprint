@@ -1,0 +1,2915 @@
+{
+  "totalRenames": 485,
+  "renames": [
+    {
+      "current": "public/voter-cards/voter_XUA7224801_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224801_sn4_page3.jpg",
+      "voterId": "XUA7224801",
+      "serial": "4"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7225162_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7225162_sn6_page3.jpg",
+      "voterId": "XUA7225162",
+      "serial": "6"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224819_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224819_sn7_page3.jpg",
+      "voterId": "XUA7224819",
+      "serial": "7"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224959_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224959_sn8_page3.jpg",
+      "voterId": "XUA7224959",
+      "serial": "8"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224785_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224785_sn9_page3.jpg",
+      "voterId": "XUA7224785",
+      "serial": "9"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351448_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7351448_sn12_page3.jpg",
+      "voterId": "XUA7351448",
+      "serial": "12"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224678_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224678_sn15_page3.jpg",
+      "voterId": "XUA7224678",
+      "serial": "15"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7793813_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7793813_sn18_page3.jpg",
+      "voterId": "XUA7793813",
+      "serial": "18"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224892_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224892_sn21_page3.jpg",
+      "voterId": "XUA7224892",
+      "serial": "21"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7670474_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7670474_sn24_page3.jpg",
+      "voterId": "XUA7670474",
+      "serial": "24"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224546_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA7224546_sn27_page3.jpg",
+      "voterId": "XUA7224546",
+      "serial": "27"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556400_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7556400_sn36_page4.jpg",
+      "voterId": "XUA7556400",
+      "serial": "36"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224413_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7224413_sn39_page4.jpg",
+      "voterId": "XUA7224413",
+      "serial": "39"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7491897_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7491897_sn42_page4.jpg",
+      "voterId": "XUA7491897",
+      "serial": "42"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224876_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7224876_sn49_page4.jpg",
+      "voterId": "XUA7224876",
+      "serial": "49"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750391_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7750391_sn52_page4.jpg",
+      "voterId": "XUA7750391",
+      "serial": "52"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224884_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA7224884_sn55_page4.jpg",
+      "voterId": "XUA7224884",
+      "serial": "55"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224710_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7224710_sn64_page5.jpg",
+      "voterId": "XUA7224710",
+      "serial": "64"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8244345_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8244345_sn65_page5.jpg",
+      "voterId": "XUA8244345",
+      "serial": "65"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224991_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7224991_sn66_page5.jpg",
+      "voterId": "XUA7224991",
+      "serial": "66"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351935_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7351935_sn67_page5.jpg",
+      "voterId": "XUA7351935",
+      "serial": "67"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351422_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7351422_sn70_page5.jpg",
+      "voterId": "XUA7351422",
+      "serial": "70"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224439_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7224439_sn73_page5.jpg",
+      "voterId": "XUA7224439",
+      "serial": "73"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224470_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7224470_sn76_page5.jpg",
+      "voterId": "XUA7224470",
+      "serial": "76"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7225329_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7225329_sn77_page5.jpg",
+      "voterId": "XUA7225329",
+      "serial": "77"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750458_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7750458_sn79_page5.jpg",
+      "voterId": "XUA7750458",
+      "serial": "79"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7411931_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7411931_sn81_page5.jpg",
+      "voterId": "XUA7411931",
+      "serial": "81"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7850738_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7850738_sn82_page5.jpg",
+      "voterId": "XUA7850738",
+      "serial": "82"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224595_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7224595_sn83_page5.jpg",
+      "voterId": "XUA7224595",
+      "serial": "83"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7615446_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7615446_sn85_page5.jpg",
+      "voterId": "XUA7615446",
+      "serial": "85"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351851_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7351851_sn86_page5.jpg",
+      "voterId": "XUA7351851",
+      "serial": "86"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750441_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7750441_sn94_page6.jpg",
+      "voterId": "XUA7750441",
+      "serial": "94"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224447_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7224447_sn95_page6.jpg",
+      "voterId": "XUA7224447",
+      "serial": "95"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224421_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7224421_sn96_page6.jpg",
+      "voterId": "XUA7224421",
+      "serial": "96"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7225055_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7225055_sn97_page6.jpg",
+      "voterId": "XUA7225055",
+      "serial": "97"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556426_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7556426_sn100_page6.jpg",
+      "voterId": "XUA7556426",
+      "serial": "100"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351455_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7351455_sn103_page6.jpg",
+      "voterId": "XUA7351455",
+      "serial": "103"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351489_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7351489_sn106_page6.jpg",
+      "voterId": "XUA7351489",
+      "serial": "106"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7224538_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7224538_sn109_page6.jpg",
+      "voterId": "XUA7224538",
+      "serial": "109"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351513_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7351513_sn112_page6.jpg",
+      "voterId": "XUA7351513",
+      "serial": "112"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7225006_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7225006_sn115_page6.jpg",
+      "voterId": "XUA7225006",
+      "serial": "115"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556434_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA7556434_sn124_page7.jpg",
+      "voterId": "XUA7556434",
+      "serial": "124"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8009771_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8009771_sn127_page7.jpg",
+      "voterId": "XUA8009771",
+      "serial": "127"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8566267_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8566267_sn130_page7.jpg",
+      "voterId": "XUA8566267",
+      "serial": "130"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8541831_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8541831_sn133_page7.jpg",
+      "voterId": "XUA8541831",
+      "serial": "133"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750490_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA7750490_sn136_page7.jpg",
+      "voterId": "XUA7750490",
+      "serial": "136"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351398_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA7351398_sn141_page7.jpg",
+      "voterId": "XUA7351398",
+      "serial": "141"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1265420_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA1265420_sn144_page7.jpg",
+      "voterId": "XUA1265420",
+      "serial": "144"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8057127_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8057127_sn149_page8.jpg",
+      "voterId": "XUA8057127",
+      "serial": "149"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7277150_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA7277150_sn173_page8.jpg",
+      "voterId": "XUA7277150",
+      "serial": "173"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7276616_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_CRM7276616_sn221_page10.jpg",
+      "voterId": "CRM7276616",
+      "serial": "221"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7324432_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA7324432_sn227_page10.jpg",
+      "voterId": "XUA7324432",
+      "serial": "227"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1265040_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM1265040_sn233_page11.jpg",
+      "voterId": "CRM1265040",
+      "serial": "233"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7658920_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA7658920_sn235_page11.jpg",
+      "voterId": "XUA7658920",
+      "serial": "235"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7275907_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM7275907_sn240_page11.jpg",
+      "voterId": "CRM7275907",
+      "serial": "240"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7062081_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM7062081_sn250_page11.jpg",
+      "voterId": "CRM7062081",
+      "serial": "250"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7025351_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM7025351_sn253_page11.jpg",
+      "voterId": "CRM7025351",
+      "serial": "253"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7277176_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA7277176_sn263_page12.jpg",
+      "voterId": "XUA7277176",
+      "serial": "263"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7062271_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM7062271_sn268_page12.jpg",
+      "voterId": "CRM7062271",
+      "serial": "268"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7062461_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_CRM7062461_sn283_page13.jpg",
+      "voterId": "CRM7062461",
+      "serial": "283"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7062636_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA7062636_sn286_page13.jpg",
+      "voterId": "XUA7062636",
+      "serial": "286"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4593257_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA4593257_sn289_page13.jpg",
+      "voterId": "XUA4593257",
+      "serial": "289"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7276434_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_CRM7276434_sn294_page13.jpg",
+      "voterId": "CRM7276434",
+      "serial": "294"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7276285_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM7276285_sn317_page14.jpg",
+      "voterId": "CRM7276285",
+      "serial": "317"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7324556_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7324556_sn320_page14.jpg",
+      "voterId": "XUA7324556",
+      "serial": "320"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7025542_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM7025542_sn330_page14.jpg",
+      "voterId": "CRM7025542",
+      "serial": "330"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7276020_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_CRM7276020_sn336_page15.jpg",
+      "voterId": "CRM7276020",
+      "serial": "336"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7277580_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA7277580_sn339_page15.jpg",
+      "voterId": "XUA7277580",
+      "serial": "339"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7277093_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_CRM7277093_sn342_page15.jpg",
+      "voterId": "CRM7277093",
+      "serial": "342"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7063436_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_CRM7063436_sn345_page15.jpg",
+      "voterId": "CRM7063436",
+      "serial": "345"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7727456_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA7727456_sn356_page15.jpg",
+      "voterId": "XUA7727456",
+      "serial": "356"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8785974_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA8785974_sn378_page16.jpg",
+      "voterId": "XUA8785974",
+      "serial": "378"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0095109_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA0095109_sn381_page16.jpg",
+      "voterId": "XUA0095109",
+      "serial": "381"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7615560_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7615560_sn385_page17.jpg",
+      "voterId": "XUA7615560",
+      "serial": "385"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351679_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7351679_sn388_page17.jpg",
+      "voterId": "XUA7351679",
+      "serial": "388"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351554_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7351554_sn402_page17.jpg",
+      "voterId": "XUA7351554",
+      "serial": "402"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351836_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7351836_sn405_page17.jpg",
+      "voterId": "XUA7351836",
+      "serial": "405"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7670581_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7670581_sn408_page17.jpg",
+      "voterId": "XUA7670581",
+      "serial": "408"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7351737_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA7351737_sn411_page18.jpg",
+      "voterId": "XUA7351737",
+      "serial": "411"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8478505_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8478505_sn415_page18.jpg",
+      "voterId": "XUA8478505",
+      "serial": "415"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8190704_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8190704_sn427_page18.jpg",
+      "voterId": "XUA8190704",
+      "serial": "427"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8239329_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8239329_sn429_page18.jpg",
+      "voterId": "XUA8239329",
+      "serial": "429"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8239337_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8239337_sn430_page18.jpg",
+      "voterId": "XUA8239337",
+      "serial": "430"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8532731_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8532731_sn432_page18.jpg",
+      "voterId": "XUA8532731",
+      "serial": "432"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8171407_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8171407_sn441_page19.jpg",
+      "voterId": "XUA8171407",
+      "serial": "441"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8176323_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8176323_sn444_page19.jpg",
+      "voterId": "XUA8176323",
+      "serial": "444"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8156440_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8156440_sn450_page19.jpg",
+      "voterId": "XUA8156440",
+      "serial": "450"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8171431_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8171431_sn453_page19.jpg",
+      "voterId": "XUA8171431",
+      "serial": "453"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8409633_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8409633_sn456_page19.jpg",
+      "voterId": "XUA8409633",
+      "serial": "456"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8312530_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8312530_sn459_page19.jpg",
+      "voterId": "XUA8312530",
+      "serial": "459"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8609398_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8609398_sn462_page19.jpg",
+      "voterId": "XUA8609398",
+      "serial": "462"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8142564_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8142564_sn465_page19.jpg",
+      "voterId": "XUA8142564",
+      "serial": "465"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7464100_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA7464100_sn479_page20.jpg",
+      "voterId": "XUA7464100",
+      "serial": "479"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8161796_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8161796_sn513_page21.jpg",
+      "voterId": "XUA8161796",
+      "serial": "513"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8600033_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8600033_sn516_page21.jpg",
+      "voterId": "XUA8600033",
+      "serial": "516"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8183139_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8183139_sn519_page21.jpg",
+      "voterId": "XUA8183139",
+      "serial": "519"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8342875_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8342875_sn522_page21.jpg",
+      "voterId": "XUA8342875",
+      "serial": "522"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8174997_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA8174997_sn528_page22.jpg",
+      "voterId": "XUA8174997",
+      "serial": "528"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8186520_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA8186520_sn531_page22.jpg",
+      "voterId": "XUA8186520",
+      "serial": "531"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8159527_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA8159527_sn534_page22.jpg",
+      "voterId": "XUA8159527",
+      "serial": "534"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8334310_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA8334310_sn539_page22.jpg",
+      "voterId": "XUA8334310",
+      "serial": "539"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7324671_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA7324671_sn558_page23.jpg",
+      "voterId": "XUA7324671",
+      "serial": "558"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7658961_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA7658961_sn562_page23.jpg",
+      "voterId": "XUA7658961",
+      "serial": "562"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7062180_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_CRM7062180_sn563_page23.jpg",
+      "voterId": "CRM7062180",
+      "serial": "563"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7062701_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA7062701_sn565_page23.jpg",
+      "voterId": "XUA7062701",
+      "serial": "565"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7061844_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_CRM7061844_sn574_page23.jpg",
+      "voterId": "CRM7061844",
+      "serial": "574"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1263680_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA1263680_sn580_page24.jpg",
+      "voterId": "XUA1263680",
+      "serial": "580"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7276863_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_CRM7276863_sn586_page24.jpg",
+      "voterId": "CRM7276863",
+      "serial": "586"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7277184_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_CRM7277184_sn589_page24.jpg",
+      "voterId": "CRM7277184",
+      "serial": "589"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7659001_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7659001_sn592_page24.jpg",
+      "voterId": "XUA7659001",
+      "serial": "592"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1264878_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA1264878_sn594_page24.jpg",
+      "voterId": "XUA1264878",
+      "serial": "594"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8664211_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8664211_sn610_page25.jpg",
+      "voterId": "XUA8664211",
+      "serial": "610"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8686362_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8686362_sn612_page25.jpg",
+      "voterId": "XUA8686362",
+      "serial": "612"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8696817_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8696817_sn615_page25.jpg",
+      "voterId": "XUA8696817",
+      "serial": "615"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8711137_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8711137_sn617_page25.jpg",
+      "voterId": "XUA8711137",
+      "serial": "617"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8715757_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8715757_sn620_page25.jpg",
+      "voterId": "XUA8715757",
+      "serial": "620"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8720971_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA8720971_sn623_page25.jpg",
+      "voterId": "XUA8720971",
+      "serial": "623"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8748469_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8748469_sn635_page26.jpg",
+      "voterId": "XUA8748469",
+      "serial": "635"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8754871_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8754871_sn638_page26.jpg",
+      "voterId": "XUA8754871",
+      "serial": "638"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8755621_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8755621_sn641_page26.jpg",
+      "voterId": "XUA8755621",
+      "serial": "641"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8763146_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8763146_sn644_page26.jpg",
+      "voterId": "XUA8763146",
+      "serial": "644"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8763708_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8763708_sn647_page26.jpg",
+      "voterId": "XUA8763708",
+      "serial": "647"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8766123_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8766123_sn650_page26.jpg",
+      "voterId": "XUA8766123",
+      "serial": "650"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8769309_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA8769309_sn653_page26.jpg",
+      "voterId": "XUA8769309",
+      "serial": "653"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8780439_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA8780439_sn662_page27.jpg",
+      "voterId": "XUA8780439",
+      "serial": "662"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8787020_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA8787020_sn665_page27.jpg",
+      "voterId": "XUA8787020",
+      "serial": "665"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0855916_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA0855916_sn671_page27.jpg",
+      "voterId": "XUA0855916",
+      "serial": "671"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1965124_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA1965124_sn674_page27.jpg",
+      "voterId": "XUA1965124",
+      "serial": "674"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8802167_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA8802167_sn677_page27.jpg",
+      "voterId": "XUA8802167",
+      "serial": "677"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8818544_sn_page30.jpg",
+      "expected": "public/voter-cards/voter_XUA8818544_sn685_page30.jpg",
+      "voterId": "XUA8818544",
+      "serial": "685"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8834228_sn_page39.jpg",
+      "expected": "public/voter-cards/voter_XUA8834228_sn699_page39.jpg",
+      "voterId": "XUA8834228",
+      "serial": "699"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8845554_sn_page45.jpg",
+      "expected": "public/voter-cards/voter_XUA8845554_sn708_page45.jpg",
+      "voterId": "XUA8845554",
+      "serial": "708"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8876906_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_XUA8876906_sn724_page50.jpg",
+      "voterId": "XUA8876906",
+      "serial": "724"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8883928_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA8883928_sn737_page57.jpg",
+      "voterId": "XUA8883928",
+      "serial": "737"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8080723_sn_page71.jpg",
+      "expected": "public/voter-cards/voter_XUA8080723_sn770_page71.jpg",
+      "voterId": "XUA8080723",
+      "serial": "770"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4595542_sn_page72.jpg",
+      "expected": "public/voter-cards/voter_XUA4595542_sn782_page72.jpg",
+      "voterId": "XUA4595542",
+      "serial": "782"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4606505_sn_page72.jpg",
+      "expected": "public/voter-cards/voter_XUA4606505_sn800_page72.jpg",
+      "voterId": "XUA4606505",
+      "serial": "800"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820470_sn_page73.jpg",
+      "expected": "public/voter-cards/voter_CRM7820470_sn821_page73.jpg",
+      "voterId": "CRM7820470",
+      "serial": "821"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7821874_sn_page73.jpg",
+      "expected": "public/voter-cards/voter_CRM7821874_sn823_page73.jpg",
+      "voterId": "CRM7821874",
+      "serial": "823"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820736_sn_page73.jpg",
+      "expected": "public/voter-cards/voter_CRM7820736_sn826_page73.jpg",
+      "voterId": "CRM7820736",
+      "serial": "826"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8693319_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8693319_sn3_page5.jpg",
+      "voterId": "XUA8693319",
+      "serial": "3"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4638425_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA4638425_sn7_page9.jpg",
+      "voterId": "XUA4638425",
+      "serial": "7"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7609878_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA7609878_sn15_page11.jpg",
+      "voterId": "XUA7609878",
+      "serial": "15"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7609845_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA7609845_sn18_page11.jpg",
+      "voterId": "XUA7609845",
+      "serial": "18"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1700566_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM1700566_sn23_page11.jpg",
+      "voterId": "CRM1700566",
+      "serial": "23"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1700533_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA1700533_sn26_page11.jpg",
+      "voterId": "XUA1700533",
+      "serial": "26"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539170_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA1539170_sn30_page11.jpg",
+      "voterId": "XUA1539170",
+      "serial": "30"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7041218_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_CRM7041218_sn31_page11.jpg",
+      "voterId": "CRM7041218",
+      "serial": "31"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1698463_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA1698463_sn35_page11.jpg",
+      "voterId": "XUA1698463",
+      "serial": "35"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698489_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM1698489_sn40_page12.jpg",
+      "voterId": "CRM1698489",
+      "serial": "40"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7042349_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA7042349_sn43_page12.jpg",
+      "voterId": "XUA7042349",
+      "serial": "43"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1697655_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM1697655_sn46_page12.jpg",
+      "voterId": "CRM1697655",
+      "serial": "46"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7041275_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM7041275_sn47_page12.jpg",
+      "voterId": "CRM7041275",
+      "serial": "47"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7041283_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM7041283_sn49_page12.jpg",
+      "voterId": "CRM7041283",
+      "serial": "49"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698869_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM1698869_sn53_page12.jpg",
+      "voterId": "CRM1698869",
+      "serial": "53"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7123383_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA7123383_sn55_page12.jpg",
+      "voterId": "XUA7123383",
+      "serial": "55"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1697762_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA1697762_sn57_page12.jpg",
+      "voterId": "XUA1697762",
+      "serial": "57"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7578201_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM7578201_sn60_page12.jpg",
+      "voterId": "CRM7578201",
+      "serial": "60"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1700665_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM1700665_sn63_page12.jpg",
+      "voterId": "CRM1700665",
+      "serial": "63"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1700749_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA1700749_sn66_page13.jpg",
+      "voterId": "XUA1700749",
+      "serial": "66"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7040681_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_CRM7040681_sn69_page13.jpg",
+      "voterId": "CRM7040681",
+      "serial": "69"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7576692_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA7576692_sn72_page13.jpg",
+      "voterId": "XUA7576692",
+      "serial": "72"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7576528_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA7576528_sn75_page13.jpg",
+      "voterId": "XUA7576528",
+      "serial": "75"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539238_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA1539238_sn76_page13.jpg",
+      "voterId": "XUA1539238",
+      "serial": "76"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539253_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA1539253_sn78_page13.jpg",
+      "voterId": "XUA1539253",
+      "serial": "78"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7312734_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA7312734_sn84_page13.jpg",
+      "voterId": "XUA7312734",
+      "serial": "84"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7906980_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA7906980_sn85_page13.jpg",
+      "voterId": "XUA7906980",
+      "serial": "85"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539196_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA1539196_sn87_page13.jpg",
+      "voterId": "XUA1539196",
+      "serial": "87"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7041085_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_CRM7041085_sn90_page13.jpg",
+      "voterId": "CRM7041085",
+      "serial": "90"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7040103_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM7040103_sn96_page14.jpg",
+      "voterId": "CRM7040103",
+      "serial": "96"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7040368_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7040368_sn103_page14.jpg",
+      "voterId": "XUA7040368",
+      "serial": "103"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7040459_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7040459_sn106_page14.jpg",
+      "voterId": "XUA7040459",
+      "serial": "106"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM0129767_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM0129767_sn109_page14.jpg",
+      "voterId": "CRM0129767",
+      "serial": "109"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7041374_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM7041374_sn114_page14.jpg",
+      "voterId": "CRM7041374",
+      "serial": "114"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1700251_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_CRM1700251_sn117_page14.jpg",
+      "voterId": "CRM1700251",
+      "serial": "117"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7312775_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA7312775_sn123_page15.jpg",
+      "voterId": "XUA7312775",
+      "serial": "123"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610132_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7610132_sn132_page16.jpg",
+      "voterId": "XUA7610132",
+      "serial": "132"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7341852_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7341852_sn135_page16.jpg",
+      "voterId": "XUA7341852",
+      "serial": "135"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610108_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7610108_sn138_page16.jpg",
+      "voterId": "XUA7610108",
+      "serial": "138"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552490_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7552490_sn144_page16.jpg",
+      "voterId": "XUA7552490",
+      "serial": "144"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7341837_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7341837_sn147_page16.jpg",
+      "voterId": "XUA7341837",
+      "serial": "147"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552516_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7552516_sn150_page16.jpg",
+      "voterId": "XUA7552516",
+      "serial": "150"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610082_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA7610082_sn156_page16.jpg",
+      "voterId": "XUA7610082",
+      "serial": "156"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1750223_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA1750223_sn162_page17.jpg",
+      "voterId": "XUA1750223",
+      "serial": "162"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610025_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7610025_sn165_page17.jpg",
+      "voterId": "XUA7610025",
+      "serial": "165"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7341936_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7341936_sn168_page17.jpg",
+      "voterId": "XUA7341936",
+      "serial": "168"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7341928_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7341928_sn171_page17.jpg",
+      "voterId": "XUA7341928",
+      "serial": "171"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552532_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7552532_sn174_page17.jpg",
+      "voterId": "XUA7552532",
+      "serial": "174"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552482_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7552482_sn177_page17.jpg",
+      "voterId": "XUA7552482",
+      "serial": "177"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552557_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7552557_sn180_page17.jpg",
+      "voterId": "XUA7552557",
+      "serial": "180"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7552375_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7552375_sn186_page17.jpg",
+      "voterId": "XUA7552375",
+      "serial": "186"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8046229_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8046229_sn190_page18.jpg",
+      "voterId": "XUA8046229",
+      "serial": "190"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8046278_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8046278_sn191_page18.jpg",
+      "voterId": "XUA8046278",
+      "serial": "191"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8195075_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8195075_sn195_page18.jpg",
+      "voterId": "XUA8195075",
+      "serial": "195"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8535551_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8535551_sn197_page18.jpg",
+      "voterId": "XUA8535551",
+      "serial": "197"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8154833_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8154833_sn199_page18.jpg",
+      "voterId": "XUA8154833",
+      "serial": "199"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7609902_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA7609902_sn201_page18.jpg",
+      "voterId": "XUA7609902",
+      "serial": "201"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8186199_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8186199_sn202_page18.jpg",
+      "voterId": "XUA8186199",
+      "serial": "202"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7935505_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA7935505_sn204_page18.jpg",
+      "voterId": "XUA7935505",
+      "serial": "204"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7306538_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA7306538_sn205_page18.jpg",
+      "voterId": "XUA7306538",
+      "serial": "205"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7609985_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7609985_sn209_page19.jpg",
+      "voterId": "XUA7609985",
+      "serial": "209"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8176042_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8176042_sn212_page19.jpg",
+      "voterId": "XUA8176042",
+      "serial": "212"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8625238_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8625238_sn215_page19.jpg",
+      "voterId": "XUA8625238",
+      "serial": "215"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7935489_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7935489_sn221_page19.jpg",
+      "voterId": "XUA7935489",
+      "serial": "221"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7485444_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7485444_sn224_page19.jpg",
+      "voterId": "XUA7485444",
+      "serial": "224"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8581837_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA8581837_sn230_page19.jpg",
+      "voterId": "XUA8581837",
+      "serial": "230"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1697614_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_CRM1697614_sn238_page20.jpg",
+      "voterId": "CRM1697614",
+      "serial": "238"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7907384_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_CRM7907384_sn246_page20.jpg",
+      "voterId": "CRM7907384",
+      "serial": "246"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7040228_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_CRM7040228_sn248_page20.jpg",
+      "voterId": "CRM7040228",
+      "serial": "248"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8335275_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA8335275_sn252_page20.jpg",
+      "voterId": "XUA8335275",
+      "serial": "252"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7847957_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA7847957_sn255_page20.jpg",
+      "voterId": "XUA7847957",
+      "serial": "255"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7040640_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_CRM7040640_sn258_page20.jpg",
+      "voterId": "CRM7040640",
+      "serial": "258"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7042059_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_CRM7042059_sn264_page21.jpg",
+      "voterId": "CRM7042059",
+      "serial": "264"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8736605_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8736605_sn269_page21.jpg",
+      "voterId": "XUA8736605",
+      "serial": "269"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8762544_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8762544_sn275_page21.jpg",
+      "voterId": "XUA8762544",
+      "serial": "275"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8772774_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_XUA8772774_sn278_page21.jpg",
+      "voterId": "XUA8772774",
+      "serial": "278"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7341951_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7341951_sn282_page22.jpg",
+      "voterId": "XUA7341951",
+      "serial": "282"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610256_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7610256_sn285_page22.jpg",
+      "voterId": "XUA7610256",
+      "serial": "285"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610280_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7610280_sn288_page22.jpg",
+      "voterId": "XUA7610280",
+      "serial": "288"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610215_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7610215_sn291_page22.jpg",
+      "voterId": "XUA7610215",
+      "serial": "291"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539303_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA1539303_sn296_page22.jpg",
+      "voterId": "XUA1539303",
+      "serial": "296"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610249_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7610249_sn299_page22.jpg",
+      "voterId": "XUA7610249",
+      "serial": "299"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7312882_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA7312882_sn305_page22.jpg",
+      "voterId": "XUA7312882",
+      "serial": "305"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7906949_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_CRM7906949_sn309_page23.jpg",
+      "voterId": "CRM7906949",
+      "serial": "309"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM0130062_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_CRM0130062_sn312_page23.jpg",
+      "voterId": "CRM0130062",
+      "serial": "312"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8035966_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA8035966_sn315_page23.jpg",
+      "voterId": "XUA8035966",
+      "serial": "315"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7222128_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7222128_sn323_page24.jpg",
+      "voterId": "XUA7222128",
+      "serial": "323"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7847999_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7847999_sn326_page24.jpg",
+      "voterId": "XUA7847999",
+      "serial": "326"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610322_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7610322_sn329_page24.jpg",
+      "voterId": "XUA7610322",
+      "serial": "329"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7704612_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7704612_sn332_page24.jpg",
+      "voterId": "XUA7704612",
+      "serial": "332"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7222136_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7222136_sn335_page24.jpg",
+      "voterId": "XUA7222136",
+      "serial": "335"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7848005_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA7848005_sn338_page24.jpg",
+      "voterId": "XUA7848005",
+      "serial": "338"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8304396_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA8304396_sn341_page24.jpg",
+      "voterId": "XUA8304396",
+      "serial": "341"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM0130369_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_CRM0130369_sn346_page25.jpg",
+      "voterId": "CRM0130369",
+      "serial": "346"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0129965_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA0129965_sn347_page25.jpg",
+      "voterId": "XUA0129965",
+      "serial": "347"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0129882_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA0129882_sn355_page26.jpg",
+      "voterId": "XUA0129882",
+      "serial": "355"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698562_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_CRM1698562_sn360_page26.jpg",
+      "voterId": "CRM1698562",
+      "serial": "360"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539352_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA1539352_sn366_page26.jpg",
+      "voterId": "XUA1539352",
+      "serial": "366"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0129577_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA0129577_sn368_page26.jpg",
+      "voterId": "XUA0129577",
+      "serial": "368"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539386_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA1539386_sn370_page26.jpg",
+      "voterId": "XUA1539386",
+      "serial": "370"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539378_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA1539378_sn373_page26.jpg",
+      "voterId": "XUA1539378",
+      "serial": "373"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7666928_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7666928_sn379_page28.jpg",
+      "voterId": "XUA7666928",
+      "serial": "379"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7666837_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7666837_sn382_page28.jpg",
+      "voterId": "XUA7666837",
+      "serial": "382"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7342017_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7342017_sn385_page28.jpg",
+      "voterId": "XUA7342017",
+      "serial": "385"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1830157_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA1830157_sn388_page28.jpg",
+      "voterId": "XUA1830157",
+      "serial": "388"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7342033_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7342033_sn391_page28.jpg",
+      "voterId": "XUA7342033",
+      "serial": "391"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7342058_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7342058_sn394_page28.jpg",
+      "voterId": "XUA7342058",
+      "serial": "394"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7666886_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7666886_sn397_page28.jpg",
+      "voterId": "XUA7666886",
+      "serial": "397"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610397_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA7610397_sn403_page28.jpg",
+      "voterId": "XUA7610397",
+      "serial": "403"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7748130_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA7748130_sn405_page29.jpg",
+      "voterId": "XUA7748130",
+      "serial": "405"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539428_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA1539428_sn408_page29.jpg",
+      "voterId": "XUA1539428",
+      "serial": "408"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4830132_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA4830132_sn411_page29.jpg",
+      "voterId": "XUA4830132",
+      "serial": "411"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA3038262_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA3038262_sn414_page29.jpg",
+      "voterId": "XUA3038262",
+      "serial": "414"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7577880_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_CRM7577880_sn417_page29.jpg",
+      "voterId": "CRM7577880",
+      "serial": "417"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7578748_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA7578748_sn420_page29.jpg",
+      "voterId": "XUA7578748",
+      "serial": "420"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539444_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA1539444_sn423_page29.jpg",
+      "voterId": "XUA1539444",
+      "serial": "423"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7312981_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA7312981_sn425_page29.jpg",
+      "voterId": "XUA7312981",
+      "serial": "425"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7906907_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA7906907_sn428_page29.jpg",
+      "voterId": "XUA7906907",
+      "serial": "428"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7774821_sn_page31.jpg",
+      "expected": "public/voter-cards/voter_XUA7774821_sn433_page31.jpg",
+      "voterId": "XUA7774821",
+      "serial": "433"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8882524_sn_page35.jpg",
+      "expected": "public/voter-cards/voter_XUA8882524_sn437_page35.jpg",
+      "voterId": "XUA8882524",
+      "serial": "437"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7597599_sn_page36.jpg",
+      "expected": "public/voter-cards/voter_XUA7597599_sn439_page36.jpg",
+      "voterId": "XUA7597599",
+      "serial": "439"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8909228_sn_page37.jpg",
+      "expected": "public/voter-cards/voter_XUA8909228_sn441_page37.jpg",
+      "voterId": "XUA8909228",
+      "serial": "441"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539758_sn_page48.jpg",
+      "expected": "public/voter-cards/voter_XUA1539758_sn455_page48.jpg",
+      "voterId": "XUA1539758",
+      "serial": "455"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7042489_sn_page48.jpg",
+      "expected": "public/voter-cards/voter_CRM7042489_sn458_page48.jpg",
+      "voterId": "CRM7042489",
+      "serial": "458"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8392706_sn_page48.jpg",
+      "expected": "public/voter-cards/voter_XUA8392706_sn463_page48.jpg",
+      "voterId": "XUA8392706",
+      "serial": "463"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7848039_sn_page48.jpg",
+      "expected": "public/voter-cards/voter_XUA7848039_sn466_page48.jpg",
+      "voterId": "XUA7848039",
+      "serial": "466"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8360729_sn_page48.jpg",
+      "expected": "public/voter-cards/voter_XUA8360729_sn469_page48.jpg",
+      "voterId": "XUA8360729",
+      "serial": "469"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4609137_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA4609137_sn475_page49.jpg",
+      "voterId": "XUA4609137",
+      "serial": "475"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7701423_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA7701423_sn478_page49.jpg",
+      "voterId": "XUA7701423",
+      "serial": "478"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4609103_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA4609103_sn481_page49.jpg",
+      "voterId": "XUA4609103",
+      "serial": "481"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7610413_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA7610413_sn484_page49.jpg",
+      "voterId": "XUA7610413",
+      "serial": "484"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8412785_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA8412785_sn487_page49.jpg",
+      "voterId": "XUA8412785",
+      "serial": "487"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1697713_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_CRM1697713_sn490_page49.jpg",
+      "voterId": "CRM1697713",
+      "serial": "490"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698497_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_CRM1698497_sn504_page50.jpg",
+      "voterId": "CRM1698497",
+      "serial": "504"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698117_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_CRM1698117_sn511_page50.jpg",
+      "voterId": "CRM1698117",
+      "serial": "511"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1830173_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_XUA1830173_sn513_page50.jpg",
+      "voterId": "XUA1830173",
+      "serial": "513"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1539550_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_XUA1539550_sn516_page50.jpg",
+      "voterId": "XUA1539550",
+      "serial": "516"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4609293_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_XUA4609293_sn521_page50.jpg",
+      "voterId": "XUA4609293",
+      "serial": "521"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1698406_sn_page50.jpg",
+      "expected": "public/voter-cards/voter_CRM1698406_sn523_page50.jpg",
+      "voterId": "CRM1698406",
+      "serial": "523"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7657310_sn_page51.jpg",
+      "expected": "public/voter-cards/voter_XUA7657310_sn540_page51.jpg",
+      "voterId": "XUA7657310",
+      "serial": "540"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1698893_sn_page51.jpg",
+      "expected": "public/voter-cards/voter_XUA1698893_sn543_page51.jpg",
+      "voterId": "XUA1698893",
+      "serial": "543"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8838351_sn_page51.jpg",
+      "expected": "public/voter-cards/voter_XUA8838351_sn551_page51.jpg",
+      "voterId": "XUA8838351",
+      "serial": "551"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7546638_sn_page52.jpg",
+      "expected": "public/voter-cards/voter_XUA7546638_sn553_page52.jpg",
+      "voterId": "XUA7546638",
+      "serial": "553"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7023398_sn_page53.jpg",
+      "expected": "public/voter-cards/voter_CRM7023398_sn559_page53.jpg",
+      "voterId": "CRM7023398",
+      "serial": "559"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607628_sn_page53.jpg",
+      "expected": "public/voter-cards/voter_XUA4607628_sn562_page53.jpg",
+      "voterId": "XUA4607628",
+      "serial": "562"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607719_sn_page53.jpg",
+      "expected": "public/voter-cards/voter_XUA4607719_sn565_page53.jpg",
+      "voterId": "XUA4607719",
+      "serial": "565"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607727_sn_page53.jpg",
+      "expected": "public/voter-cards/voter_XUA4607727_sn568_page53.jpg",
+      "voterId": "XUA4607727",
+      "serial": "568"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1265545_sn_page54.jpg",
+      "expected": "public/voter-cards/voter_CRM1265545_sn586_page54.jpg",
+      "voterId": "CRM1265545",
+      "serial": "586"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7352263_sn_page54.jpg",
+      "expected": "public/voter-cards/voter_XUA7352263_sn589_page54.jpg",
+      "voterId": "XUA7352263",
+      "serial": "589"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7187524_sn_page54.jpg",
+      "expected": "public/voter-cards/voter_CRM7187524_sn600_page54.jpg",
+      "voterId": "CRM7187524",
+      "serial": "600"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7821569_sn_page54.jpg",
+      "expected": "public/voter-cards/voter_CRM7821569_sn606_page54.jpg",
+      "voterId": "CRM7821569",
+      "serial": "606"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8714974_sn_page55.jpg",
+      "expected": "public/voter-cards/voter_XUA8714974_sn610_page55.jpg",
+      "voterId": "XUA8714974",
+      "serial": "610"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8728024_sn_page55.jpg",
+      "expected": "public/voter-cards/voter_XUA8728024_sn618_page55.jpg",
+      "voterId": "XUA8728024",
+      "serial": "618"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8749293_sn_page55.jpg",
+      "expected": "public/voter-cards/voter_XUA8749293_sn624_page55.jpg",
+      "voterId": "XUA8749293",
+      "serial": "624"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7492309_sn_page56.jpg",
+      "expected": "public/voter-cards/voter_XUA7492309_sn654_page56.jpg",
+      "voterId": "XUA7492309",
+      "serial": "654"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7615958_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7615958_sn666_page57.jpg",
+      "voterId": "XUA7615958",
+      "serial": "666"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7937584_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7937584_sn669_page57.jpg",
+      "voterId": "XUA7937584",
+      "serial": "669"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7794183_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7794183_sn672_page57.jpg",
+      "voterId": "XUA7794183",
+      "serial": "672"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4609608_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA4609608_sn675_page57.jpg",
+      "voterId": "XUA4609608",
+      "serial": "675"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556681_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7556681_sn678_page57.jpg",
+      "voterId": "XUA7556681",
+      "serial": "678"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750698_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7750698_sn681_page57.jpg",
+      "voterId": "XUA7750698",
+      "serial": "681"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750722_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7750722_sn684_page57.jpg",
+      "voterId": "XUA7750722",
+      "serial": "684"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750730_sn_page57.jpg",
+      "expected": "public/voter-cards/voter_XUA7750730_sn687_page57.jpg",
+      "voterId": "XUA7750730",
+      "serial": "687"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7750748_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7750748_sn696_page58.jpg",
+      "voterId": "XUA7750748",
+      "serial": "696"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7615933_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7615933_sn699_page58.jpg",
+      "voterId": "XUA7615933",
+      "serial": "699"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556764_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7556764_sn702_page58.jpg",
+      "voterId": "XUA7556764",
+      "serial": "702"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607578_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA4607578_sn705_page58.jpg",
+      "voterId": "XUA4607578",
+      "serial": "705"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7706088_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7706088_sn708_page58.jpg",
+      "voterId": "XUA7706088",
+      "serial": "708"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7492234_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7492234_sn711_page58.jpg",
+      "voterId": "XUA7492234",
+      "serial": "711"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7352131_sn_page58.jpg",
+      "expected": "public/voter-cards/voter_XUA7352131_sn714_page58.jpg",
+      "voterId": "XUA7352131",
+      "serial": "714"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8469546_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8469546_sn726_page59.jpg",
+      "voterId": "XUA8469546",
+      "serial": "726"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8482374_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8482374_sn729_page59.jpg",
+      "voterId": "XUA8482374",
+      "serial": "729"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8467474_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8467474_sn732_page59.jpg",
+      "voterId": "XUA8467474",
+      "serial": "732"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8469256_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8469256_sn735_page59.jpg",
+      "voterId": "XUA8469256",
+      "serial": "735"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8467516_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8467516_sn738_page59.jpg",
+      "voterId": "XUA8467516",
+      "serial": "738"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8467573_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8467573_sn741_page59.jpg",
+      "voterId": "XUA8467573",
+      "serial": "741"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480311_sn_page59.jpg",
+      "expected": "public/voter-cards/voter_XUA8480311_sn744_page59.jpg",
+      "voterId": "XUA8480311",
+      "serial": "744"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8467540_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8467540_sn4_page3.jpg",
+      "voterId": "XUA8467540",
+      "serial": "4"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480170_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480170_sn6_page3.jpg",
+      "voterId": "XUA8480170",
+      "serial": "6"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480121_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480121_sn7_page3.jpg",
+      "voterId": "XUA8480121",
+      "serial": "7"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8477184_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8477184_sn8_page3.jpg",
+      "voterId": "XUA8477184",
+      "serial": "8"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480139_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480139_sn9_page3.jpg",
+      "voterId": "XUA8480139",
+      "serial": "9"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480477_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480477_sn10_page3.jpg",
+      "voterId": "XUA8480477",
+      "serial": "10"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8469561_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8469561_sn13_page3.jpg",
+      "voterId": "XUA8469561",
+      "serial": "13"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480402_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480402_sn16_page3.jpg",
+      "voterId": "XUA8480402",
+      "serial": "16"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8469520_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8469520_sn19_page3.jpg",
+      "voterId": "XUA8469520",
+      "serial": "19"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8480543_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8480543_sn24_page3.jpg",
+      "voterId": "XUA8480543",
+      "serial": "24"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8482002_sn_page3.jpg",
+      "expected": "public/voter-cards/voter_XUA8482002_sn27_page3.jpg",
+      "voterId": "XUA8482002",
+      "serial": "27"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8396269_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8396269_sn36_page4.jpg",
+      "voterId": "XUA8396269",
+      "serial": "36"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8582470_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8582470_sn39_page4.jpg",
+      "voterId": "XUA8582470",
+      "serial": "39"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8546053_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8546053_sn42_page4.jpg",
+      "voterId": "XUA8546053",
+      "serial": "42"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8493447_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8493447_sn45_page4.jpg",
+      "voterId": "XUA8493447",
+      "serial": "45"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8483182_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8483182_sn48_page4.jpg",
+      "voterId": "XUA8483182",
+      "serial": "48"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8530453_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8530453_sn51_page4.jpg",
+      "voterId": "XUA8530453",
+      "serial": "51"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8529364_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8529364_sn54_page4.jpg",
+      "voterId": "XUA8529364",
+      "serial": "54"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8361214_sn_page4.jpg",
+      "expected": "public/voter-cards/voter_XUA8361214_sn57_page4.jpg",
+      "voterId": "XUA8361214",
+      "serial": "57"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8481913_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8481913_sn65_page5.jpg",
+      "voterId": "XUA8481913",
+      "serial": "65"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8417933_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8417933_sn66_page5.jpg",
+      "voterId": "XUA8417933",
+      "serial": "66"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8487696_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8487696_sn67_page5.jpg",
+      "voterId": "XUA8487696",
+      "serial": "67"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8487878_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8487878_sn68_page5.jpg",
+      "voterId": "XUA8487878",
+      "serial": "68"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8597684_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8597684_sn69_page5.jpg",
+      "voterId": "XUA8597684",
+      "serial": "69"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8193807_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8193807_sn72_page5.jpg",
+      "voterId": "XUA8193807",
+      "serial": "72"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1984665_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA1984665_sn75_page5.jpg",
+      "voterId": "XUA1984665",
+      "serial": "75"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8339996_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8339996_sn78_page5.jpg",
+      "voterId": "XUA8339996",
+      "serial": "78"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7334688_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA7334688_sn79_page5.jpg",
+      "voterId": "XUA7334688",
+      "serial": "79"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8553976_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8553976_sn81_page5.jpg",
+      "voterId": "XUA8553976",
+      "serial": "81"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8613234_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8613234_sn83_page5.jpg",
+      "voterId": "XUA8613234",
+      "serial": "83"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8622052_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8622052_sn84_page5.jpg",
+      "voterId": "XUA8622052",
+      "serial": "84"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8637274_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8637274_sn85_page5.jpg",
+      "voterId": "XUA8637274",
+      "serial": "85"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8516684_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8516684_sn87_page5.jpg",
+      "voterId": "XUA8516684",
+      "serial": "87"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8564072_sn_page5.jpg",
+      "expected": "public/voter-cards/voter_XUA8564072_sn88_page5.jpg",
+      "voterId": "XUA8564072",
+      "serial": "88"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8472599_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8472599_sn95_page6.jpg",
+      "voterId": "XUA8472599",
+      "serial": "95"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8472607_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8472607_sn96_page6.jpg",
+      "voterId": "XUA8472607",
+      "serial": "96"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8533440_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8533440_sn97_page6.jpg",
+      "voterId": "XUA8533440",
+      "serial": "97"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8452591_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8452591_sn98_page6.jpg",
+      "voterId": "XUA8452591",
+      "serial": "98"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8529547_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8529547_sn101_page6.jpg",
+      "voterId": "XUA8529547",
+      "serial": "101"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8459596_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8459596_sn104_page6.jpg",
+      "voterId": "XUA8459596",
+      "serial": "104"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8407926_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8407926_sn107_page6.jpg",
+      "voterId": "XUA8407926",
+      "serial": "107"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8542367_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA8542367_sn110_page6.jpg",
+      "voterId": "XUA8542367",
+      "serial": "110"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1545334_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA1545334_sn113_page6.jpg",
+      "voterId": "XUA1545334",
+      "serial": "113"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7671571_sn_page6.jpg",
+      "expected": "public/voter-cards/voter_XUA7671571_sn116_page6.jpg",
+      "voterId": "XUA7671571",
+      "serial": "116"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8516767_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8516767_sn125_page7.jpg",
+      "voterId": "XUA8516767",
+      "serial": "125"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8135915_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8135915_sn128_page7.jpg",
+      "voterId": "XUA8135915",
+      "serial": "128"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8166787_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8166787_sn131_page7.jpg",
+      "voterId": "XUA8166787",
+      "serial": "131"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8622995_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8622995_sn134_page7.jpg",
+      "voterId": "XUA8622995",
+      "serial": "134"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8542953_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8542953_sn137_page7.jpg",
+      "voterId": "XUA8542953",
+      "serial": "137"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8622854_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8622854_sn140_page7.jpg",
+      "voterId": "XUA8622854",
+      "serial": "140"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8319071_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA8319071_sn143_page7.jpg",
+      "voterId": "XUA8319071",
+      "serial": "143"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326619_sn_page7.jpg",
+      "expected": "public/voter-cards/voter_XUA7326619_sn146_page7.jpg",
+      "voterId": "XUA7326619",
+      "serial": "146"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8235541_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8235541_sn155_page8.jpg",
+      "voterId": "XUA8235541",
+      "serial": "155"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8548224_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8548224_sn158_page8.jpg",
+      "voterId": "XUA8548224",
+      "serial": "158"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8463382_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8463382_sn161_page8.jpg",
+      "voterId": "XUA8463382",
+      "serial": "161"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8612848_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8612848_sn164_page8.jpg",
+      "voterId": "XUA8612848",
+      "serial": "164"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8444135_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8444135_sn167_page8.jpg",
+      "voterId": "XUA8444135",
+      "serial": "167"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8509671_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8509671_sn170_page8.jpg",
+      "voterId": "XUA8509671",
+      "serial": "170"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8385080_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA8385080_sn173_page8.jpg",
+      "voterId": "XUA8385080",
+      "serial": "173"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4606976_sn_page8.jpg",
+      "expected": "public/voter-cards/voter_XUA4606976_sn176_page8.jpg",
+      "voterId": "XUA4606976",
+      "serial": "176"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8475121_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8475121_sn185_page9.jpg",
+      "voterId": "XUA8475121",
+      "serial": "185"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8323024_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8323024_sn188_page9.jpg",
+      "voterId": "XUA8323024",
+      "serial": "188"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8536070_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8536070_sn191_page9.jpg",
+      "voterId": "XUA8536070",
+      "serial": "191"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8462335_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8462335_sn194_page9.jpg",
+      "voterId": "XUA8462335",
+      "serial": "194"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4606992_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA4606992_sn197_page9.jpg",
+      "voterId": "XUA4606992",
+      "serial": "197"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7405512_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_CRM7405512_sn200_page9.jpg",
+      "voterId": "CRM7405512",
+      "serial": "200"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8194847_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8194847_sn203_page9.jpg",
+      "voterId": "XUA8194847",
+      "serial": "203"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8499220_sn_page9.jpg",
+      "expected": "public/voter-cards/voter_XUA8499220_sn206_page9.jpg",
+      "voterId": "XUA8499220",
+      "serial": "206"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8592586_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA8592586_sn215_page10.jpg",
+      "voterId": "XUA8592586",
+      "serial": "215"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4548137_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA4548137_sn218_page10.jpg",
+      "voterId": "XUA4548137",
+      "serial": "218"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8599797_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA8599797_sn221_page10.jpg",
+      "voterId": "XUA8599797",
+      "serial": "221"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1454495_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA1454495_sn224_page10.jpg",
+      "voterId": "XUA1454495",
+      "serial": "224"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7556707_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA7556707_sn225_page10.jpg",
+      "voterId": "XUA7556707",
+      "serial": "225"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607057_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA4607057_sn228_page10.jpg",
+      "voterId": "XUA4607057",
+      "serial": "228"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8111080_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA8111080_sn231_page10.jpg",
+      "voterId": "XUA8111080",
+      "serial": "231"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8564551_sn_page10.jpg",
+      "expected": "public/voter-cards/voter_XUA8564551_sn234_page10.jpg",
+      "voterId": "XUA8564551",
+      "serial": "234"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8392763_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA8392763_sn240_page11.jpg",
+      "voterId": "XUA8392763",
+      "serial": "240"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA0156364_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA0156364_sn246_page11.jpg",
+      "voterId": "XUA0156364",
+      "serial": "246"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607099_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA4607099_sn249_page11.jpg",
+      "voterId": "XUA4607099",
+      "serial": "249"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607123_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA4607123_sn252_page11.jpg",
+      "voterId": "XUA4607123",
+      "serial": "252"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8458887_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA8458887_sn255_page11.jpg",
+      "voterId": "XUA8458887",
+      "serial": "255"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8515991_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA8515991_sn258_page11.jpg",
+      "voterId": "XUA8515991",
+      "serial": "258"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8453375_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA8453375_sn261_page11.jpg",
+      "voterId": "XUA8453375",
+      "serial": "261"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607164_sn_page11.jpg",
+      "expected": "public/voter-cards/voter_XUA4607164_sn264_page11.jpg",
+      "voterId": "XUA4607164",
+      "serial": "264"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8470122_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA8470122_sn270_page12.jpg",
+      "voterId": "XUA8470122",
+      "serial": "270"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8162422_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA8162422_sn276_page12.jpg",
+      "voterId": "XUA8162422",
+      "serial": "276"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1391648_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_CRM1391648_sn279_page12.jpg",
+      "voterId": "CRM1391648",
+      "serial": "279"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8638561_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA8638561_sn282_page12.jpg",
+      "voterId": "XUA8638561",
+      "serial": "282"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607271_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA4607271_sn285_page12.jpg",
+      "voterId": "XUA4607271",
+      "serial": "285"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607222_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA4607222_sn288_page12.jpg",
+      "voterId": "XUA4607222",
+      "serial": "288"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8552259_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA8552259_sn291_page12.jpg",
+      "voterId": "XUA8552259",
+      "serial": "291"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8361404_sn_page12.jpg",
+      "expected": "public/voter-cards/voter_XUA8361404_sn294_page12.jpg",
+      "voterId": "XUA8361404",
+      "serial": "294"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607305_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA4607305_sn300_page13.jpg",
+      "voterId": "XUA4607305",
+      "serial": "300"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8467102_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8467102_sn306_page13.jpg",
+      "voterId": "XUA8467102",
+      "serial": "306"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607354_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA4607354_sn309_page13.jpg",
+      "voterId": "XUA4607354",
+      "serial": "309"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8047102_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8047102_sn312_page13.jpg",
+      "voterId": "XUA8047102",
+      "serial": "312"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8597593_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8597593_sn315_page13.jpg",
+      "voterId": "XUA8597593",
+      "serial": "315"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8624454_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8624454_sn318_page13.jpg",
+      "voterId": "XUA8624454",
+      "serial": "318"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8238933_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8238933_sn321_page13.jpg",
+      "voterId": "XUA8238933",
+      "serial": "321"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8464448_sn_page13.jpg",
+      "expected": "public/voter-cards/voter_XUA8464448_sn324_page13.jpg",
+      "voterId": "XUA8464448",
+      "serial": "324"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8516825_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA8516825_sn335_page14.jpg",
+      "voterId": "XUA8516825",
+      "serial": "335"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7982168_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7982168_sn338_page14.jpg",
+      "voterId": "XUA7982168",
+      "serial": "338"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607420_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA4607420_sn341_page14.jpg",
+      "voterId": "XUA4607420",
+      "serial": "341"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8082174_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA8082174_sn344_page14.jpg",
+      "voterId": "XUA8082174",
+      "serial": "344"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7982093_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7982093_sn347_page14.jpg",
+      "voterId": "XUA7982093",
+      "serial": "347"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7982085_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA7982085_sn350_page14.jpg",
+      "voterId": "XUA7982085",
+      "serial": "350"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607453_sn_page14.jpg",
+      "expected": "public/voter-cards/voter_XUA4607453_sn353_page14.jpg",
+      "voterId": "XUA4607453",
+      "serial": "353"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8504813_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8504813_sn359_page15.jpg",
+      "voterId": "XUA8504813",
+      "serial": "359"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8159105_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8159105_sn365_page15.jpg",
+      "voterId": "XUA8159105",
+      "serial": "365"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8585028_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8585028_sn368_page15.jpg",
+      "voterId": "XUA8585028",
+      "serial": "368"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8332587_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8332587_sn371_page15.jpg",
+      "voterId": "XUA8332587",
+      "serial": "371"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8444051_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8444051_sn374_page15.jpg",
+      "voterId": "XUA8444051",
+      "serial": "374"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8573180_sn_page15.jpg",
+      "expected": "public/voter-cards/voter_XUA8573180_sn380_page15.jpg",
+      "voterId": "XUA8573180",
+      "serial": "380"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8234148_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA8234148_sn389_page16.jpg",
+      "voterId": "XUA8234148",
+      "serial": "389"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8592131_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA8592131_sn403_page16.jpg",
+      "voterId": "XUA8592131",
+      "serial": "403"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8345084_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA8345084_sn406_page16.jpg",
+      "voterId": "XUA8345084",
+      "serial": "406"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607461_sn_page16.jpg",
+      "expected": "public/voter-cards/voter_XUA4607461_sn409_page16.jpg",
+      "voterId": "XUA4607461",
+      "serial": "409"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1265271_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_CRM1265271_sn418_page17.jpg",
+      "voterId": "CRM1265271",
+      "serial": "418"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8445819_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA8445819_sn424_page17.jpg",
+      "voterId": "XUA8445819",
+      "serial": "424"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7352370_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7352370_sn427_page17.jpg",
+      "voterId": "XUA7352370",
+      "serial": "427"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8484776_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA8484776_sn430_page17.jpg",
+      "voterId": "XUA8484776",
+      "serial": "430"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA6750798_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA6750798_sn433_page17.jpg",
+      "voterId": "XUA6750798",
+      "serial": "433"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8061798_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA8061798_sn436_page17.jpg",
+      "voterId": "XUA8061798",
+      "serial": "436"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7188027_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7188027_sn438_page17.jpg",
+      "voterId": "XUA7188027",
+      "serial": "438"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326247_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7326247_sn439_page17.jpg",
+      "voterId": "XUA7326247",
+      "serial": "439"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7937568_sn_page17.jpg",
+      "expected": "public/voter-cards/voter_XUA7937568_sn442_page17.jpg",
+      "voterId": "XUA7937568",
+      "serial": "442"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8415770_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA8415770_sn448_page18.jpg",
+      "voterId": "XUA8415770",
+      "serial": "448"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7821023_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_XUA7821023_sn454_page18.jpg",
+      "voterId": "XUA7821023",
+      "serial": "454"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1263581_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_CRM1263581_sn457_page18.jpg",
+      "voterId": "CRM1263581",
+      "serial": "457"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7023216_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_CRM7023216_sn460_page18.jpg",
+      "voterId": "CRM7023216",
+      "serial": "460"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1265248_sn_page18.jpg",
+      "expected": "public/voter-cards/voter_CRM1265248_sn466_page18.jpg",
+      "voterId": "CRM1265248",
+      "serial": "466"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326395_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7326395_sn474_page19.jpg",
+      "voterId": "XUA7326395",
+      "serial": "474"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326403_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7326403_sn476_page19.jpg",
+      "voterId": "XUA7326403",
+      "serial": "476"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA4607495_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA4607495_sn479_page19.jpg",
+      "voterId": "XUA4607495",
+      "serial": "479"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326486_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_XUA7326486_sn491_page19.jpg",
+      "voterId": "XUA7326486",
+      "serial": "491"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820702_sn_page19.jpg",
+      "expected": "public/voter-cards/voter_CRM7820702_sn497_page19.jpg",
+      "voterId": "CRM7820702",
+      "serial": "497"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7025815_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA7025815_sn503_page20.jpg",
+      "voterId": "XUA7025815",
+      "serial": "503"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7605996_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA7605996_sn516_page20.jpg",
+      "voterId": "XUA7605996",
+      "serial": "516"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8530669_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA8530669_sn519_page20.jpg",
+      "voterId": "XUA8530669",
+      "serial": "519"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326122_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_XUA7326122_sn522_page20.jpg",
+      "voterId": "XUA7326122",
+      "serial": "522"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7188449_sn_page20.jpg",
+      "expected": "public/voter-cards/voter_CRM7188449_sn525_page20.jpg",
+      "voterId": "CRM7188449",
+      "serial": "525"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820413_sn_page21.jpg",
+      "expected": "public/voter-cards/voter_CRM7820413_sn539_page21.jpg",
+      "voterId": "CRM7820413",
+      "serial": "539"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8558181_sn_page22.jpg",
+      "expected": "public/voter-cards/voter_XUA8558181_sn568_page22.jpg",
+      "voterId": "XUA8558181",
+      "serial": "568"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7326452_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA7326452_sn589_page23.jpg",
+      "voterId": "XUA7326452",
+      "serial": "589"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA3038338_sn_page23.jpg",
+      "expected": "public/voter-cards/voter_XUA3038338_sn599_page23.jpg",
+      "voterId": "XUA3038338",
+      "serial": "599"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820421_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_CRM7820421_sn608_page24.jpg",
+      "voterId": "CRM7820421",
+      "serial": "608"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8553950_sn_page24.jpg",
+      "expected": "public/voter-cards/voter_XUA8553950_sn611_page24.jpg",
+      "voterId": "XUA8553950",
+      "serial": "611"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7187672_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA7187672_sn637_page25.jpg",
+      "voterId": "XUA7187672",
+      "serial": "637"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7604049_sn_page25.jpg",
+      "expected": "public/voter-cards/voter_XUA7604049_sn638_page25.jpg",
+      "voterId": "XUA7604049",
+      "serial": "638"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA1265800_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA1265800_sn665_page26.jpg",
+      "voterId": "XUA1265800",
+      "serial": "665"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM7820587_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_CRM7820587_sn668_page26.jpg",
+      "voterId": "CRM7820587",
+      "serial": "668"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7024222_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA7024222_sn671_page26.jpg",
+      "voterId": "XUA7024222",
+      "serial": "671"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7821767_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA7821767_sn674_page26.jpg",
+      "voterId": "XUA7821767",
+      "serial": "674"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA7188035_sn_page26.jpg",
+      "expected": "public/voter-cards/voter_XUA7188035_sn682_page26.jpg",
+      "voterId": "XUA7188035",
+      "serial": "682"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8508053_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA8508053_sn688_page27.jpg",
+      "voterId": "XUA8508053",
+      "serial": "688"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8694036_sn_page27.jpg",
+      "expected": "public/voter-cards/voter_XUA8694036_sn703_page27.jpg",
+      "voterId": "XUA8694036",
+      "serial": "703"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8750028_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8750028_sn724_page28.jpg",
+      "voterId": "XUA8750028",
+      "serial": "724"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8752289_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8752289_sn726_page28.jpg",
+      "voterId": "XUA8752289",
+      "serial": "726"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8759540_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8759540_sn729_page28.jpg",
+      "voterId": "XUA8759540",
+      "serial": "729"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8775009_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8775009_sn732_page28.jpg",
+      "voterId": "XUA8775009",
+      "serial": "732"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8782112_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8782112_sn735_page28.jpg",
+      "voterId": "XUA8782112",
+      "serial": "735"
+    },
+    {
+      "current": "public/voter-cards/voter_CRM1604206_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_CRM1604206_sn738_page28.jpg",
+      "voterId": "CRM1604206",
+      "serial": "738"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8789513_sn_page28.jpg",
+      "expected": "public/voter-cards/voter_XUA8789513_sn741_page28.jpg",
+      "voterId": "XUA8789513",
+      "serial": "741"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8805236_sn_page29.jpg",
+      "expected": "public/voter-cards/voter_XUA8805236_sn757_page29.jpg",
+      "voterId": "XUA8805236",
+      "serial": "757"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8815631_sn_page31.jpg",
+      "expected": "public/voter-cards/voter_XUA8815631_sn763_page31.jpg",
+      "voterId": "XUA8815631",
+      "serial": "763"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8817249_sn_page31.jpg",
+      "expected": "public/voter-cards/voter_XUA8817249_sn766_page31.jpg",
+      "voterId": "XUA8817249",
+      "serial": "766"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8879173_sn_page45.jpg",
+      "expected": "public/voter-cards/voter_XUA8879173_sn790_page45.jpg",
+      "voterId": "XUA8879173",
+      "serial": "790"
+    },
+    {
+      "current": "public/voter-cards/voter_XUA8910069_sn_page49.jpg",
+      "expected": "public/voter-cards/voter_XUA8910069_sn803_page49.jpg",
+      "voterId": "XUA8910069",
+      "serial": "803"
+    }
+  ]
+}

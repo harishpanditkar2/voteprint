@@ -1,0 +1,589 @@
+{
+  "issues": [
+    {
+      "page": "3",
+      "issue": "duplicate_serials",
+      "count": 10,
+      "serials": [
+        "1",
+        "2",
+        "3",
+        "4",
+        "6",
+        "7",
+        "8",
+        "9",
+        "24",
+        "27"
+      ]
+    },
+    {
+      "page": "3",
+      "issue": "wide_serial_range",
+      "range": 399,
+      "min": 1,
+      "max": 400
+    },
+    {
+      "page": "4",
+      "issue": "duplicate_serials",
+      "count": 6,
+      "serials": [
+        "31",
+        "32",
+        "33",
+        "36",
+        "39",
+        "42"
+      ]
+    },
+    {
+      "page": "4",
+      "issue": "wide_serial_range",
+      "range": 495,
+      "min": 1,
+      "max": 496
+    },
+    {
+      "page": "5",
+      "issue": "duplicate_serials",
+      "count": 10,
+      "serials": [
+        "61",
+        "62",
+        "63",
+        "65",
+        "66",
+        "67",
+        "79",
+        "81",
+        "83",
+        "85"
+      ]
+    },
+    {
+      "page": "5",
+      "issue": "wide_serial_range",
+      "range": 529,
+      "min": 3,
+      "max": 532
+    },
+    {
+      "page": "6",
+      "issue": "duplicate_serials",
+      "count": 6,
+      "serials": [
+        "91",
+        "92",
+        "93",
+        "95",
+        "96",
+        "97"
+      ]
+    },
+    {
+      "page": "6",
+      "issue": "wide_serial_range",
+      "range": 473,
+      "min": 91,
+      "max": 564
+    },
+    {
+      "page": "7",
+      "issue": "duplicate_serials",
+      "count": 3,
+      "serials": [
+        "121",
+        "122",
+        "123"
+      ]
+    },
+    {
+      "page": "7",
+      "issue": "wide_serial_range",
+      "range": 588,
+      "min": 10,
+      "max": 598
+    },
+    {
+      "page": "8",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "151"
+      ]
+    },
+    {
+      "page": "8",
+      "issue": "wide_serial_range",
+      "range": 622,
+      "min": 11,
+      "max": 633
+    },
+    {
+      "page": "9",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "181"
+      ]
+    },
+    {
+      "page": "9",
+      "issue": "wide_serial_range",
+      "range": 656,
+      "min": 7,
+      "max": 663
+    },
+    {
+      "page": "10",
+      "issue": "duplicate_serials",
+      "count": 2,
+      "serials": [
+        "211",
+        "221"
+      ]
+    },
+    {
+      "page": "10",
+      "issue": "wide_serial_range",
+      "range": 489,
+      "min": 211,
+      "max": 700
+    },
+    {
+      "page": "11",
+      "issue": "duplicate_serials",
+      "count": 2,
+      "serials": [
+        "240",
+        "241"
+      ]
+    },
+    {
+      "page": "11",
+      "issue": "wide_serial_range",
+      "range": 716,
+      "min": 15,
+      "max": 731
+    },
+    {
+      "page": "12",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "271"
+      ]
+    },
+    {
+      "page": "12",
+      "issue": "wide_serial_range",
+      "range": 722,
+      "min": 40,
+      "max": 762
+    },
+    {
+      "page": "13",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "302"
+      ]
+    },
+    {
+      "page": "13",
+      "issue": "wide_serial_range",
+      "range": 727,
+      "min": 66,
+      "max": 793
+    },
+    {
+      "page": "14",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "333"
+      ]
+    },
+    {
+      "page": "14",
+      "issue": "wide_serial_range",
+      "range": 730,
+      "min": 96,
+      "max": 826
+    },
+    {
+      "page": "15",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "363"
+      ]
+    },
+    {
+      "page": "15",
+      "issue": "wide_serial_range",
+      "range": 735,
+      "min": 123,
+      "max": 858
+    },
+    {
+      "page": "16",
+      "issue": "wide_serial_range",
+      "range": 560,
+      "min": 132,
+      "max": 692
+    },
+    {
+      "page": "17",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "418"
+      ]
+    },
+    {
+      "page": "17",
+      "issue": "wide_serial_range",
+      "range": 561,
+      "min": 162,
+      "max": 723
+    },
+    {
+      "page": "18",
+      "issue": "wide_serial_range",
+      "range": 211,
+      "min": 411,
+      "max": 622
+    },
+    {
+      "page": "19",
+      "issue": "wide_serial_range",
+      "range": 572,
+      "min": 209,
+      "max": 781
+    },
+    {
+      "page": "20",
+      "issue": "wide_serial_range",
+      "range": 576,
+      "min": 238,
+      "max": 814
+    },
+    {
+      "page": "21",
+      "issue": "wide_serial_range",
+      "range": 568,
+      "min": 264,
+      "max": 832
+    },
+    {
+      "page": "22",
+      "issue": "duplicate_serials",
+      "count": 1,
+      "serials": [
+        "568"
+      ]
+    },
+    {
+      "page": "22",
+      "issue": "wide_serial_range",
+      "range": 578,
+      "min": 282,
+      "max": 860
+    },
+    {
+      "page": "23",
+      "issue": "wide_serial_range",
+      "range": 475,
+      "min": 309,
+      "max": 784
+    },
+    {
+      "page": "24",
+      "issue": "wide_serial_range",
+      "range": 496,
+      "min": 323,
+      "max": 819
+    },
+    {
+      "page": "25",
+      "issue": "wide_serial_range",
+      "range": 504,
+      "min": 346,
+      "max": 850
+    },
+    {
+      "page": "26",
+      "issue": "wide_serial_range",
+      "range": 526,
+      "min": 355,
+      "max": 881
+    },
+    {
+      "page": "27",
+      "issue": "wide_serial_range",
+      "range": 243,
+      "min": 662,
+      "max": 905
+    },
+    {
+      "page": "28",
+      "issue": "wide_serial_range",
+      "range": 372,
+      "min": 379,
+      "max": 751
+    },
+    {
+      "page": "29",
+      "issue": "wide_serial_range",
+      "range": 376,
+      "min": 405,
+      "max": 781
+    },
+    {
+      "page": "30",
+      "issue": "wide_serial_range",
+      "range": 113,
+      "min": 685,
+      "max": 798
+    },
+    {
+      "page": "31",
+      "issue": "wide_serial_range",
+      "range": 367,
+      "min": 433,
+      "max": 800
+    },
+    {
+      "page": "32",
+      "issue": "wide_serial_range",
+      "range": 315,
+      "min": 491,
+      "max": 806
+    },
+    {
+      "page": "33",
+      "issue": "wide_serial_range",
+      "range": 256,
+      "min": 492,
+      "max": 748
+    },
+    {
+      "page": "34",
+      "issue": "wide_serial_range",
+      "range": 258,
+      "min": 493,
+      "max": 751
+    },
+    {
+      "page": "35",
+      "issue": "wide_serial_range",
+      "range": 372,
+      "min": 437,
+      "max": 809
+    },
+    {
+      "page": "36",
+      "issue": "wide_serial_range",
+      "range": 315,
+      "min": 439,
+      "max": 754
+    },
+    {
+      "page": "37",
+      "issue": "wide_serial_range",
+      "range": 798,
+      "min": 15,
+      "max": 813
+    },
+    {
+      "page": "38",
+      "issue": "wide_serial_range",
+      "range": 256,
+      "min": 500,
+      "max": 756
+    },
+    {
+      "page": "39",
+      "issue": "wide_serial_range",
+      "range": 428,
+      "min": 501,
+      "max": 929
+    },
+    {
+      "page": "40",
+      "issue": "wide_serial_range",
+      "range": 740,
+      "min": 22,
+      "max": 762
+    },
+    {
+      "page": "41",
+      "issue": "wide_serial_range",
+      "range": 260,
+      "min": 503,
+      "max": 763
+    },
+    {
+      "page": "42",
+      "issue": "wide_serial_range",
+      "range": 259,
+      "min": 505,
+      "max": 764
+    },
+    {
+      "page": "44",
+      "issue": "wide_serial_range",
+      "range": 259,
+      "min": 507,
+      "max": 766
+    },
+    {
+      "page": "45",
+      "issue": "wide_serial_range",
+      "range": 799,
+      "min": 30,
+      "max": 829
+    },
+    {
+      "page": "48",
+      "issue": "wide_serial_range",
+      "range": 736,
+      "min": 101,
+      "max": 837
+    },
+    {
+      "page": "49",
+      "issue": "wide_serial_range",
+      "range": 804,
+      "min": 146,
+      "max": 950
+    },
+    {
+      "page": "50",
+      "issue": "wide_serial_range",
+      "range": 672,
+      "min": 179,
+      "max": 851
+    },
+    {
+      "page": "51",
+      "issue": "wide_serial_range",
+      "range": 563,
+      "min": 234,
+      "max": 797
+    },
+    {
+      "page": "52",
+      "issue": "wide_serial_range",
+      "range": 301,
+      "min": 553,
+      "max": 854
+    },
+    {
+      "page": "53",
+      "issue": "wide_serial_range",
+      "range": 608,
+      "min": 184,
+      "max": 792
+    },
+    {
+      "page": "54",
+      "issue": "wide_serial_range",
+      "range": 486,
+      "min": 207,
+      "max": 693
+    },
+    {
+      "page": "55",
+      "issue": "wide_serial_range",
+      "range": 617,
+      "min": 240,
+      "max": 857
+    },
+    {
+      "page": "56",
+      "issue": "wide_serial_range",
+      "range": 601,
+      "min": 259,
+      "max": 860
+    },
+    {
+      "page": "57",
+      "issue": "wide_serial_range",
+      "range": 682,
+      "min": 289,
+      "max": 971
+    },
+    {
+      "page": "58",
+      "issue": "wide_serial_range",
+      "range": 488,
+      "min": 318,
+      "max": 806
+    },
+    {
+      "page": "59",
+      "issue": "wide_serial_range",
+      "range": 489,
+      "min": 348,
+      "max": 837
+    },
+    {
+      "page": "63",
+      "issue": "wide_serial_range",
+      "range": 177,
+      "min": 808,
+      "max": 985
+    },
+    {
+      "page": "71",
+      "issue": "wide_serial_range",
+      "range": 669,
+      "min": 101,
+      "max": 770
+    },
+    {
+      "page": "72",
+      "issue": "wide_serial_range",
+      "range": 819,
+      "min": 125,
+      "max": 944
+    },
+    {
+      "page": "73",
+      "issue": "wide_serial_range",
+      "range": 820,
+      "min": 154,
+      "max": 974
+    }
+  ],
+  "problemPages": [
+    3,
+    3,
+    4,
+    4,
+    5,
+    5,
+    6,
+    6,
+    7,
+    7,
+    8,
+    8,
+    9,
+    9,
+    10,
+    10,
+    11,
+    11,
+    12,
+    12
+  ],
+  "summary": {
+    "totalIssues": 73,
+    "duplicateSerials": 15,
+    "wideRanges": 58
+  }
+}

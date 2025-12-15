@@ -1,0 +1,24 @@
+[
+  {
+    "voterId": "XUA7224868",
+    "name": "गजानन यशवंत अनासपुरे",
+    "uniqueSerial": "W7F1-S1",
+    "serialNumber": "1",
+    "age": "82",
+    "gender": "M",
+    "ward": "7",
+    "booth": "1",
+    "anukramank": 1
+  },
+  {
+    "voterId": "XUA7224850",
+    "name": "मंदा गजानन अनासपुरे",
+    "uniqueSerial": "W7F1-S2",
+    "serialNumber": "2",
+    "age": "75",
+    "gender": "F",
+    "ward": "7",
+    "booth": "1",
+    "anukramank": 2
+  }
+]

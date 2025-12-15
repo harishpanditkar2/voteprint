@@ -1,0 +1,157 @@
+{
+  "screenshotData": [
+    {
+      "screenSerial": 1,
+      "voterId": "XUA7224868",
+      "name": "शाहरुख अनासपुरे"
+    },
+    {
+      "screenSerial": 2,
+      "voterId": "XUA7224850",
+      "name": "मंदा गजानन अनासपुरे"
+    },
+    {
+      "screenSerial": 3,
+      "voterId": "XUA7225139",
+      "name": "तनुजा जावेद बागवान"
+    },
+    {
+      "screenSerial": 4,
+      "voterId": "XUA7224801",
+      "name": "खुशबू मंहमदरफिक बागवान"
+    },
+    {
+      "screenSerial": 5,
+      "voterId": "XUA7224645",
+      "name": "मंहमदरफिक बागवान"
+    },
+    {
+      "screenSerial": 6,
+      "voterId": "XUA7225162",
+      "name": "इम्रान शब्बीर बागवान"
+    },
+    {
+      "screenSerial": 7,
+      "voterId": "XUA7224819",
+      "name": "करिश्मा शब्बीर बागबान"
+    },
+    {
+      "screenSerial": 8,
+      "voterId": "XUA7224942",
+      "name": "अमिता नवीनकुमार बखडा"
+    },
+    {
+      "screenSerial": 9,
+      "voterId": "XUA7224959",
+      "name": "श्रेयंस नविनकुमार बखडा"
+    },
+    {
+      "screenSerial": 10,
+      "voterId": "XUA7224785",
+      "name": "जयश्री अतुल भुजबळ"
+    },
+    {
+      "screenSerial": 11,
+      "voterId": "XUA7351711",
+      "name": "रसिका शंकरराव भुजबळ"
+    },
+    {
+      "screenSerial": 12,
+      "voterId": "XUA7224694",
+      "name": "शिल्पा कुणाल बोरा"
+    },
+    {
+      "screenSerial": 13,
+      "voterId": "XUA7351448",
+      "name": "संदिप महावीर बोराळकर"
+    },
+    {
+      "screenSerial": 14,
+      "voterId": "XUA7351463",
+      "name": "अमृता संदिप बोराळकर"
+    },
+    {
+      "screenSerial": 15,
+      "voterId": "XUA7670524",
+      "name": "सई निलेश चिवटे"
+    }
+  ],
+  "issues": [
+    {
+      "voterId": "XUA7224645",
+      "correctSerial": 5,
+      "wrongSerial": "146",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "अंजुम गणी बागवान"
+    },
+    {
+      "voterId": "XUA7224942",
+      "correctSerial": 8,
+      "wrongSerial": "MISSING",
+      "status": "NOT FOUND IN DATABASE"
+    },
+    {
+      "voterId": "XUA7224959",
+      "correctSerial": 9,
+      "wrongSerial": "8",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "श्रेयंस नविनकुमार बखडा"
+    },
+    {
+      "voterId": "XUA7224785",
+      "correctSerial": 10,
+      "wrongSerial": "9",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "जयश्री अतुल भुजबळ"
+    },
+    {
+      "voterId": "XUA7351711",
+      "correctSerial": 11,
+      "wrongSerial": "152",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "रसिका शंकरराव भुजबळ"
+    },
+    {
+      "voterId": "XUA7224694",
+      "correctSerial": 12,
+      "wrongSerial": "153",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "शिल्पा कुणाल बोरा"
+    },
+    {
+      "voterId": "XUA7351448",
+      "correctSerial": 13,
+      "wrongSerial": "12",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "संदिप महावीर बोराळकर"
+    },
+    {
+      "voterId": "XUA7351463",
+      "correctSerial": 14,
+      "wrongSerial": "155",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "अमृता संदिप बोराळकर"
+    },
+    {
+      "voterId": "XUA7670524",
+      "correctSerial": 15,
+      "wrongSerial": "156",
+      "dbPage": 3,
+      "fileRef": "W7F1",
+      "name": "सई निलेश चिवटे"
+    }
+  ],
+  "summary": {
+    "totalChecked": 15,
+    "wrongSerials": 9,
+    "correctSerials": 0,
+    "accuracy": "0.0%"
+  }
+}

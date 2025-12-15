@@ -1,0 +1,157 @@
+{
+  "timestamp": "2025-12-15T13:34:50.788Z",
+  "summary": {
+    "totalChecked": 15,
+    "alreadyCorrect": 0,
+    "corrected": 14,
+    "missing": 1
+  },
+  "corrections": [
+    {
+      "voterId": "XUA7224868",
+      "status": "CORRECTED",
+      "oldSerial": "1",
+      "newSerial": 1,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S1",
+      "newUniqueSerial": "W7F1-S1"
+    },
+    {
+      "voterId": "XUA7224850",
+      "status": "CORRECTED",
+      "oldSerial": "2",
+      "newSerial": 2,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S2",
+      "newUniqueSerial": "W7F1-S2"
+    },
+    {
+      "voterId": "XUA7225139",
+      "status": "CORRECTED",
+      "oldSerial": "3",
+      "newSerial": 3,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S3",
+      "newUniqueSerial": "W7F1-S3"
+    },
+    {
+      "voterId": "XUA7224801",
+      "status": "CORRECTED",
+      "oldSerial": "4",
+      "newSerial": 4,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S4",
+      "newUniqueSerial": "W7F1-S4"
+    },
+    {
+      "voterId": "XUA7224645",
+      "status": "CORRECTED",
+      "oldSerial": "146",
+      "newSerial": 5,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S146",
+      "newUniqueSerial": "W7F1-S5"
+    },
+    {
+      "voterId": "XUA7225162",
+      "status": "CORRECTED",
+      "oldSerial": "6",
+      "newSerial": 6,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S6",
+      "newUniqueSerial": "W7F1-S6"
+    },
+    {
+      "voterId": "XUA7224819",
+      "status": "CORRECTED",
+      "oldSerial": "7",
+      "newSerial": 7,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S7",
+      "newUniqueSerial": "W7F1-S7"
+    },
+    {
+      "voterId": "XUA7224942",
+      "status": "MISSING",
+      "correctSerial": 8,
+      "correctPage": 2
+    },
+    {
+      "voterId": "XUA7224959",
+      "status": "CORRECTED",
+      "oldSerial": "8",
+      "newSerial": 9,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S8",
+      "newUniqueSerial": "W7F1-S9"
+    },
+    {
+      "voterId": "XUA7224785",
+      "status": "CORRECTED",
+      "oldSerial": "9",
+      "newSerial": 10,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S9",
+      "newUniqueSerial": "W7F1-S10"
+    },
+    {
+      "voterId": "XUA7351711",
+      "status": "CORRECTED",
+      "oldSerial": "152",
+      "newSerial": 11,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S152",
+      "newUniqueSerial": "W7F1-S11"
+    },
+    {
+      "voterId": "XUA7224694",
+      "status": "CORRECTED",
+      "oldSerial": "153",
+      "newSerial": 12,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S153",
+      "newUniqueSerial": "W7F1-S12"
+    },
+    {
+      "voterId": "XUA7351448",
+      "status": "CORRECTED",
+      "oldSerial": "12",
+      "newSerial": 13,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S12",
+      "newUniqueSerial": "W7F1-S13"
+    },
+    {
+      "voterId": "XUA7351463",
+      "status": "CORRECTED",
+      "oldSerial": "155",
+      "newSerial": 14,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S155",
+      "newUniqueSerial": "W7F1-S14"
+    },
+    {
+      "voterId": "XUA7670524",
+      "status": "CORRECTED",
+      "oldSerial": "156",
+      "newSerial": 15,
+      "oldPage": 3,
+      "newPage": 2,
+      "oldUniqueSerial": "W7F1-S156",
+      "newUniqueSerial": "W7F1-S15"
+    }
+  ]
+}

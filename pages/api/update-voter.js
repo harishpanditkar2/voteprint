@@ -47,6 +47,7 @@ export default async function handler(req, res) {
     votersData[voterIndex] = {
       ...votersData[voterIndex],
       name: updatedVoter.name || votersData[voterIndex].name,
+      serialNumber: updatedVoter.serialNumber || votersData[voterIndex].serialNumber,
       age: updatedVoter.age || votersData[voterIndex].age,
       gender: updatedVoter.gender || votersData[voterIndex].gender,
       fatherName: updatedVoter.fatherName || votersData[voterIndex].fatherName,

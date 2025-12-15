@@ -920,6 +920,7 @@ export default function SearchPage() {
                     key={voter.voterId || index}
                     onClick={() => toggleVoterSelection(voter.voterId)}
                     style={{
+                      position: 'relative',
                       background: selectedVoters.includes(voter.voterId) ? '#fff3e0' : 'white',
                       borderRadius: '12px',
                       padding: '12px',
@@ -935,20 +936,24 @@ export default function SearchPage() {
                       minHeight: '72px'
                     }}
                   >
-                    {/* Checkbox */}
+                    {/* Checkbox - Top Right */}
                     <div style={{
-                      width: '44px',
-                      height: '44px',
-                      minWidth: '44px',
-                      borderRadius: '8px',
+                      position: 'absolute',
+                      top: '8px',
+                      right: '8px',
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '6px',
                       border: '2px solid #e5e7eb',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       background: selectedVoters.includes(voter.voterId) ? '#ff6b35' : 'white',
                       color: 'white',
-                      fontSize: '20px',
-                      fontWeight: 'bold'
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                      zIndex: 10
                     }}>
                       {selectedVoters.includes(voter.voterId) && '✓'}
                     </div>
@@ -1001,7 +1006,7 @@ export default function SearchPage() {
                         fontWeight: '500',
                         lineHeight: '1.4'
                       }}>
-                        #{voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber} • {voter.voterId}
+                        #{voter.uniqueSerial || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber)} • {voter.voterId}
                         <br />
                         {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.partNumber ? voter.partNumber.split('/')[1] : voter.actualWard || voter.ward} • {t.booth} {voter.partNumber ? voter.partNumber.split('/')[2] : voter.actualBooth || voter.booth}
                       </div>

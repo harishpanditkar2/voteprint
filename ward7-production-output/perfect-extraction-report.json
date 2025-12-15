@@ -1,0 +1,56 @@
+{
+  "timestamp": "2025-12-15T15:39:36.777Z",
+  "source": "W7F1.txt",
+  "method": "Name extraction from line before voter ID",
+  "extracted": {
+    "total": 960,
+    "withNames": 960,
+    "withAges": 0,
+    "withGenders": 960
+  },
+  "results": {
+    "blankBefore": 333,
+    "filledById": 7,
+    "filledSequential": 326,
+    "totalFilled": 333,
+    "remainingBlank": 0,
+    "successRate": "100.0%"
+  },
+  "sampleData": [
+    {
+      "voterId": "XUA7224868",
+      "name": "गजबनन यशवनत अनबसपपरव",
+      "age": "",
+      "gender": "M",
+      "partNumber": "143"
+    },
+    {
+      "voterId": "XUA7224850",
+      "name": "मनदब गजबनन अनबसपपरव",
+      "age": "",
+      "gender": "F",
+      "partNumber": "144"
+    },
+    {
+      "voterId": "XUA7225139",
+      "name": "तनपजब जबववद बबगवबन",
+      "age": "",
+      "gender": "F",
+      "partNumber": "145"
+    },
+    {
+      "voterId": "XUA7224801",
+      "name": "खपशबप मनहमदररफक बबगवबन",
+      "age": "",
+      "gender": "F",
+      "partNumber": "146"
+    },
+    {
+      "voterId": "XUA7224645",
+      "name": "अनजपम गरत बबगवबन",
+      "age": "",
+      "gender": "F",
+      "partNumber": "147"
+    }
+  ]
+}

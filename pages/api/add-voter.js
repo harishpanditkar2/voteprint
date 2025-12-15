@@ -14,7 +14,7 @@ export default async function handler(req, res) {
     const newVoter = req.body;
 
     // Validate required fields
-    const requiredFields = ['name_english', 'name_marathi', 'voter_id', 'serial_number', 'ward', 'booth'];
+    const requiredFields = ['name_marathi', 'voter_id', 'serial_number', 'ward', 'booth'];
     const missingFields = requiredFields.filter(field => !newVoter[field]);
     
     if (missingFields.length > 0) {
@@ -36,12 +36,26 @@ export default async function handler(req, res) {
       });
     }
 
-    // Add metadata
-    newVoter.added_date = new Date().toISOString();
-    newVoter.manually_added = true;
+    // Map to expected field names
+    const formattedVoter = {
+      name: newVoter.name_marathi || newVoter.name_english || '',
+      voterId: newVoter.voter_id,
+      serialNumber: newVoter.serial_number,
+      ward: newVoter.ward,
+      actualWard: newVoter.ward,
+      booth: newVoter.booth,
+      actualBooth: newVoter.booth,
+      age: newVoter.age || '',
+      gender: newVoter.gender || '',
+      fatherHusbandName: newVoter.father_husband_name || '',
+      houseNumber: newVoter.house_number || '',
+      pollingCenter: newVoter.polling_center || '',
+      added_date: new Date().toISOString(),
+      manually_added: true
+    };
 
     // Add to voters array
-    voters.push(newVoter);
+    voters.push(formattedVoter);
 
     // Save to file
     const dataPath = path.join(process.cwd(), 'public/data/voters.json');
@@ -50,7 +64,7 @@ export default async function handler(req, res) {
     return res.status(200).json({
       success: true,
       message: 'Voter added successfully',
-      voter: newVoter,
+      voter: formattedVoter,
       totalVoters: voters.length
     });
   } catch (error) {

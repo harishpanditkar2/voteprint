@@ -1,0 +1,440 @@
+[
+  {
+    "page": 1,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0001.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0001.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 2,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0002.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0002.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 3,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0003.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0003.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 4,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0004.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0004.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 5,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0005.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0005.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 6,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0006.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0006.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 7,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0007.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0007.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 8,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0008.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0008.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 9,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0009.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0009.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 10,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0010.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0010.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 11,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0011.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0011.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 12,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0012.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0012.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 13,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0013.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0013.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 14,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0014.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0014.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 15,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0015.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0015.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 16,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0016.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0016.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 17,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0017.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0017.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 18,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0018.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0018.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 19,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0019.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0019.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 20,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0020.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0020.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 21,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0021.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0021.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 22,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0022.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0022.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 23,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0023.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0023.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 24,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0024.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0024.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 25,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0025.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0025.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 26,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0026.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0026.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 27,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0027.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0027.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 28,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0028.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0028.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 29,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0029.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0029.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 30,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0030.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0030.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 31,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0031.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0031.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 32,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0032.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0032.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 33,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0033.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0033.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 34,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0034.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0034.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 35,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0035.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0035.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 36,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0036.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0036.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 37,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0037.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0037.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 38,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0038.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0038.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 39,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0039.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0039.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 40,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0040.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0040.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 41,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0041.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0041.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 42,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0042.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0042.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 43,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0043.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0043.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 44,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0044.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0044.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 45,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0045.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0045.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 46,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0046.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0046.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 47,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0047.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0047.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 48,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0048.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0048.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 49,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0049.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0049.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 50,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0050.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0050.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 51,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0051.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0051.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 52,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0052.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0052.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 53,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0053.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0053.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 54,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0054.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0054.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 55,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0055.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0055.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 56,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0056.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0056.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 57,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0057.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0057.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 58,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0058.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0058.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 59,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0059.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0059.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 60,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0060.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0060.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 61,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0061.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0061.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 62,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0062.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0062.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 63,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0063.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0063.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 64,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0064.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0064.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 65,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0065.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0065.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 66,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0066.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0066.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 67,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0067.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0067.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 68,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0068.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0068.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 69,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0069.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0069.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 70,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0070.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0070.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 71,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0071.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0071.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 72,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0072.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0072.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  },
+  {
+    "page": 73,
+    "imageFile": "BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0073.jpg",
+    "error": "Command failed: tesseract \"pdflist\\images\\prabhag7ward1\\BoothVoterList_A4_Ward_7_Booth_1 - converted_page-0073.jpg\" stdout -l mar+hin+eng\n'tesseract' is not recognized as an internal or external command,\r\noperable program or batch file.\r\n",
+    "voters": []
+  }
+]

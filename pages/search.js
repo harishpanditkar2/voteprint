@@ -607,6 +607,8 @@ export default function SearchPage() {
 
   const printVoter = (voter, e) => {
     if (e) e.stopPropagation();
+    const boothNumber = voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A';
+    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर,बारामती' : (voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी');
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
       <html>
@@ -682,24 +684,24 @@ export default function SearchPage() {
             box-sizing: border-box;
           }
           .promo-section {
-            margin-top: 2mm;
+            margin-top: 1mm;
             padding: 0;
             text-align: center;
             border-top: 3px solid #000;
-            padding-top: 3mm;
+            padding-top: 2mm;
           }
           .promo-text {
             font-family: 'Kalam', cursive;
             font-size: 16px;
             line-height: 1.8;
-            margin-bottom: 2mm;
+            margin-bottom: 1mm;
             font-weight: 700;
             padding: 0 1mm;
           }
           .candidates-box {
             font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
             font-weight: 700;
-            margin: 2mm 0;
+            margin: 1mm 0;
             line-height: 1.8;
             width: 100%;
             box-sizing: border-box;
@@ -767,7 +769,7 @@ export default function SearchPage() {
         <div class="info-box">
           <div class="section-title" style="margin: 0 0 2mm 0; padding: 0; text-align: center; font-size: 16px;">मतदानाचा पत्ता</div>
           <div style="font-size: 15px; line-height: 1.6; margin-bottom: 2mm; font-weight: 700;">
-            मतदान केंद्र क्र. ${voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A'} – ${voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी'}
+            मतदान केंद्र क्र. ${boothNumber} – ${pollingCenter}
           </div>
           <div class="info-line">
             <span class="info-label">मतदान दिनांक:</span>

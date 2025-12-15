@@ -1,0 +1,23 @@
+{
+  "timestamp": "2025-12-15T15:18:47.626Z",
+  "before": {
+    "total": 991,
+    "missing": 372,
+    "complete": 619
+  },
+  "after": {
+    "total": 991,
+    "missing": 372,
+    "complete": 619
+  },
+  "improvement": {
+    "filled": 0,
+    "percentage": "0.0%"
+  },
+  "matchingStats": {
+    "matchedById": 437,
+    "alreadyHadData": 430,
+    "filledFromExtracted": 0,
+    "matchedByPosition": 0
+  }
+}
