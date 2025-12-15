@@ -1,8 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
-function parseW7F2Text() {
-  const textPath = path.join(__dirname, 'pdflist', 'W7F2.txt');
+function parseW7F3Text() {
+  const textPath = path.join(__dirname, 'pdflist', 'W7F3.txt');
   const text = fs.readFileSync(textPath, 'utf8');
   const lines = text.split('\n').map(line => line.trim()).filter(line => line);
 
@@ -53,11 +53,11 @@ function parseW7F2Text() {
       voterId: xuaList[i],
       name: nameList[i],
       ward: '7',
-      booth: '2',
+      booth: '3',
       actualWard: '7',
-      actualBooth: '2',
+      actualBooth: '3',
       partNumber: '',
-      uniqueSerial: `W7B2S${(i + 1).toString().padStart(3, '0')}`,
+      uniqueSerial: `W7B3S${(i + 1).toString().padStart(3, '0')}`,
       serialNumber: (i + 1).toString(),
       anukramank: i + 1
     };
@@ -75,16 +75,16 @@ function parseW7F2Text() {
     voter.gender = '';
   });
 
-  console.log(`Extracted ${voters.length} voters from W7F2`);
+  console.log(`Extracted ${voters.length} voters from W7F3`);
   return voters;
 }
 
 // Run extraction
-const voters = parseW7F2Text();
+const voters = parseW7F3Text();
 
 // Save to JSON
-fs.writeFileSync(path.join(__dirname, 'public', 'data', 'w7f2-voters.json'), JSON.stringify(voters, null, 2));
-console.log('Saved W7F2 voters to public/data/w7f2-voters.json');
+fs.writeFileSync(path.join(__dirname, 'public', 'data', 'w7f3-voters.json'), JSON.stringify(voters, null, 2));
+console.log('Saved W7F3 voters to public/data/w7f3-voters.json');
 
 // Also append to main voters.json
 const mainVotersPath = path.join(__dirname, 'public', 'data', 'voters.json');

@@ -608,7 +608,7 @@ export default function SearchPage() {
   const printVoter = (voter, e) => {
     if (e) e.stopPropagation();
     const boothNumber = voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A';
-    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर,बारामती' : boothNumber === '2' ? 'जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर,बारामती' : (voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी');
+    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर,बारामती' : (boothNumber === '2' || boothNumber === '3') ? 'जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर,बारामती' : (voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी');
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
       <html>
