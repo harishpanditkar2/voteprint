@@ -1,4 +1,4 @@
-import { useState, useEffect, useRef, useCallback } from 'react';
+import { useState, useEffect, useRef, useCallback, useMemo } from 'react';
 import Head from 'next/head';
 import Link from 'next/link';
 
@@ -42,8 +42,7 @@ export default function SearchPage() {
     ward: '',
     booth: '',
     gender: '',
-    ageRange: '',
-    dataQuality: '' // 'blank', 'incomplete', 'ocrFailed', 'needsVerification', 'all'
+    ageRange: ''
   });
 
   const translations = {
@@ -172,29 +171,6 @@ export default function SearchPage() {
       filtered = filtered.filter(voter => voter.gender === filters.gender);
     }
 
-    if (filters.dataQuality) {
-      filtered = filtered.filter(voter => {
-        switch(filters.dataQuality) {
-          case 'blank':
-            return !voter.name || voter.name.trim() === '';
-          case 'incomplete':
-            return !voter.name || !voter.voterId || !voter.age || !voter.gender;
-          case 'missingName':
-            return !voter.name || voter.name.trim() === '';
-          case 'missingAge':
-            return !voter.age || voter.age === '';
-          case 'missingGender':
-            return !voter.gender || voter.gender === '';
-          case 'ocrFailed':
-            return voter.ocrFailed === true || voter.pendingManualEntry === true;
-          case 'needsVerification':
-            return voter.nameStatus === 'needs_verification' || !voter.name || voter.manuallyAdded === true;
-          default:
-            return true;
-        }
-      });
-    }
-
     if (filters.ageRange) {
       filtered = filtered.filter(voter => {
         const age = parseInt(voter.age);
@@ -209,6 +185,25 @@ export default function SearchPage() {
         }
       });
     }
+
+    // Sort by uniqueSerial number (numeric order, not alphabetic)
+    filtered.sort((a, b) => {
+      const serialA = a.uniqueSerial || a.serialNumber || '';
+      const serialB = b.uniqueSerial || b.serialNumber || '';
+      
+      // Extract numeric part from serial like "W7F1-S146" -> 146
+      const strA = serialA.toString();
+      const strB = serialB.toString();
+      
+      // Find last number in the serial string
+      const matchA = strA.match(/(\d+)(?!.*\d)/);
+      const matchB = strB.match(/(\d+)(?!.*\d)/);
+      
+      const numA = matchA ? parseInt(matchA[1]) : 0;
+      const numB = matchB ? parseInt(matchB[1]) : 0;
+      
+      return numA - numB;
+    });
 
     setFilteredVoters(filtered);
   };
@@ -229,10 +224,13 @@ export default function SearchPage() {
   const uniqueBooths = [...new Set(allVoters.map(v => v.actualBooth || v.booth).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
 
   // Pagination calculations
-  const totalPages = Math.ceil(filteredVoters.length / itemsPerPage);
-  const indexOfLastItem = currentPage * itemsPerPage;
-  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
-  const currentVoters = filteredVoters.slice(indexOfFirstItem, indexOfLastItem);
+  const { currentVoters, totalPages, indexOfFirstItem, indexOfLastItem } = useMemo(() => {
+    const totalPages = Math.ceil(filteredVoters.length / itemsPerPage);
+    const indexOfLastItem = currentPage * itemsPerPage;
+    const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+    const currentVoters = filteredVoters.slice(indexOfFirstItem, indexOfLastItem);
+    return { currentVoters, totalPages, indexOfFirstItem, indexOfLastItem };
+  }, [filteredVoters, currentPage, itemsPerPage]);
 
   const goToPage = (pageNumber) => {
     setCurrentPage(pageNumber);
@@ -684,7 +682,7 @@ export default function SearchPage() {
             box-sizing: border-box;
           }
           .promo-section {
-            margin-top: 4mm;
+            margin-top: 2mm;
             padding: 0;
             text-align: center;
             border-top: 3px solid #000;
@@ -694,14 +692,14 @@ export default function SearchPage() {
             font-family: 'Kalam', cursive;
             font-size: 16px;
             line-height: 1.8;
-            margin-bottom: 3mm;
+            margin-bottom: 2mm;
             font-weight: 700;
             padding: 0 1mm;
           }
           .candidates-box {
             font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
             font-weight: 700;
-            margin: 3mm 0;
+            margin: 2mm 0;
             line-height: 1.8;
             width: 100%;
             box-sizing: border-box;
@@ -710,7 +708,7 @@ export default function SearchPage() {
             width: 60mm;
             height: auto;
             display: block;
-            margin: 0.5mm auto;
+            margin: 0 auto;
           }
           .candidate-line {
             font-size: 15px;
@@ -1155,31 +1153,6 @@ export default function SearchPage() {
                       <option value="60+">60+</option>
                     </select>
 
-                    <select
-                      value={filters.dataQuality}
-                      onChange={(e) => handleFilterChange('dataQuality', e.target.value)}
-                      style={{
-                        padding: '12px',
-                        fontSize: '14px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontWeight: '600',
-                        backgroundColor: filters.dataQuality ? '#ffebee' : 'white',
-                        cursor: 'pointer',
-                        outline: 'none',
-                        color: filters.dataQuality ? '#c62828' : 'inherit'
-                      }}
-                    >
-                      <option value="">🔍 सर्व डेटा / All Data</option>
-                      <option value="blank">⚠️ रिक्त नाव / Blank Names</option>
-                      <option value="missingName">📝 नाव नाही / Missing Name</option>
-                      <option value="missingAge">🎂 वय नाही / Missing Age</option>
-                      <option value="missingGender">⚥ लिंग नाही / Missing Gender</option>
-                      <option value="incomplete">❌ अपूर्ण / Incomplete Data</option>
-                      <option value="ocrFailed">🔧 OCR अयशस्वी / OCR Failed</option>
-                      <option value="needsVerification">✏️ तपासणी आवश्यक / Needs Check</option>
-                    </select>
-
                     <button
                       onClick={clearFilters}
                       style={{
@@ -1433,35 +1406,37 @@ export default function SearchPage() {
                     style={{
                       position: 'relative',
                       background: issueColor,
-                      borderRadius: '12px',
-                      padding: isGridView ? '12px' : '16px',
+                      borderRadius: '16px',
+                      padding: isGridView ? '16px' : '20px',
                       boxShadow: isSelected 
-                        ? '0 4px 12px rgba(255, 107, 53, 0.2)' 
-                        : '0 1px 3px rgba(0,0,0,0.1)',
+                        ? '0 8px 24px rgba(255, 107, 53, 0.25), 0 0 0 3px rgba(255, 107, 53, 0.1)' 
+                        : '0 2px 8px rgba(0,0,0,0.08)',
                       display: 'flex',
                       flexDirection: isGridView ? 'column' : 'row',
-                      gap: '12px',
-                      alignItems: isGridView ? 'stretch' : 'center',
+                      gap: '16px',
+                      alignItems: isGridView ? 'stretch' : 'flex-start',
                       cursor: 'pointer',
                       border: `2px solid ${borderColor}`,
-                      transition: 'all 0.2s',
-                      minHeight: isGridView ? 'auto' : '110px'
+                      transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
+                      minHeight: isGridView ? 'auto' : '140px',
+                      overflow: 'hidden'
                     }}
                   >
                     {/* Serial Number Badge */}
                     {isGridView && (
                       <div style={{
                         position: 'absolute',
-                        top: '8px',
-                        left: '8px',
-                        background: '#ff6b35',
+                        top: '12px',
+                        left: '12px',
+                        background: 'linear-gradient(135deg, #ff6b35 0%, #f7b731 100%)',
                         color: 'white',
-                        padding: '4px 12px',
-                        borderRadius: '6px',
-                        fontSize: '13px',
+                        padding: '6px 14px',
+                        borderRadius: '8px',
+                        fontSize: '14px',
                         fontWeight: '700',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                        zIndex: 10
+                        boxShadow: '0 4px 12px rgba(255, 107, 53, 0.3)',
+                        zIndex: 10,
+                        letterSpacing: '0.5px'
                       }}>
                         #{voter.uniqueSerial || voter.serialNumber}
                       </div>
@@ -1471,42 +1446,44 @@ export default function SearchPage() {
                     {hasIssues && (
                       <div style={{
                         position: 'absolute',
-                        top: '8px',
-                        left: isGridView ? '120px' : '8px',
-                        background: '#ef5350',
+                        top: '12px',
+                        right: isGridView ? '60px' : '12px',
+                        background: 'linear-gradient(135deg, #ef5350 0%, #e53935 100%)',
                         color: 'white',
-                        padding: '4px 8px',
-                        borderRadius: '6px',
-                        fontSize: '11px',
+                        padding: '6px 10px',
+                        borderRadius: '8px',
+                        fontSize: '12px',
                         fontWeight: '700',
-                        boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                        boxShadow: '0 4px 12px rgba(239, 83, 80, 0.3)',
                         zIndex: 10,
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '4px'
+                        gap: '6px'
                       }}>
-                        ⚠️ {!voter.name ? 'नाव नाही' : !voter.age ? 'वय नाही' : !voter.gender ? 'लिंग नाही' : 'अपूर्ण'}
+                        <span style={{ fontSize: '14px' }}>⚠️</span>
+                        <span>{!voter.name || (voter.name && voter.name.trim() === '') ? 'नाव नाही' : !voter.age || (typeof voter.age === 'string' && voter.age.trim() === '') ? 'वय नाही' : !voter.gender || (typeof voter.gender === 'string' && voter.gender.trim() === '') ? 'लिंग नाही' : 'अपूर्ण'}</span>
                       </div>
                     )}
 
                     {/* Checkbox - Top Right */}
                     <div style={{
                       position: 'absolute',
-                      top: '8px',
-                      right: '8px',
-                      width: '32px',
-                      height: '32px',
-                      borderRadius: '6px',
-                      border: '2px solid #e5e7eb',
+                      top: '12px',
+                      right: '12px',
+                      width: '36px',
+                      height: '36px',
+                      borderRadius: '8px',
+                      border: isSelected ? 'none' : '2px solid #e5e7eb',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
-                      background: isSelected ? '#ff6b35' : 'white',
+                      background: isSelected ? 'linear-gradient(135deg, #ff6b35 0%, #f7b731 100%)' : 'white',
                       color: 'white',
-                      fontSize: '16px',
+                      fontSize: '18px',
                       fontWeight: 'bold',
-                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                      zIndex: 10
+                      boxShadow: isSelected ? '0 4px 12px rgba(255, 107, 53, 0.4)' : '0 2px 4px rgba(0,0,0,0.1)',
+                      zIndex: 10,
+                      transition: 'all 0.2s'
                     }}>
                       {isSelected && '✓'}
                     </div>
@@ -1544,57 +1521,80 @@ export default function SearchPage() {
                     {/* Voter Info */}
                     <div style={{ flex: 1, minWidth: 0 }}>
                       {/* Serial Number Badge for List View */}
+                      {!isGridView && voter.uniqueSerial === 'W7F1-S2' && console.log('Rendering list view badge for S2')}
                       {!isGridView && (
                         <div style={{
                           display: 'inline-block',
-                          background: '#ff6b35',
+                          background: 'linear-gradient(135deg, #ff6b35 0%, #f7b731 100%)',
                           color: 'white',
-                          padding: '4px 10px',
-                          borderRadius: '6px',
-                          fontSize: '12px',
+                          padding: '6px 14px',
+                          borderRadius: '8px',
+                          fontSize: '14px',
                           fontWeight: '700',
-                          marginBottom: '6px',
-                          marginRight: '8px'
+                          marginBottom: '8px',
+                          marginRight: '8px',
+                          boxShadow: '0 4px 12px rgba(255, 107, 53, 0.3)',
+                          letterSpacing: '0.5px'
                         }}>
                           #{voter.uniqueSerial || voter.serialNumber}
                         </div>
                       )}
                       <div style={{
-                        fontSize: isGridView ? '18px' : '18px',
+                        fontSize: isGridView ? '19px' : '20px',
                         fontWeight: '700',
                         color: '#1a1a1a',
-                        marginBottom: isGridView ? '8px' : '6px',
-                        overflow: isGridView ? 'visible' : 'hidden',
-                        textOverflow: isGridView ? 'normal' : 'ellipsis',
-                        whiteSpace: isGridView ? 'normal' : 'nowrap',
-                        display: !isGridView ? 'inline' : 'block'
+                        marginBottom: isGridView ? '10px' : '8px',
+                        marginTop: isGridView ? '32px' : '0',
+                        lineHeight: '1.4',
+                        overflow: 'visible',
+                        wordWrap: 'break-word',
+                        display: 'block'
                       }}>
-                        {voter.name || 'Name not available'}
+                        {voter.name || 'नाव उपलब्ध नाही'}
                       </div>
                       <div style={{
-                        fontSize: isGridView ? '13px' : '14px',
-                        color: '#666666',
+                        fontSize: isGridView ? '14px' : '15px',
+                        color: '#4b5563',
                         fontWeight: '500',
-                        lineHeight: isGridView ? '1.8' : '1.6'
+                        lineHeight: '1.8',
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '6px'
                       }}>
-                        {isGridView ? (
-                          <div>
-                            <div>{voter.voterId}</div>
-                            <div>{t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'}</div>
-                            <div>{t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}</div>
-                          </div>
-                        ) : (
-                          <div>
-                            {voter.voterId}
-                            <br />
-                            {t.age} {voter.age} • {voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'} • {t.ward} {voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} • {t.booth} {voter.actualBooth || voter.booth || 'N/A'}
+                        <div style={{ fontFamily: 'monospace', fontSize: '13px', color: '#6b7280', background: '#f9fafb', padding: '6px 10px', borderRadius: '6px', display: 'inline-block' }}>{voter.voterId}</div>
+                        {voter.anukramank && (
+                          <div style={{ display: 'flex', alignItems: 'center', gap: '6px', marginTop: '4px' }}>
+                            <span style={{ fontSize: '13px', color: '#6b7280', fontWeight: '600' }}>अ.क्र.</span>
+                            <span style={{ fontSize: '14px', color: '#1f2937', fontWeight: '700', background: '#e0f2fe', padding: '4px 10px', borderRadius: '6px' }}>{voter.anukramank}</span>
                           </div>
                         )}
+                        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' }}>
+                          <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            <span style={{ fontSize: '16px' }}>👤</span>
+                            <span>{t.age} <strong style={{ color: '#1f2937' }}>{voter.age}</strong></span>
+                          </span>
+                          <span style={{ color: '#d1d5db' }}>•</span>
+                          <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            <span style={{ fontSize: '16px' }}>{voter.gender === 'M' ? '👨' : voter.gender === 'F' ? '👩' : '👤'}</span>
+                            <span><strong style={{ color: '#1f2937' }}>{voter.gender === 'M' ? t.male : voter.gender === 'F' ? t.female : 'N/A'}</strong></span>
+                          </span>
+                        </div>
+                        <div style={{ display: 'flex', gap: '12px', alignItems: 'center', flexWrap: 'wrap' }}>
+                          <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            <span style={{ fontSize: '16px' }}>🏛️</span>
+                            <span>{t.ward} <strong style={{ color: '#1f2937' }}>{voter.actualWard || voter.expectedWard || voter.ward || 'N/A'}</strong></span>
+                          </span>
+                          <span style={{ color: '#d1d5db' }}>•</span>
+                          <span style={{ display: 'flex', alignItems: 'center', gap: '4px' }}>
+                            <span style={{ fontSize: '16px' }}>🗳️</span>
+                            <span>{t.booth} <strong style={{ color: '#1f2937' }}>{voter.actualBooth || voter.expectedBooth || voter.booth || 'N/A'}</strong></span>
+                          </span>
+                        </div>
                       </div>
                     </div>
 
                     {/* Action Buttons */}
-                    <div style={{ display: 'flex', gap: '4px', flexShrink: 0, flexDirection: isGridView ? 'row' : 'row', justifyContent: isGridView ? 'flex-end' : 'flex-start' }}>
+                    <div style={{ position: 'absolute', bottom: '12px', right: '12px', display: 'flex', gap: '4px', flexShrink: 0 }}>
                       <button
                         onClick={(e) => openEditModal(voter, e)}
                         style={{
