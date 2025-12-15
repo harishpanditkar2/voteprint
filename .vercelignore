@@ -1,0 +1,43 @@
+# Large data files
+pdflist/
+output/
+public/voter-cards/
+myfiles/
+
+# Traineddata files (OCR)
+*.traineddata
+eng.traineddata
+mar.traineddata
+hin.traineddata
+
+# Backup files
+*.backup*
+public/data/voters.json.backup*
+
+# Documentation
+*.md
+!README.md
+
+# Development files
+.git/
+.gitignore
+node_modules/
+
+# Test files
+test-*.js
+*-test.js
+
+# Logs
+*.log
+npm-debug.log*
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Large archives
+*.zip
+*.tar.gz
+*.rar
