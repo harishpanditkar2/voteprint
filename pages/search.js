@@ -16,9 +16,13 @@ export default function SearchPage() {
   const [editingVoter, setEditingVoter] = useState(null);
   const [editForm, setEditForm] = useState({});
   const [saving, setSaving] = useState(false);
-  const [viewMode, setViewMode] = useState('list'); // 'list' or 'grid'
-  const [showFilters, setShowFilters] = useState(false);
+  const [viewMode, setViewMode] = useState(typeof window !== 'undefined' && window.innerWidth < 768 ? 'grid' : 'list'); // 'list' or 'grid'
+  const [showFilters, setShowFilters] = useState(true);
   const [language, setLanguage] = useState('mr'); // 'mr' (Marathi) or 'en' (English)
+  
+  // Pagination state
+  const [currentPage, setCurrentPage] = useState(1);
+  const [itemsPerPage] = useState(30); // Show 30 voters per page
   
   const [filters, setFilters] = useState({
     ward: '',
@@ -88,10 +92,22 @@ export default function SearchPage() {
 
   useEffect(() => {
     loadAllVoters();
+    
+    // Set initial view mode based on screen size
+    const handleResize = () => {
+      if (window.innerWidth < 768) {
+        setViewMode('grid');
+      }
+    };
+    
+    handleResize();
+    window.addEventListener('resize', handleResize);
+    return () => window.removeEventListener('resize', handleResize);
   }, []);
 
   useEffect(() => {
     applyFilters();
+    setCurrentPage(1); // Reset to first page when filters change
   }, [filters, query, allVoters]);
 
   const loadAllVoters = async () => {
@@ -172,6 +188,29 @@ export default function SearchPage() {
   const uniqueWards = [...new Set(allVoters.map(v => v.actualWard || v.ward).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
   const uniqueBooths = [...new Set(allVoters.map(v => v.actualBooth || v.booth).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
 
+  // Pagination calculations
+  const totalPages = Math.ceil(filteredVoters.length / itemsPerPage);
+  const indexOfLastItem = currentPage * itemsPerPage;
+  const indexOfFirstItem = indexOfLastItem - itemsPerPage;
+  const currentVoters = filteredVoters.slice(indexOfFirstItem, indexOfLastItem);
+
+  const goToPage = (pageNumber) => {
+    setCurrentPage(pageNumber);
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const nextPage = () => {
+    if (currentPage < totalPages) {
+      goToPage(currentPage + 1);
+    }
+  };
+
+  const prevPage = () => {
+    if (currentPage > 1) {
+      goToPage(currentPage - 1);
+    }
+  };
+
   const toggleVoterSelection = (voterId) => {
     setSelectedVoters(prev => {
       if (prev.includes(voterId)) {
@@ -195,6 +234,7 @@ export default function SearchPage() {
     setEditingVoter(voter);
     setEditForm({
       voterId: voter.voterId,
+      serialNumber: voter.serialNumber || '',
       name: voter.name || '',
       age: voter.age || '',
       gender: voter.gender || ''
@@ -207,21 +247,9 @@ export default function SearchPage() {
     setTimeout(() => setGeneratingPDF(false), 1000);
   };
 
-  const handlePrintVoter = async (voter) => {
-    setPrinting(true);
-    try {
-      const response = await fetch(`/api/print?voterId=${voter.voterId}`, { method: 'POST' });
-      if (response.ok) {
-        alert('Print job sent successfully!');
-      } else {
-        alert('Failed to send print job');
-      }
-    } catch (error) {
-      console.error('Print error:', error);
-      alert('Error sending print job');
-    } finally {
-      setPrinting(false);
-    }
+  const handlePrintVoter = (voter) => {
+    // Open PDF in new window and trigger print dialog
+    window.open(`/api/generate-pdf?voterId=${voter.voterId}`, '_blank');
   };
 
   const closeEditModal = () => {
@@ -297,7 +325,7 @@ export default function SearchPage() {
               font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
               width: 80mm;
               margin: 0 auto;
-              padding: 2mm;
+              padding: 0;
               color: #000;
               background: #fff;
             }
@@ -372,24 +400,26 @@ export default function SearchPage() {
               padding: 0 1mm;
             }
             .candidates-box {
-              font-family: 'Kalam', cursive;
+              font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
               font-weight: 700;
-              border: 2px solid #000;
-              padding: 3mm 1mm;
               margin: 3mm 0;
               line-height: 1.8;
               width: 100%;
               box-sizing: border-box;
             }
+            .candidate-logo {
+              width: 60mm;
+              height: auto;
+              display: block;
+              margin: 0.5mm auto;
+            }
             .candidate-line {
-              font-size: 17px;
-              margin-bottom: 2.5mm;
-              padding: 1mm 0;
+              font-size: 15px;
+              margin: 0;
+              padding: 0;
               word-wrap: break-word;
               overflow-wrap: break-word;
-            }
-            .candidate-line:last-child {
-              margin-bottom: 0;
+              line-height: 1.8;
             }
             .qr-section {
               margin-top: 4mm;
@@ -397,6 +427,7 @@ export default function SearchPage() {
               text-align: center;
             }
             .qr-title {
+              font-family: 'Kalam', cursive;
               font-size: 15px;
               font-weight: 700;
               margin-bottom: 3mm;
@@ -438,13 +469,11 @@ export default function SearchPage() {
                   <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || 'N/A'}</span>
                 </div>
               </div>
-              ${voter.pollingCenter ? `
-              <div class="section-title">मतदानाचा पत्ता</div>
-              <div class="polling-box">
-                मतदान केंद्र क्र. ${voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A'} – ${voter.pollingCenter}
-              </div>
-              ` : ''}
               <div class="info-box">
+                <div class="section-title" style="margin: 0 0 2mm 0; padding: 0; text-align: center; font-size: 16px;">मतदानाचा पत्ता</div>
+                <div style="font-size: 15px; line-height: 1.6; margin-bottom: 2mm; font-weight: 700;">
+                  मतदान केंद्र क्र. ${voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A'} – ${voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी'}
+                </div>
                 <div class="info-line">
                   <span class="info-label">मतदान दिनांक:</span>
                   <span class="info-value">20 डिसेंबर 2025</span>
@@ -460,10 +489,11 @@ export default function SearchPage() {
                   <span style="font-size: 22px;">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून<br/>
                   प्रचंड मतांनी विजयी करा !
                 </div>
+                <img src="/logo.png" alt="Logo" class="candidate-logo" />
                 <div class="candidates-box">
-                  <div class="candidate-line">नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</div>
-                  <div class="candidate-line">नगरसेवक प्रभाग 7अ: सुरेंद्र शामसुंदर जेवरे</div>
-                  <div class="candidate-line">नगरसेवक प्रभाग 7ब: मेघा सुरेंद्र जेवरे</div>
+                  <div class="candidate-line"><strong>नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</strong></div>
+                  <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
+                  <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>
                 </div>
               </div>
               <div class="qr-section">
@@ -519,7 +549,7 @@ export default function SearchPage() {
             font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
             width: 80mm;
             margin: 0 auto;
-            padding: 2mm;
+            padding: 0;
             color: #000;
             background: #fff;
           }
@@ -590,24 +620,26 @@ export default function SearchPage() {
             padding: 0 1mm;
           }
           .candidates-box {
-            font-family: 'Kalam', cursive;
+            font-family: 'Noto Sans Devanagari', 'Mangal', Arial, sans-serif;
             font-weight: 700;
-            border: 2px solid #000;
-            padding: 3mm 1mm;
             margin: 3mm 0;
             line-height: 1.8;
             width: 100%;
             box-sizing: border-box;
           }
+          .candidate-logo {
+            width: 60mm;
+            height: auto;
+            display: block;
+            margin: 0.5mm auto;
+          }
           .candidate-line {
-            font-size: 17px;
-            margin-bottom: 2.5mm;
-            padding: 1mm 0;
+            font-size: 15px;
+            margin: 0;
+            padding: 0;
             word-wrap: break-word;
             overflow-wrap: break-word;
-          }
-          .candidate-line:last-child {
-            margin-bottom: 0;
+            line-height: 1.8;
           }
           .qr-section {
             margin-top: 4mm;
@@ -615,6 +647,7 @@ export default function SearchPage() {
             text-align: center;
           }
           .qr-title {
+            font-family: 'Kalam', cursive;
             font-size: 15px;
             font-weight: 700;
             margin-bottom: 3mm;
@@ -654,13 +687,11 @@ export default function SearchPage() {
             <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || 'N/A'}</span>
           </div>
         </div>
-        ${voter.pollingCenter ? `
-        <div class="section-title">मतदानाचा पत्ता</div>
-        <div class="polling-box">
-          मतदान केंद्र क्र. ${voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A'} – ${voter.pollingCenter}
-        </div>
-        ` : ''}
         <div class="info-box">
+          <div class="section-title" style="margin: 0 0 2mm 0; padding: 0; text-align: center; font-size: 16px;">मतदानाचा पत्ता</div>
+          <div style="font-size: 15px; line-height: 1.6; margin-bottom: 2mm; font-weight: 700;">
+            मतदान केंद्र क्र. ${voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A'} – ${voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी'}
+          </div>
           <div class="info-line">
             <span class="info-label">मतदान दिनांक:</span>
             <span class="info-value">20 डिसेंबर 2025</span>
@@ -676,10 +707,11 @@ export default function SearchPage() {
             <span style="font-size: 22px;">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून<br/>
             प्रचंड मतांनी विजयी करा !
           </div>
+          <img src="/logo.png" alt="Logo" class="candidate-logo" />
           <div class="candidates-box">
-            <div class="candidate-line">नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</div>
-            <div class="candidate-line">नगरसेवक प्रभाग 7अ: सुरेंद्र शामसुंदर जेवरे</div>
-            <div class="candidate-line">नगरसेवक प्रभाग 7ब: मेघा सुरेंद्र जेवरे</div>
+            <div class="candidate-line"><strong>नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</strong></div>
+            <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
+            <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>
           </div>
         </div>
         <div class="qr-section">
@@ -942,8 +974,7 @@ export default function SearchPage() {
                   <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-                    gap: '12px',
-                    marginBottom: '12px'
+                    gap: '12px'
                   }}>
                     <select
                       value={filters.ward}
@@ -1024,24 +1055,24 @@ export default function SearchPage() {
                       <option value="46-60">46-60</option>
                       <option value="60+">60+</option>
                     </select>
-                  </div>
 
-                  <button
-                    onClick={clearFilters}
-                    style={{
-                      width: '100%',
-                      padding: '12px',
-                      background: '#666666',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '8px',
-                      fontSize: '14px',
-                      fontWeight: '700',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    {t.clearFilters}
-                  </button>
+                    <button
+                      onClick={clearFilters}
+                      style={{
+                        padding: '12px',
+                        background: '#666666',
+                        color: 'white',
+                        border: 'none',
+                        borderRadius: '8px',
+                        fontSize: '14px',
+                        fontWeight: '700',
+                        cursor: 'pointer',
+                        whiteSpace: 'nowrap'
+                      }}
+                    >
+                      ❌ {t.clearFilters}
+                    </button>
+                  </div>
                 </div>
               )}
             </div>
@@ -1113,44 +1144,79 @@ export default function SearchPage() {
                 display: 'flex',
                 gap: '8px',
                 marginBottom: '16px',
-                justifyContent: 'flex-end'
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                flexWrap: 'wrap'
               }}>
-                <button
-                  onClick={() => setViewMode('list')}
-                  style={{
-                    padding: '8px 16px',
-                    background: viewMode === 'list' ? '#ff6b35' : 'white',
-                    color: viewMode === 'list' ? 'white' : '#666',
-                    border: '2px solid ' + (viewMode === 'list' ? '#ff6b35' : '#e5e7eb'),
-                    borderRadius: '8px',
-                    fontSize: '14px',
-                    fontWeight: '700',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '6px'
-                  }}
-                >
-                  <span>☰</span> List
-                </button>
-                <button
-                  onClick={() => setViewMode('grid')}
-                  style={{
-                    padding: '8px 16px',
-                    background: viewMode === 'grid' ? '#ff6b35' : 'white',
-                    color: viewMode === 'grid' ? 'white' : '#666',
-                    border: '2px solid ' + (viewMode === 'grid' ? '#ff6b35' : '#e5e7eb'),
-                    borderRadius: '8px',
-                    fontSize: '14px',
-                    fontWeight: '700',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '6px'
-                  }}
-                >
-                  <span>⊞</span> Grid
-                </button>
+                <div style={{
+                  fontSize: '14px',
+                  fontWeight: '600',
+                  color: '#666'
+                }}>
+                  View Mode:
+                </div>
+                <div style={{ display: 'flex', gap: '8px' }}>
+                  <button
+                    onClick={() => setViewMode('list')}
+                    style={{
+                      padding: '10px 20px',
+                      background: viewMode === 'list' ? '#ff6b35' : 'white',
+                      color: viewMode === 'list' ? 'white' : '#666',
+                      border: '2px solid ' + (viewMode === 'list' ? '#ff6b35' : '#e5e7eb'),
+                      borderRadius: '8px',
+                      fontSize: '14px',
+                      fontWeight: '700',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    <span style={{ fontSize: '16px' }}>☰</span> List View
+                  </button>
+                  <button
+                    onClick={() => setViewMode('grid')}
+                    style={{
+                      padding: '10px 20px',
+                      background: viewMode === 'grid' ? '#ff6b35' : 'white',
+                      color: viewMode === 'grid' ? 'white' : '#666',
+                      border: '2px solid ' + (viewMode === 'grid' ? '#ff6b35' : '#e5e7eb'),
+                      borderRadius: '8px',
+                      fontSize: '14px',
+                      fontWeight: '700',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px',
+                      transition: 'all 0.2s'
+                    }}
+                  >
+                    <span style={{ fontSize: '16px' }}>⊞</span> Grid View
+                  </button>
+                </div>
+              </div>
+            )}
+
+            {/* Results Summary */}
+            {filteredVoters.length > 0 && (
+              <div style={{
+                background: 'white',
+                borderRadius: '12px',
+                padding: '12px 16px',
+                marginBottom: '16px',
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                fontSize: '14px',
+                fontWeight: '600',
+                color: '#666'
+              }}>
+                <span>
+                  {t.showing} {indexOfFirstItem + 1}-{Math.min(indexOfLastItem, filteredVoters.length)} {t.of} {filteredVoters.length} {t.voters}
+                </span>
+                <span>Page {currentPage} of {totalPages}</span>
               </div>
             )}
 
@@ -1162,7 +1228,7 @@ export default function SearchPage() {
                 gridTemplateColumns: viewMode === 'grid' ? 'repeat(auto-fit, minmax(380px, 1fr))' : undefined,
                 gap: '12px'
               }}>
-                {filteredVoters.map((voter, index) => {
+                {currentVoters.map((voter, index) => {
                   const isGridView = viewMode === 'grid';
                   const isSelected = selectedVoters.includes(voter.voterId);
                   
@@ -1174,7 +1240,7 @@ export default function SearchPage() {
                       position: 'relative',
                       background: isSelected ? '#fff3e0' : 'white',
                       borderRadius: '12px',
-                      padding: '12px',
+                      padding: isGridView ? '12px' : '16px',
                       boxShadow: isSelected 
                         ? '0 4px 12px rgba(255, 107, 53, 0.2)' 
                         : '0 1px 3px rgba(0,0,0,0.1)',
@@ -1185,7 +1251,7 @@ export default function SearchPage() {
                       cursor: 'pointer',
                       border: isSelected ? '2px solid #ff6b35' : '2px solid transparent',
                       transition: 'all 0.2s',
-                      minHeight: isGridView ? 'auto' : '72px'
+                      minHeight: isGridView ? 'auto' : '110px'
                     }}
                   >
                     {/* Serial Number Badge */}
@@ -1233,9 +1299,9 @@ export default function SearchPage() {
                           setZoomedImage(voter.cardImage);
                         }}
                         style={{
-                          width: isGridView ? '100%' : '56px',
-                          height: isGridView ? '150px' : '72px',
-                          minWidth: isGridView ? 'auto' : '56px',
+                          width: isGridView ? '100%' : '90px',
+                          height: isGridView ? '150px' : '90px',
+                          minWidth: isGridView ? 'auto' : '90px',
                           borderRadius: '6px',
                           overflow: 'hidden',
                           border: '2px solid #e5e7eb',
@@ -1263,21 +1329,21 @@ export default function SearchPage() {
                           display: 'inline-block',
                           background: '#ff6b35',
                           color: 'white',
-                          padding: '2px 8px',
-                          borderRadius: '4px',
-                          fontSize: '11px',
+                          padding: '4px 10px',
+                          borderRadius: '6px',
+                          fontSize: '12px',
                           fontWeight: '700',
-                          marginBottom: '4px',
+                          marginBottom: '6px',
                           marginRight: '8px'
                         }}>
                           #{voter.serialNumber}
                         </div>
                       )}
                       <div style={{
-                        fontSize: isGridView ? '18px' : '16px',
+                        fontSize: isGridView ? '18px' : '18px',
                         fontWeight: '700',
                         color: '#1a1a1a',
-                        marginBottom: isGridView ? '8px' : '4px',
+                        marginBottom: isGridView ? '8px' : '6px',
                         overflow: isGridView ? 'visible' : 'hidden',
                         textOverflow: isGridView ? 'normal' : 'ellipsis',
                         whiteSpace: isGridView ? 'normal' : 'nowrap',
@@ -1286,10 +1352,10 @@ export default function SearchPage() {
                         {voter.name || 'Name not available'}
                       </div>
                       <div style={{
-                        fontSize: '13px',
+                        fontSize: isGridView ? '13px' : '14px',
                         color: '#666666',
                         fontWeight: '500',
-                        lineHeight: isGridView ? '1.8' : '1.4'
+                        lineHeight: isGridView ? '1.8' : '1.6'
                       }}>
                         {isGridView ? (
                           <div>
@@ -1330,41 +1396,17 @@ export default function SearchPage() {
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
-                          handleGeneratePDF(voter);
+                          printVoter(voter, e);
                         }}
-                        disabled={generatingPDF}
                         style={{
                           width: '44px',
                           height: '44px',
-                          background: generatingPDF ? '#d1d5db' : '#ff6b35',
+                          background: '#10b981',
                           color: 'white',
                           border: 'none',
                           borderRadius: '8px',
                           fontSize: '16px',
-                          cursor: generatingPDF ? 'not-allowed' : 'pointer',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center'
-                        }}
-                        title={t.pdf}
-                      >
-                        📄
-                      </button>
-                      <button
-                        onClick={(e) => {
-                          e.stopPropagation();
-                          handlePrintVoter(voter);
-                        }}
-                        disabled={printing}
-                        style={{
-                          width: '44px',
-                          height: '44px',
-                          background: printing ? '#d1d5db' : '#10b981',
-                          color: 'white',
-                          border: 'none',
-                          borderRadius: '8px',
-                          fontSize: '16px',
-                          cursor: printing ? 'not-allowed' : 'pointer',
+                          cursor: 'pointer',
                           display: 'flex',
                           alignItems: 'center',
                           justifyContent: 'center'
@@ -1393,6 +1435,94 @@ export default function SearchPage() {
                 <div style={{ fontSize: '14px', color: '#666666', fontWeight: '500' }}>
                   {t.tryAdjusting}
                 </div>
+              </div>
+            )}
+
+            {/* Pagination Controls */}
+            {filteredVoters.length > itemsPerPage && (
+              <div style={{
+                background: 'white',
+                borderRadius: '12px',
+                padding: '16px',
+                marginTop: '16px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: '8px',
+                boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
+                flexWrap: 'wrap'
+              }}>
+                <button
+                  onClick={prevPage}
+                  disabled={currentPage === 1}
+                  style={{
+                    padding: '10px 20px',
+                    background: currentPage === 1 ? '#f3f4f6' : '#ff6b35',
+                    color: currentPage === 1 ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  ← Previous
+                </button>
+
+                <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', justifyContent: 'center' }}>
+                  {Array.from({ length: Math.min(totalPages, 7) }, (_, i) => {
+                    let pageNum;
+                    if (totalPages <= 7) {
+                      pageNum = i + 1;
+                    } else if (currentPage <= 4) {
+                      pageNum = i + 1;
+                    } else if (currentPage >= totalPages - 3) {
+                      pageNum = totalPages - 6 + i;
+                    } else {
+                      pageNum = currentPage - 3 + i;
+                    }
+
+                    return (
+                      <button
+                        key={pageNum}
+                        onClick={() => goToPage(pageNum)}
+                        style={{
+                          padding: '10px 16px',
+                          background: currentPage === pageNum ? '#ff6b35' : 'white',
+                          color: currentPage === pageNum ? 'white' : '#666',
+                          border: '2px solid ' + (currentPage === pageNum ? '#ff6b35' : '#e5e7eb'),
+                          borderRadius: '8px',
+                          fontSize: '14px',
+                          fontWeight: '700',
+                          cursor: 'pointer',
+                          transition: 'all 0.2s',
+                          minWidth: '44px'
+                        }}
+                      >
+                        {pageNum}
+                      </button>
+                    );
+                  })}
+                </div>
+
+                <button
+                  onClick={nextPage}
+                  disabled={currentPage === totalPages}
+                  style={{
+                    padding: '10px 20px',
+                    background: currentPage === totalPages ? '#f3f4f6' : '#ff6b35',
+                    color: currentPage === totalPages ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  Next →
+                </button>
               </div>
             )}
           </>
@@ -1539,6 +1669,66 @@ export default function SearchPage() {
               )}
 
               <div style={{ display: 'grid', gap: '16px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Voter ID
+                    </label>
+                    <input
+                      type="text"
+                      value={editForm.voterId}
+                      onChange={(e) => handleEditFormChange('voterId', e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      अनु. क्रमांक (Serial)
+                    </label>
+                    <input
+                      type="text"
+                      value={editForm.serialNumber}
+                      onChange={(e) => handleEditFormChange('serialNumber', e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+                </div>
+
                 <div>
                   <label style={{
                     display: 'block',

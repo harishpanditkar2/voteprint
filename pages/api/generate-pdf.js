@@ -45,10 +45,17 @@ export default async function handler(req, res) {
       const path = await import('path');
       const filePath = path.join(process.cwd(), result.filePath);
       
+      // Check if file exists
+      if (!fs.existsSync(filePath)) {
+        console.error('❌ PDF file not found:', filePath);
+        return res.status(404).json({ error: 'PDF file not found' });
+      }
+      
       res.setHeader('Content-Type', 'application/pdf');
-      res.setHeader('Content-Disposition', `attachment; filename="voter_${voterId}.pdf"`);
-      const fileStream = fs.createReadStream(filePath);
-      fileStream.pipe(res);
+      res.setHeader('Content-Disposition', `inline; filename="voter_${voterId}.pdf"`);
+      
+      const fileBuffer = fs.readFileSync(filePath);
+      res.send(fileBuffer);
       return;
     }
 

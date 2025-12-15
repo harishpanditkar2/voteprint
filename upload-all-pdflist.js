@@ -4,7 +4,9 @@ const TesseractCLIParser = require('./lib/tesseractCLIParser');
 const DataValidator = require('./lib/dataValidator');
 
 async function uploadAllPDFs() {
-  const pdflistDir = path.join(__dirname, 'pdflist');
+  // Allow specifying subdirectory via command line argument
+  const subDir = process.argv[2] || 'pdflist';
+  const pdflistDir = path.join(__dirname, subDir);
   const outputDir = path.join(__dirname, 'output');
   
   // Ensure output directory exists
@@ -12,10 +14,16 @@ async function uploadAllPDFs() {
     fs.mkdirSync(outputDir, { recursive: true });
   }
 
+  // Check if directory exists
+  if (!fs.existsSync(pdflistDir)) {
+    console.error(`❌ Directory not found: ${pdflistDir}`);
+    process.exit(1);
+  }
+
   // Get all PDF files
   const pdfFiles = fs.readdirSync(pdflistDir).filter(file => file.endsWith('.pdf'));
   
-  console.log(`\n📂 Found ${pdfFiles.length} PDF files in pdflist directory\n`);
+  console.log(`\n📂 Found ${pdfFiles.length} PDF files in ${subDir} directory\n`);
   console.log('=' .repeat(80));
 
   const allVoters = [];

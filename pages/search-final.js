@@ -15,8 +15,10 @@ export default function SearchPage() {
   const [editForm, setEditForm] = useState({});
   const [saving, setSaving] = useState(false);
   const [viewMode, setViewMode] = useState('list'); // 'list' or 'grid'
-  const [showFilters, setShowFilters] = useState(false);
+  const [showFilters, setShowFilters] = useState(true);
   const [language, setLanguage] = useState('mr'); // 'mr' (Marathi) or 'en' (English)
+  const [currentPage, setCurrentPage] = useState(1);
+  const [votersPerPage] = useState(3);
   
   const [filters, setFilters] = useState({
     ward: '',
@@ -90,6 +92,7 @@ export default function SearchPage() {
 
   useEffect(() => {
     applyFilters();
+    setCurrentPage(1); // Reset to first page when filters change
   }, [filters, query, allVoters]);
 
   const loadAllVoters = async () => {
@@ -728,7 +731,9 @@ export default function SearchPage() {
                   fontWeight: '700',
                   color: '#666666'
                 }}>
-                  {t.showing} <span style={{ color: '#ff6b35', fontSize: '16px' }}>{filteredVoters.length}</span> {t.of} {allVoters.length} {t.voters}
+                  {t.showing} <span style={{ color: '#ff6b35', fontSize: '16px' }}>
+                    {Math.min((currentPage - 1) * votersPerPage + 1, filteredVoters.length)}-{Math.min(currentPage * votersPerPage, filteredVoters.length)}
+                  </span> {t.of} {filteredVoters.length} {t.voters}
                 </div>
               </div>
 
@@ -744,8 +749,7 @@ export default function SearchPage() {
                   <div style={{
                     display: 'grid',
                     gridTemplateColumns: 'repeat(auto-fit, minmax(140px, 1fr))',
-                    gap: '12px',
-                    marginBottom: '12px'
+                    gap: '12px'
                   }}>
                     <select
                       value={filters.ward}
@@ -826,24 +830,23 @@ export default function SearchPage() {
                       <option value="46-60">46-60</option>
                       <option value="60+">60+</option>
                     </select>
-                  </div>
 
-                  <button
-                    onClick={clearFilters}
-                    style={{
-                      width: '100%',
-                      padding: '12px',
-                      background: '#666666',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '8px',
-                      fontSize: '14px',
-                      fontWeight: '700',
-                      cursor: 'pointer'
-                    }}
-                  >
-                    {t.clearFilters}
-                  </button>
+                    <button
+                      onClick={clearFilters}
+                      style={{
+                        padding: '12px',
+                        background: '#666666',
+                        color: 'white',
+                        border: 'none',
+                        borderRadius: '8px',
+                        fontSize: '14px',
+                        fontWeight: '700',
+                        cursor: 'pointer'
+                      }}
+                    >
+                      {t.clearFilters}
+                    </button>
+                  </div>
                 </div>
               )}
             </div>
@@ -912,7 +915,7 @@ export default function SearchPage() {
             {/* Voter List */}
             {filteredVoters.length > 0 ? (
               <div style={{ display: 'flex', flexDirection: 'column', gap: '12px' }}>
-                {filteredVoters.map((voter, index) => (
+                {filteredVoters.slice((currentPage - 1) * votersPerPage, currentPage * votersPerPage).map((voter, index) => (
                   <div
                     key={voter.voterId || index}
                     onClick={() => toggleVoterSelection(voter.voterId)}
@@ -1005,10 +1008,13 @@ export default function SearchPage() {
                     </div>
 
                     {/* Action Buttons */}
-                    <div style={{ display: 'flex', gap: '6px', flexShrink: 0, marginLeft: 'auto' }}>
+                    <div 
+                      onClick={(e) => e.stopPropagation()}
+                      style={{ display: 'flex', gap: '6px', flexShrink: 0, marginLeft: 'auto' }}
+                    >
                       <button
                         onClick={(e) => openEditModal(voter, e)}
-                        title="Edit Voter"
+                        title={t.edit}
                         style={{
                           width: '44px',
                           height: '44px',
@@ -1025,13 +1031,12 @@ export default function SearchPage() {
                         }}
                         onMouseOver={(e) => e.currentTarget.style.background = '#e5e7eb'}
                         onMouseOut={(e) => e.currentTarget.style.background = '#f3f4f6'}
-                        title={t.edit}
                       >
                         ✏️
                       </button>
                       <button
                         onClick={(e) => printVoter(voter, e)}
-                        title="Print Voter Card"
+                        title={t.print}
                         style={{
                           width: '44px',
                           height: '44px',
@@ -1048,7 +1053,6 @@ export default function SearchPage() {
                         }}
                         onMouseOver={(e) => e.currentTarget.style.background = '#e5e7eb'}
                         onMouseOut={(e) => e.currentTarget.style.background = '#f3f4f6'}
-                        title={t.print}
                       >
                         🖨️
                       </button>
@@ -1071,6 +1075,65 @@ export default function SearchPage() {
                 <div style={{ fontSize: '14px', color: '#666666', fontWeight: '500' }}>
                   {t.tryAdjusting}
                 </div>
+              </div>
+            )}
+
+            {/* Pagination Controls */}
+            {filteredVoters.length > 0 && (
+              <div style={{
+                marginTop: '24px',
+                display: 'flex',
+                justifyContent: 'center',
+                alignItems: 'center',
+                gap: '12px',
+                flexWrap: 'wrap'
+              }}>
+                <button
+                  onClick={() => setCurrentPage(prev => Math.max(1, prev - 1))}
+                  disabled={currentPage === 1}
+                  style={{
+                    padding: '12px 20px',
+                    background: currentPage === 1 ? '#e5e7eb' : '#ff6b35',
+                    color: currentPage === 1 ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '10px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+                    opacity: currentPage === 1 ? 0.5 : 1
+                  }}
+                >
+                  ← Previous
+                </button>
+
+                <div style={{
+                  padding: '12px 20px',
+                  background: '#f3f4f6',
+                  borderRadius: '10px',
+                  fontSize: '14px',
+                  fontWeight: '700',
+                  color: '#1a1a1a'
+                }}>
+                  Page {currentPage} of {Math.ceil(filteredVoters.length / votersPerPage)}
+                </div>
+
+                <button
+                  onClick={() => setCurrentPage(prev => Math.min(Math.ceil(filteredVoters.length / votersPerPage), prev + 1))}
+                  disabled={currentPage >= Math.ceil(filteredVoters.length / votersPerPage)}
+                  style={{
+                    padding: '12px 20px',
+                    background: currentPage >= Math.ceil(filteredVoters.length / votersPerPage) ? '#e5e7eb' : '#ff6b35',
+                    color: currentPage >= Math.ceil(filteredVoters.length / votersPerPage) ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '10px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage >= Math.ceil(filteredVoters.length / votersPerPage) ? 'not-allowed' : 'pointer',
+                    opacity: currentPage >= Math.ceil(filteredVoters.length / votersPerPage) ? 0.5 : 1
+                  }}
+                >
+                  Next →
+                </button>
               </div>
             )}
           </>
