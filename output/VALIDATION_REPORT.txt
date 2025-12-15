@@ -1,0 +1,2154 @@
+VOTER DATA VALIDATION REPORT
+Generated: 15/12/2025, 8:00:19 am
+================================================================================
+
+SUMMARY:
+- Total Voters: 827
+- Perfect Matches: 632 (76.42%)
+- Name Discrepancies: 195
+- Voter ID Discrepancies: 195
+- Age Discrepancies: 189
+- Gender Discrepancies: 96
+
+================================================================================
+DETAILED DISCREPANCIES:
+================================================================================
+
+
+NAME DISCREPANCIES (195):
+--------------------------------------------------------------------------------
+
+SN: 146 | ID: XUA7224645
+  Current:   "मदन जहॉगीर पाडवी"
+  Extracted: "अंजुम गणी बागवान"
+
+SN: 152 | ID: XUA7351711
+  Current:   "अथर्व महेश दरे"
+  Extracted: "रसिका शंकरराव भुजबळ"
+
+SN: 153 | ID: XUA7224694
+  Current:   "कौसर शब्बीर बागवान"
+  Extracted: "शिल्पा कुणाल बोरा"
+
+SN: 155 | ID: XUA7351463
+  Current:   "विष्णु ज्ञानदेव सुर्वे"
+  Extracted: "अमृता संदिप बोराळकर"
+
+SN: 158 | ID: XUA7225063
+  Current:   "रेखा सुहास जगताप"
+  Extracted: "सिमा विजय दासरवार"
+
+SN: 161 | ID: XUA7670508
+  Current:   "स्नेहा राजेंद्र देशपांडे"
+  Extracted: "देवदत्त जगदीश देशपांडे"
+
+SN: 21 | ID: XUA7224892
+  Current:   ""
+  Extracted: "पराग दिलीपकुमार दोशी"
+
+SN: 164 | ID: XUA7224900
+  Current:   "उमेश शौरीलाल अहुजा"
+  Extracted: "काजल पराग दोशी"
+
+SN: 167 | ID: XUA7224637
+  Current:   "शाम केशव पराडकर"
+  Extracted: "लालासाहेब क्रष्णराव"
+
+SN: 170 | ID: XUA7224561
+  Current:   ""
+  Extracted: "रणजीत लालासाहेब गाडेकर"
+
+SN: 33 | ID: XUA7224504
+  Current:   "सुरेखा भद्रबाहु गांधी"
+  Extracted: "भद्रबाहु मगनलाल गांधी"
+
+SN: 177 | ID: XUA7750508
+  Current:   "सुनिता सुरेश कुलकर्णी"
+  Extracted: "पुजा विनोद गांधी"
+
+SN: 180 | ID: XUA7750425
+  Current:   "सुषमा शिरीष कुलकर्णी"
+  Extracted: "प्रियांका शंकर गावडे"
+
+SN: 183 | ID: XUA7670557
+  Current:   "सुनंदा दत्तात्रय कुलकर्णी"
+  Extracted: "किशोर महादेव गोंजारी"
+
+SN: 186 | ID: XUA7491913
+  Current:   "प्रताप पांडुरंग घोरपडे"
+  Extracted: "सिद्धी किशोर गोंजारी"
+
+SN: 189 | ID: XUA7351810
+  Current:   "साठैरभ संतोष दोशी"
+  Extracted: "दुरर्या मुस्ताफा हवेलीवाला"
+
+SN: 191 | ID: XUA7224389
+  Current:   "अथर्व गिरीष कुलकर्णी"
+  Extracted: "संताजी मुरलीधर होवाळ"
+
+SN: 192 | ID: XUA7670441
+  Current:   "मनोज रजनीकांत शहा"
+  Extracted: "सोनिया संगिता होवाळ"
+
+SN: 195 | ID: XUA7224777
+  Current:   "मालती राजाराम भुजवळ"
+  Extracted: "विजया वसंत जगदाळे"
+
+SN: 198 | ID: XUA7750474
+  Current:   "कुंदन शंकरराव भुजबळ"
+  Extracted: "कावेरी योगेश जगताप"
+
+SN: 200 | ID: XUA7615420
+  Current:   "पौर्णिमा वैभव तावरे"
+  Extracted: "योगिता चेतन कदम"
+
+SN: 61 | ID: XUA7750383
+  Current:   "जगन्नाथ नारायण कुंभार"
+  Extracted: "अक्षय देवीचंद कटारिया"
+
+SN: 63 | ID: XUA7225279
+  Current:   "ओंकार जगन्नाथ कुंभार"
+  Extracted: "उमा विनय कोलकी"
+
+SN: 206 | ID: XUA7615461
+  Current:   "नम्रता सुडीत तावरे"
+  Extracted: "तेजश्री जगन्नाथ कुंभार"
+
+SN: 212 | ID: XUA7670516
+  Current:   "मीना गंगाधर काळे"
+  Extracted: "सोनाली सचिन लोणकर"
+
+SN: 213 | ID: XUA7224496
+  Current:   "संजोग रमेश गांधी"
+  Extracted: "सचिन भास्कर महाजन"
+
+SN: 216 | ID: XUA7224553
+  Current:   "रमेश वामनराव जोशी"
+  Extracted: "धन्यकुमार भगवान माने"
+
+SN: 218 | ID: XUA7225105
+  Current:   "मदुरा माधव जोशी"
+  Extracted: "अजिंक्य धन्यकुमार माने"
+
+SN: 76 | ID: XUA7224470
+  Current:   "संजय रामचंद्र चिबळकर"
+  Extracted: "हुसेन सादिक नाशिकवाला"
+
+SN: 224 | ID: XUA7750466
+  Current:   "अरविंद मोतीचंद शहा"
+  Extracted: "सय्यम जयंतीलाल ओसवाल"
+
+SN: 91 | ID: XUA7224918
+  Current:   "पियुष बाबुराव रूपनवर"
+  Extracted: "प्रथ्वीराज शांताराम पिंगळे"
+
+SN: 93 | ID: XUA7225048
+  Current:   "सपना महावीर संचेती"
+  Extracted: "विनय विवेक रावळ"
+
+SN: 242 | ID: XUA7670433
+  Current:   "सतिश रमणलाल सुंदेचामुथा"
+  Extracted: "सागर अरविंद शहा"
+
+SN: 243 | ID: XUA7224967
+  Current:   "कंचन बाबुराव रुपनावर"
+  Extracted: "नुपूर संजय शहा"
+
+SN: 100 | ID: XUA7556426
+  Current:   "स्वरुपा रविकीरण गांधी"
+  Extracted: "पुजा शिरिष शहा"
+
+SN: 245 | ID: XUA7224603
+  Current:   "शिला विनोद सोरटे"
+  Extracted: "श्रीमती प्रकाश शहा"
+
+SN: 103 | ID: XUA7351455
+  Current:   "संकेत अनिल उघाडे"
+  Extracted: "सोनाली सागर शहा"
+
+SN: 106 | ID: XUA7351489
+  Current:   "गौरी रमेश भोईटे"
+  Extracted: "साक्षी अजय तलवाड"
+
+SN: 109 | ID: XUA7224538
+  Current:   "सुषमा श्रीनिवास घोलप"
+  Extracted: "स्वप्नील राजकुमार उपाध्ये"
+
+SN: 112 | ID: XUA7351513
+  Current:   "मार्तंड विठ्ठल नाझरकर"
+  Extracted: "मिनल वैभव व्होरा"
+
+SN: 258 | ID: XUA7224835
+  Current:   "सचिन विठ्ठल लोणकर"
+  Extracted: "सोनल हावप्पा वड्डे"
+
+SN: 115 | ID: XUA7225006
+  Current:   "प्रियांका सतिश गायकवाड"
+  Extracted: "मिनल हावप्पा वड्डे"
+
+SN: 260 | ID: XUA7224843
+  Current:   "तसलीम मुस्तफा"
+  Extracted: "पुजा दिपक वडगांवकर"
+
+SN: 121 | ID: XUA7224371
+  Current:   "प्रसाद दत्तात्रय वाघमोडे"
+  Extracted: "प्रविण हनुमंत वाघमारे"
+
+SN: 266 | ID: XUA7556467
+  Current:   "अरुण बबन गलांडे"
+  Extracted: "नम्रता मकरंद वारे"
+
+SN: 124 | ID: XUA7556434
+  Current:   "नेहा सुयष कोठारी"
+  Extracted: "प्रसाद सेतोष येलूरे"
+
+SN: 270 | ID: XUA8057416
+  Current:   "आइवीनी अशोक गलांडे"
+  Extracted: "अश्विन महादेव कांबळे"
+
+SN: 127 | ID: XUA8009771
+  Current:   "नवनाथ जगन्नाथ देशमुख"
+  Extracted: "इवेता देवीचंद कटारिया"
+
+SN: 272 | ID: XUA8063356
+  Current:   "अर्चना दत्तात्रय भुजबळ"
+  Extracted: "सिद्धी मिलिंद संगई"
+
+SN: 273 | ID: XUA8172504
+  Current:   "अभिजीत बाळकृष्ण लोणकर"
+  Extracted: "ज़ैनाब नासिकवाला"
+
+SN: 130 | ID: XUA8566267
+  Current:   "अविनाश रामा गाडे"
+  Extracted: "चिराग संजय आहुजा"
+
+SN: 275 | ID: XUA8532541
+  Current:   "संदीप अरुण गलांडे"
+  Extracted: "जतीन विजय रोहणी"
+
+SN: 133 | ID: XUA8541831
+  Current:   "संपतलाल रामचंद्र गादीया"
+  Extracted: "प्रांजली संजोग पवार"
+
+SN: 278 | ID: XUA8537615
+  Current:   "सादीकअली कादरभाई"
+  Extracted: "सुहासिनी विक्रमादित्य"
+
+SN: 136 | ID: XUA7750490
+  Current:   "रंजना दिपक काटे"
+  Extracted: "अक्षय विनोद गांधी"
+
+SN: 291 | ID: CRM7026169
+  Current:   "प्राजक्ता शिवाजी तावरे"
+  Extracted: "इंदुमती दिनकर पवार"
+
+SN: 152 | ID: CRM7026151
+  Current:   "अथर्व महेश दरे"
+  Extracted: "स्नेहलता अमरसिंह पवार"
+
+SN: 149 | ID: XUA8057127
+  Current:   ""
+  Extracted: "रवींद्र इनामदार"
+
+SN: 300 | ID: XUA7324317
+  Current:   "रत्नप्रभा बाळकृष्ण लोणकर"
+  Extracted: "अंकित सुजीत पराडकर"
+
+SN: 301 | ID: XUA8098659
+  Current:   "जितेश काशिनाथ चीवटे"
+  Extracted: "ईशान सुजीत पराडकर"
+
+SN: 155 | ID: XUA8057135
+  Current:   "विष्णु ज्ञानदेव सुर्वे"
+  Extracted: "ज्योती प्रणेता राजपुत"
+
+SN: 303 | ID: XUA8057358
+  Current:   "रिना प्रका दळवी"
+  Extracted: "शुभदा नितीन कासार"
+
+SN: 158 | ID: CRM7965879
+  Current:   "रेखा सुहास जगताप"
+  Extracted: "सुफियान सरवर बागवान"
+
+SN: 161 | ID: XUA7351406
+  Current:   "स्नेहा राजेंद्र देशपांडे"
+  Extracted: "शौरीलाल तिरथराम अहुजा"
+
+SN: 309 | ID: XUA7850720
+  Current:   "गणेश रत्नाकर पवार"
+  Extracted: "अमृता शौरीलाल अहुजा"
+
+SN: 312 | ID: XUA7324341
+  Current:   "दत्तात्रय केशव कुलकर्णा"
+  Extracted: "संजय शौरीलाल अहुजा"
+
+SN: 167 | ID: XUA7324366
+  Current:   "शाम केशव पराडकर"
+  Extracted: "टिना संजय आहुजा"
+
+SN: 327 | ID: CRM7276426
+  Current:   "माधुरी नंदकुमार निकम"
+  Extracted: "गिरीष दत्तात्रय कुलकर्णी"
+
+SN: 331 | ID: CRM7276897
+  Current:   "श्रेणीक शहरदकुमार शहा"
+  Extracted: "माधुरी अविनाश कुलकर्णी"
+
+SN: 332 | ID: XUA8802480
+  Current:   "शुभदा श्रेणीक शहा"
+  Extracted: "कल्याणी गिरीष कुलकर्णी"
+
+SN: 192 | ID: CRM7276830
+  Current:   "मनोज रजनीकांत शहा"
+  Extracted: "वैष्णवी शिरीष कुलकर्णी"
+
+SN: 347 | ID: XUA7277028
+  Current:   "लताबाई बाळकृष्ण मुंडलीक"
+  Extracted: "चंदन राजाराम भुजबळ"
+
+SN: 350 | ID: CRM7062032
+  Current:   "लक्ष्मी चंद्रकांत डोळे"
+  Extracted: "वैभव दिगंबर तावरे"
+
+SN: 353 | ID: XUA7062008
+  Current:   "छगनलाल चुनिलाल"
+  Extracted: ""
+
+SN: 213 | ID: CRM7022473
+  Current:   "संजोग रमेश गांधी"
+  Extracted: "गिराष गंगाधर काळे"
+
+SN: 361 | ID: CRM7062297
+  Current:   "देवईबाई सखाराम भोपळे"
+  Extracted: "शिला रमेश गांधी"
+
+SN: 362 | ID: CRM1263706
+  Current:   "संतोष रघुनाथ फरांदे"
+  Extracted: "मंजुषा सुरेश गांधी"
+
+SN: 364 | ID: CRM7276632
+  Current:   "विमल लक्ष्मण बिचकर"
+  Extracted: "अर्चना स्वप्नील गांधी"
+
+SN: 368 | ID: CRM7276764
+  Current:   "जय लक्ष्मण बिचकर"
+  Extracted: "समीर सुरेश गांधी"
+
+SN: 371 | ID: CRM7061901
+  Current:   "धनराज मोहनलाल बेदमुथा"
+  Extracted: "माधवराव वामन जोशी"
+
+SN: 242 | ID: CRM7276145
+  Current:   "सतिश रमणलाल सुंदेचामुथा"
+  Extracted: "बाबुराव पांडुरंग रुपनावर"
+
+SN: 391 | ID: CRM7062347
+  Current:   "तेजस्विनी दिपक कानडे"
+  Extracted: "जयश्री राजेंद्र मुथा"
+
+SN: 392 | ID: CRM7062024
+  Current:   "साधना धनंजय बिचकर"
+  Extracted: "सुवर्णा सुभाष मुथा"
+
+SN: 394 | ID: CRM7276871
+  Current:   "ज्योती ज्ञानदेव केंगार"
+  Extracted: "भारत सुभाष मुथा नाव नाव नाव"
+
+SN: 397 | ID: XUA7604221
+  Current:   "हृषीकेश प्रद्युम्न क्षीरसागर"
+  Extracted: "विजया रमणलाल सुंदेचामुथा"
+
+SN: 400 | ID: XUA7324457
+  Current:   "प्रतिम हर्षवर्धन पाटील"
+  Extracted: "स्वप्ना सतिश सुंदेचामुथा"
+
+SN: 421 | ID: XUA8172512
+  Current:   "गणेश दादा पाथरकर"
+  Extracted: "मुस्ताफ हकिमुद्दीन"
+
+SN: 424 | ID: CRM7277168
+  Current:   "शाम अभिनव किर्वे"
+  Extracted: "माधव मारुतराव ढेरे"
+
+SN: 433 | ID: CRM7062149
+  Current:   "श्रेया राहुल पवार"
+  Extracted: "अविनाश बबनराव गलांडे"
+
+SN: 436 | ID: XUA7658938
+  Current:   "प्रियांका संजय कांबळे"
+  Extracted: "सविता अविनाश गलांडे"
+
+SN: 303 | ID: CRM7063709
+  Current:   "रिना प्रका दळवी"
+  Extracted: "आलेफीया मुस्तजा"
+
+SN: 448 | ID: CRM7062453
+  Current:   "रणजीत विठ्ठल वाघोळीकर"
+  Extracted: "शमीम जोहर नासिकवाला"
+
+SN: 458 | ID: CRM7277804
+  Current:   "हरप्रीत कौर सोडी"
+  Extracted: "पांडुरंग एकनाथ घोरपडे"
+
+SN: 461 | ID: XUA7658888
+  Current:   "अक्षय भिंगे"
+  Extracted: "रमेश भगवानराव गानबोटे"
+
+SN: 470 | ID: XUA7325017
+  Current:   "शिवराज पाटील"
+  Extracted: "बाळकृष्ण नारायण लोणकर"
+
+SN: 473 | ID: CRM7062099
+  Current:   "जयश्री अभिमन्यु चौधरी"
+  Extracted: "शुभांगी प्रकाश दळवी"
+
+SN: 476 | ID: XUA7063378
+  Current:   "पार्थ दंडवते"
+  Extracted: "रेखा विठ्ठल लोणकर"
+
+SN: 482 | ID: CRM7276723
+  Current:   "स्वप्नील शरदचंद्र शहा"
+  Extracted: "पुष्पलता रत्नाकर पवार"
+
+SN: 487 | ID: CRM7276939
+  Current:   "दिलीप पंडीत दंडवते"
+  Extracted: "मधुकर शंकर पवार"
+
+SN: 490 | ID: CRM7276319
+  Current:   "सुरज कणीचे"
+  Extracted: "स्वाती राजेंद्र सदरे"
+
+SN: 493 | ID: CRM7062859
+  Current:   "सुजल गिंदे"
+  Extracted: "रामचंद्र सोपाना मोघे"
+
+SN: 499 | ID: CRM7277952
+  Current:   "हर्षली खरात"
+  Extracted: "संग्राम नंदकुमार निकम"
+
+SN: 502 | ID: CRM7025567
+  Current:   "शिवम जाधव"
+  Extracted: "सम्राट नंदकुमार निकम"
+
+SN: 505 | ID: CRM7024990
+  Current:   "अथर्व साळुंखे"
+  Extracted: "जयंतीभाई बाबुलाल पटेल"
+
+SN: 536 | ID: CRM7061836
+  Current:   "स्नेहल शहा"
+  Extracted: "धनंजय प्रल्हाद भोईटे"
+
+SN: 391 | ID: CRM7276079
+  Current:   "तेजस्विनी दिपक कानडे"
+  Extracted: "तस्मीम अब्दुलकादर"
+
+SN: 542 | ID: CRM7026037
+  Current:   "प्रणव हनुमंत आहेरकर"
+  Extracted: "भाग्यश्री लक्ष्मण बिचकर"
+
+SN: 544 | ID: CRM7026201
+  Current:   "देवराज नामदेव रणवरे"
+  Extracted: "अजय लक्ष्मण बिचकर"
+
+SN: 547 | ID: CRM7276640
+  Current:   "लोणकर अभिषेक हनुमंत"
+  Extracted: "राहुल रत्नाकर पवार"
+
+SN: 550 | ID: XUA8694028
+  Current:   "वंदना शर्मा"
+  Extracted: "शोभा धनराज बेदमुथा"
+
+SN: 556 | ID: XUA8748618
+  Current:   "अनुपमा अजितकुमार शहा"
+  Extracted: "सोनाली प्रफुल्ल गावडे"
+
+SN: 560 | ID: XUA8789984
+  Current:   "चकोर राजकुमार शहा"
+  Extracted: "सुशिमिता पवार"
+
+SN: 418 | ID: XUA7225295
+  Current:   "सुप्रिया श्रीयश सकोजी"
+  Extracted: "चंद्रशेखर चांगदेव भोसले"
+
+SN: 566 | ID: CRM7061778
+  Current:   "दिलीप शंकरराव जगताप"
+  Extracted: "स्वाती संजय चिंबळकर"
+
+SN: 567 | ID: XUA7670623
+  Current:   "राजकुमार शंकरराव भातभोडे"
+  Extracted: "शितल विश्वनाथ गाडे"
+
+SN: 570 | ID: XUA7670649
+  Current:   "मार्टीना सारंग दीक्षीत"
+  Extracted: "दिपक विवनाथ कानडे"
+
+SN: 573 | ID: XUA7615578
+  Current:   "अद्वैत तांबेकर"
+  Extracted: "गणेश ज्ञानदेव केंगार"
+
+SN: 447 | ID: XUA7556475
+  Current:   "प्रकाश चौधरी"
+  Extracted: "जयश्री विठ्ठल वाघोलीकर"
+
+SN: 597 | ID: XUA8600355
+  Current:   "राकेश शंकर पोमण"
+  Extracted: "अमृत रणजीत वाघोळीकर"
+
+SN: 600 | ID: XUA8085961
+  Current:   "साधना राजकुमार शहा"
+  Extracted: "प्रथमेश राजेंद्र खैरे"
+
+SN: 606 | ID: XUA8044737
+  Current:   "बाबा कोंडीबा गाढवे"
+  Extracted: "प्रीतम अनिल जावळे"
+
+SN: 608 | ID: XUA8530784
+  Current:   "अंकुर सुझील शर्मा"
+  Extracted: "सोनाली गावडे"
+
+SN: 611 | ID: XUA8519597
+  Current:   "मोहित अभय गादिया"
+  Extracted: "सृष्टी व्होरा"
+
+SN: 614 | ID: XUA8115487
+  Current:   "आर्या विभुते"
+  Extracted: "कुसुम सदाशिव होले"
+
+SN: 476 | ID: XUA8124323
+  Current:   "पार्थ दंडवते"
+  Extracted: "रेखा कुंभार"
+
+SN: 627 | ID: XUA8537490
+  Current:   "धन्यकुमार वालचंद शहा"
+  Extracted: "अभिषेक भोईटे"
+
+SN: 628 | ID: XUA8537508
+  Current:   "राजकुमार धन्यकुमार शहा"
+  Extracted: "विनोद कालुजिया"
+
+SN: 633 | ID: XUA8164733
+  Current:   "प्रिया सुयोग पोतदार"
+  Extracted: "मनोज वर्धमान संगाई"
+
+SN: 637 | ID: XUA8518367
+  Current:   "अक्षय कुमार पवार"
+  Extracted: "कल्पना संतोष रंद्दे"
+
+SN: 639 | ID: XUA8171951
+  Current:   "शुभम मगर"
+  Extracted: "काजल सोडमिसे"
+
+SN: 642 | ID: XUA8153710
+  Current:   "नेहा गायकवाड"
+  Extracted: "रूपाली काळे"
+
+SN: 657 | ID: XUA8109787
+  Current:   "इशाक्र ठर्रावाला"
+  Extracted: "प्राची देशपांडे"
+
+SN: 658 | ID: XUA8231581
+  Current:   "राजेश अविनाश पाठक"
+  Extracted: "स्मीतान्नअलि अतुल पवार"
+
+SN: 508 | ID: XUA8116493
+  Current:   "वर्षादेवी खन्ना"
+  Extracted: "तृप्ती विराज धायगुडे"
+
+SN: 667 | ID: XUA8514754
+  Current:   "अनुजा तानाजी धायगुडे"
+  Extracted: "स्नेहा संदीप शहाणे"
+
+SN: 670 | ID: XUA7613730
+  Current:   "मंदार सुखदेव टेंगळे"
+  Extracted: "हर्षदा विलास शेंडगे"
+
+SN: 686 | ID: XUA8512584
+  Current:   "फ़िज़ा शहबाज़ बागवान"
+  Extracted: "वंदना मानकर"
+
+SN: 687 | ID: XUA8118200
+  Current:   "अमिता अनुप दोभाडा"
+  Extracted: "मयुरेश कांबळे"
+
+SN: 537 | ID: XUA8173189
+  Current:   "राजाराम बाबुराव लोले"
+  Extracted: "निकेत उबाळे"
+
+SN: 716 | ID: XUA8156515
+  Current:   "अंकिता समकित मुथा"
+  Extracted: "संज्योत खंडागळे"
+
+SN: 718 | ID: XUA8114357
+  Current:   "प्रणव राजेंद्र गुप्ते"
+  Extracted: "विरेन ताम्हाणे"
+
+SN: 719 | ID: XUA8172041
+  Current:   "संस्कार संजय शितोळे"
+  Extracted: "यश शहा"
+
+SN: 567 | ID: XUA8175010
+  Current:   "राजकुमार शंकरराव भातभोडे"
+  Extracted: "संगीता दिलिपराव जगताप"
+
+SN: 740 | ID: XUA8064578
+  Current:   "शुभम सुरेश जाधव"
+  Extracted: "त्र्षिकेश संजय भुजे"
+
+SN: 741 | ID: XUA8171688
+  Current:   "माधुरी खलाटे"
+  Extracted: "सोहम आहेरकर"
+
+SN: 744 | ID: XUA8602930
+  Current:   "अभिषेक संजय जगताप"
+  Extracted: "हनुमंत आहेरकर"
+
+SN: 746 | ID: XUA8276834
+  Current:   "समृद्ध श्रीहरी कोकरे"
+  Extracted: "राजेंद्र खराडे"
+
+SN: 747 | ID: XUA8155756
+  Current:   "शंकर रामचंद्र माने"
+  Extracted: "राजुकुमार सिंह"
+
+SN: 749 | ID: XUA8175689
+  Current:   "सुहास वसंतराव कुलकर्णी"
+  Extracted: "पूर्णिमा घाडगे"
+
+SN: 750 | ID: XUA8531493
+  Current:   "मालन रामचंद्र माने"
+  Extracted: "सुजय चव्हाण"
+
+SN: 752 | ID: XUA8237224
+  Current:   "श्रावणी जयप्रकाह़ आगवणे"
+  Extracted: "सुशीलकुमार शर्मा"
+
+SN: 753 | ID: XUA7351562
+  Current:   "अजिंक्य कल्पना जाधव"
+  Extracted: "रुबीना जमीर बागवान"
+
+SN: 596 | ID: XUA7324598
+  Current:   "लक्ष्मीबाई निवृत्ती पोमण"
+  Extracted: "दमयंती माणिकचंद शहा"
+
+SN: 597 | ID: XUA7324606
+  Current:   "राकेश शंकर पोमण"
+  Extracted: "अजितकुमार माणिकचंद शहा"
+
+SN: 759 | ID: XUA7324648
+  Current:   "स्वरूप सुरेश म्हसवडे"
+  Extracted: "अरींजय अजीत शहा"
+
+SN: 761 | ID: XUA7324689
+  Current:   "आदित्य मुकुंद बडवे"
+  Extracted: "संगीता मिलींद शहा"
+
+SN: 768 | ID: CRM7062719
+  Current:   "सारिका आगवने"
+  Extracted: "रतन माणिक दराडे"
+
+SN: 771 | ID: XUA1754647
+  Current:   "प्रियंका नवनाथ धोत्रे"
+  Extracted: "सिध्देश्वर शंकरराव भातभोडे"
+
+SN: 773 | ID: XUA8192494
+  Current:   "इंदुमती सतिश गायकवाड"
+  Extracted: "उषा राजकुमार भातभोडे"
+
+SN: 774 | ID: XUA8158693
+  Current:   "सांची संदीप गलांडे गलांडे"
+  Extracted: "प्राजक्ता महाविर गांधी"
+
+SN: 776 | ID: XUA8180945
+  Current:   "मनिषा सुहास देशमुख"
+  Extracted: "आकाश केमधरे"
+
+SN: 783 | ID: XUA1408855
+  Current:   "अमर शिवाजी पवार"
+  Extracted: "लिलावती दत्तात्रय चव्हाण"
+
+SN: 784 | ID: XUA8001513
+  Current:   "म नोमन म सादिक बागवान"
+  Extracted: "अतुल दत्तात्रय चव्हाण"
+
+SN: 626 | ID: XUA8593659
+  Current:   "हर्षदा धुमाळ"
+  Extracted: "संजय दत्तात्रय चव्हाण"
+
+SN: 789 | ID: XUA1263235
+  Current:   "वैजंती श्रीनिवास काकडे"
+  Extracted: "सोनाली संजय शहा"
+
+SN: 790 | ID: XUA1263227
+  Current:   "विनय सतिश शहा"
+  Extracted: "नंदकुमार दत्तात्रय मांडगे"
+
+SN: 793 | ID: CRM7025468
+  Current:   "रंगनाथ बाळासाहेब काटकर"
+  Extracted: "वर्षा मधुकर मांडगे"
+
+SN: 795 | ID: CRM7063675
+  Current:   "गिरीश हारद कदम"
+  Extracted: "मधुकर दत्तात्रय मांडगे"
+
+SN: 796 | ID: CRM7277960
+  Current:   "राबिया फारुख तांबोळी"
+  Extracted: "सदाशिव दत्तात्रय मांडगे"
+
+SN: 798 | ID: CRM7277416
+  Current:   "अपेक्षा विकास ओझर्डे"
+  Extracted: "सीजाबाई राजाराम खंडागळे"
+
+SN: 801 | ID: CRM1265099
+  Current:   "सुदिमता अमरसिंह पवार"
+  Extracted: "हसीता शिवाजी खंडागळे"
+
+SN: 802 | ID: XUA7324713
+  Current:   "सोनाली रोहन शिंदे"
+  Extracted: "कौसल्या शिवाजी खंडागळे"
+
+SN: 812 | ID: XUA8238560
+  Current:   "सोमप्रभा शहाजी वाळुंज"
+  Extracted: "सुनिता पोपटराव जगताप"
+
+SN: 815 | ID: CRM7024883
+  Current:   "अवधुत चंद्रकांत राजे"
+  Extracted: "आदर्श भळगट"
+
+SN: 816 | ID: CRM7062677
+  Current:   "मुस्तफा मुर्तज़ा नासिकवाला"
+  Extracted: "अभिषेक भळगट"
+
+SN: 818 | ID: XUA8197030
+  Current:   "शिवात्मीका सुहास जगताप"
+  Extracted: "राजकुमार मोतीलाल शहा"
+
+SN: 819 | ID: XUA8113854
+  Current:   "अनिता अभिनव ढोले"
+  Extracted: "धन्यकुमार खेमचंद शहा"
+
+SN: 656 | ID: XUA8609265
+  Current:   "राजश्री अनिल सोनावणे"
+  Extracted: "अनिरूद्ध बाळासाहेब"
+
+SN: 716 | ID: XUA6389704
+  Current:   "अंकिता समकित मुथा"
+  Extracted: "महादेव तानाजि कुंभार"
+
+SN: 747 | ID: XUA8823809
+  Current:   "शंकर रामचंद्र माने"
+  Extracted: "वैशाली मनोज मोरे मोरे"
+
+SN: 750 | ID: XUA8828303
+  Current:   "मालन रामचंद्र माने"
+  Extracted: "प्राची तोडकर"
+
+SN: 758 | ID: XUA8831646
+  Current:   "रमनळलाल रामकुमार गादिया"
+  Extracted: "विमल सखाराम गवळी"
+
+SN: 764 | ID: XUA8835514
+  Current:   "अंजली मिलींद संगई"
+  Extracted: "पार्थ देलीप पाटील"
+
+SN: 767 | ID: XUA8841843
+  Current:   "प्रगती तुषार टाकसाळे"
+  Extracted: "वर्षा अनिल ठेंगील"
+
+SN: 773 | ID: XUA8855843
+  Current:   "इंदुमती सतिश गायकवाड"
+  Extracted: "मोहम्मद सुफ़ियान सलीम"
+
+SN: 776 | ID: XUA8865503
+  Current:   "मनिषा सुहास देशमुख"
+  Extracted: "काजल गणेश टिंगरे"
+
+SN: 785 | ID: XUA8875932
+  Current:   "निशिगंधा सुहास कुलकर्णी"
+  Extracted: "प्रतिक राजेश गलिंदे"
+
+SN: 788 | ID: XUA5055652
+  Current:   "सुरज उमेश भिंगे"
+  Extracted: "सचिन शाह"
+
+SN: 791 | ID: XUA8878837
+  Current:   "अशिष नंदकुमार माळी"
+  Extracted: "स्मृती शैलेश कळंत्रे"
+
+SN: 794 | ID: XUA8879801
+  Current:   "शुभांगी सचिन माने"
+  Extracted: "पल्लवी संदीप आल्हाट"
+
+SN: 797 | ID: XUA8880858
+  Current:   "विवेक दीपक काटे"
+  Extracted: "विनीता कोकाटे"
+
+SN: 803 | ID: XUA8892127
+  Current:   "मगन दामजा पाडवी"
+  Extracted: "राजश्री संतोष शिर्के"
+
+SN: 806 | ID: XUA8893117
+  Current:   "वंदना मदन पाडवी"
+  Extracted: "सोनाली सचिन पाठक"
+
+SN: 815 | ID: XUA8902850
+  Current:   "अवधुत चंद्रकांत राजे"
+  Extracted: "सुप्रिया दादा गायकवाड"
+
+SN: 818 | ID: XUA8917213
+  Current:   "शिवात्मीका सुहास जगताप"
+  Extracted: "श्रद्धा मधुसूदन सावंत"
+
+
+VOTER ID DISCREPANCIES (195):
+--------------------------------------------------------------------------------
+
+SN: 146 | Name: अंजुम गणी बागवान
+  Current:   XUA7352305
+  Extracted: XUA7224645
+
+SN: 152 | Name: रसिका शंकरराव भुजबळ
+  Current:   XUA8172520
+  Extracted: XUA7351711
+
+SN: 153 | Name: शिल्पा कुणाल बोरा
+  Current:   XUA8057101
+  Extracted: XUA7224694
+
+SN: 155 | Name: अमृता संदिप बोराळकर
+  Current:   XUA7850910
+  Extracted: XUA7351463
+
+SN: 158 | Name: सिमा विजय दासरवार
+  Current:   XUA7794118
+  Extracted: XUA7225063
+
+SN: 161 | Name: देवदत्त जगदीश देशपांडे
+  Current:   CRM7820462
+  Extracted: XUA7670508
+
+SN: 21 | Name: पराग दिलीपकुमार दोशी
+  Current:   XUA8945156
+  Extracted: XUA7224892
+
+SN: 164 | Name: काजल पराग दोशी
+  Current:   XUA7324333
+  Extracted: XUA7224900
+
+SN: 167 | Name: लालासाहेब क्रष्णराव
+  Current:   CRM7187359
+  Extracted: XUA7224637
+
+SN: 170 | Name: रणजीत लालासाहेब गाडेकर
+  Current:   XUA7324978
+  Extracted: XUA7224561
+
+SN: 33 | Name: भद्रबाहु मगनलाल गांधी
+  Current:   XUA7224462
+  Extracted: XUA7224504
+
+SN: 177 | Name: पुजा विनोद गांधी
+  Current:   XUA7276905
+  Extracted: XUA7750508
+
+SN: 180 | Name: प्रियांका शंकर गावडे
+  Current:   XUA1984632
+  Extracted: XUA7750425
+
+SN: 183 | Name: किशोर महादेव गोंजारी
+  Current:   CRM7276970
+  Extracted: XUA7670557
+
+SN: 186 | Name: सिद्धी किशोर गोंजारी
+  Current:   CRM7276491
+  Extracted: XUA7491913
+
+SN: 189 | Name: दुरर्या मुस्ताफा हवेलीवाला
+  Current:   XUA7324390
+  Extracted: XUA7351810
+
+SN: 191 | Name: संताजी मुरलीधर होवाळ
+  Current:   XUA7850704
+  Extracted: XUA7224389
+
+SN: 192 | Name: सोनिया संगिता होवाळ
+  Current:   XUA7063337
+  Extracted: XUA7670441
+
+SN: 195 | Name: विजया वसंत जगदाळे
+  Current:   CRM7277002
+  Extracted: XUA7224777
+
+SN: 198 | Name: कावेरी योगेश जगताप
+  Current:   CRM7276814
+  Extracted: XUA7750474
+
+SN: 200 | Name: योगिता चेतन कदम
+  Current:   XUA7324424
+  Extracted: XUA7615420
+
+SN: 61 | Name: अक्षय देवीचंद कटारिया
+  Current:   XUA7615453
+  Extracted: XUA7750383
+
+SN: 63 | Name: उमा विनय कोलकी
+  Current:   XUA7224728
+  Extracted: XUA7225279
+
+SN: 206 | Name: तेजश्री जगन्नाथ कुंभार
+  Current:   CRM1409242
+  Extracted: XUA7615461
+
+SN: 212 | Name: सोनाली सचिन लोणकर
+  Current:   XUA7658896
+  Extracted: XUA7670516
+
+SN: 213 | Name: सचिन भास्कर महाजन
+  Current:   CRM7062255
+  Extracted: XUA7224496
+
+SN: 216 | Name: धन्यकुमार भगवान माने
+  Current:   CRM7276012
+  Extracted: XUA7224553
+
+SN: 218 | Name: अजिंक्य धन्यकुमार माने
+  Current:   XUA7276756
+  Extracted: XUA7225105
+
+SN: 76 | Name: हुसेन सादिक नाशिकवाला
+  Current:   CRM1265768
+  Extracted: XUA7224470
+
+SN: 224 | Name: सय्यम जयंतीलाल ओसवाल
+  Current:   CRM7061950
+  Extracted: XUA7750466
+
+SN: 91 | Name: प्रथ्वीराज शांताराम पिंगळे
+  Current:   XUA7224736
+  Extracted: XUA7224918
+
+SN: 93 | Name: विनय विवेक रावळ
+  Current:   XUA7225121
+  Extracted: XUA7225048
+
+SN: 242 | Name: सागर अरविंद शहा
+  Current:   XUA7025047
+  Extracted: XUA7670433
+
+SN: 243 | Name: नुपूर संजय शहा
+  Current:   CRM7276137
+  Extracted: XUA7224967
+
+SN: 100 | Name: पुजा शिरिष शहा
+  Current:   XUA7352347
+  Extracted: XUA7556426
+
+SN: 245 | Name: श्रीमती प्रकाश शहा
+  Current:   XUA7324473
+  Extracted: XUA7224603
+
+SN: 103 | Name: सोनाली सागर शहा
+  Current:   XUA8244584
+  Extracted: XUA7351455
+
+SN: 106 | Name: साक्षी अजय तलवाड
+  Current:   XUA7556657
+  Extracted: XUA7351489
+
+SN: 109 | Name: स्वप्नील राजकुमार उपाध्ये
+  Current:   XUA7352222
+  Extracted: XUA7224538
+
+SN: 112 | Name: मिनल वैभव व्होरा
+  Current:   XUA7556624
+  Extracted: XUA7351513
+
+SN: 258 | Name: सोनल हावप्पा वड्डे
+  Current:   CRM7062289
+  Extracted: XUA7224835
+
+SN: 115 | Name: मिनल हावप्पा वड्डे
+  Current:   XUA7750631
+  Extracted: XUA7225006
+
+SN: 260 | Name: पुजा दिपक वडगांवकर
+  Current:   XUA7062370
+  Extracted: XUA7224843
+
+SN: 121 | Name: प्रविण हनुमंत वाघमारे
+  Current:   XUA7615495
+  Extracted: XUA7224371
+
+SN: 266 | Name: नम्रता मकरंद वारे
+  Current:   CRM7022440
+  Extracted: XUA7556467
+
+SN: 124 | Name: प्रसाद सेतोष येलूरे
+  Current:   XUA8103889
+  Extracted: XUA7556434
+
+SN: 270 | Name: अश्विन महादेव कांबळे
+  Current:   XUA7277945
+  Extracted: XUA8057416
+
+SN: 127 | Name: इवेता देवीचंद कटारिया
+  Current:   XUA7991250
+  Extracted: XUA8009771
+
+SN: 272 | Name: सिद्धी मिलिंद संगई
+  Current:   CRM7023786
+  Extracted: XUA8063356
+
+SN: 273 | Name: ज़ैनाब नासिकवाला
+  Current:   CRM1264563
+  Extracted: XUA8172504
+
+SN: 130 | Name: चिराग संजय आहुजा
+  Current:   XUA8094922
+  Extracted: XUA8566267
+
+SN: 275 | Name: जतीन विजय रोहणी
+  Current:   CRM1892140
+  Extracted: XUA8532541
+
+SN: 133 | Name: प्रांजली संजोग पवार
+  Current:   XUA7352214
+  Extracted: XUA8541831
+
+SN: 278 | Name: सुहासिनी विक्रमादित्य
+  Current:   XUA7324507
+  Extracted: XUA8537615
+
+SN: 136 | Name: अक्षय विनोद गांधी
+  Current:   XUA7326007
+  Extracted: XUA7750490
+
+SN: 291 | Name: इंदुमती दिनकर पवार
+  Current:   CRM1890284
+  Extracted: CRM7026169
+
+SN: 152 | Name: स्नेहलता अमरसिंह पवार
+  Current:   XUA8172520
+  Extracted: CRM7026151
+
+SN: 149 | Name: रवींद्र इनामदार
+  Current:   XUA7352248
+  Extracted: XUA8057127
+
+SN: 300 | Name: अंकित सुजीत पराडकर
+  Current:   XUA7324994
+  Extracted: XUA7324317
+
+SN: 301 | Name: ईशान सुजीत पराडकर
+  Current:   CRM7276301
+  Extracted: XUA8098659
+
+SN: 155 | Name: ज्योती प्रणेता राजपुत
+  Current:   XUA7850910
+  Extracted: XUA8057135
+
+SN: 303 | Name: शुभदा नितीन कासार
+  Current:   CRM7062420
+  Extracted: XUA8057358
+
+SN: 158 | Name: सुफियान सरवर बागवान
+  Current:   XUA7794118
+  Extracted: CRM7965879
+
+SN: 161 | Name: शौरीलाल तिरथराम अहुजा
+  Current:   CRM7820462
+  Extracted: XUA7351406
+
+SN: 309 | Name: अमृता शौरीलाल अहुजा
+  Current:   CRM7025211
+  Extracted: XUA7850720
+
+SN: 312 | Name: संजय शौरीलाल अहुजा
+  Current:   XUA7276772
+  Extracted: XUA7324341
+
+SN: 167 | Name: टिना संजय आहुजा
+  Current:   CRM7187359
+  Extracted: XUA7324366
+
+SN: 327 | Name: गिरीष दत्तात्रय कुलकर्णी
+  Current:   CRM7025559
+  Extracted: CRM7276426
+
+SN: 331 | Name: माधुरी अविनाश कुलकर्णी
+  Current:   CRM7063642
+  Extracted: CRM7276897
+
+SN: 332 | Name: कल्याणी गिरीष कुलकर्णी
+  Current:   CRM7063527
+  Extracted: XUA8802480
+
+SN: 192 | Name: वैष्णवी शिरीष कुलकर्णी
+  Current:   XUA7063337
+  Extracted: CRM7276830
+
+SN: 347 | Name: चंदन राजाराम भुजबळ
+  Current:   XUA7277622
+  Extracted: XUA7277028
+
+SN: 350 | Name: वैभव दिगंबर तावरे
+  Current:   CRM7276822
+  Extracted: CRM7062032
+
+SN: 353 | Name: 
+  Current:   XUA7727522
+  Extracted: XUA7062008
+
+SN: 213 | Name: गिराष गंगाधर काळे
+  Current:   CRM7062255
+  Extracted: CRM7022473
+
+SN: 361 | Name: शिला रमेश गांधी
+  Current:   CRM7061794
+  Extracted: CRM7062297
+
+SN: 362 | Name: मंजुषा सुरेश गांधी
+  Current:   CRM1263565
+  Extracted: CRM1263706
+
+SN: 364 | Name: अर्चना स्वप्नील गांधी
+  Current:   CRM1408798
+  Extracted: CRM7276632
+
+SN: 368 | Name: समीर सुरेश गांधी
+  Current:   XUA7059962
+  Extracted: CRM7276764
+
+SN: 371 | Name: माधवराव वामन जोशी
+  Current:   CRM7277671
+  Extracted: CRM7061901
+
+SN: 242 | Name: बाबुराव पांडुरंग रुपनावर
+  Current:   XUA7025047
+  Extracted: CRM7276145
+
+SN: 391 | Name: जयश्री राजेंद्र मुथा
+  Current:   XUA7670607
+  Extracted: CRM7062347
+
+SN: 392 | Name: सुवर्णा सुभाष मुथा
+  Current:   CRM7025971
+  Extracted: CRM7062024
+
+SN: 394 | Name: भारत सुभाष मुथा नाव नाव नाव
+  Current:   XUA7615537
+  Extracted: CRM7276871
+
+SN: 397 | Name: विजया रमणलाल सुंदेचामुथा
+  Current:   XUA7670631
+  Extracted: XUA7604221
+
+SN: 400 | Name: स्वप्ना सतिश सुंदेचामुथा
+  Current:   XUA7615552
+  Extracted: XUA7324457
+
+SN: 421 | Name: मुस्ताफ हकिमुद्दीन
+  Current:   XUA7565823
+  Extracted: XUA8172512
+
+SN: 424 | Name: माधव मारुतराव ढेरे
+  Current:   XUA8323479
+  Extracted: CRM7277168
+
+SN: 433 | Name: अविनाश बबनराव गलांडे
+  Current:   XUA8520728
+  Extracted: CRM7062149
+
+SN: 436 | Name: सविता अविनाश गलांडे
+  Current:   XUA8508293
+  Extracted: XUA7658938
+
+SN: 303 | Name: आलेफीया मुस्तजा
+  Current:   CRM7062420
+  Extracted: CRM7063709
+
+SN: 448 | Name: शमीम जोहर नासिकवाला
+  Current:   XUA7491947
+  Extracted: CRM7062453
+
+SN: 458 | Name: पांडुरंग एकनाथ घोरपडे
+  Current:   XUA8602062
+  Extracted: CRM7277804
+
+SN: 461 | Name: रमेश भगवानराव गानबोटे
+  Current:   XUA8510695
+  Extracted: XUA7658888
+
+SN: 470 | Name: बाळकृष्ण नारायण लोणकर
+  Current:   XUA8108904
+  Extracted: XUA7325017
+
+SN: 473 | Name: शुभांगी प्रकाश दळवी
+  Current:   XUA8537698
+  Extracted: CRM7062099
+
+SN: 476 | Name: रेखा विठ्ठल लोणकर
+  Current:   XUA8530867
+  Extracted: XUA7063378
+
+SN: 482 | Name: पुष्पलता रत्नाकर पवार
+  Current:   XUA8153587
+  Extracted: CRM7276723
+
+SN: 487 | Name: मधुकर शंकर पवार
+  Current:   XUA8111601
+  Extracted: CRM7276939
+
+SN: 490 | Name: स्वाती राजेंद्र सदरे
+  Current:   CRM7277309
+  Extracted: CRM7276319
+
+SN: 493 | Name: रामचंद्र सोपाना मोघे
+  Current:   XUA8171696
+  Extracted: CRM7062859
+
+SN: 499 | Name: संग्राम नंदकुमार निकम
+  Current:   XUA8118952
+  Extracted: CRM7277952
+
+SN: 502 | Name: सम्राट नंदकुमार निकम
+  Current:   XUA8119133
+  Extracted: CRM7025567
+
+SN: 505 | Name: जयंतीभाई बाबुलाल पटेल
+  Current:   XUA8175044
+  Extracted: CRM7024990
+
+SN: 536 | Name: धनंजय प्रल्हाद भोईटे
+  Current:   XUA8596793
+  Extracted: CRM7061836
+
+SN: 391 | Name: तस्मीम अब्दुलकादर
+  Current:   XUA7670607
+  Extracted: CRM7276079
+
+SN: 542 | Name: भाग्यश्री लक्ष्मण बिचकर
+  Current:   XUA8176141
+  Extracted: CRM7026037
+
+SN: 544 | Name: अजय लक्ष्मण बिचकर
+  Current:   XUA8600025
+  Extracted: CRM7026201
+
+SN: 547 | Name: राहुल रत्नाकर पवार
+  Current:   XUA8187817
+  Extracted: CRM7276640
+
+SN: 550 | Name: शोभा धनराज बेदमुथा
+  Current:   XUA8237232
+  Extracted: XUA8694028
+
+SN: 556 | Name: सोनाली प्रफुल्ल गावडे
+  Current:   XUA7324614
+  Extracted: XUA8748618
+
+SN: 560 | Name: सुशिमिता पवार
+  Current:   XUA7324697
+  Extracted: XUA8789984
+
+SN: 418 | Name: चंद्रशेखर चांगदेव भोसले
+  Current:   XUA8108920
+  Extracted: XUA7225295
+
+SN: 566 | Name: स्वाती संजय चिंबळकर
+  Current:   XUA8108698
+  Extracted: CRM7061778
+
+SN: 567 | Name: शितल विश्वनाथ गाडे
+  Current:   XUA8521387
+  Extracted: XUA7670623
+
+SN: 570 | Name: दिपक विवनाथ कानडे
+  Current:   XUA8160905
+  Extracted: XUA7670649
+
+SN: 573 | Name: गणेश ज्ञानदेव केंगार
+  Current:   CRM7062743
+  Extracted: XUA7615578
+
+SN: 447 | Name: जयश्री विठ्ठल वाघोलीकर
+  Current:   XUA8533309
+  Extracted: XUA7556475
+
+SN: 597 | Name: अमृत रणजीत वाघोळीकर
+  Current:   CRM7024891
+  Extracted: XUA8600355
+
+SN: 600 | Name: प्रथमेश राजेंद्र खैरे
+  Current:   CRM7062669
+  Extracted: XUA8085961
+
+SN: 606 | Name: प्रीतम अनिल जावळे
+  Current:   XUA8523441
+  Extracted: XUA8044737
+
+SN: 608 | Name: सोनाली गावडे
+  Current:   XUA8650897
+  Extracted: XUA8530784
+
+SN: 611 | Name: सृष्टी व्होरा
+  Current:   XUA8686446
+  Extracted: XUA8519597
+
+SN: 614 | Name: कुसुम सदाशिव होले
+  Current:   XUA8686404
+  Extracted: XUA8115487
+
+SN: 476 | Name: रेखा कुंभार
+  Current:   XUA8530867
+  Extracted: XUA8124323
+
+SN: 627 | Name: अभिषेक भोईटे
+  Current:   CRM7022655
+  Extracted: XUA8537490
+
+SN: 628 | Name: विनोद कालुजिया
+  Current:   CRM1408863
+  Extracted: XUA8537508
+
+SN: 633 | Name: मनोज वर्धमान संगाई
+  Current:   XUA8745671
+  Extracted: XUA8164733
+
+SN: 637 | Name: कल्पना संतोष रंद्दे
+  Current:   XUA8754848
+  Extracted: XUA8518367
+
+SN: 639 | Name: काजल सोडमिसे
+  Current:   XUA8755597
+  Extracted: XUA8171951
+
+SN: 642 | Name: रूपाली काळे
+  Current:   XUA8761355
+  Extracted: XUA8153710
+
+SN: 657 | Name: प्राची देशपांडे
+  Current:   XUA8161226
+  Extracted: XUA8109787
+
+SN: 658 | Name: स्मीतान्नअलि अतुल पवार
+  Current:   CRM1264670
+  Extracted: XUA8231581
+
+SN: 508 | Name: तृप्ती विराज धायगुडे
+  Current:   XUA8230476
+  Extracted: XUA8116493
+
+SN: 667 | Name: स्नेहा संदीप शहाणे
+  Current:   XUA8785784
+  Extracted: XUA8514754
+
+SN: 670 | Name: हर्षदा विलास शेंडगे
+  Current:   XUA8793952
+  Extracted: XUA7613730
+
+SN: 686 | Name: वंदना मानकर
+  Current:   XUA8741613
+  Extracted: XUA8512584
+
+SN: 687 | Name: मयुरेश कांबळे
+  Current:   XUA1127133
+  Extracted: XUA8118200
+
+SN: 537 | Name: निकेत उबाळे
+  Current:   XUA8599946
+  Extracted: XUA8173189
+
+SN: 716 | Name: संज्योत खंडागळे
+  Current:   XUA8866931
+  Extracted: XUA8156515
+
+SN: 718 | Name: विरेन ताम्हाणे
+  Current:   XUA8779852
+  Extracted: XUA8114357
+
+SN: 719 | Name: यश शहा
+  Current:   XUA8868861
+  Extracted: XUA8172041
+
+SN: 567 | Name: संगीता दिलिपराव जगताप
+  Current:   XUA8521387
+  Extracted: XUA8175010
+
+SN: 740 | Name: त्र्षिकेश संजय भुजे
+  Current:   XUA8811366
+  Extracted: XUA8064578
+
+SN: 741 | Name: सोहम आहेरकर
+  Current:   XUA8811937
+  Extracted: XUA8171688
+
+SN: 744 | Name: हनुमंत आहेरकर
+  Current:   XUA8814956
+  Extracted: XUA8602930
+
+SN: 746 | Name: राजेंद्र खराडे
+  Current:   XUA8818791
+  Extracted: XUA8276834
+
+SN: 747 | Name: राजुकुमार सिंह
+  Current:   XUA6945836
+  Extracted: XUA8155756
+
+SN: 749 | Name: पूर्णिमा घाडगे
+  Current:   XUA8827818
+  Extracted: XUA8175689
+
+SN: 750 | Name: सुजय चव्हाण
+  Current:   XUA7228554
+  Extracted: XUA8531493
+
+SN: 752 | Name: सुशीलकुमार शर्मा
+  Current:   XUA8828741
+  Extracted: XUA8237224
+
+SN: 753 | Name: रुबीना जमीर बागवान
+  Current:   XUA8831893
+  Extracted: XUA7351562
+
+SN: 596 | Name: दमयंती माणिकचंद शहा
+  Current:   XUA8238586
+  Extracted: XUA7324598
+
+SN: 597 | Name: अजितकुमार माणिकचंद शहा
+  Current:   CRM7024891
+  Extracted: XUA7324606
+
+SN: 759 | Name: अरींजय अजीत शहा
+  Current:   XUA8833386
+  Extracted: XUA7324648
+
+SN: 761 | Name: संगीता मिलींद शहा
+  Current:   XUA7556665
+  Extracted: XUA7324689
+
+SN: 768 | Name: रतन माणिक दराडे
+  Current:   XUA8842254
+  Extracted: CRM7062719
+
+SN: 771 | Name: सिध्देश्वर शंकरराव भातभोडे
+  Current:   XUA8846388
+  Extracted: XUA1754647
+
+SN: 773 | Name: उषा राजकुमार भातभोडे
+  Current:   XUA8004673
+  Extracted: XUA8192494
+
+SN: 774 | Name: प्राजक्ता महाविर गांधी
+  Current:   XUA8860694
+  Extracted: XUA8158693
+
+SN: 776 | Name: आकाश केमधरे
+  Current:   XUA8082760
+  Extracted: XUA8180945
+
+SN: 783 | Name: लिलावती दत्तात्रय चव्हाण
+  Current:   XUA8873143
+  Extracted: XUA1408855
+
+SN: 784 | Name: अतुल दत्तात्रय चव्हाण
+  Current:   XUA8875445
+  Extracted: XUA8001513
+
+SN: 626 | Name: संजय दत्तात्रय चव्हाण
+  Current:   XUA1127752
+  Extracted: XUA8593659
+
+SN: 789 | Name: सोनाली संजय शहा
+  Current:   XUA0606582
+  Extracted: XUA1263235
+
+SN: 790 | Name: नंदकुमार दत्तात्रय मांडगे
+  Current:   XUA1544972
+  Extracted: XUA1263227
+
+SN: 793 | Name: वर्षा मधुकर मांडगे
+  Current:   XUA8879587
+  Extracted: CRM7025468
+
+SN: 795 | Name: मधुकर दत्तात्रय मांडगे
+  Current:   XUA8880254
+  Extracted: CRM7063675
+
+SN: 796 | Name: सदाशिव दत्तात्रय मांडगे
+  Current:   XUA8880668
+  Extracted: CRM7277960
+
+SN: 798 | Name: सीजाबाई राजाराम खंडागळे
+  Current:   XUA8883431
+  Extracted: CRM7277416
+
+SN: 801 | Name: हसीता शिवाजी खंडागळे
+  Current:   XUA8890584
+  Extracted: CRM1265099
+
+SN: 802 | Name: कौसल्या शिवाजी खंडागळे
+  Current:   XUA8890840
+  Extracted: XUA7324713
+
+SN: 812 | Name: सुनिता पोपटराव जगताप
+  Current:   XUA7326023
+  Extracted: XUA8238560
+
+SN: 815 | Name: आदर्श भळगट
+  Current:   XUA4606554
+  Extracted: CRM7024883
+
+SN: 816 | Name: अभिषेक भळगट
+  Current:   XUA8904898
+  Extracted: CRM7062677
+
+SN: 818 | Name: राजकुमार मोतीलाल शहा
+  Current:   XUA7794100
+  Extracted: XUA8197030
+
+SN: 819 | Name: धन्यकुमार खेमचंद शहा
+  Current:   XUA8922916
+  Extracted: XUA8113854
+
+SN: 656 | Name: अनिरूद्ध बाळासाहेब
+  Current:   XUA8773558
+  Extracted: XUA8609265
+
+SN: 716 | Name: महादेव तानाजि कुंभार
+  Current:   XUA8866931
+  Extracted: XUA6389704
+
+SN: 747 | Name: वैशाली मनोज मोरे मोरे
+  Current:   XUA6945836
+  Extracted: XUA8823809
+
+SN: 750 | Name: प्राची तोडकर
+  Current:   XUA7228554
+  Extracted: XUA8828303
+
+SN: 758 | Name: विमल सखाराम गवळी
+  Current:   XUA4595484
+  Extracted: XUA8831646
+
+SN: 764 | Name: पार्थ देलीप पाटील
+  Current:   XUA7556640
+  Extracted: XUA8835514
+
+SN: 767 | Name: वर्षा अनिल ठेंगील
+  Current:   XUA4595534
+  Extracted: XUA8841843
+
+SN: 773 | Name: मोहम्मद सुफ़ियान सलीम
+  Current:   XUA8004673
+  Extracted: XUA8855843
+
+SN: 776 | Name: काजल गणेश टिंगरे
+  Current:   XUA8082760
+  Extracted: XUA8865503
+
+SN: 785 | Name: प्रतिक राजेश गलिंदे
+  Current:   XUA4595575
+  Extracted: XUA8875932
+
+SN: 788 | Name: सचिन शाह
+  Current:   XUA8534893
+  Extracted: XUA5055652
+
+SN: 791 | Name: स्मृती शैलेश कळंत्रे
+  Current:   XUA7352255
+  Extracted: XUA8878837
+
+SN: 794 | Name: पल्लवी संदीप आल्हाट
+  Current:   XUA7325991
+  Extracted: XUA8879801
+
+SN: 797 | Name: विनीता कोकाटे
+  Current:   XUA8445850
+  Extracted: XUA8880858
+
+SN: 803 | Name: राजश्री संतोष शिर्के
+  Current:   XUA7352206
+  Extracted: XUA8892127
+
+SN: 806 | Name: सोनाली सचिन पाठक
+  Current:   XUA4606539
+  Extracted: XUA8893117
+
+SN: 815 | Name: सुप्रिया दादा गायकवाड
+  Current:   XUA4606554
+  Extracted: XUA8902850
+
+SN: 818 | Name: श्रद्धा मधुसूदन सावंत
+  Current:   XUA7794100
+  Extracted: XUA8917213
+
+
+AGE DISCREPANCIES (189):
+--------------------------------------------------------------------------------
+
+SN: 146 | अंजुम गणी बागवान (XUA7224645)
+  Current: 50 years | Extracted: 31 years
+
+SN: 152 | रसिका शंकरराव भुजबळ (XUA7351711)
+  Current: 61 years | Extracted: 37 years
+
+SN: 153 | शिल्पा कुणाल बोरा (XUA7224694)
+  Current: 28 years | Extracted: 31 years
+
+SN: 155 | अमृता संदिप बोराळकर (XUA7351463)
+  Current: 26 years | Extracted: 39 years
+
+SN: 158 | सिमा विजय दासरवार (XUA7225063)
+  Current: 52 years | Extracted: 31 years
+
+SN: 161 | देवदत्त जगदीश देशपांडे (XUA7670508)
+  Current: 47 years | Extracted: 26 years
+
+SN: 21 | पराग दिलीपकुमार दोशी (XUA7224892)
+  Current: 18 years | Extracted: 28 years
+
+SN: 164 | काजल पराग दोशी (XUA7224900)
+  Current: 79 years | Extracted: 42 years
+
+SN: 167 | लालासाहेब क्रष्णराव (XUA7224637)
+  Current: 43 years | Extracted: 30 years
+
+SN: 170 | रणजीत लालासाहेब गाडेकर (XUA7224561)
+  Current: 40 years | Extracted: 35 years
+
+SN: 33 | भद्रबाहु मगनलाल गांधी (XUA7224504)
+  Current: 74 years | Extracted: 75 years
+
+SN: 177 | पुजा विनोद गांधी (XUA7750508)
+  Current: 75 years | Extracted: 28 years
+
+SN: 180 | प्रियांका शंकर गावडे (XUA7750425)
+  Current: 52 years | Extracted: 30 years
+
+SN: 183 | किशोर महादेव गोंजारी (XUA7670557)
+  Current: 84 years | Extracted: 34 years
+
+SN: 186 | सिद्धी किशोर गोंजारी (XUA7491913)
+  Current: 47 years | Extracted: 29 years
+
+SN: 189 | दुरर्या मुस्ताफा हवेलीवाला (XUA7351810)
+  Current: 37 years | Extracted: 32 years
+
+SN: 191 | संताजी मुरलीधर होवाळ (XUA7224389)
+  Current: 25 years | Extracted: 32 years
+
+SN: 192 | सोनिया संगिता होवाळ (XUA7670441)
+  Current: 46 years | Extracted: 50 years
+
+SN: 195 | विजया वसंत जगदाळे (XUA7224777)
+  Current: 66 years | Extracted: 54 years
+
+SN: 198 | कावेरी योगेश जगताप (XUA7750474)
+  Current: 57 years | Extracted: 48 years
+
+SN: 200 | योगिता चेतन कदम (XUA7615420)
+  Current: 42 years | Extracted: 27 years
+
+SN: 61 | अक्षय देवीचंद कटारिया (XUA7750383)
+  Current: 59 years | Extracted: 26 years
+
+SN: 63 | उमा विनय कोलकी (XUA7225279)
+  Current: 31 years | Extracted: 45 years
+
+SN: 206 | तेजश्री जगन्नाथ कुंभार (XUA7615461)
+  Current: 46 years | Extracted: 48 years
+
+SN: 212 | सोनाली सचिन लोणकर (XUA7670516)
+  Current: 75 years | Extracted: 32 years
+
+SN: 213 | सचिन भास्कर महाजन (XUA7224496)
+  Current: 46 years | Extracted: 42 years
+
+SN: 216 | धन्यकुमार भगवान माने (XUA7224553)
+  Current: 34 years | Extracted: 62 years
+
+SN: 218 | अजिंक्य धन्यकुमार माने (XUA7225105)
+  Current: 77 years | Extracted: 31 years
+
+SN: 76 | हुसेन सादिक नाशिकवाला (XUA7224470)
+  Current: 55 years | Extracted: 32 years
+
+SN: 224 | सय्यम जयंतीलाल ओसवाल (XUA7750466)
+  Current: 44 years | Extracted: 26 years
+
+SN: 91 | प्रथ्वीराज शांताराम पिंगळे (XUA7224918)
+  Current: 30 years | Extracted: 29 years
+
+SN: 242 | सागर अरविंद शहा (XUA7670433)
+  Current: 47 years | Extracted: 48 years
+
+SN: 243 | नुपूर संजय शहा (XUA7224967)
+  Current: 57 years | Extracted: 30 years
+
+SN: 100 | पुजा शिरिष शहा (XUA7556426)
+  Current: 44 years | Extracted: 28 years
+
+SN: 245 | श्रीमती प्रकाश शहा (XUA7224603)
+  Current: 48 years | Extracted: 78 years
+
+SN: 103 | सोनाली सागर शहा (XUA7351455)
+  Current: 24 years | Extracted: 45 years
+
+SN: 106 | साक्षी अजय तलवाड (XUA7351489)
+  Current: 34 years | Extracted: 32 years
+
+SN: 109 | स्वप्नील राजकुमार उपाध्ये (XUA7224538)
+  Current: 49 years | Extracted: 31 years
+
+SN: 112 | मिनल वैभव व्होरा (XUA7351513)
+  Current: 38 years | Extracted: 30 years
+
+SN: 258 | सोनल हावप्पा वड्डे (XUA7224835)
+  Current: 42 years | Extracted: 59 years
+
+SN: 115 | मिनल हावप्पा वड्डे (XUA7225006)
+  Current: 55 years | Extracted: 34 years
+
+SN: 260 | पुजा दिपक वडगांवकर (XUA7224843)
+  Current: 57 years | Extracted: 32 years
+
+SN: 266 | नम्रता मकरंद वारे (XUA7556467)
+  Current: 75 years | Extracted: 31 years
+
+SN: 270 | अश्विन महादेव कांबळे (XUA8057416)
+  Current: 65 years | Extracted: 24 years
+
+SN: 127 | इवेता देवीचंद कटारिया (XUA8009771)
+  Current: 23 years | Extracted: 22 years
+
+SN: 272 | सिद्धी मिलिंद संगई (XUA8063356)
+  Current: 41 years | Extracted: 23 years
+
+SN: 273 | ज़ैनाब नासिकवाला (XUA8172504)
+  Current: 45 years | Extracted: 27 years
+
+SN: 130 | चिराग संजय आहुजा (XUA8566267)
+  Current: 23 years | Extracted: 19 years
+
+SN: 275 | जतीन विजय रोहणी (XUA8532541)
+  Current: 47 years | Extracted: 23 years
+
+SN: 133 | प्रांजली संजोग पवार (XUA8541831)
+  Current: 69 years | Extracted: 21 years
+
+SN: 278 | सुहासिनी विक्रमादित्य (XUA8537615)
+  Current: 73 years | Extracted: 29 years
+
+SN: 136 | अक्षय विनोद गांधी (XUA7750490)
+  Current: 53 years | Extracted: 26 years
+
+SN: 291 | इंदुमती दिनकर पवार (CRM7026169)
+  Current: 42 years | Extracted: 78 years
+
+SN: 152 | स्नेहलता अमरसिंह पवार (CRM7026151)
+  Current: 61 years | Extracted: 46 years
+
+SN: 149 | रवींद्र इनामदार (XUA8057127)
+  Current:  years | Extracted: 25 years
+
+SN: 300 | अंकित सुजीत पराडकर (XUA7324317)
+  Current: 83 years | Extracted: 34 years
+
+SN: 301 | ईशान सुजीत पराडकर (XUA8098659)
+  Current: 45 years | Extracted: 24 years
+
+SN: 155 | ज्योती प्रणेता राजपुत (XUA8057135)
+  Current: 26 years | Extracted: 23 years
+
+SN: 303 | शुभदा नितीन कासार (XUA8057358)
+  Current: 34 years | Extracted: 23 years
+
+SN: 158 | सुफियान सरवर बागवान (CRM7965879)
+  Current: 52 years | Extracted: 49 years
+
+SN: 161 | शौरीलाल तिरथराम अहुजा (XUA7351406)
+  Current: 47 years | Extracted: 30 years
+
+SN: 309 | अमृता शौरीलाल अहुजा (XUA7850720)
+  Current: 74 years | Extracted: 28 years
+
+SN: 312 | संजय शौरीलाल अहुजा (XUA7324341)
+  Current: 68 years | Extracted: 56 years
+
+SN: 167 | टिना संजय आहुजा (XUA7324366)
+  Current: 43 years | Extracted: 49 years
+
+SN: 327 | गिरीष दत्तात्रय कुलकर्णी (CRM7276426)
+  Current: 70 years | Extracted: 60 years
+
+SN: 331 | माधुरी अविनाश कुलकर्णी (CRM7276897)
+  Current: 70 years | Extracted: 50 years
+
+SN: 332 | कल्याणी गिरीष कुलकर्णी (XUA8802480)
+  Current: 61 years | Extracted: 50 years
+
+SN: 192 | वैष्णवी शिरीष कुलकर्णी (CRM7276830)
+  Current: 46 years | Extracted: 24 years
+
+SN: 347 | चंदन राजाराम भुजबळ (XUA7277028)
+  Current: 53 years | Extracted: 61 years
+
+SN: 350 | वैभव दिगंबर तावरे (CRM7062032)
+  Current: 100 years | Extracted: 38 years
+
+SN: 353 |  (XUA7062008)
+  Current: 64 years | Extracted: 34 years
+
+SN: 213 | गिराष गंगाधर काळे (CRM7022473)
+  Current: 46 years | Extracted: 51 years
+
+SN: 361 | शिला रमेश गांधी (CRM7062297)
+  Current: 102 years | Extracted: 25 years
+
+SN: 362 | मंजुषा सुरेश गांधी (CRM1263706)
+  Current: 46 years | Extracted: 70 years
+
+SN: 364 | अर्चना स्वप्नील गांधी (CRM7276632)
+  Current: 88 years | Extracted: 68 years
+
+SN: 368 | समीर सुरेश गांधी (CRM7276764)
+  Current: 54 years | Extracted: 43 years
+
+SN: 371 | माधवराव वामन जोशी (CRM7061901)
+  Current: 64 years | Extracted: 79 years
+
+SN: 242 | बाबुराव पांडुरंग रुपनावर (CRM7276145)
+  Current: 47 years | Extracted: 57 years
+
+SN: 391 | जयश्री राजेंद्र मुथा (CRM7062347)
+  Current: 27 years | Extracted: 63 years
+
+SN: 392 | सुवर्णा सुभाष मुथा (CRM7062024)
+  Current: 58 years | Extracted: 63 years
+
+SN: 394 | भारत सुभाष मुथा नाव नाव नाव (CRM7276871)
+  Current: 29 years | Extracted: 42 years
+
+SN: 397 | विजया रमणलाल सुंदेचामुथा (XUA7604221)
+  Current: 30 years | Extracted: 62 years
+
+SN: 400 | स्वप्ना सतिश सुंदेचामुथा (XUA7324457)
+  Current: 28 years | Extracted: 43 years
+
+SN: 421 | मुस्ताफ हकिमुद्दीन (XUA8172512)
+  Current: 28 years | Extracted: 54 years
+
+SN: 424 | माधव मारुतराव ढेरे (CRM7277168)
+  Current: 22 years | Extracted: 59 years
+
+SN: 433 | अविनाश बबनराव गलांडे (CRM7062149)
+  Current: 22 years | Extracted: 61 years
+
+SN: 436 | सविता अविनाश गलांडे (XUA7658938)
+  Current: 29 years | Extracted: 56 years
+
+SN: 303 | आलेफीया मुस्तजा (CRM7063709)
+  Current: 34 years | Extracted: 42 years
+
+SN: 448 | शमीम जोहर नासिकवाला (CRM7062453)
+  Current: 41 years | Extracted: 76 years
+
+SN: 458 | पांडुरंग एकनाथ घोरपडे (CRM7277804)
+  Current: 37 years | Extracted: 59 years
+
+SN: 461 | रमेश भगवानराव गानबोटे (XUA7658888)
+  Current: 28 years | Extracted: 76 years
+
+SN: 470 | बाळकृष्ण नारायण लोणकर (XUA7325017)
+  Current: 26 years | Extracted: 51 years
+
+SN: 473 | शुभांगी प्रकाश दळवी (CRM7062099)
+  Current: 43 years | Extracted: 63 years
+
+SN: 476 | रेखा विठ्ठल लोणकर (XUA7063378)
+  Current: 27 years | Extracted: 72 years
+
+SN: 482 | पुष्पलता रत्नाकर पवार (CRM7276723)
+  Current: 19 years | Extracted: 74 years
+
+SN: 487 | मधुकर शंकर पवार (CRM7276939)
+  Current: 24 years | Extracted: 59 years
+
+SN: 490 | स्वाती राजेंद्र सदरे (CRM7276319)
+  Current: 72 years | Extracted: 56 years
+
+SN: 493 | रामचंद्र सोपाना मोघे (CRM7062859)
+  Current: 41 years | Extracted: 44 years
+
+SN: 499 | संग्राम नंदकुमार निकम (CRM7277952)
+  Current: 23 years | Extracted: 75 years
+
+SN: 502 | सम्राट नंदकुमार निकम (CRM7025567)
+  Current: 23 years | Extracted: 60 years
+
+SN: 505 | जयंतीभाई बाबुलाल पटेल (CRM7024990)
+  Current: 22 years | Extracted: 45 years
+
+SN: 536 | धनंजय प्रल्हाद भोईटे (CRM7061836)
+  Current: 35 years | Extracted: 42 years
+
+SN: 391 | तस्मीम अब्दुलकादर (CRM7276079)
+  Current: 27 years | Extracted: 54 years
+
+SN: 542 | भाग्यश्री लक्ष्मण बिचकर (CRM7026037)
+  Current: 26 years | Extracted: 66 years
+
+SN: 544 | अजय लक्ष्मण बिचकर (CRM7026201)
+  Current: 52 years | Extracted: 64 years
+
+SN: 547 | राहुल रत्नाकर पवार (CRM7276640)
+  Current: 37 years | Extracted: 56 years
+
+SN: 550 | शोभा धनराज बेदमुथा (XUA8694028)
+  Current: 26 years | Extracted: 60 years
+
+SN: 556 | सोनाली प्रफुल्ल गावडे (XUA8748618)
+  Current: 70 years | Extracted: 40 years
+
+SN: 560 | सुशिमिता पवार (XUA8789984)
+  Current: 58 years | Extracted: 22 years
+
+SN: 418 | चंद्रशेखर चांगदेव भोसले (XUA7225295)
+  Current: 40 years | Extracted: 26 years
+
+SN: 566 | स्वाती संजय चिंबळकर (CRM7061778)
+  Current: 24 years | Extracted: 30 years
+
+SN: 567 | शितल विश्वनाथ गाडे (XUA7670623)
+  Current: 58 years | Extracted: 38 years
+
+SN: 570 | दिपक विवनाथ कानडे (XUA7670649)
+  Current: 48 years | Extracted: 54 years
+
+SN: 573 | गणेश ज्ञानदेव केंगार (XUA7615578)
+  Current: 23 years | Extracted: 33 years
+
+SN: 447 | जयश्री विठ्ठल वाघोलीकर (XUA7556475)
+  Current: 24 years | Extracted: 57 years
+
+SN: 597 | अमृत रणजीत वाघोळीकर (XUA8600355)
+  Current: 40 years | Extracted: 34 years
+
+SN: 600 | प्रथमेश राजेंद्र खैरे (XUA8085961)
+  Current: 68 years | Extracted: 20 years
+
+SN: 606 | प्रीतम अनिल जावळे (XUA8044737)
+  Current: 24 years | Extracted: 22 years
+
+SN: 608 | सोनाली गावडे (XUA8530784)
+  Current: 30 years | Extracted: 22 years
+
+SN: 611 | सृष्टी व्होरा (XUA8519597)
+  Current: 18 years | Extracted: 22 years
+
+SN: 614 | कुसुम सदाशिव होले (XUA8115487)
+  Current: 18 years | Extracted: 27 years
+
+SN: 476 | रेखा कुंभार (XUA8124323)
+  Current: 27 years | Extracted: 46 years
+
+SN: 627 | अभिषेक भोईटे (XUA8537490)
+  Current: 82 years | Extracted: 25 years
+
+SN: 628 | विनोद कालुजिया (XUA8537508)
+  Current: 60 years | Extracted: 39 years
+
+SN: 633 | मनोज वर्धमान संगाई (XUA8164733)
+  Current: 24 years | Extracted: 56 years
+
+SN: 637 | कल्पना संतोष रंद्दे (XUA8518367)
+  Current: 21 years | Extracted: 40 years
+
+SN: 639 | काजल सोडमिसे (XUA8171951)
+  Current: 20 years | Extracted: 25 years
+
+SN: 642 | रूपाली काळे (XUA8153710)
+  Current: 40 years | Extracted: 25 years
+
+SN: 657 | प्राची देशपांडे (XUA8109787)
+  Current: 52 years | Extracted: 36 years
+
+SN: 658 | स्मीतान्नअलि अतुल पवार (XUA8231581)
+  Current: 68 years | Extracted: 24 years
+
+SN: 508 | तृप्ती विराज धायगुडे (XUA8116493)
+  Current: 69 years | Extracted: 26 years
+
+SN: 667 | स्नेहा संदीप शहाणे (XUA8514754)
+  Current: 18 years | Extracted: 23 years
+
+SN: 670 | हर्षदा विलास शेंडगे (XUA7613730)
+  Current: 23 years | Extracted: 62 years
+
+SN: 686 | वंदना मानकर (XUA8512584)
+  Current: 28 years | Extracted: 41 years
+
+SN: 687 | मयुरेश कांबळे (XUA8118200)
+  Current: 45 years | Extracted: 26 years
+
+SN: 537 | निकेत उबाळे (XUA8173189)
+  Current: 23 years | Extracted: 24 years
+
+SN: 718 | विरेन ताम्हाणे (XUA8114357)
+  Current: 30 years | Extracted: 22 years
+
+SN: 719 | यश शहा (XUA8172041)
+  Current: 52 years | Extracted: 22 years
+
+SN: 740 | त्र्षिकेश संजय भुजे (XUA8064578)
+  Current: 21 years | Extracted: 22 years
+
+SN: 741 | सोहम आहेरकर (XUA8171688)
+  Current: 34 years | Extracted: 23 years
+
+SN: 744 | हनुमंत आहेरकर (XUA8602930)
+  Current: 24 years | Extracted: 23 years
+
+SN: 746 | राजेंद्र खराडे (XUA8276834)
+  Current: 27 years | Extracted: 44 years
+
+SN: 747 | राजुकुमार सिंह (XUA8155756)
+  Current: 56 years | Extracted: 30 years
+
+SN: 749 | पूर्णिमा घाडगे (XUA8175689)
+  Current: 70 years | Extracted: 23 years
+
+SN: 750 | सुजय चव्हाण (XUA8531493)
+  Current: 79 years | Extracted: 22 years
+
+SN: 752 | सुशीलकुमार शर्मा (XUA8237224)
+  Current: 18 years | Extracted: 21 years
+
+SN: 753 | रुबीना जमीर बागवान (XUA7351562)
+  Current: 18 years | Extracted: 49 years
+
+SN: 597 | अजितकुमार माणिकचंद शहा (XUA7324606)
+  Current: 40 years | Extracted: 75 years
+
+SN: 759 | अरींजय अजीत शहा (XUA7324648)
+  Current: 27 years | Extracted: 62 years
+
+SN: 761 | संगीता मिलींद शहा (XUA7324689)
+  Current: 27 years | Extracted: 60 years
+
+SN: 768 | रतन माणिक दराडे (CRM7062719)
+  Current: 34 years | Extracted: 80 years
+
+SN: 771 | सिध्देश्वर शंकरराव भातभोडे (XUA1754647)
+  Current: 25 years | Extracted: 39 years
+
+SN: 773 | उषा राजकुमार भातभोडे (XUA8192494)
+  Current: 34 years | Extracted: 56 years
+
+SN: 774 | प्राजक्ता महाविर गांधी (XUA8158693)
+  Current: 18 years | Extracted: 53 years
+
+SN: 776 | आकाश केमधरे (XUA8180945)
+  Current: 67 years | Extracted: 21 years
+
+SN: 783 | लिलावती दत्तात्रय चव्हाण (XUA1408855)
+  Current: 31 years | Extracted: 23 years
+
+SN: 784 | अतुल दत्तात्रय चव्हाण (XUA8001513)
+  Current: 44 years | Extracted: 20 years
+
+SN: 626 | संजय दत्तात्रय चव्हाण (XUA8593659)
+  Current: 46 years | Extracted: 55 years
+
+SN: 789 | सोनाली संजय शहा (XUA1263235)
+  Current: 54 years | Extracted: 56 years
+
+SN: 790 | नंदकुमार दत्तात्रय मांडगे (XUA1263227)
+  Current: 40 years | Extracted: 46 years
+
+SN: 793 | वर्षा मधुकर मांडगे (CRM7025468)
+  Current: 44 years | Extracted: 59 years
+
+SN: 795 | मधुकर दत्तात्रय मांडगे (CRM7063675)
+  Current: 18 years | Extracted: 56 years
+
+SN: 796 | सदाशिव दत्तात्रय मांडगे (CRM7277960)
+  Current: 19 years | Extracted: 54 years
+
+SN: 798 | सीजाबाई राजाराम खंडागळे (CRM7277416)
+  Current: 18 years | Extracted: 90 years
+
+SN: 801 | हसीता शिवाजी खंडागळे (CRM1265099)
+  Current: 19 years | Extracted: 71 years
+
+SN: 802 | कौसल्या शिवाजी खंडागळे (XUA7324713)
+  Current: 26 years | Extracted: 70 years
+
+SN: 812 | सुनिता पोपटराव जगताप (XUA8238560)
+  Current: 54 years | Extracted: 53 years
+
+SN: 815 | आदर्श भळगट (CRM7024883)
+  Current: 32 years | Extracted: 22 years
+
+SN: 816 | अभिषेक भळगट (CRM7062677)
+  Current: 20 years | Extracted: 25 years
+
+SN: 818 | राजकुमार मोतीलाल शहा (XUA8197030)
+  Current: 30 years | Extracted: 66 years
+
+SN: 819 | धन्यकुमार खेमचंद शहा (XUA8113854)
+  Current: 50 years | Extracted: 82 years
+
+SN: 656 | अनिरूद्ध बाळासाहेब (XUA8609265)
+  Current: 42 years | Extracted: 93 years
+
+SN: 716 | महादेव तानाजि कुंभार (XUA6389704)
+  Current: 33 years | Extracted: 32 years
+
+SN: 747 | वैशाली मनोज मोरे मोरे (XUA8823809)
+  Current: 56 years | Extracted: 46 years
+
+SN: 750 | प्राची तोडकर (XUA8828303)
+  Current: 79 years | Extracted: 19 years
+
+SN: 758 | विमल सखाराम गवळी (XUA8831646)
+  Current: 71 years | Extracted: 77 years
+
+SN: 764 | पार्थ देलीप पाटील (XUA8835514)
+  Current: 43 years | Extracted: 22 years
+
+SN: 767 | वर्षा अनिल ठेंगील (XUA8841843)
+  Current: 39 years | Extracted: 31 years
+
+SN: 773 | मोहम्मद सुफ़ियान सलीम (XUA8855843)
+  Current: 34 years | Extracted: 33 years
+
+SN: 776 | काजल गणेश टिंगरे (XUA8865503)
+  Current: 67 years | Extracted: 24 years
+
+SN: 785 | प्रतिक राजेश गलिंदे (XUA8875932)
+  Current: 35 years | Extracted: 18 years
+
+SN: 788 | सचिन शाह (XUA5055652)
+  Current: 21 years | Extracted: 60 years
+
+SN: 791 | स्मृती शैलेश कळंत्रे (XUA8878837)
+  Current: 28 years | Extracted: 24 years
+
+SN: 794 | पल्लवी संदीप आल्हाट (XUA8879801)
+  Current: 48 years | Extracted: 25 years
+
+SN: 797 | विनीता कोकाटे (XUA8880858)
+  Current: 26 years | Extracted: 49 years
+
+SN: 803 | राजश्री संतोष शिर्के (XUA8892127)
+  Current: 43 years | Extracted: 19 years
+
+SN: 806 | सोनाली सचिन पाठक (XUA8893117)
+  Current: 44 years | Extracted: 41 years
+
+SN: 815 | सुप्रिया दादा गायकवाड (XUA8902850)
+  Current: 32 years | Extracted: 25 years
+
+SN: 818 | श्रद्धा मधुसूदन सावंत (XUA8917213)
+  Current: 30 years | Extracted: 29 years

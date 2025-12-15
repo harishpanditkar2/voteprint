@@ -5,11 +5,57 @@ import VoterPDFGenerator from '../../lib/pdfGenerator';
 import VoterPDFParser from '../../lib/pdfParser';
 
 export default async function handler(req, res) {
-  if (req.method !== 'POST') {
-    return res.status(405).json({ error: 'Method not allowed' });
-  }
-
   try {
+    // Handle GET request with voterId query param
+    if (req.method === 'GET') {
+      const { voterId } = req.query;
+      
+      if (!voterId) {
+        return res.status(400).json({ error: 'voterId is required' });
+      }
+
+      // Load cached voters
+      const allVoters = await VoterPDFParser.loadCachedVoters();
+
+      if (!allVoters || allVoters.length === 0) {
+        return res.status(400).json({
+          error: 'No voter data available.',
+        });
+      }
+
+      // Find the voter
+      const voter = allVoters.find(v => v.voterId === voterId);
+      
+      if (!voter) {
+        return res.status(404).json({ error: 'Voter not found' });
+      }
+
+      // Generate PDF for single voter
+      const result = await VoterPDFGenerator.generateMultiPageVoterPDF(
+        [voter],
+        'public/pdfs'
+      );
+
+      if (!result.success) {
+        return res.status(500).json({ error: result.error });
+      }
+
+      // Send the PDF file
+      const fs = await import('fs');
+      const path = await import('path');
+      const filePath = path.join(process.cwd(), result.filePath);
+      
+      res.setHeader('Content-Type', 'application/pdf');
+      res.setHeader('Content-Disposition', `attachment; filename="voter_${voterId}.pdf"`);
+      const fileStream = fs.createReadStream(filePath);
+      fileStream.pipe(res);
+      return;
+    }
+
+    if (req.method !== 'POST') {
+      return res.status(405).json({ error: 'Method not allowed' });
+    }
+
     const { voterIds = [], generateAll = false } = req.body;
 
     // Load cached voters

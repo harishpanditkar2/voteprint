@@ -278,7 +278,29 @@ export default function SearchPage() {
     }
   };
 
-  const printVoter = (voter, e) => {
+  const printVoter = async (voter, e) => {
+    if (e) e.stopPropagation();
+    
+    try {
+      const response = await fetch('/api/print?voterId=' + voter.voterId, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ voterId: voter.voterId })
+      });
+      
+      const data = await response.json();
+      
+      if (response.ok) {
+        alert('✅ Print job sent successfully!');
+      } else {
+        alert('⚠️ Print error: ' + (data.error || data.details || 'Unknown error'));
+      }
+    } catch (err) {
+      alert('❌ Network error: ' + err.message);
+    }
+  };
+
+  const printVoterOld = (voter, e) => {
     if (e) e.stopPropagation();
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
@@ -983,12 +1005,14 @@ export default function SearchPage() {
                     </div>
 
                     {/* Action Buttons */}
-                    <div style={{ display: 'flex', gap: '4px', flexShrink: 0 }}>
+                    <div style={{ display: 'flex', gap: '6px', flexShrink: 0, marginLeft: 'auto' }}>
                       <button
                         onClick={(e) => openEditModal(voter, e)}
+                        title="Edit Voter"
                         style={{
                           width: '44px',
                           height: '44px',
+                          minWidth: '44px',
                           background: '#f3f4f6',
                           border: 'none',
                           borderRadius: '8px',
@@ -996,17 +1020,22 @@ export default function SearchPage() {
                           cursor: 'pointer',
                           display: 'flex',
                           alignItems: 'center',
-                          justifyContent: 'center'
+                          justifyContent: 'center',
+                          transition: 'background 0.2s'
                         }}
+                        onMouseOver={(e) => e.currentTarget.style.background = '#e5e7eb'}
+                        onMouseOut={(e) => e.currentTarget.style.background = '#f3f4f6'}
                         title={t.edit}
                       >
                         ✏️
                       </button>
                       <button
                         onClick={(e) => printVoter(voter, e)}
+                        title="Print Voter Card"
                         style={{
                           width: '44px',
                           height: '44px',
+                          minWidth: '44px',
                           background: '#f3f4f6',
                           border: 'none',
                           borderRadius: '8px',
@@ -1014,8 +1043,11 @@ export default function SearchPage() {
                           cursor: 'pointer',
                           display: 'flex',
                           alignItems: 'center',
-                          justifyContent: 'center'
+                          justifyContent: 'center',
+                          transition: 'background 0.2s'
                         }}
+                        onMouseOver={(e) => e.currentTarget.style.background = '#e5e7eb'}
+                        onMouseOut={(e) => e.currentTarget.style.background = '#f3f4f6'}
                         title={t.print}
                       >
                         🖨️

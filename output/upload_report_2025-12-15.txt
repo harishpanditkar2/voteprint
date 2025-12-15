@@ -1,0 +1,30 @@
+
+VOTER DATA UPLOAD REPORT
+Generated: 2025-12-15T03:17:28.888Z
+================================================================================
+
+SUMMARY:
+- Total PDF Files: 3
+- Successfully Processed: 3
+- Failed: 0
+- Total Voters Extracted: 2394
+
+DISTRIBUTION BY WARD:
+Ward 7: 2394 voters
+
+DISTRIBUTION BY BOOTH:
+7/1: 827 voters
+7/2: 746 voters
+7/3: 821 voters
+
+GENDER DISTRIBUTION:
+- Male: 1250
+- Female: 1093
+- Other: 51
+
+FILES PROCESSED:
+- BoothVoterList_A4_Ward_7_Booth_1 - converted.pdf
+- BoothVoterList_A4_Ward_7_Booth_2 - converted.pdf
+- BoothVoterList_A4_Ward_7_Booth_3 - converted.pdf
+
+================================================================================

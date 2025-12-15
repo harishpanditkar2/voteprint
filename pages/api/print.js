@@ -12,15 +12,29 @@ export default async function handler(req, res) {
   }
 
   try {
-    const { voterId, printerIP = '192.168.1.100', printerPort = 9100, testPrint = false } = req.body;
+    // Support both body and query params
+    const voterId = req.body.voterId || req.query.voterId;
+    const printerIP = req.body.printerIP || req.query.printerIP || '192.168.1.100';
+    const printerPort = req.body.printerPort || req.query.printerPort || 9100;
+    const testPrint = req.body.testPrint || req.query.testPrint === 'true';
 
-    // Initialize printer if not already done
+    // Initialize printer with shorter timeout
     if (!printer) {
       printer = new ThermalPrinterManager({
         interface: `tcp://${printerIP}:${printerPort}`,
+        timeout: 3000, // 3 seconds instead of 21
       });
 
-      await printer.connect();
+      try {
+        await printer.connect();
+      } catch (connectError) {
+        return res.status(503).json({
+          error: 'Printer not reachable',
+          details: 'Unable to connect to printer. Please check if the printer is online.',
+          printerIP,
+          printerPort,
+        });
+      }
     }
 
     // Test print
@@ -32,12 +46,16 @@ export default async function handler(req, res) {
       });
     }
 
+    if (!voterId) {
+      return res.status(400).json({ error: 'voterId is required' });
+    }
+
     // Load voter data
     const allVoters = await VoterPDFParser.loadCachedVoters();
-    const voter = allVoters?.find(v => v.id === voterId);
+    const voter = allVoters?.find(v => v.voterId === voterId || v.id === voterId);
 
     if (!voter) {
-      return res.status(400).json({ error: 'Voter not found' });
+      return res.status(404).json({ error: 'Voter not found' });
     }
 
     // Print

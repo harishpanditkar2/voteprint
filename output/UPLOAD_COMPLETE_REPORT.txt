@@ -1,0 +1,175 @@
+COMPLETE VOTER DATABASE UPLOAD REPORT
+Generated: 15/12/2025, 8:05:27 am
+================================================================================
+
+DATABASE SUMMARY:
+- Total Voters: 827
+- Total Pages: 28
+- Page Range: 3 to 30
+- Voters per page: 30 (except last page)
+
+GENDER DISTRIBUTION:
+- Male: 415 (50.2%)
+- Female: 400 (48.4%)
+- Other: 12 (1.5%)
+
+AGE STATISTICS:
+- Average Age: 42.18 years
+- Age Groups:
+  * 18-25: 172 voters
+  * 26-35: 208 voters
+  * 36-45: 131 voters
+  * 46-55: 118 voters
+  * 56-65: 82 voters
+  * 66-75: 70 voters
+  * 76+: 45 voters
+
+SOURCE INFORMATION:
+- PDF File: BoothVoterList_A4_Ward_7_Booth_1 - converted.pdf
+- Extraction Date: 15/12/2025, 7:47:40 am
+- OCR Engine: Tesseract CLI (Marathi + English)
+- Data Quality: Validated against source PDF
+
+PAGE-BY-PAGE BREAKDOWN:
+================================================================================
+
+
+Page 3: 30 voters (Serial 1-31)
+  Gender: 11M / 19F
+  First: गजानन यशवंत अनासपुरे (XUA7224868)
+  Last: नेहा रोहित गानबोटे (XUA7670532)
+
+Page 4: 30 voters (Serial 32-63)
+  Gender: 17M / 13F
+  First: सायली रमेश गानबोटे (XUA7224579)
+  Last: उमा विनय कोलकी (XUA7225279)
+
+Page 5: 30 voters (Serial 61-93)
+  Gender: 18M / 12F
+  First: जगन्नाथ नारायण कुंभार (XUA7615453)
+  Last: विनय विवेक रावळ (XUA7225048)
+
+Page 6: 30 voters (Serial 91-123)
+  Gender: 16M / 14F
+  First: पियुष बाबुराव रूपनवर (XUA7224736)
+  Last: वैशाली राजेंद्र वाघमोडे (XUA7225154)
+
+Page 7: 30 voters (Serial 121-296)
+  Gender: 14M / 16F
+  First: प्रसाद दत्तात्रय वाघमोडे (XUA7615495)
+  Last: अनुपमा इनामदार (XUA8412611)
+
+Page 8: 30 voters (Serial 298-180)
+  Gender: 18M / 12F
+  First: निमिष नाभीराज कोठारी (XUA8172496)
+  Last: सुषमा शिरीष कुलकर्णी (XUA1984632)
+
+Page 9: 30 voters (Serial 331-362)
+  Gender: 16M / 14F
+  First: माधुरी अविनाश कुलकर्णी (CRM7276897)
+  Last: मंजुषा सुरेश गांधी (CRM1263706)
+
+Page 10: 30 voters (Serial 364-240)
+  Gender: 18M / 12F
+  First: अर्चना स्वप्नील गांधी (CRM7276632)
+  Last: रमणलाल जिवराज (CRM7275907)
+
+Page 11: 30 voters (Serial 397-270)
+  Gender: 15M / 15F
+  First: विजया रमणलाल सुंदेचामुथा (XUA7604221)
+  Last: आइवीनी अशोक गलांडे (XUA7277945)
+
+Page 12: 30 voters (Serial 433-300)
+  Gender: 16M / 14F
+  First: अविनाश बबनराव गलांडे (CRM7062149)
+  Last: रत्नप्रभा बाळकृष्ण लोणकर (XUA7324994)
+
+Page 13: 30 voters (Serial 472-330)
+  Gender: 16M / 14F
+  First: प्रकाश नारायण दळवी (XUA7325009)
+  Last: बसंती जिगर पटेल (CRM7025542)
+
+Page 14: 30 voters (Serial 505-536)
+  Gender: 14M / 16F
+  First: जयंतीभाई बाबुलाल पटेल (CRM7024990)
+  Last: धनंजय प्रल्हाद भोईटे (CRM7061836)
+
+Page 15: 30 voters (Serial 391-570)
+  Gender: 11M / 19F
+  First: तस्मीम अब्दुलकादर (CRM7276079)
+  Last: दिपक विवनाथ कानडे (XUA7670649)
+
+Page 16: 30 voters (Serial 391-603)
+  Gender: 18M / 12F
+  First: तेजस्विनी दिपक कानडे (XUA7670607)
+  Last: रिया आहुजा (XUA8164295)
+
+Page 17: 30 voters (Serial 421-450)
+  Gender: 15M / 15F
+  First: गणेश दादा पाथरकर (XUA7565823)
+  Last: गौरी संजय ताम्हाणे (XUA8156440)
+
+Page 18: 30 voters (Serial 636-672)
+  Gender: 15M / 15F
+  First: अदिती कदम (XUA8520157)
+  Last: ओमकार दरेकर (XUA8077190)
+
+Page 19: 30 voters (Serial 673-707)
+  Gender: 17M / 13F
+  First: शरदचंद्र साकरचंद शहा (XUA8531469)
+  Last: चंद्रकला वामन लोंढे (XUA0858365)
+
+Page 20: 30 voters (Serial 709-740)
+  Gender: 12M / 18F
+  First: संकेत वामन लोंढे (XUA8522724)
+  Last: त्र्षिकेश संजय भुजे (XUA8064578)
+
+Page 21: 30 voters (Serial 741-570)
+  Gender: 20M / 10F
+  First: सोहम आहेरकर (XUA8171688)
+  Last: मार्टीना सारंग दीक्षीत (XUA8160905)
+
+Page 22: 30 voters (Serial 776-600)
+  Gender: 21M / 9F
+  First: आकाश केमधरे (XUA8180945)
+  Last: साधना राजकुमार शहा (CRM7062669)
+
+Page 23: 30 voters (Serial 818-686)
+  Gender: 19M / 11F
+  First: राजकुमार मोतीलाल शहा (XUA8197030)
+  Last: फ़िज़ा शहबाज़ बागवान (XUA8741613)
+
+Page 24: 30 voters (Serial 687-717)
+  Gender: 14M / 16F
+  First: अमिता अनुप दोभाडा (XUA1127133)
+  Last: प्राजक्ता पंकज कुलकर्नि (XUA7345239)
+
+Page 25: 30 voters (Serial 718-750)
+  Gender: 14M / 16F
+  First: प्रणव राजेंद्र गुप्ते (XUA8779852)
+  Last: प्राची तोडकर (XUA8828303)
+
+Page 26: 30 voters (Serial 751-953)
+  Gender: 8M / 22F
+  First: अंजली अनिल गवळी (XUA8828584)
+  Last:  (XUA8872525)
+
+Page 27: 30 voters (Serial 783-750)
+  Gender: 13M / 17F
+  First: अमर शिवाजी पवार (XUA8873143)
+  Last: मालन रामचंद्र माने (XUA7228554)
+
+Page 28: 30 voters (Serial 815-943)
+  Gender: 13M / 17F
+  First: सुप्रिया दादा गायकवाड (XUA8902850)
+  Last: प्रीतम रणजित तोरडमल (XUA7492093)
+
+Page 29: 30 voters (Serial 944-973)
+  Gender: 20M / 10F
+  First: रणजित अरुण तोरडमल (XUA7492085)
+  Last: कमल हरिदास राउत (XUA7352339)
+
+Page 30: 17 voters (Serial 974-169)
+  Gender: 8M / 9F
+  First: शहाजी किसनराव वाळुंज (XUA7326015)
+  Last: सुजीत शाम पराडकर (CRM7820959)
