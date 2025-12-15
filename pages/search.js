@@ -42,7 +42,8 @@ export default function SearchPage() {
     ward: '',
     booth: '',
     gender: '',
-    ageRange: ''
+    ageRange: '',
+    dataQuality: '' // 'blank', 'incomplete', 'ocrFailed', 'needsVerification', 'all'
   });
 
   const translations = {
@@ -169,6 +170,29 @@ export default function SearchPage() {
 
     if (filters.gender) {
       filtered = filtered.filter(voter => voter.gender === filters.gender);
+    }
+
+    if (filters.dataQuality) {
+      filtered = filtered.filter(voter => {
+        switch(filters.dataQuality) {
+          case 'blank':
+            return !voter.name || voter.name.trim() === '';
+          case 'incomplete':
+            return !voter.name || !voter.voterId || !voter.age || !voter.gender;
+          case 'missingName':
+            return !voter.name || voter.name.trim() === '';
+          case 'missingAge':
+            return !voter.age || voter.age === '';
+          case 'missingGender':
+            return !voter.gender || voter.gender === '';
+          case 'ocrFailed':
+            return voter.ocrFailed === true || voter.pendingManualEntry === true;
+          case 'needsVerification':
+            return voter.nameStatus === 'needs_verification' || !voter.name || voter.manuallyAdded === true;
+          default:
+            return true;
+        }
+      });
     }
 
     if (filters.ageRange) {
@@ -1131,6 +1155,31 @@ export default function SearchPage() {
                       <option value="60+">60+</option>
                     </select>
 
+                    <select
+                      value={filters.dataQuality}
+                      onChange={(e) => handleFilterChange('dataQuality', e.target.value)}
+                      style={{
+                        padding: '12px',
+                        fontSize: '14px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontWeight: '600',
+                        backgroundColor: filters.dataQuality ? '#ffebee' : 'white',
+                        cursor: 'pointer',
+                        outline: 'none',
+                        color: filters.dataQuality ? '#c62828' : 'inherit'
+                      }}
+                    >
+                      <option value="">🔍 सर्व डेटा / All Data</option>
+                      <option value="blank">⚠️ रिक्त नाव / Blank Names</option>
+                      <option value="missingName">📝 नाव नाही / Missing Name</option>
+                      <option value="missingAge">🎂 वय नाही / Missing Age</option>
+                      <option value="missingGender">⚥ लिंग नाही / Missing Gender</option>
+                      <option value="incomplete">❌ अपूर्ण / Incomplete Data</option>
+                      <option value="ocrFailed">🔧 OCR अयशस्वी / OCR Failed</option>
+                      <option value="needsVerification">✏️ तपासणी आवश्यक / Needs Check</option>
+                    </select>
+
                     <button
                       onClick={clearFilters}
                       style={{
@@ -1283,6 +1332,8 @@ export default function SearchPage() {
                 display: 'flex',
                 justifyContent: 'space-between',
                 alignItems: 'center',
+                flexWrap: 'wrap',
+                gap: '12px',
                 boxShadow: '0 1px 3px rgba(0,0,0,0.1)',
                 fontSize: '14px',
                 fontWeight: '600',
@@ -1291,6 +1342,71 @@ export default function SearchPage() {
                 <span>
                   {t.showing} {indexOfFirstItem + 1}-{Math.min(indexOfLastItem, filteredVoters.length)} {t.of} {filteredVoters.length} {t.voters}
                 </span>
+                
+                {/* Data Quality Summary */}
+                {(() => {
+                  const withIssues = filteredVoters.filter(v => !v.name || !v.age || !v.gender || v.ocrFailed || v.pendingManualEntry).length;
+                  const blankNames = filteredVoters.filter(v => !v.name || v.name.trim() === '').length;
+                  const missingAge = filteredVoters.filter(v => !v.age).length;
+                  const missingGender = filteredVoters.filter(v => !v.gender).length;
+                  
+                  if (withIssues > 0) {
+                    return (
+                      <div style={{
+                        display: 'flex',
+                        gap: '8px',
+                        alignItems: 'center',
+                        flexWrap: 'wrap'
+                      }}>
+                        <span style={{ 
+                          background: '#ffebee', 
+                          color: '#c62828', 
+                          padding: '6px 12px', 
+                          borderRadius: '8px',
+                          fontSize: '13px',
+                          fontWeight: '700'
+                        }}>
+                          ⚠️ {withIssues} अपूर्ण / Incomplete
+                        </span>
+                        {blankNames > 0 && (
+                          <span style={{ 
+                            background: '#fff3e0', 
+                            color: '#e65100', 
+                            padding: '4px 8px', 
+                            borderRadius: '6px',
+                            fontSize: '12px'
+                          }}>
+                            📝 {blankNames} नाव नाही
+                          </span>
+                        )}
+                        {missingAge > 0 && (
+                          <span style={{ 
+                            background: '#f3e5f5', 
+                            color: '#6a1b9a', 
+                            padding: '4px 8px', 
+                            borderRadius: '6px',
+                            fontSize: '12px'
+                          }}>
+                            🎂 {missingAge} वय नाही
+                          </span>
+                        )}
+                        {missingGender > 0 && (
+                          <span style={{ 
+                            background: '#e8f5e9', 
+                            color: '#2e7d32', 
+                            padding: '4px 8px', 
+                            borderRadius: '6px',
+                            fontSize: '12px'
+                          }}>
+                            ⚥ {missingGender} लिंग नाही
+                          </span>
+                        )}
+                      </div>
+                    );
+                  }
+                  return null;
+                })()}
+                
                 <span>Page {currentPage} of {totalPages}</span>
               </div>
             )}
@@ -1306,6 +1422,9 @@ export default function SearchPage() {
                 {currentVoters.map((voter, index) => {
                   const isGridView = viewMode === 'grid';
                   const isSelected = selectedVoters.includes(voter.voterId);
+                  const hasIssues = !voter.name || !voter.age || !voter.gender || voter.ocrFailed || voter.pendingManualEntry;
+                  const issueColor = hasIssues ? '#ffebee' : (isSelected ? '#fff3e0' : 'white');
+                  const borderColor = hasIssues ? '#ef5350' : (isSelected ? '#ff6b35' : 'transparent');
                   
                   return (
                   <div
@@ -1313,7 +1432,7 @@ export default function SearchPage() {
                     onClick={() => toggleVoterSelection(voter.voterId)}
                     style={{
                       position: 'relative',
-                      background: isSelected ? '#fff3e0' : 'white',
+                      background: issueColor,
                       borderRadius: '12px',
                       padding: isGridView ? '12px' : '16px',
                       boxShadow: isSelected 
@@ -1324,7 +1443,7 @@ export default function SearchPage() {
                       gap: '12px',
                       alignItems: isGridView ? 'stretch' : 'center',
                       cursor: 'pointer',
-                      border: isSelected ? '2px solid #ff6b35' : '2px solid transparent',
+                      border: `2px solid ${borderColor}`,
                       transition: 'all 0.2s',
                       minHeight: isGridView ? 'auto' : '110px'
                     }}
@@ -1344,24 +1463,50 @@ export default function SearchPage() {
                         boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
                         zIndex: 10
                       }}>
-                        #{voter.serialNumber}
+                        #{voter.uniqueSerial || voter.serialNumber}
                       </div>
                     )}
 
-                    {/* Checkbox */}
+                    {/* Data Quality Warning Badge */}
+                    {hasIssues && (
+                      <div style={{
+                        position: 'absolute',
+                        top: '8px',
+                        left: isGridView ? '120px' : '8px',
+                        background: '#ef5350',
+                        color: 'white',
+                        padding: '4px 8px',
+                        borderRadius: '6px',
+                        fontSize: '11px',
+                        fontWeight: '700',
+                        boxShadow: '0 2px 4px rgba(0,0,0,0.2)',
+                        zIndex: 10,
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '4px'
+                      }}>
+                        ⚠️ {!voter.name ? 'नाव नाही' : !voter.age ? 'वय नाही' : !voter.gender ? 'लिंग नाही' : 'अपूर्ण'}
+                      </div>
+                    )}
+
+                    {/* Checkbox - Top Right */}
                     <div style={{
-                      width: '44px',
-                      height: '44px',
-                      minWidth: '44px',
-                      borderRadius: '8px',
+                      position: 'absolute',
+                      top: '8px',
+                      right: '8px',
+                      width: '32px',
+                      height: '32px',
+                      borderRadius: '6px',
                       border: '2px solid #e5e7eb',
                       display: 'flex',
                       alignItems: 'center',
                       justifyContent: 'center',
                       background: isSelected ? '#ff6b35' : 'white',
                       color: 'white',
-                      fontSize: '20px',
-                      fontWeight: 'bold'
+                      fontSize: '16px',
+                      fontWeight: 'bold',
+                      boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                      zIndex: 10
                     }}>
                       {isSelected && '✓'}
                     </div>
@@ -1411,7 +1556,7 @@ export default function SearchPage() {
                           marginBottom: '6px',
                           marginRight: '8px'
                         }}>
-                          #{voter.serialNumber}
+                          #{voter.uniqueSerial || voter.serialNumber}
                         </div>
                       )}
                       <div style={{
@@ -2010,7 +2155,7 @@ export default function SearchPage() {
                     fontWeight: '700',
                     color: '#666666'
                   }}>
-                    Name (English) *
+                    Name (English)
                   </label>
                   <input
                     type="text"
@@ -2326,7 +2471,7 @@ export default function SearchPage() {
                 </button>
                 <button
                   onClick={handleAddVoter}
-                  disabled={saving || !newVoterForm.name_english || !newVoterForm.voter_id}
+                  disabled={saving || !newVoterForm.name_marathi || !newVoterForm.voter_id}
                   style={{
                     flex: 1,
                     padding: '14px',
@@ -2336,8 +2481,8 @@ export default function SearchPage() {
                     borderRadius: '8px',
                     fontSize: '14px',
                     fontWeight: '800',
-                    cursor: (saving || !newVoterForm.name_english || !newVoterForm.voter_id) ? 'not-allowed' : 'pointer',
-                    opacity: (saving || !newVoterForm.name_english || !newVoterForm.voter_id) ? 0.5 : 1
+                    cursor: (saving || !newVoterForm.name_marathi || !newVoterForm.voter_id) ? 'not-allowed' : 'pointer',
+                    opacity: (saving || !newVoterForm.name_marathi || !newVoterForm.voter_id) ? 0.5 : 1
                   }}
                 >
                   {saving ? '💾 Adding...' : '✓ Add Voter'}
