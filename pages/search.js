@@ -20,6 +20,16 @@ export default function SearchPage() {
   const [showFilters, setShowFilters] = useState(true);
   const [language, setLanguage] = useState('mr'); // 'mr' (Marathi) or 'en' (English)
   const [showAddVoterForm, setShowAddVoterForm] = useState(false);
+  const [showCustomPrint, setShowCustomPrint] = useState(false);
+  const [customPrintForm, setCustomPrintForm] = useState({
+    voterId: '',
+    serialNumber: '',
+    name: '',
+    age: '',
+    gender: '',
+    relation: '',
+    house: ''
+  });
   const [newVoterForm, setNewVoterForm] = useState({
     name_english: '',
     name_marathi: '',
@@ -234,7 +244,6 @@ export default function SearchPage() {
 
   const goToPage = (pageNumber) => {
     setCurrentPage(pageNumber);
-    window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
   const nextPage = () => {
@@ -1629,6 +1638,23 @@ export default function SearchPage() {
                 flexWrap: 'wrap'
               }}>
                 <button
+                  onClick={() => goToPage(1)}
+                  disabled={currentPage === 1}
+                  style={{
+                    padding: '10px 20px',
+                    background: currentPage === 1 ? '#f3f4f6' : '#ff6b35',
+                    color: currentPage === 1 ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage === 1 ? 'not-allowed' : 'pointer',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  ⏮️ First
+                </button>
+                <button
                   onClick={prevPage}
                   disabled={currentPage === 1}
                   style={{
@@ -1643,7 +1669,7 @@ export default function SearchPage() {
                     transition: 'all 0.2s'
                   }}
                 >
-                  ← Previous
+                  ← Prev
                 </button>
 
                 <div style={{ display: 'flex', gap: '4px', flexWrap: 'wrap', justifyContent: 'center' }}>
@@ -1698,6 +1724,23 @@ export default function SearchPage() {
                   }}
                 >
                   Next →
+                </button>
+                <button
+                  onClick={() => goToPage(totalPages)}
+                  disabled={currentPage === totalPages}
+                  style={{
+                    padding: '10px 20px',
+                    background: currentPage === totalPages ? '#f3f4f6' : '#ff6b35',
+                    color: currentPage === totalPages ? '#999' : 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: currentPage === totalPages ? 'not-allowed' : 'pointer',
+                    transition: 'all 0.2s'
+                  }}
+                >
+                  Last ⏭️
                 </button>
               </div>
             )}
@@ -2042,38 +2085,376 @@ export default function SearchPage() {
                 </button>
               </div>
 
+              <div style={{ display: 'flex', gap: '12px', marginTop: '12px' }}>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    const voterToPrint = {
+                      ...editingVoter,
+                      voterId: editForm.voterId,
+                      serial: editForm.serialNumber,
+                      serialNumber: editForm.serialNumber,
+                      name: editForm.name,
+                      age: editForm.age,
+                      gender: editForm.gender
+                    };
+                    printVoter(voterToPrint, e);
+                  }}
+                  style={{
+                    flex: 1,
+                    padding: '14px',
+                    background: '#10b981',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '800',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  🖨️ Print
+                </button>
+                <button
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    setCustomPrintForm({
+                      voterId: editForm.voterId || '',
+                      serialNumber: editForm.serialNumber || '',
+                      name: editForm.name || '',
+                      age: editForm.age || '',
+                      gender: editForm.gender || '',
+                      relation: editingVoter.relation || '',
+                      house: editingVoter.house || ''
+                    });
+                    setShowCustomPrint(true);
+                  }}
+                  style={{
+                    flex: 1,
+                    padding: '14px',
+                    background: '#8b5cf6',
+                    color: 'white',
+                    border: 'none',
+                    borderRadius: '8px',
+                    fontSize: '14px',
+                    fontWeight: '800',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  ✏️ Custom Print
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      )}
+
+      {/* Custom Print Modal */}
+      {showCustomPrint && (
+        <div style={{
+          position: 'fixed',
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          background: 'rgba(0,0,0,0.8)',
+          display: 'flex',
+          alignItems: 'center',
+          justifyContent: 'center',
+          zIndex: 1001,
+          padding: '20px'
+        }}>
+          <div style={{
+            background: 'white',
+            borderRadius: '16px',
+            maxWidth: '500px',
+            width: '100%',
+            maxHeight: '90vh',
+            overflow: 'auto'
+          }}>
+            <div style={{
+              padding: '20px',
+              borderBottom: '2px solid #f3f4f6',
+              display: 'flex',
+              justifyContent: 'space-between',
+              alignItems: 'center'
+            }}>
+              <h2 style={{
+                margin: 0,
+                fontSize: '20px',
+                fontWeight: '800',
+                color: '#1a1a1a'
+              }}>
+                ✏️ Custom Print
+              </h2>
+              <button
+                onClick={() => setShowCustomPrint(false)}
+                style={{
+                  background: '#f3f4f6',
+                  border: 'none',
+                  borderRadius: '8px',
+                  width: '36px',
+                  height: '36px',
+                  fontSize: '20px',
+                  cursor: 'pointer',
+                  fontWeight: 'bold'
+                }}
+              >
+                ×
+              </button>
+            </div>
+
+            <div style={{ padding: '20px' }}>
+              <div style={{ display: 'grid', gap: '16px' }}>
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Voter ID
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.voterId}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, voterId: e.target.value }))}
+                      placeholder="Enter Voter ID"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Serial Number
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.serialNumber}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, serialNumber: e.target.value }))}
+                      placeholder="Enter Serial"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666',
+                    textTransform: 'uppercase'
+                  }}>
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    value={customPrintForm.name}
+                    onChange={(e) => setCustomPrintForm(prev => ({ ...prev, name: e.target.value }))}
+                    placeholder="Enter Full Name"
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Age
+                    </label>
+                    <input
+                      type="number"
+                      value={customPrintForm.age}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, age: e.target.value }))}
+                      placeholder="Age"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Gender
+                    </label>
+                    <select
+                      value={customPrintForm.gender}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, gender: e.target.value }))}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        cursor: 'pointer',
+                        outline: 'none'
+                      }}
+                    >
+                      <option value="">Select</option>
+                      <option value="M">Male</option>
+                      <option value="F">Female</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666',
+                    textTransform: 'uppercase'
+                  }}>
+                    Relation
+                  </label>
+                  <input
+                    type="text"
+                    value={customPrintForm.relation}
+                    onChange={(e) => setCustomPrintForm(prev => ({ ...prev, relation: e.target.value }))}
+                    placeholder="Father/Husband Name"
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666',
+                    textTransform: 'uppercase'
+                  }}>
+                    House Number
+                  </label>
+                  <input
+                    type="text"
+                    value={customPrintForm.house}
+                    onChange={(e) => setCustomPrintForm(prev => ({ ...prev, house: e.target.value }))}
+                    placeholder="House/Building Number"
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                  />
+                </div>
+              </div>
+
               <button
                 onClick={(e) => {
                   e.stopPropagation();
                   const voterToPrint = {
-                    ...editingVoter,
-                    voterId: editForm.voterId,
-                    serial: editForm.serialNumber,
-                    serialNumber: editForm.serialNumber,
-                    name: editForm.name,
-                    age: editForm.age,
-                    gender: editForm.gender
+                    voterId: customPrintForm.voterId,
+                    serial: customPrintForm.serialNumber,
+                    serialNumber: customPrintForm.serialNumber,
+                    name: customPrintForm.name,
+                    age: customPrintForm.age,
+                    gender: customPrintForm.gender,
+                    relation: customPrintForm.relation,
+                    house: customPrintForm.house,
+                    ward: '7',
+                    booth: '1'
                   };
                   printVoter(voterToPrint, e);
+                  setShowCustomPrint(false);
                 }}
+                disabled={!customPrintForm.name || !customPrintForm.voterId}
                 style={{
                   width: '100%',
-                  marginTop: '12px',
+                  marginTop: '20px',
                   padding: '14px',
-                  background: '#10b981',
+                  background: (!customPrintForm.name || !customPrintForm.voterId) ? '#cbd5e0' : '#8b5cf6',
                   color: 'white',
                   border: 'none',
                   borderRadius: '8px',
                   fontSize: '14px',
                   fontWeight: '800',
-                  cursor: 'pointer',
+                  cursor: (!customPrintForm.name || !customPrintForm.voterId) ? 'not-allowed' : 'pointer',
+                  opacity: (!customPrintForm.name || !customPrintForm.voterId) ? 0.5 : 1,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
                   gap: '8px'
                 }}
               >
-                🖨️ Print Voter Card
+                🖨️ Print Custom Card
               </button>
             </div>
           </div>
