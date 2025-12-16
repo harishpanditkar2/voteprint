@@ -573,7 +573,6 @@ export default function SearchPage() {
               </div>
               <div class="promo-section">
                 <div class="promo-text">
-                  या सर्व उमेदवारांना मतदानाच्या दिवशी सुद्धा<br/>
                   <span style="font-size: 22px;">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून<br/>
                   प्रचंड मतांनी विजयी करा !
                 </div>
@@ -796,7 +795,6 @@ export default function SearchPage() {
         </div>
         <div class="promo-section">
           <div class="promo-text">
-            या सर्व उमेदवारांना मतदानाच्या दिवशी सुद्धा<br/>
             <span style="font-size: 22px;">धनुष्यबाण</span> या चिन्हासमोरील बटन दाबून<br/>
             प्रचंड मतांनी विजयी करा !
           </div>
