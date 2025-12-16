@@ -34659,50 +34659,5 @@
     "house": "",
     "partNumber": "201/140/1357",
     "uniqueSerial": "W7F3-S861"
-  },
-  {
-    "voterId": "CRM2062461",
-    "name": "जोहर अल्लीहुसेन नासिकवाला",
-    "age": 81,
-    "gender": "M",
-    "ward": "7",
-    "booth": "1",
-    "serial": "304",
-    "serialNumber": "304",
-    "relation": "प्रकाश दळवी",
-    "house": "४३१२ मिग",
-    "partNumber": "201/138/448",
-    "actualWard": "7",
-    "actualBooth": "1"
-  },
-  {
-    "voterId": "CRM2062453",
-    "name": "शमीम जोहर नासिकवाला",
-    "age": 76,
-    "gender": "F",
-    "ward": "7",
-    "booth": "1",
-    "serial": "305",
-    "serialNumber": "305",
-    "relation": "प्रकाश दळवी",
-    "house": "४३१२ मिग",
-    "partNumber": "201/138/449",
-    "actualWard": "7",
-    "actualBooth": "1"
-  },
-  {
-    "voterId": "CRM2063691",
-    "name": "मुस्तजा जोहर नासिकवाला",
-    "age": 56,
-    "gender": "M",
-    "ward": "7",
-    "booth": "1",
-    "serial": "306",
-    "serialNumber": "306",
-    "relation": "नारायण लोणकर",
-    "house": "४३१२",
-    "partNumber": "201/138/450",
-    "actualWard": "7",
-    "actualBooth": "1"
   }
 ]

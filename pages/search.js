@@ -1917,7 +1917,7 @@ export default function SearchPage() {
                     color: '#666666',
                     textTransform: 'uppercase'
                   }}>
-                    Name
+                    Name <span style={{ color: '#ff6b35' }}>*</span>
                   </label>
                   <input
                     type="text"
@@ -2119,9 +2119,9 @@ export default function SearchPage() {
                       onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
                     >
                       <option value="">Select Booth</option>
-                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
-                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
-                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                      <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
+                      <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                      <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
                     </select>
                   </div>
                 </div>
@@ -2227,7 +2227,6 @@ export default function SearchPage() {
               }}>
                 <button
                   onClick={closeEditModal}
-                  disabled={saving}
                   style={{
                     flex: 1,
                     padding: '14px',
@@ -2237,33 +2236,11 @@ export default function SearchPage() {
                     borderRadius: '8px',
                     fontSize: '14px',
                     fontWeight: '800',
-                    cursor: saving ? 'not-allowed' : 'pointer',
-                    opacity: saving ? 0.5 : 1
+                    cursor: 'pointer'
                   }}
                 >
                   Cancel
                 </button>
-                <button
-                  onClick={handleSaveEdit}
-                  disabled={saving || !editForm.name}
-                  style={{
-                    flex: 1,
-                    padding: '14px',
-                    background: saving ? '#cbd5e0' : '#ff6b35',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '8px',
-                    fontSize: '14px',
-                    fontWeight: '800',
-                    cursor: (saving || !editForm.name) ? 'not-allowed' : 'pointer',
-                    opacity: (saving || !editForm.name) ? 0.5 : 1
-                  }}
-                >
-                  {saving ? '💾 Saving...' : '✓ Save'}
-                </button>
-              </div>
-
-              <div style={{ display: 'flex', gap: '12px', marginTop: '12px' }}>
                 <button
                   onClick={(e) => {
                     e.stopPropagation();
@@ -2373,7 +2350,7 @@ export default function SearchPage() {
                     color: '#666666',
                     textTransform: 'uppercase'
                   }}>
-                    Name
+                    Name <span style={{ color: '#ff6b35' }}>*</span>
                   </label>
                   <input
                     type="text"
@@ -2568,9 +2545,9 @@ export default function SearchPage() {
                       }}
                     >
                       <option value="">Select Booth</option>
-                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
-                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
-                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                      <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
+                      <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                      <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
                     </select>
                   </div>
                 </div>
