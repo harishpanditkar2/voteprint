@@ -1341,41 +1341,8 @@ export default function SearchPage() {
                           fontSize: '13px',
                           fontWeight: '700'
                         }}>
-                          ⚠️ {withIssues} अपूर्ण / Incomplete
+                          {/* Data quality badges hidden */}
                         </span>
-                        {blankNames > 0 && (
-                          <span style={{ 
-                            background: '#fff3e0', 
-                            color: '#e65100', 
-                            padding: '4px 8px', 
-                            borderRadius: '6px',
-                            fontSize: '12px'
-                          }}>
-                            📝 {blankNames} नाव नाही
-                          </span>
-                        )}
-                        {missingAge > 0 && (
-                          <span style={{ 
-                            background: '#f3e5f5', 
-                            color: '#6a1b9a', 
-                            padding: '4px 8px', 
-                            borderRadius: '6px',
-                            fontSize: '12px'
-                          }}>
-                            🎂 {missingAge} वय नाही
-                          </span>
-                        )}
-                        {missingGender > 0 && (
-                          <span style={{ 
-                            background: '#e8f5e9', 
-                            color: '#2e7d32', 
-                            padding: '4px 8px', 
-                            borderRadius: '6px',
-                            fontSize: '12px'
-                          }}>
-                            ⚥ {missingGender} लिंग नाही
-                          </span>
-                        )}
                       </div>
                     );
                   }
@@ -1444,8 +1411,8 @@ export default function SearchPage() {
                       </div>
                     )}
 
-                    {/* Data Quality Warning Badge */}
-                    {hasIssues && (
+                    {/* Data Quality Warning Badge - Hidden */}
+                    {false && hasIssues && (
                       <div style={{
                         position: 'absolute',
                         top: '12px',
