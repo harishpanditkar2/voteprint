@@ -878,21 +878,55 @@ export default function SearchPage() {
             <span style={{ fontSize: '20px' }}>←</span> Back
           </Link>
           
-          <button
-            onClick={() => setLanguage(language === 'mr' ? 'en' : 'mr')}
-            style={{
-              padding: '8px 16px',
-              background: '#f3f4f6',
-              border: 'none',
-              borderRadius: '8px',
-              fontSize: '14px',
-              fontWeight: '600',
-              cursor: 'pointer',
-              color: '#1a1a1a'
-            }}
-          >
-            {language === 'mr' ? '🇮🇳 मराठी' : '🇮🇳 English'}
-          </button>
+          <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+            <button
+              onClick={() => {
+                setCustomPrintForm({
+                  voterId: '',
+                  serialNumber: '',
+                  name: '',
+                  age: '',
+                  gender: 'M',
+                  ward: '',
+                  booth: '',
+                  relation: '',
+                  house: ''
+                });
+                setShowCustomPrint(true);
+              }}
+              style={{
+                padding: '8px 16px',
+                background: '#8b5cf6',
+                color: 'white',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '14px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                display: 'flex',
+                alignItems: 'center',
+                gap: '6px'
+              }}
+            >
+              ✏️ Custom Print
+            </button>
+
+            <button
+              onClick={() => setLanguage(language === 'mr' ? 'en' : 'mr')}
+              style={{
+                padding: '8px 16px',
+                background: '#f3f4f6',
+                border: 'none',
+                borderRadius: '8px',
+                fontSize: '14px',
+                fontWeight: '600',
+                cursor: 'pointer',
+                color: '#1a1a1a'
+              }}
+            >
+              {language === 'mr' ? '🇮🇳 मराठी' : '🇮🇳 English'}
+            </button>
+          </div>
         </div>
       </div>
 
@@ -1013,70 +1047,35 @@ export default function SearchPage() {
                 flexWrap: 'wrap',
                 gap: '12px'
               }}>
-                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
-                  <button
-                    onClick={() => setShowFilters(!showFilters)}
-                    style={{
-                      padding: '10px 20px',
-                      background: activeFiltersCount > 0 ? '#ff6b35' : '#f3f4f6',
-                      color: activeFiltersCount > 0 ? 'white' : '#1a1a1a',
-                      border: 'none',
+                <button
+                  onClick={() => setShowFilters(!showFilters)}
+                  style={{
+                    padding: '10px 20px',
+                    background: activeFiltersCount > 0 ? '#ff6b35' : '#f3f4f6',
+                    color: activeFiltersCount > 0 ? 'white' : '#1a1a1a',
+                    border: 'none',
+                    borderRadius: '10px',
+                    fontSize: '14px',
+                    fontWeight: '700',
+                    cursor: 'pointer',
+                    display: 'flex',
+                    alignItems: 'center',
+                    gap: '8px'
+                  }}
+                >
+                  <span>⚙️</span>
+                  {t.filters}
+                  {activeFiltersCount > 0 && (
+                    <span style={{
+                      background: 'rgba(255,255,255,0.3)',
+                      padding: '2px 8px',
                       borderRadius: '10px',
-                      fontSize: '14px',
-                      fontWeight: '700',
-                      cursor: 'pointer',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '8px'
-                    }}
-                  >
-                    <span>⚙️</span>
-                    {t.filters}
-                    {activeFiltersCount > 0 && (
-                      <span style={{
-                        background: 'rgba(255,255,255,0.3)',
-                        padding: '2px 8px',
-                        borderRadius: '10px',
-                        fontSize: '12px'
-                      }}>
-                        {activeFiltersCount}
-                      </span>
-                    )}
-                  </button>
-
-                  <button
-                    onClick={() => {
-                      setCustomPrintForm({
-                        voterId: '',
-                        serialNumber: '',
-                        name: '',
-                        age: '',
-                        gender: 'M',
-                        ward: '',
-                        booth: '',
-                        relation: '',
-                        house: ''
-                      });
-                      setShowCustomPrint(true);
-                    }}
-                    style={{
-                      padding: '10px 20px',
-                      background: '#8b5cf6',
-                      color: 'white',
-                      border: 'none',
-                      borderRadius: '10px',
-                      fontSize: '14px',
-                      fontWeight: '700',
-                      cursor: 'pointer',
-                      display: 'flex',
-                      alignItems: 'center',
-                      gap: '8px'
-                    }}
-                  >
-                    <span>✏️</span>
-                    Custom Print
-                  </button>
-                </div>
+                      fontSize: '12px'
+                    }}>
+                      {activeFiltersCount}
+                    </span>
+                  )}
+                </button>
 
                 <div style={{
                   fontSize: '14px',
@@ -1909,6 +1908,98 @@ export default function SearchPage() {
               )}
 
               <div style={{ display: 'grid', gap: '16px' }}>
+                <div>
+                  <label style={{
+                    display: 'block',
+                    marginBottom: '6px',
+                    fontSize: '13px',
+                    fontWeight: '700',
+                    color: '#666666',
+                    textTransform: 'uppercase'
+                  }}>
+                    Name
+                  </label>
+                  <input
+                    type="text"
+                    value={editForm.name}
+                    onChange={(e) => handleEditFormChange('name', e.target.value)}
+                    style={{
+                      width: '100%',
+                      padding: '12px',
+                      border: '2px solid #e5e7eb',
+                      borderRadius: '8px',
+                      fontSize: '16px',
+                      fontWeight: '600',
+                      outline: 'none'
+                    }}
+                    onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                    onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                  />
+                </div>
+
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      {t.age}
+                    </label>
+                    <input
+                      type="number"
+                      value={editForm.age}
+                      onChange={(e) => handleEditFormChange('age', e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      {t.gender}
+                    </label>
+                    <select
+                      value={editForm.gender}
+                      onChange={(e) => handleEditFormChange('gender', e.target.value)}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none',
+                        background: 'white'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    >
+                      <option value="M">{t.male}</option>
+                      <option value="F">{t.female}</option>
+                    </select>
+                  </div>
+                </div>
+
                 <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
                   <div>
                     <label style={{
@@ -2272,130 +2363,7 @@ export default function SearchPage() {
 
             <div style={{ padding: '20px' }}>
               <div style={{ display: 'grid', gap: '16px' }}>
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      Voter ID
-                    </label>
-                    <input
-                      type="text"
-                      value={customPrintForm.voterId}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, voterId: e.target.value }))}
-                      placeholder="Enter Voter ID"
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      Serial Number
-                    </label>
-                    <input
-                      type="text"
-                      value={customPrintForm.serialNumber}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, serialNumber: e.target.value }))}
-                      placeholder="Enter Serial"
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                    />
-                  </div>
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      प्रभाग (Ward)
-                    </label>
-                    <input
-                      type="text"
-                      value={customPrintForm.ward}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value }))}
-                      placeholder="Ward"
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
-                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      मतदान केंद्र (Booth)
-                    </label>
-                    <select
-                      value={customPrintForm.booth}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, booth: e.target.value }))}
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none',
-                        background: 'white'
-                      }}
-                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
-                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                    >
-                      <option value="">Select Booth</option>
-                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
-                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
-                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
-                    </select>
-                  </div>
-                </div>
-
+                {/* Name Field - First */}
                 <div>
                   <label style={{
                     display: 'block',
@@ -2485,60 +2453,185 @@ export default function SearchPage() {
                   </div>
                 </div>
 
-                <div>
-                  <label style={{
-                    display: 'block',
-                    marginBottom: '6px',
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    color: '#666666',
-                    textTransform: 'uppercase'
-                  }}>
-                    Relation
-                  </label>
-                  <input
-                    type="text"
-                    value={customPrintForm.relation}
-                    onChange={(e) => setCustomPrintForm(prev => ({ ...prev, relation: e.target.value }))}
-                    placeholder="Father/Husband Name"
-                    style={{
-                      width: '100%',
-                      padding: '12px',
-                      border: '2px solid #e5e7eb',
-                      borderRadius: '8px',
-                      fontSize: '16px',
-                      fontWeight: '600',
-                      outline: 'none'
-                    }}
-                  />
+                {/* Voter ID and Serial */}
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Voter ID
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.voterId}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, voterId: e.target.value }))}
+                      placeholder="Enter Voter ID"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Serial Number
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.serialNumber}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, serialNumber: e.target.value }))}
+                      placeholder="Enter Serial"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
                 </div>
 
-                <div>
-                  <label style={{
-                    display: 'block',
-                    marginBottom: '6px',
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    color: '#666666',
-                    textTransform: 'uppercase'
-                  }}>
-                    House Number
-                  </label>
-                  <input
-                    type="text"
-                    value={customPrintForm.house}
-                    onChange={(e) => setCustomPrintForm(prev => ({ ...prev, house: e.target.value }))}
-                    placeholder="House/Building Number"
-                    style={{
-                      width: '100%',
-                      padding: '12px',
-                      border: '2px solid #e5e7eb',
-                      borderRadius: '8px',
-                      fontSize: '16px',
-                      fontWeight: '600',
-                      outline: 'none'
-                    }}
-                  />
+                {/* Ward and Booth */}
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      प्रभाग (Ward)
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.ward}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value }))}
+                      placeholder="Ward"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      मतदान केंद्र (Booth)
+                    </label>
+                    <select
+                      value={customPrintForm.booth}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, booth: e.target.value }))}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none',
+                        background: 'white'
+                      }}
+                    >
+                      <option value="">Select Booth</option>
+                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
+                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                    </select>
+                  </div>
+                </div>
+
+                {/* Relation and House */}
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      Relation
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.relation}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, relation: e.target.value }))}
+                      placeholder="Father/Husband Name"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      House Number
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.house}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, house: e.target.value }))}
+                      placeholder="House/Building Number"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                    />
+                  </div>
                 </div>
               </div>
 
