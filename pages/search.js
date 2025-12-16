@@ -28,7 +28,7 @@ export default function SearchPage() {
     age: '',
     gender: '',
     ward: '',
-    booth: '',
+    booth: '1',
     relation: '',
     house: ''
   });
@@ -502,7 +502,7 @@ export default function SearchPage() {
               margin: 0.5mm auto;
             }
             .candidate-line {
-              font-size: 15px;
+              font-size: 16px;
               margin: 0;
               padding: 0;
               word-wrap: break-word;
@@ -618,8 +618,11 @@ export default function SearchPage() {
 
   const printVoter = (voter, e) => {
     if (e) e.stopPropagation();
-    const boothNumber = voter.actualBooth || (voter.partNumber ? voter.partNumber.split('/')[2] : voter.booth) || 'N/A';
-    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर,बारामती' : (boothNumber === '2' || boothNumber === '3') ? 'जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर,बारामती' : (voter.pollingCenter || 'मतदान केंद्रनिहाय मतदार यादी');
+    const boothNumber = voter.actualBooth || voter.booth || 'N/A';
+    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती' : 
+                         boothNumber === '2' ? 'खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती' : 
+                         boothNumber === '3' ? 'खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती' : 
+                         'मतदान केंद्रनिहाय मतदार यादी';
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
       <html>
@@ -724,7 +727,7 @@ export default function SearchPage() {
             margin: 0 auto;
           }
           .candidate-line {
-            font-size: 15px;
+            font-size: 16px;
             margin: 0;
             padding: 0;
             word-wrap: break-word;
@@ -888,7 +891,7 @@ export default function SearchPage() {
                   age: '',
                   gender: 'M',
                   ward: '',
-                  booth: '',
+                  booth: '1',
                   relation: '',
                   house: ''
                 });
@@ -2125,97 +2128,6 @@ export default function SearchPage() {
                     </select>
                   </div>
                 </div>
-
-                <div>
-                  <label style={{
-                    display: 'block',
-                    marginBottom: '6px',
-                    fontSize: '13px',
-                    fontWeight: '700',
-                    color: '#666666',
-                    textTransform: 'uppercase'
-                  }}>
-                    Name
-                  </label>
-                  <input
-                    type="text"
-                    value={editForm.name}
-                    onChange={(e) => handleEditFormChange('name', e.target.value)}
-                    style={{
-                      width: '100%',
-                      padding: '12px',
-                      border: '2px solid #e5e7eb',
-                      borderRadius: '8px',
-                      fontSize: '16px',
-                      fontWeight: '600',
-                      outline: 'none'
-                    }}
-                    onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
-                    onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                  />
-                </div>
-
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      {t.age}
-                    </label>
-                    <input
-                      type="number"
-                      value={editForm.age}
-                      onChange={(e) => handleEditFormChange('age', e.target.value)}
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
-                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      {t.gender}
-                    </label>
-                    <select
-                      value={editForm.gender}
-                      onChange={(e) => handleEditFormChange('gender', e.target.value)}
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        cursor: 'pointer',
-                        outline: 'none'
-                      }}
-                    >
-                      <option value="">Select</option>
-                      <option value="M">{t.male}</option>
-                      <option value="F">{t.female}</option>
-                    </select>
-                  </div>
-                </div>
               </div>
 
               <div style={{
@@ -2549,65 +2461,6 @@ export default function SearchPage() {
                       <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
                       <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
                     </select>
-                  </div>
-                </div>
-
-                {/* Relation and House */}
-                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      Relation
-                    </label>
-                    <input
-                      type="text"
-                      value={customPrintForm.relation}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, relation: e.target.value }))}
-                      placeholder="Father/Husband Name"
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                    />
-                  </div>
-
-                  <div>
-                    <label style={{
-                      display: 'block',
-                      marginBottom: '6px',
-                      fontSize: '13px',
-                      fontWeight: '700',
-                      color: '#666666',
-                      textTransform: 'uppercase'
-                    }}>
-                      House Number
-                    </label>
-                    <input
-                      type="text"
-                      value={customPrintForm.house}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, house: e.target.value }))}
-                      placeholder="House/Building Number"
-                      style={{
-                        width: '100%',
-                        padding: '12px',
-                        border: '2px solid #e5e7eb',
-                        borderRadius: '8px',
-                        fontSize: '16px',
-                        fontWeight: '600',
-                        outline: 'none'
-                      }}
-                    />
                   </div>
                 </div>
               </div>
