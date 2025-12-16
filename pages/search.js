@@ -27,6 +27,8 @@ export default function SearchPage() {
     name: '',
     age: '',
     gender: '',
+    ward: '',
+    booth: '',
     relation: '',
     house: ''
   });
@@ -762,18 +764,18 @@ export default function SearchPage() {
             <span class="info-label">नाव:</span>
             <span class="info-value">${voter.name || 'N/A'}</span>
           </div>
-          <div class="info-line">
+          ${(voter.age || voter.gender) ? `<div class="info-line">
             <span class="info-label">वय/लिंग:</span>
-            <span class="info-value">${voter.age || 'N/A'} / ${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : 'N/A'}</span>
-          </div>
-          <div class="info-line">
+            <span class="info-value">${voter.age || '-'} / ${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : '-'}</span>
+          </div>` : ''}
+          ${voter.voterId ? `<div class="info-line">
             <span class="info-label">मतदान कार्ड:</span>
-            <span class="info-value">${voter.voterId || 'N/A'}</span>
-          </div>
-          <div class="info-line">
+            <span class="info-value">${voter.voterId}</span>
+          </div>` : ''}
+          ${(voter.actualWard || voter.ward || voter.serialNumber) ? `<div class="info-line">
             <span class="info-label">प्रभाग/अनु क्र:</span>
-            <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || 'N/A'}</span>
-          </div>
+            <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || '-'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || '-'}</span>
+          </div>` : ''}
         </div>
         <div class="info-box">
           <div class="section-title" style="margin: 0 0 2mm 0; padding: 0; text-align: center; font-size: 16px;">मतदानाचा पत्ता</div>
@@ -1046,12 +1048,14 @@ export default function SearchPage() {
                     onClick={() => {
                       setCustomPrintForm({
                         voterId: '',
+                        serialNumber: '',
                         name: '',
                         age: '',
                         gender: 'M',
+                        ward: '',
+                        booth: '',
                         relation: '',
-                        house: '',
-                        serialNumber: ''
+                        house: ''
                       });
                       setShowCustomPrint(true);
                     }}
@@ -1587,24 +1591,6 @@ export default function SearchPage() {
                     {/* Action Buttons */}
                     <div style={{ position: 'absolute', bottom: '12px', right: '12px', display: 'flex', gap: '4px', flexShrink: 0 }}>
                       <button
-                        onClick={(e) => openEditModal(voter, e)}
-                        style={{
-                          width: '44px',
-                          height: '44px',
-                          background: '#f3f4f6',
-                          border: 'none',
-                          borderRadius: '8px',
-                          fontSize: '16px',
-                          cursor: 'pointer',
-                          display: 'flex',
-                          alignItems: 'center',
-                          justifyContent: 'center'
-                        }}
-                        title={t.edit}
-                      >
-                        ✏️
-                      </button>
-                      <button
                         onClick={(e) => {
                           e.stopPropagation();
                           setEditingVoter(voter);
@@ -2023,13 +2009,11 @@ export default function SearchPage() {
                       color: '#666666',
                       textTransform: 'uppercase'
                     }}>
-                      बूथ (Booth)
+                      मतदान केंद्र (Booth)
                     </label>
-                    <input
-                      type="text"
+                    <select
                       value={editForm.booth}
                       onChange={(e) => handleEditFormChange('booth', e.target.value)}
-                      placeholder="Booth"
                       style={{
                         width: '100%',
                         padding: '12px',
@@ -2037,11 +2021,17 @@ export default function SearchPage() {
                         borderRadius: '8px',
                         fontSize: '16px',
                         fontWeight: '600',
-                        outline: 'none'
+                        outline: 'none',
+                        background: 'white'
                       }}
                       onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
                       onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                    />
+                    >
+                      <option value="">Select Booth</option>
+                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
+                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                    </select>
                   </div>
                 </div>
 
@@ -2340,6 +2330,72 @@ export default function SearchPage() {
                   </div>
                 </div>
 
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      प्रभाग (Ward)
+                    </label>
+                    <input
+                      type="text"
+                      value={customPrintForm.ward}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value }))}
+                      placeholder="Ward"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      मतदान केंद्र (Booth)
+                    </label>
+                    <select
+                      value={customPrintForm.booth}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, booth: e.target.value }))}
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none',
+                        background: 'white'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    >
+                      <option value="">Select Booth</option>
+                      <option value="1">1 - नगरपरिषद स्वामी विवेकानंद सभागृह</option>
+                      <option value="2">2 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                      <option value="3">3 - जिल्हा परिषद शाळा, चिंचकर इस्टेट</option>
+                    </select>
+                  </div>
+                </div>
+
                 <div>
                   <label style={{
                     display: 'block',
@@ -2498,25 +2554,27 @@ export default function SearchPage() {
                     gender: customPrintForm.gender,
                     relation: customPrintForm.relation,
                     house: customPrintForm.house,
-                    ward: '7',
-                    booth: '1'
+                    ward: customPrintForm.ward,
+                    actualWard: customPrintForm.ward,
+                    booth: customPrintForm.booth,
+                    actualBooth: customPrintForm.booth
                   };
                   printVoter(voterToPrint, e);
                   setShowCustomPrint(false);
                 }}
-                disabled={!customPrintForm.name || !customPrintForm.voterId}
+                disabled={!customPrintForm.name}
                 style={{
                   width: '100%',
                   marginTop: '20px',
                   padding: '14px',
-                  background: (!customPrintForm.name || !customPrintForm.voterId) ? '#cbd5e0' : '#8b5cf6',
+                  background: (!customPrintForm.name) ? '#cbd5e0' : '#8b5cf6',
                   color: 'white',
                   border: 'none',
                   borderRadius: '8px',
                   fontSize: '14px',
                   fontWeight: '800',
-                  cursor: (!customPrintForm.name || !customPrintForm.voterId) ? 'not-allowed' : 'pointer',
-                  opacity: (!customPrintForm.name || !customPrintForm.voterId) ? 0.5 : 1,
+                  cursor: (!customPrintForm.name) ? 'not-allowed' : 'pointer',
+                  opacity: (!customPrintForm.name) ? 0.5 : 1,
                   display: 'flex',
                   alignItems: 'center',
                   justifyContent: 'center',
