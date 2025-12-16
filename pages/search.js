@@ -1011,35 +1011,68 @@ export default function SearchPage() {
                 flexWrap: 'wrap',
                 gap: '12px'
               }}>
-                <button
-                  onClick={() => setShowFilters(!showFilters)}
-                  style={{
-                    padding: '10px 20px',
-                    background: activeFiltersCount > 0 ? '#ff6b35' : '#f3f4f6',
-                    color: activeFiltersCount > 0 ? 'white' : '#1a1a1a',
-                    border: 'none',
-                    borderRadius: '10px',
-                    fontSize: '14px',
-                    fontWeight: '700',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px'
-                  }}
-                >
-                  <span>⚙️</span>
-                  {t.filters}
-                  {activeFiltersCount > 0 && (
-                    <span style={{
-                      background: 'rgba(255,255,255,0.3)',
-                      padding: '2px 8px',
+                <div style={{ display: 'flex', gap: '12px', alignItems: 'center' }}>
+                  <button
+                    onClick={() => setShowFilters(!showFilters)}
+                    style={{
+                      padding: '10px 20px',
+                      background: activeFiltersCount > 0 ? '#ff6b35' : '#f3f4f6',
+                      color: activeFiltersCount > 0 ? 'white' : '#1a1a1a',
+                      border: 'none',
                       borderRadius: '10px',
-                      fontSize: '12px'
-                    }}>
-                      {activeFiltersCount}
-                    </span>
-                  )}
-                </button>
+                      fontSize: '14px',
+                      fontWeight: '700',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}
+                  >
+                    <span>⚙️</span>
+                    {t.filters}
+                    {activeFiltersCount > 0 && (
+                      <span style={{
+                        background: 'rgba(255,255,255,0.3)',
+                        padding: '2px 8px',
+                        borderRadius: '10px',
+                        fontSize: '12px'
+                      }}>
+                        {activeFiltersCount}
+                      </span>
+                    )}
+                  </button>
+
+                  <button
+                    onClick={() => {
+                      setCustomPrintForm({
+                        voterId: '',
+                        name: '',
+                        age: '',
+                        gender: 'M',
+                        relation: '',
+                        house: '',
+                        serialNumber: ''
+                      });
+                      setShowCustomPrint(true);
+                    }}
+                    style={{
+                      padding: '10px 20px',
+                      background: '#8b5cf6',
+                      color: 'white',
+                      border: 'none',
+                      borderRadius: '10px',
+                      fontSize: '14px',
+                      fontWeight: '700',
+                      cursor: 'pointer',
+                      display: 'flex',
+                      alignItems: 'center',
+                      gap: '8px'
+                    }}
+                  >
+                    <span>✏️</span>
+                    Custom Print
+                  </button>
+                </div>
 
                 <div style={{
                   fontSize: '14px',
@@ -1580,7 +1613,9 @@ export default function SearchPage() {
                             serialNumber: voter.serial || voter.serialNumber || '',
                             name: voter.name || '',
                             age: voter.age || '',
-                            gender: voter.gender || ''
+                            gender: voter.gender || '',
+                            ward: voter.ward || voter.actualWard || '',
+                            booth: voter.booth || voter.actualBooth || ''
                           });
                         }}
                         style={{
@@ -1948,6 +1983,68 @@ export default function SearchPage() {
                   </div>
                 </div>
 
+                <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '12px' }}>
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      प्रभाग (Ward)
+                    </label>
+                    <input
+                      type="text"
+                      value={editForm.ward}
+                      onChange={(e) => handleEditFormChange('ward', e.target.value)}
+                      placeholder="Ward"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+
+                  <div>
+                    <label style={{
+                      display: 'block',
+                      marginBottom: '6px',
+                      fontSize: '13px',
+                      fontWeight: '700',
+                      color: '#666666',
+                      textTransform: 'uppercase'
+                    }}>
+                      बूथ (Booth)
+                    </label>
+                    <input
+                      type="text"
+                      value={editForm.booth}
+                      onChange={(e) => handleEditFormChange('booth', e.target.value)}
+                      placeholder="Booth"
+                      style={{
+                        width: '100%',
+                        padding: '12px',
+                        border: '2px solid #e5e7eb',
+                        borderRadius: '8px',
+                        fontSize: '16px',
+                        fontWeight: '600',
+                        outline: 'none'
+                      }}
+                      onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
+                      onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
+                    />
+                  </div>
+                </div>
+
                 <div>
                   <label style={{
                     display: 'block',
@@ -2096,7 +2193,11 @@ export default function SearchPage() {
                       serialNumber: editForm.serialNumber,
                       name: editForm.name,
                       age: editForm.age,
-                      gender: editForm.gender
+                      gender: editForm.gender,
+                      ward: editForm.ward,
+                      actualWard: editForm.ward,
+                      booth: editForm.booth,
+                      actualBooth: editForm.booth
                     };
                     printVoter(voterToPrint, e);
                   }}
@@ -2117,38 +2218,6 @@ export default function SearchPage() {
                   }}
                 >
                   🖨️ Print
-                </button>
-                <button
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    setCustomPrintForm({
-                      voterId: editForm.voterId || '',
-                      serialNumber: editForm.serialNumber || '',
-                      name: editForm.name || '',
-                      age: editForm.age || '',
-                      gender: editForm.gender || '',
-                      relation: editingVoter.relation || '',
-                      house: editingVoter.house || ''
-                    });
-                    setShowCustomPrint(true);
-                  }}
-                  style={{
-                    flex: 1,
-                    padding: '14px',
-                    background: '#8b5cf6',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '8px',
-                    fontSize: '14px',
-                    fontWeight: '800',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    justifyContent: 'center',
-                    gap: '8px'
-                  }}
-                >
-                  ✏️ Custom Print
                 </button>
               </div>
             </div>
