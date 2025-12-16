@@ -1032,26 +1032,6 @@ export default function SearchPage() {
                   )}
                 </button>
 
-                <button
-                  onClick={() => setShowAddVoterForm(true)}
-                  style={{
-                    padding: '10px 20px',
-                    background: '#4CAF50',
-                    color: 'white',
-                    border: 'none',
-                    borderRadius: '10px',
-                    fontSize: '14px',
-                    fontWeight: '700',
-                    cursor: 'pointer',
-                    display: 'flex',
-                    alignItems: 'center',
-                    gap: '8px'
-                  }}
-                >
-                  <span>➕</span>
-                  {t.addVoter}
-                </button>
-
                 <div style={{
                   fontSize: '14px',
                   fontWeight: '700',
@@ -1585,7 +1565,14 @@ export default function SearchPage() {
                       <button
                         onClick={(e) => {
                           e.stopPropagation();
-                          printVoter(voter, e);
+                          setEditingVoter(voter);
+                          setEditForm({
+                            voterId: voter.voterId || '',
+                            serialNumber: voter.serial || voter.serialNumber || '',
+                            name: voter.name || '',
+                            age: voter.age || '',
+                            gender: voter.gender || ''
+                          });
                         }}
                         style={{
                           width: '44px',
@@ -2054,6 +2041,40 @@ export default function SearchPage() {
                   {saving ? '💾 Saving...' : '✓ Save'}
                 </button>
               </div>
+
+              <button
+                onClick={(e) => {
+                  e.stopPropagation();
+                  const voterToPrint = {
+                    ...editingVoter,
+                    voterId: editForm.voterId,
+                    serial: editForm.serialNumber,
+                    serialNumber: editForm.serialNumber,
+                    name: editForm.name,
+                    age: editForm.age,
+                    gender: editForm.gender
+                  };
+                  printVoter(voterToPrint, e);
+                }}
+                style={{
+                  width: '100%',
+                  marginTop: '12px',
+                  padding: '14px',
+                  background: '#10b981',
+                  color: 'white',
+                  border: 'none',
+                  borderRadius: '8px',
+                  fontSize: '14px',
+                  fontWeight: '800',
+                  cursor: 'pointer',
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  gap: '8px'
+                }}
+              >
+                🖨️ Print Voter Card
+              </button>
             </div>
           </div>
         </div>
