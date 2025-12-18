@@ -233,7 +233,14 @@ export default function SearchPage() {
   };
 
   const uniqueWards = [...new Set(allVoters.map(v => v.actualWard || v.ward).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
-  const uniqueBooths = [...new Set(allVoters.map(v => v.actualBooth || v.booth).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
+  
+  // Show only booths for selected ward, or all booths if no ward selected
+  const uniqueBooths = useMemo(() => {
+    const votersToConsider = filters.ward 
+      ? allVoters.filter(v => (v.actualWard || v.ward) === filters.ward)
+      : allVoters;
+    return [...new Set(votersToConsider.map(v => v.actualBooth || v.booth).filter(Boolean))].sort((a, b) => parseInt(a) - parseInt(b));
+  }, [allVoters, filters.ward]);
 
   // Pagination calculations
   const { currentVoters, totalPages, indexOfFirstItem, indexOfLastItem } = useMemo(() => {
