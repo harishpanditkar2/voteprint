@@ -618,10 +618,25 @@ export default function SearchPage() {
   const printVoter = (voter, e) => {
     if (e) e.stopPropagation();
     const boothNumber = voter.actualBooth || voter.booth || 'N/A';
-    const pollingCenter = boothNumber === '1' ? 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती' : 
-                         boothNumber === '2' ? 'खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती' : 
-                         boothNumber === '3' ? 'खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती' : 
-                         'मतदान केंद्रनिहाय मतदार यादी';
+    const wardNumber = voter.actualWard || voter.ward || '7';
+    
+    let pollingCenter = 'मतदान केंद्रनिहाय मतदार यादी';
+    
+    if (wardNumber === '16') {
+      // Prabhag 16 booths
+      if (boothNumber === '1') pollingCenter = 'मतदान केंद्र क्र. 1 – नगरपरिषद स.नं.220, बालवाडी खोली, बारामती';
+      else if (boothNumber === '2') pollingCenter = 'मतदान केंद्र क्र. 2 – नगरपरिषद क्षेत्रीय टकारी, समाजमंदिर, पाश्चिमाभिमुख हॉल, तांदुळवाडी वेस, बारामती';
+      else if (boothNumber === '3') pollingCenter = 'मतदान केंद्र क्र. 3 – सर्वे नंबर 220 येथील होलार समाज मंदिर, बारामती';
+      else if (boothNumber === '4') pollingCenter = 'मतदान केंद्र क्र. 4 – होमगार्ड कार्यालय, सर्वे नंबर 220, बारामती';
+      else if (boothNumber === '5') pollingCenter = 'मतदान केंद्र क्र. 5 – नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.3, सर्वे नंबर 220, बारामती';
+      else if (boothNumber === '6') pollingCenter = 'मतदान केंद्र क्र. 6 – नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.4, सर्वे नंबर 220, बारामती';
+      else if (boothNumber === '7') pollingCenter = 'मतदान केंद्र क्र. 7 – नगरपरिषद शाळा क्र.6, दक्षिणेकडून पश्चिममुखी खोली क्र.३, शारदा प्रांगण, बारामती';
+    } else {
+      // Prabhag 7 booths (default)
+      if (boothNumber === '1') pollingCenter = 'खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती';
+      else if (boothNumber === '2') pollingCenter = 'खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती';
+      else if (boothNumber === '3') pollingCenter = 'खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती';
+    }
     const printWindow = window.open('', '_blank');
     printWindow.document.write(`
       <html>
@@ -2120,9 +2135,23 @@ export default function SearchPage() {
                       onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
                     >
                       <option value="">Select Booth</option>
-                      <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
-                      <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
-                      <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                      {editForm.ward === '16' ? (
+                        <>
+                          <option value="1">1 - नगरपरिषद स.नं.220, बालवाडी खोली, बारामती</option>
+                          <option value="2">2 - नगरपरिषद क्षेत्रीय टकारी, समाजमंदिर, पाश्चिमाभिमुख हॉल, तांदुळवाडी वेस, बारामती</option>
+                          <option value="3">3 - सर्वे नंबर 220 येथील होलार समाज मंदिर, बारामती</option>
+                          <option value="4">4 - होमगार्ड कार्यालय, सर्वे नंबर 220, बारामती</option>
+                          <option value="5">5 - नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.3, सर्वे नंबर 220, बारामती</option>
+                          <option value="6">6 - नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.4, सर्वे नंबर 220, बारामती</option>
+                          <option value="7">7 - नगरपरिषद शाळा क्र.6, दक्षिणेकडून पश्चिममुखी खोली क्र.३, शारदा प्रांगण, बारामती</option>
+                        </>
+                      ) : (
+                        <>
+                          <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
+                          <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                          <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                        </>
+                      )}
                     </select>
                   </div>
                 </div>
@@ -2414,7 +2443,7 @@ export default function SearchPage() {
                     </label>
                     <select
                       value={customPrintForm.ward}
-                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value }))}
+                      onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value, booth: '1' }))}
                       style={{
                         width: '100%',
                         padding: '12px',
@@ -2457,9 +2486,23 @@ export default function SearchPage() {
                       }}
                     >
                       <option value="">Select Booth</option>
-                      <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
-                      <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
-                      <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                      {customPrintForm.ward === '16' ? (
+                        <>
+                          <option value="1">1 - नगरपरिषद स.नं.220, बालवाडी खोली, बारामती</option>
+                          <option value="2">2 - नगरपरिषद क्षेत्रीय टकारी, समाजमंदिर, पाश्चिमाभिमुख हॉल, तांदुळवाडी वेस, बारामती</option>
+                          <option value="3">3 - सर्वे नंबर 220 येथील होलार समाज मंदिर, बारामती</option>
+                          <option value="4">4 - होमगार्ड कार्यालय, सर्वे नंबर 220, बारामती</option>
+                          <option value="5">5 - नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.3, सर्वे नंबर 220, बारामती</option>
+                          <option value="6">6 - नगरपरिषद बाबासाहेब देशमुख समाज मंदिर, दक्षिणाभिमुख खोली क्र.4, सर्वे नंबर 220, बारामती</option>
+                          <option value="7">7 - नगरपरिषद शाळा क्र.6, दक्षिणेकडून पश्चिममुखी खोली क्र.३, शारदा प्रांगण, बारामती</option>
+                        </>
+                      ) : (
+                        <>
+                          <option value="1">1 - खोली क्र.1, नगरपरिषद स्वामी विवेकानंद सभागृह, अशोकनगर, बारामती</option>
+                          <option value="2">2 - खोली क्र.1, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                          <option value="3">3 - खोली क्र.2, जिल्हा परिषद शाळा, चिंचकर इस्टेट, प्रगतीनगर, बारामती</option>
+                        </>
+                      )}
                     </select>
                   </div>
                 </div>

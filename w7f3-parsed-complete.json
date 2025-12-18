@@ -1,0 +1,5382 @@
+{
+  "XUA8480196": {
+    "serial": 1,
+    "voterId": "XUA8480196",
+    "partNumber": "201/140/374",
+    "name": "रूपाली राहुल काटे",
+    "relation": "",
+    "house": "",
+    "age": "35",
+    "gender": "F"
+  },
+  "XUA8480295": {
+    "serial": 2,
+    "voterId": "XUA8480295",
+    "partNumber": "201/140/375",
+    "name": "सोनिया दिनेश खत्री",
+    "relation": "",
+    "house": "",
+    "age": "34",
+    "gender": "F"
+  },
+  "XUA8467524": {
+    "serial": 3,
+    "voterId": "XUA8467524",
+    "partNumber": "201/140/376",
+    "name": "अशोक सोमनाथ झारगड",
+    "relation": "",
+    "house": "",
+    "age": "33",
+    "gender": "M"
+  },
+  "XUA8467540": {
+    "serial": 4,
+    "voterId": "XUA8467540",
+    "partNumber": "201/140/377",
+    "name": "ज्योती संतोष देवकाते",
+    "relation": "",
+    "house": "",
+    "age": "29",
+    "gender": "M"
+  },
+  "XUA8469439": {
+    "serial": 5,
+    "voterId": "XUA8469439",
+    "partNumber": "201/140/378",
+    "name": "अश्विनी भिवा मलगुंडे",
+    "relation": "",
+    "house": "",
+    "age": "28",
+    "gender": "M"
+  },
+  "XUA8480477": {
+    "serial": 10,
+    "voterId": "XUA8480477",
+    "partNumber": "201/140/383",
+    "name": "गौरी दयानंद अवघडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8467508": {
+    "serial": 11,
+    "voterId": "XUA8467508",
+    "partNumber": "201/140/384",
+    "name": "प्रीति सुखदेव झारगड",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8480428": {
+    "serial": 12,
+    "voterId": "XUA8480428",
+    "partNumber": "201/140/385",
+    "name": "गागीर निकिता मुरारीलाल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8469561": {
+    "serial": 13,
+    "voterId": "XUA8469561",
+    "partNumber": "201/140/386",
+    "name": "प्रितम रामचंद्र नरुटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8480147": {
+    "serial": 14,
+    "voterId": "XUA8480147",
+    "partNumber": "201/140/387",
+    "name": "अकांक्ा रामचंद्र AT",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8482119": {
+    "serial": 15,
+    "voterId": "XUA8482119",
+    "partNumber": "201/140/388",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8480402": {
+    "serial": 16,
+    "voterId": "XUA8480402",
+    "partNumber": "201/140/390",
+    "name": "सिद्धीराज अशोक गजरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8481988": {
+    "serial": 17,
+    "voterId": "XUA8481988",
+    "partNumber": "201/140/391",
+    "name": "अक्षय मल्लिकार्जुन होसमाने",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8469520": {
+    "serial": 19,
+    "voterId": "XUA8469520",
+    "partNumber": "201/140/393",
+    "name": "उर्मिला भीखा परमार",
+    "relation": "भीखा परमार स",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA8475782": {
+    "serial": 20,
+    "voterId": "XUA8475782",
+    "partNumber": "201/140/394",
+    "name": "प्रतीक्षा अमित लकडे",
+    "relation": "अमित लकडे e",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8469595": {
+    "serial": 22,
+    "voterId": "XUA8469595",
+    "partNumber": "201/140/396",
+    "name": "प्रियंका दत्तात्रय सांगळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8469603": {
+    "serial": 23,
+    "voterId": "XUA8469603",
+    "partNumber": "201/140/397",
+    "name": "प्राजक्ता महादेव सांगळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8479081": {
+    "serial": 24,
+    "voterId": "XUA8479081",
+    "partNumber": "201/140/398",
+    "name": "महावीर आदित्य कोडेकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8480543": {
+    "serial": 25,
+    "voterId": "XUA8480543",
+    "partNumber": "201/140/399",
+    "name": "अमित सतीक्ष पाटोळे",
+    "relation": "सतीक्ष पाटोळे ७",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8481020": {
+    "serial": 26,
+    "voterId": "XUA8481020",
+    "partNumber": "201/140/400",
+    "name": "शुभम गणेक्ष माने",
+    "relation": "अत्तर दोख घर क्रमांक :- ot | चिर क्रमांक :- ot | चर क्रमांक :- पडि",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8481996": {
+    "serial": 27,
+    "voterId": "XUA8481996",
+    "partNumber": "201/140/401",
+    "name": "तौसिफ़ अत्तर दोख",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8482002": {
+    "serial": 28,
+    "voterId": "XUA8482002",
+    "partNumber": "201/140/402",
+    "name": "सुरज बाळासो राजपूर मतदाराचे पूर्ण; सृष्टि सुलभ शाह",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8063448": {
+    "serial": 29,
+    "voterId": "XUA8063448",
+    "partNumber": "201/140/405",
+    "name": "भाऊ उत्तरेश्वर वैद्य",
+    "relation": "",
+    "house": "",
+    "age": "40",
+    "gender": "M"
+  },
+  "XUA7492176": {
+    "serial": 30,
+    "voterId": "XUA7492176",
+    "partNumber": "201/140/407",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8189334": {
+    "serial": 31,
+    "voterId": "XUA8189334",
+    "partNumber": "201/140/408",
+    "name": "करण व्होरा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8167843": {
+    "serial": 32,
+    "voterId": "XUA8167843",
+    "partNumber": "201/140/410",
+    "name": "जयेश आहुजा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8471369": {
+    "serial": 33,
+    "voterId": "XUA8471369",
+    "partNumber": "201/140/411",
+    "name": "अनचघा व्होरा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8305872": {
+    "serial": 34,
+    "voterId": "XUA8305872",
+    "partNumber": "201/140/412",
+    "name": "ऐव्वर्या दुधाळ",
+    "relation": "",
+    "house": "",
+    "age": "27",
+    "gender": "M"
+  },
+  "XUA8539488": {
+    "serial": 35,
+    "voterId": "XUA8539488",
+    "partNumber": "201/140/413",
+    "name": "इवेता सुनिल जगदाळे",
+    "relation": "",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8582470": {
+    "serial": 40,
+    "voterId": "XUA8582470",
+    "partNumber": "201/140/472",
+    "name": "विशाल युवराज पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8631392": {
+    "serial": 41,
+    "voterId": "XUA8631392",
+    "partNumber": "201/140/473",
+    "name": "तृप्ती पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8545337": {
+    "serial": 42,
+    "voterId": "XUA8545337",
+    "partNumber": "201/140/476",
+    "name": "गायत्री शंकर मलगुंडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8546053": {
+    "serial": 43,
+    "voterId": "XUA8546053",
+    "partNumber": "201/140/477",
+    "name": "ध्रुविका दिनेश गलिंदे",
+    "relation": "दिनेश गलिंदे लोळ ०",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8484610": {
+    "serial": 44,
+    "voterId": "XUA8484610",
+    "partNumber": "201/140/478",
+    "name": "आकाश्श नागेश राठोड मतदाराचे पूर्ण; राहुल मिलिंद पवार",
+    "relation": "नागेश्ञ राठोड लोळ ०",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8564213": {
+    "serial": 45,
+    "voterId": "XUA8564213",
+    "partNumber": "201/140/479",
+    "name": "",
+    "relation": "मिलिंद पवार घर क्रमांक : GALINDE GALI | घर क्रमांक Gainge Nagar et | घर क्रमांक Partt Wada b",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8493447": {
+    "serial": 46,
+    "voterId": "XUA8493447",
+    "partNumber": "201/140/481",
+    "name": "साहिल बापूराव कांबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8594061": {
+    "serial": 47,
+    "voterId": "XUA8594061",
+    "partNumber": "201/140/482",
+    "name": "सुहाना मन्सूर सय्यद",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8558769": {
+    "serial": 48,
+    "voterId": "XUA8558769",
+    "partNumber": "201/140/484",
+    "name": "प्रीति टिंगारे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8483182": {
+    "serial": 49,
+    "voterId": "XUA8483182",
+    "partNumber": "201/140/485",
+    "name": "सृष्टी अकोबा कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8532822": {
+    "serial": 50,
+    "voterId": "XUA8532822",
+    "partNumber": "201/140/486",
+    "name": "अंजली अशोक जैन",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8063521": {
+    "serial": 51,
+    "voterId": "XUA8063521",
+    "partNumber": "201/140/487",
+    "name": "विक्रांत संतोष कुलकर्णी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8530453": {
+    "serial": 52,
+    "voterId": "XUA8530453",
+    "partNumber": "201/140/488",
+    "name": "दिलीप रामराव सावंत",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8432429": {
+    "serial": 53,
+    "voterId": "XUA8432429",
+    "partNumber": "201/140/490",
+    "name": "सुखदेव महादेव शिवशञरण",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8094823": {
+    "serial": 54,
+    "voterId": "XUA8094823",
+    "partNumber": "201/140/492",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8529364": {
+    "serial": 55,
+    "voterId": "XUA8529364",
+    "partNumber": "201/140/493",
+    "name": "प्रशांत श्रीकृष्ण अलसुंदेकर",
+    "relation": "श्ञाम कनकधर कनकधर e",
+    "house": "",
+    "age": "43",
+    "gender": "F"
+  },
+  "XUA8358673": {
+    "serial": 56,
+    "voterId": "XUA8358673",
+    "partNumber": "201/140/494",
+    "name": "ललित शाम कनकधर '",
+    "relation": "श्ञाम कनकधर कनकधर की 'घर क्रमांक : LAKDIROAD \" | घर क्रमांक LAXMIDATTA VILLAGE | घर क्रमांक :( 00% DATTA VILLAGE व",
+    "house": "",
+    "age": "27",
+    "gender": "M"
+  },
+  "XUA8358665": {
+    "serial": 57,
+    "voterId": "XUA8358665",
+    "partNumber": "201/140/495",
+    "name": "लखन शाम कनकधर",
+    "relation": "",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA8361214": {
+    "serial": 58,
+    "voterId": "XUA8361214",
+    "partNumber": "201/140/496",
+    "name": "इयाम मच्छिंद्र कनकधर मतदाराचे पूर्ण; सिहि राजेंद्र काळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8553901": {
+    "serial": 61,
+    "voterId": "XUA8553901",
+    "partNumber": "201/140/501",
+    "name": "रामचंद्र देवकर",
+    "relation": "हनुमंत देवकर e |",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA8544173": {
+    "serial": 62,
+    "voterId": "XUA8544173",
+    "partNumber": "201/140/502",
+    "name": "आज्ञा देवकर",
+    "relation": "रामचंद्र देवकर 5२... |",
+    "house": "",
+    "age": "37",
+    "gender": "F"
+  },
+  "XUA8555369": {
+    "serial": 63,
+    "voterId": "XUA8555369",
+    "partNumber": "201/140/503",
+    "name": "आदित्य सातपुते",
+    "relation": "जवाहरलाल सातपुते - = क्रमांक : MORESHWAR COMPLEX 1 | चर क्रमांक : MORESHWAR COMPLEX \" | घर क्रमांक : MORESHWAR COMPLEX b",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8552069": {
+    "serial": 64,
+    "voterId": "XUA8552069",
+    "partNumber": "201/140/504",
+    "name": "आविष्कार शेळके",
+    "relation": "विनोद शेळके ७७० |",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8417933": {
+    "serial": 67,
+    "voterId": "XUA8417933",
+    "partNumber": "201/140/507",
+    "name": "गुरुनाथ जगन्नाथ गरुड",
+    "relation": "सतीक्ष आंधळे",
+    "house": "",
+    "age": "24",
+    "gender": "F"
+  },
+  "XUA8597684": {
+    "serial": 70,
+    "voterId": "XUA8597684",
+    "partNumber": "201/140/510",
+    "name": "हनुमंत मल्हारी जगताप",
+    "relation": "मल्हारी जगताप ७",
+    "house": "",
+    "age": "57",
+    "gender": "M"
+  },
+  "XUA8523540": {
+    "serial": 71,
+    "voterId": "XUA8523540",
+    "partNumber": "201/140/511",
+    "name": "तेजस वैभव दीक्षित",
+    "relation": "वैभव दीक्षित",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8537425": {
+    "serial": 72,
+    "voterId": "XUA8537425",
+    "partNumber": "201/140/513",
+    "name": "मयुरी तुषार भोईटे",
+    "relation": "तुषार भोईटे ताळ घर क्रमांक NAVIYOT M SOCETY \" | चर क्रमांक near amardesn hotel. ] घर क्रमांक NEAR JAISHRI GARDEN b",
+    "house": "",
+    "age": "27",
+    "gender": "F"
+  },
+  "XUA8193807": {
+    "serial": 73,
+    "voterId": "XUA8193807",
+    "partNumber": "201/140/514",
+    "name": "व्यंकटेश असमपेल्ली",
+    "relation": "पोचम असमपेल्ली nee |",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA1984657": {
+    "serial": 75,
+    "voterId": "XUA1984657",
+    "partNumber": "201/140/516",
+    "name": "अनुराधा ओंकार कदम",
+    "relation": "ऑकार e |",
+    "house": "",
+    "age": "25",
+    "gender": ""
+  },
+  "XUA1984665": {
+    "serial": 76,
+    "voterId": "XUA1984665",
+    "partNumber": "201/140/517",
+    "name": "शोभा तानाजी कदम",
+    "relation": "तानाजी कदम",
+    "house": "",
+    "age": "49",
+    "gender": ""
+  },
+  "XUA8637605": {
+    "serial": 77,
+    "voterId": "XUA8637605",
+    "partNumber": "201/140/518",
+    "name": "अस्मिता किरण माने",
+    "relation": "किरण बाबा माने nee |",
+    "house": "",
+    "age": "24",
+    "gender": "F"
+  },
+  "XUA8556235": {
+    "serial": 78,
+    "voterId": "XUA8556235",
+    "partNumber": "201/140/519",
+    "name": "सुयोग शाह",
+    "relation": "सुनील शाह e घर क्रमांक Near Vighneherta Bungalow e ] घर क्रमांक Nevase Road ] घर क्रमांक NRMANSOC e",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8339996": {
+    "serial": 79,
+    "voterId": "XUA8339996",
+    "partNumber": "201/140/520",
+    "name": "सत्यम प्रशांत शिर्के",
+    "relation": "रामदास जाधव e |",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8529802": {
+    "serial": 81,
+    "voterId": "XUA8529802",
+    "partNumber": "201/140/522",
+    "name": "गणेश रामदास जाधव",
+    "relation": "दत्ताराय भूमकर भाच घर क्रमांक : NrNew Court Chinmay 590 | घर क्रमांक : जी et | घर क्रमांक panchavati row ह",
+    "house": "",
+    "age": "48",
+    "gender": "M"
+  },
+  "XUA8553976": {
+    "serial": 82,
+    "voterId": "XUA8553976",
+    "partNumber": "201/140/523",
+    "name": "दत्तात्रय दगडू मोहिते",
+    "relation": "",
+    "house": "",
+    "age": "21",
+    "gender": ""
+  },
+  "XUA8622052": {
+    "serial": 85,
+    "voterId": "XUA8622052",
+    "partNumber": "201/140/526",
+    "name": "आदित्य भरत शिंदे [",
+    "relation": "भरत पंढरीनाथ शिंदे e |",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8196909": {
+    "serial": 87,
+    "voterId": "XUA8196909",
+    "partNumber": "201/140/528",
+    "name": "वर्धन रायसोनी",
+    "relation": "संदीप रायसोनी",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8505810": {
+    "serial": 94,
+    "voterId": "XUA8505810",
+    "partNumber": "201/140/537",
+    "name": "सुजाता दत्तात्रय काळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8535577": {
+    "serial": 95,
+    "voterId": "XUA8535577",
+    "partNumber": "201/140/538",
+    "name": "स्मृती संजय गीर्मे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472607": {
+    "serial": 97,
+    "voterId": "XUA8472607",
+    "partNumber": "201/140/541",
+    "name": "धनश्री धनंजय देशपांडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8452591": {
+    "serial": 100,
+    "voterId": "XUA8452591",
+    "partNumber": "201/140/544",
+    "name": "गोपालकृष्ण तुलकृष्ना लाल",
+    "relation": "तुलकृष्ना लाल",
+    "house": "",
+    "age": "60",
+    "gender": "M"
+  },
+  "XUA8544488": {
+    "serial": 101,
+    "voterId": "XUA8544488",
+    "partNumber": "201/140/545",
+    "name": "संध्या तुळशीराम माघाडे",
+    "relation": "तुळशीराम माघाडे",
+    "house": "",
+    "age": "33",
+    "gender": "F"
+  },
+  "XUA8532699": {
+    "serial": 102,
+    "voterId": "XUA8532699",
+    "partNumber": "201/140/546",
+    "name": "आकांक्षा सुनील कंगले",
+    "relation": "सुनील कंगले ता घर क्रमांक Sanahavi Townshio | चर क्रमांक : Sanghvi 08880 e | घर क्रमांक Senchvi Taouwn e",
+    "house": "",
+    "age": "23",
+    "gender": "F"
+  },
+  "XUA8529547": {
+    "serial": 103,
+    "voterId": "XUA8529547",
+    "partNumber": "201/140/547",
+    "name": "क्रतुजा प्रकाश हिरोली",
+    "relation": "",
+    "house": "",
+    "age": "31",
+    "gender": ""
+  },
+  "XUA8553018": {
+    "serial": 104,
+    "voterId": "XUA8553018",
+    "partNumber": "201/140/548",
+    "name": "प्रशांत राजाराम गावडे",
+    "relation": "",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA8589897": {
+    "serial": 105,
+    "voterId": "XUA8589897",
+    "partNumber": "201/140/549",
+    "name": "खंडेराव निवृत्ती जाधव",
+    "relation": "",
+    "house": "",
+    "age": "43",
+    "gender": "M"
+  },
+  "XUA8459596": {
+    "serial": 106,
+    "voterId": "XUA8459596",
+    "partNumber": "201/140/550",
+    "name": "सोहम राजेश गांधी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8534828": {
+    "serial": 107,
+    "voterId": "XUA8534828",
+    "partNumber": "201/140/551",
+    "name": "साक्षी राकेश भाटिया",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8529380": {
+    "serial": 108,
+    "voterId": "XUA8529380",
+    "partNumber": "201/140/552",
+    "name": "ओम लोंढे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8407926": {
+    "serial": 109,
+    "voterId": "XUA8407926",
+    "partNumber": "201/140/553",
+    "name": "सर्वेश प्रकाश जोशी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8542367": {
+    "serial": 112,
+    "voterId": "XUA8542367",
+    "partNumber": "201/140/558",
+    "name": "सोनाली लोंढे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8108839": {
+    "serial": 114,
+    "voterId": "XUA8108839",
+    "partNumber": "201/140/562",
+    "name": "जयश्री हनुमंत माळी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA1545334": {
+    "serial": 115,
+    "voterId": "XUA1545334",
+    "partNumber": "201/140/563",
+    "name": "राजेंद्र माणिकलाल मुथा",
+    "relation": "माणिकलाल मुथा भाच",
+    "house": "",
+    "age": "66",
+    "gender": "M"
+  },
+  "XUA1545342": {
+    "serial": 116,
+    "voterId": "XUA1545342",
+    "partNumber": "201/140/564",
+    "name": "भारती राजेंद्र मुथा",
+    "relation": "राजेंद्र मुथा *% ना. इतर राजेंद्र मुथा *% e घर क्रमांक : Stipal Hosoital ] घर क्रमांक Sripal Hosital et | घर क्रमांक Shribal Hospital ह",
+    "house": "",
+    "age": "62",
+    "gender": "F"
+  },
+  "XUA1545359": {
+    "serial": 117,
+    "voterId": "XUA1545359",
+    "partNumber": "201/140/565",
+    "name": "सौरभ राजेंद्र मुथा",
+    "relation": "",
+    "house": "",
+    "age": "39",
+    "gender": "M"
+  },
+  "XUA7671571": {
+    "serial": 118,
+    "voterId": "XUA7671571",
+    "partNumber": "201/140/566",
+    "name": "ऐव्वर्या अनिल जगताप",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8529760": {
+    "serial": 119,
+    "voterId": "XUA8529760",
+    "partNumber": "201/140/567",
+    "name": "सागर बाळासो मळेकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8479164": {
+    "serial": 120,
+    "voterId": "XUA8479164",
+    "partNumber": "201/140/568",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8479180": {
+    "serial": 121,
+    "voterId": "XUA8479180",
+    "partNumber": "201/140/570",
+    "name": "ईव्वरी अजित देवकाते",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8479057": {
+    "serial": 122,
+    "voterId": "XUA8479057",
+    "partNumber": "201/140/571",
+    "name": "अश्‍विनी संजय डोंबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472326": {
+    "serial": 123,
+    "voterId": "XUA8472326",
+    "partNumber": "201/140/573",
+    "name": "गोपीचंद शंकर पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472268": {
+    "serial": 124,
+    "voterId": "XUA8472268",
+    "partNumber": "201/140/574",
+    "name": "कलावती गोपीचंद पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472367": {
+    "serial": 125,
+    "voterId": "XUA8472367",
+    "partNumber": "201/140/575",
+    "name": "समीर गोपीचंद पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8516759": {
+    "serial": 126,
+    "voterId": "XUA8516759",
+    "partNumber": "201/140/576",
+    "name": "अमोल वैजनाथ शेटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8516767": {
+    "serial": 127,
+    "voterId": "XUA8516767",
+    "partNumber": "201/140/577",
+    "name": "जया अमोल शेटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8532814": {
+    "serial": 128,
+    "voterId": "XUA8532814",
+    "partNumber": "201/140/578",
+    "name": "वीरेंद्र संजय हांगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8610321": {
+    "serial": 129,
+    "voterId": "XUA8610321",
+    "partNumber": "201/140/579",
+    "name": "अमीन हंबीर दोख",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8135915": {
+    "serial": 130,
+    "voterId": "XUA8135915",
+    "partNumber": "201/140/580",
+    "name": "अश्‍विनी सोमनाथ झोंबाडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8535999": {
+    "serial": 131,
+    "voterId": "XUA8535999",
+    "partNumber": "201/140/581",
+    "name": "अनिकेत अरुण गायकवाड",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8503641": {
+    "serial": 132,
+    "voterId": "XUA8503641",
+    "partNumber": "201/140/582",
+    "name": "संगीता सूर्यकांत जाधव",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8166787": {
+    "serial": 133,
+    "voterId": "XUA8166787",
+    "partNumber": "201/140/583",
+    "name": "सुयश अरुण दुबल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8532749": {
+    "serial": 134,
+    "voterId": "XUA8532749",
+    "partNumber": "201/140/584",
+    "name": "नीलेश पेटकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8622995": {
+    "serial": 136,
+    "voterId": "XUA8622995",
+    "partNumber": "201/140/586",
+    "name": "ऐक्वर्या अविनाश मोहिते",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": ""
+  },
+  "XUA8491045": {
+    "serial": 137,
+    "voterId": "XUA8491045",
+    "partNumber": "201/140/587",
+    "name": "प्रज्ञेश लामतुरे",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8467284": {
+    "serial": 138,
+    "voterId": "XUA8467284",
+    "partNumber": "201/140/590",
+    "name": "विलास नानासो साळुंके",
+    "relation": "",
+    "house": "",
+    "age": "52",
+    "gender": "M"
+  },
+  "XUA8542953": {
+    "serial": 139,
+    "voterId": "XUA8542953",
+    "partNumber": "201/140/591",
+    "name": "कविता दत्ता शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8459513": {
+    "serial": 140,
+    "voterId": "XUA8459513",
+    "partNumber": "201/140/592",
+    "name": "सुनीता विजय यादव",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8622862": {
+    "serial": 141,
+    "voterId": "XUA8622862",
+    "partNumber": "201/140/593",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8622854": {
+    "serial": 142,
+    "voterId": "XUA8622854",
+    "partNumber": "201/140/594",
+    "name": "विजय यादव",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8534802": {
+    "serial": 143,
+    "voterId": "XUA8534802",
+    "partNumber": "201/140/595",
+    "name": "प्रियंका अजय मणियार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8319071": {
+    "serial": 145,
+    "voterId": "XUA8319071",
+    "partNumber": "201/140/597",
+    "name": "प्रिती सचिन सूर्यवंशी",
+    "relation": "सचिन सूर्यवंशी ७",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8455941": {
+    "serial": 146,
+    "voterId": "XUA8455941",
+    "partNumber": "201/140/598",
+    "name": "सिद्धी पल्लोड",
+    "relation": "आकज्षीष पल्लोड (७० |",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7779655": {
+    "serial": 147,
+    "voterId": "XUA7779655",
+    "partNumber": "201/140/599",
+    "name": "सुवर्णा नितिन तुपे",
+    "relation": "नितिन तुपे घर क्रमांक : Vishwa Empayare Bulidng, e | चर क्रमांक ISHWA EMPIRE et | घर क्रमांक vashochen vidva housna ह [वय : २८ लिंग -t [वय : २० लिंग :सरी वय : ३९ लिंग : स्री",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326619": {
+    "serial": 148,
+    "voterId": "XUA2326619",
+    "partNumber": "201/140/600",
+    "name": "पुनम निवृत्ती घाडगे मतदाराचे पूर्ण; मनिषा मुकुंद अत्रे",
+    "relation": "",
+    "house": "",
+    "age": "46",
+    "gender": ""
+  },
+  "XUA4606919": {
+    "serial": 149,
+    "voterId": "XUA4606919",
+    "partNumber": "201/140/601",
+    "name": "मिलिंद मुकुंद अत्रे",
+    "relation": "",
+    "house": "",
+    "age": "26",
+    "gender": "M"
+  },
+  "XUA4606927": {
+    "serial": 150,
+    "voterId": "XUA4606927",
+    "partNumber": "201/140/602",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA7754807": {
+    "serial": 154,
+    "voterId": "XUA7754807",
+    "partNumber": "201/140/606",
+    "name": "अभिषेक विजयकुमार भोसले",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8235558": {
+    "serial": 155,
+    "voterId": "XUA8235558",
+    "partNumber": "201/140/607",
+    "name": "सुप्रिया सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8235566": {
+    "serial": 156,
+    "voterId": "XUA8235566",
+    "partNumber": "201/140/608",
+    "name": "प्रीति सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8235541": {
+    "serial": 157,
+    "voterId": "XUA8235541",
+    "partNumber": "201/140/609",
+    "name": "शिवनारायण सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8235574": {
+    "serial": 158,
+    "voterId": "XUA8235574",
+    "partNumber": "201/140/610",
+    "name": "मीना सिंह मतदाराचे पूर्ण सिद्धार्थ सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8236176": {
+    "serial": 159,
+    "voterId": "XUA8236176",
+    "partNumber": "201/140/611",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8548224": {
+    "serial": 160,
+    "voterId": "XUA8548224",
+    "partNumber": "201/140/612",
+    "name": "साक्षी गांधी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8477788": {
+    "serial": 161,
+    "voterId": "XUA8477788",
+    "partNumber": "201/140/614",
+    "name": "पुजा अभिजीत शितोळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8600017": {
+    "serial": 162,
+    "voterId": "XUA8600017",
+    "partNumber": "201/140/615",
+    "name": "कृतिका सोनी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8463382": {
+    "serial": 163,
+    "voterId": "XUA8463382",
+    "partNumber": "201/140/616",
+    "name": "गौरी गणेज्ञ थोपटे",
+    "relation": "गणेश् थोपटे भाच",
+    "house": "",
+    "age": "20",
+    "gender": "F"
+  },
+  "XUA8364903": {
+    "serial": 164,
+    "voterId": "XUA8364903",
+    "partNumber": "201/140/617",
+    "name": "शितल प्रीतम जाधव '",
+    "relation": ":प्रीतम बाळासाहेब जाधव भाच",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA8450595": {
+    "serial": 165,
+    "voterId": "XUA8450595",
+    "partNumber": "201/140/618",
+    "name": "मुकुंद नागेश म्हेत्रे",
+    "relation": "लिलाबाई नागेश म्हेत्रे . घर क्रमांक : FLAT 9 OMKAR APARTMENT | ™ | घर क्रमांक : RLATNO 9 e | घर क्रमांक FLAT NO 9 KATE PRDE ह",
+    "house": "",
+    "age": "47",
+    "gender": "M"
+  },
+  "XUA8612848": {
+    "serial": 166,
+    "voterId": "XUA8612848",
+    "partNumber": "201/140/619",
+    "name": "जाहीरूल रईस अहमद [",
+    "relation": "",
+    "house": "",
+    "age": "42",
+    "gender": ""
+  },
+  "XUA8377673": {
+    "serial": 167,
+    "voterId": "XUA8377673",
+    "partNumber": "201/140/620",
+    "name": "नेहा चव्हाण",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "F"
+  },
+  "XUA8118481": {
+    "serial": 168,
+    "voterId": "XUA8118481",
+    "partNumber": "201/140/621",
+    "name": "सिद्धाली अशोक लोखंडे",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA8444135": {
+    "serial": 169,
+    "voterId": "XUA8444135",
+    "partNumber": "201/140/622",
+    "name": "विठ्ठल जोरी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8436248": {
+    "serial": 170,
+    "voterId": "XUA8436248",
+    "partNumber": "201/140/623",
+    "name": "मृणाल जोरी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8509671": {
+    "serial": 172,
+    "voterId": "XUA8509671",
+    "partNumber": "201/140/625",
+    "name": "दिपक सुनिल मराळे",
+    "relation": "सुनिल हरिभाऊ मराळे भाच",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8392995": {
+    "serial": 173,
+    "voterId": "XUA8392995",
+    "partNumber": "201/140/626",
+    "name": "प्रिती गिरमे",
+    "relation": "राजेंद्र विठ्ठल गिरमे गिरमे भाच",
+    "house": "",
+    "age": "23",
+    "gender": "F"
+  },
+  "XUA8419111": {
+    "serial": 174,
+    "voterId": "XUA8419111",
+    "partNumber": "201/140/627",
+    "name": "चैतन्य राऊत",
+    "relation": "अनिता राऊत *% e घर क्रमांक : SAIRAJ COMPLEX A9, e घर क्रमांक sanotvi 088808१ et | घर क्रमांक Shweta apartment १ e",
+    "house": "",
+    "age": "25",
+    "gender": "M"
+  },
+  "XUA8385080": {
+    "serial": 175,
+    "voterId": "XUA8385080",
+    "partNumber": "201/140/628",
+    "name": "आयज्ा एज़ाज़ अत्तार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8384125": {
+    "serial": 176,
+    "voterId": "XUA8384125",
+    "partNumber": "201/140/629",
+    "name": "समीना मुदसर अत्तार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8462400": {
+    "serial": 177,
+    "voterId": "XUA8462400",
+    "partNumber": "201/140/630",
+    "name": "मनीषा शहाणे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4606976": {
+    "serial": 178,
+    "voterId": "XUA4606976",
+    "partNumber": "201/140/633",
+    "name": "विदीशा आर्दश शहा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4606950": {
+    "serial": 179,
+    "voterId": "XUA4606950",
+    "partNumber": "201/140/634",
+    "name": "रसिका सुनिल शहा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8191140": {
+    "serial": 180,
+    "voterId": "XUA8191140",
+    "partNumber": "201/140/635",
+    "name": "राधेय पाठक",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8592016": {
+    "serial": 182,
+    "voterId": "XUA8592016",
+    "partNumber": "201/140/637",
+    "name": "प्रतिक नेहेरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8493223": {
+    "serial": 183,
+    "voterId": "XUA8493223",
+    "partNumber": "201/140/638",
+    "name": "क्रतिका विकास देशमुख",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8473027": {
+    "serial": 184,
+    "voterId": "XUA8473027",
+    "partNumber": "201/140/639",
+    "name": "साक्षी गणेश तोडकर",
+    "relation": "गणेश् विठ्ठल तोडकर",
+    "house": "",
+    "age": "35",
+    "gender": ""
+  },
+  "XUA8454316": {
+    "serial": 185,
+    "voterId": "XUA8454316",
+    "partNumber": "201/140/640",
+    "name": "उज्वला शिवाजी कळंत्रे",
+    "relation": "निवृत्ती कदम घर क्रमांक : 7100०२ न | घर क्रमांक FLAT ५0०२ SONALI VILLA e | घर क्रमांक Flat no 2 Kele Complex ह",
+    "house": "",
+    "age": "34",
+    "gender": ""
+  },
+  "XUA8584146": {
+    "serial": 186,
+    "voterId": "XUA8584146",
+    "partNumber": "201/140/641",
+    "name": "सुनील निवृत्ती कदम",
+    "relation": "",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA8475121": {
+    "serial": 187,
+    "voterId": "XUA8475121",
+    "partNumber": "201/140/642",
+    "name": "सचिन कांतिलाल संचेती",
+    "relation": "",
+    "house": "",
+    "age": "44",
+    "gender": "M"
+  },
+  "XUA8621146": {
+    "serial": 188,
+    "voterId": "XUA8621146",
+    "partNumber": "201/140/643",
+    "name": "आनंद गायकवाड",
+    "relation": "",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8234627": {
+    "serial": 189,
+    "voterId": "XUA8234627",
+    "partNumber": "201/140/644",
+    "name": "गणेक्ष कोळी",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8323024": {
+    "serial": 190,
+    "voterId": "XUA8323024",
+    "partNumber": "201/140/645",
+    "name": "यज्ञ पल्लोड",
+    "relation": "",
+    "house": "",
+    "age": "26",
+    "gender": "M"
+  },
+  "XUA7667462": {
+    "serial": 191,
+    "voterId": "XUA7667462",
+    "partNumber": "201/140/646",
+    "name": "राजेश विलास यादव",
+    "relation": "",
+    "house": "",
+    "age": "28",
+    "gender": "M"
+  },
+  "XUA8536104": {
+    "serial": 192,
+    "voterId": "XUA8536104",
+    "partNumber": "201/140/647",
+    "name": "दीपक विलास तिवाटणे",
+    "relation": "",
+    "house": "",
+    "age": "47",
+    "gender": "M"
+  },
+  "XUA8536070": {
+    "serial": 193,
+    "voterId": "XUA8536070",
+    "partNumber": "201/140/648",
+    "name": "रूपाली तिवाटणे",
+    "relation": "दीपक तिवाटणे भाच",
+    "house": "",
+    "age": "47",
+    "gender": ""
+  },
+  "XUA8484255": {
+    "serial": 194,
+    "voterId": "XUA8484255",
+    "partNumber": "201/140/649",
+    "name": "श्रुतीका सूर्यवंशी",
+    "relation": "आश्ञीष सुर्यवंशी e",
+    "house": "",
+    "age": "25",
+    "gender": ""
+  },
+  "XUA8472235": {
+    "serial": 195,
+    "voterId": "XUA8472235",
+    "partNumber": "201/140/650",
+    "name": "रूपाली पलीवाल",
+    "relation": "गजेंद्र पलीवाल e घर क्रमांक : OMKAR RESDENCY AN e | घर क्रमांक : १01100 AR et | घर क्रमांक RO HOUSENO AR व",
+    "house": "",
+    "age": "21",
+    "gender": "F"
+  },
+  "XUA8462335": {
+    "serial": 196,
+    "voterId": "XUA8462335",
+    "partNumber": "201/140/651",
+    "name": "अभिषेक शहाणे",
+    "relation": "",
+    "house": "",
+    "age": "25",
+    "gender": "M"
+  },
+  "XUA8534588": {
+    "serial": 197,
+    "voterId": "XUA8534588",
+    "partNumber": "201/140/652",
+    "name": "रिद्धी निखिल पटेल",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA4606984": {
+    "serial": 198,
+    "voterId": "XUA4606984",
+    "partNumber": "201/140/653",
+    "name": "प्राज्कता माधव निगळे",
+    "relation": "",
+    "house": "",
+    "age": "32",
+    "gender": "F"
+  },
+  "XUA4606992": {
+    "serial": 199,
+    "voterId": "XUA4606992",
+    "partNumber": "201/140/654",
+    "name": "जयश्री घिरुबाई पटेल",
+    "relation": "",
+    "house": "",
+    "age": "39",
+    "gender": ""
+  },
+  "XUA4607008": {
+    "serial": 200,
+    "voterId": "XUA4607008",
+    "partNumber": "201/140/655",
+    "name": "सोनाली भाविक राठोड",
+    "relation": "",
+    "house": "",
+    "age": "43",
+    "gender": "F"
+  },
+  "XUA8194847": {
+    "serial": 205,
+    "voterId": "XUA8194847",
+    "partNumber": "201/140/660",
+    "name": "गौरव भुजबळ",
+    "relation": "",
+    "house": "",
+    "age": "25",
+    "gender": "M"
+  },
+  "XUA8194839": {
+    "serial": 206,
+    "voterId": "XUA8194839",
+    "partNumber": "201/140/661",
+    "name": "आकांक्षा भुजबळ",
+    "relation": "",
+    "house": "",
+    "age": "28",
+    "gender": "F"
+  },
+  "XUA8616799": {
+    "serial": 207,
+    "voterId": "XUA8616799",
+    "partNumber": "201/140/662",
+    "name": "श्रद्धा गालिंदे",
+    "relation": "",
+    "house": "",
+    "age": "24",
+    "gender": "F"
+  },
+  "XUA8499220": {
+    "serial": 208,
+    "voterId": "XUA8499220",
+    "partNumber": "201/140/663",
+    "name": "आकांक्षा शिवाजी इंगळे",
+    "relation": "शिवाजी अशोक इंगळे e",
+    "house": "",
+    "age": "24",
+    "gender": ""
+  },
+  "XUA8492910": {
+    "serial": 210,
+    "voterId": "XUA8492910",
+    "partNumber": "201/140/665",
+    "name": "संध्या विजय भोरकडे",
+    "relation": "विजय विजय भोरकडे e | इतर :इयाम अनंत घोडके e घर क्रमांक : 7100 3 | घर क्रमांक FLAT NO 3 KRUSHNYOG | घर क्रमांक : FLATNOA/3 ह",
+    "house": "",
+    "age": "72",
+    "gender": ""
+  },
+  "XUA8492845": {
+    "serial": 211,
+    "voterId": "XUA8492845",
+    "partNumber": "201/140/666",
+    "name": "इयाम अनंत घोडके",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8109225": {
+    "serial": 212,
+    "voterId": "XUA8109225",
+    "partNumber": "201/140/667",
+    "name": "अभिषेक पटेल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607016": {
+    "serial": 213,
+    "voterId": "XUA4607016",
+    "partNumber": "201/140/668",
+    "name": "निता संदिप गलांडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607032": {
+    "serial": 214,
+    "voterId": "XUA4607032",
+    "partNumber": "201/140/669",
+    "name": "राजेंद्र हरीदास खोमणे",
+    "relation": "हरीदास खोमणे",
+    "house": "",
+    "age": "55",
+    "gender": "M"
+  },
+  "XUA4607040": {
+    "serial": 215,
+    "voterId": "XUA4607040",
+    "partNumber": "201/140/670",
+    "name": "वैशाली राजेंद्र खोमणे",
+    "relation": "राजेंद्र खोमणे ७",
+    "house": "",
+    "age": "52",
+    "gender": "F"
+  },
+  "XUA4607024": {
+    "serial": 216,
+    "voterId": "XUA4607024",
+    "partNumber": "201/140/671",
+    "name": "श्रती रुषीकुमार ज्र्मा",
+    "relation": "रुषीकुमार कर्मा [घर क्रमांक : ४ et | घर क्रमांक :४ R | घर क्रमांक :४/0 ह",
+    "house": "",
+    "age": "44",
+    "gender": "F"
+  },
+  "XUA8592586": {
+    "serial": 217,
+    "voterId": "XUA8592586",
+    "partNumber": "201/140/672",
+    "name": "समीर राजेंद्र मोरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8595035": {
+    "serial": 218,
+    "voterId": "XUA8595035",
+    "partNumber": "201/140/673",
+    "name": "सायली राजेंद्र मोरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8538670": {
+    "serial": 219,
+    "voterId": "XUA8538670",
+    "partNumber": "201/140/674",
+    "name": "ज्योती शुभम साबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4548137": {
+    "serial": 220,
+    "voterId": "XUA4548137",
+    "partNumber": "201/140/679",
+    "name": "योगिता सारंग वाडकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8529844": {
+    "serial": 221,
+    "voterId": "XUA8529844",
+    "partNumber": "201/140/680",
+    "name": "सार्थक चौधरी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8541294": {
+    "serial": 222,
+    "voterId": "XUA8541294",
+    "partNumber": "201/140/683",
+    "name": "सात्विक मनोज दश",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8599797": {
+    "serial": 223,
+    "voterId": "XUA8599797",
+    "partNumber": "201/140/684",
+    "name": "प्रितम मच्छिंद्र तपकिरे",
+    "relation": "जवाहर खंडारे भाच",
+    "house": "",
+    "age": "65",
+    "gender": "F"
+  },
+  "XUA8416976": {
+    "serial": 24,
+    "voterId": "XUA8416976",
+    "partNumber": "201/140/685",
+    "name": "प्रियंका प्रितम तपकिरे",
+    "relation": "मच्छिंद्र शिवाजी तपकिरे भाच",
+    "house": "",
+    "age": "32",
+    "gender": "M"
+  },
+  "XUA8417073": {
+    "serial": 225,
+    "voterId": "XUA8417073",
+    "partNumber": "201/140/686",
+    "name": "",
+    "relation": "प्रितम मच्छिंद्र तपकिरे e घर क्रमांक : १71५0. 0४ et | घर क्रमांक : निशा ५0.४ et | घर क्रमांक :१ &1100.४ ह",
+    "house": "",
+    "age": "32",
+    "gender": "F"
+  },
+  "XUA7556707": {
+    "serial": 229,
+    "voterId": "XUA7556707",
+    "partNumber": "201/140/690",
+    "name": "ब्रवैल सागर होले होले",
+    "relation": "",
+    "house": "",
+    "age": "29",
+    "gender": ""
+  },
+  "XUA8455214": {
+    "serial": 230,
+    "voterId": "XUA8455214",
+    "partNumber": "201/140/691",
+    "name": "स्वरूप कुलकर्णी",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8478885": {
+    "serial": 231,
+    "voterId": "XUA8478885",
+    "partNumber": "201/140/692",
+    "name": "प्रगती राजेंद्र ठवरे",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "F"
+  },
+  "XUA4607057": {
+    "serial": 232,
+    "voterId": "XUA4607057",
+    "partNumber": "201/140/693",
+    "name": "अलका गणेव् सुक्रे",
+    "relation": "गणेश सुक्रे १५5... |",
+    "house": "",
+    "age": "56",
+    "gender": ""
+  },
+  "XUA7750813": {
+    "serial": 233,
+    "voterId": "XUA7750813",
+    "partNumber": "201/140/694",
+    "name": "अभिजीत भिवाजी काळे",
+    "relation": "भिवाजी काळे e |",
+    "house": "",
+    "age": "26",
+    "gender": "M"
+  },
+  "XUA8620122": {
+    "serial": 234,
+    "voterId": "XUA8620122",
+    "partNumber": "201/140/695",
+    "name": "साहिल कांतीलाल काळणे",
+    "relation": "कांतिलाल बापूराव काळाणे mae घर क्रमांक : ५/७ e घर क्रमांक :५-8 | घर क्रमांक :&५ प",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8111080": {
+    "serial": 235,
+    "voterId": "XUA8111080",
+    "partNumber": "201/140/696",
+    "name": "श्षज्ञांक जाधव",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8560468": {
+    "serial": 236,
+    "voterId": "XUA8560468",
+    "partNumber": "201/140/697",
+    "name": "अरुण मरीबा गायकवाड",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8535965": {
+    "serial": 237,
+    "voterId": "XUA8535965",
+    "partNumber": "201/140/698",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8564551": {
+    "serial": 238,
+    "voterId": "XUA8564551",
+    "partNumber": "201/140/699",
+    "name": "कौस्तुभ नवनाथ कर्णे",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": "F"
+  },
+  "XUA8236341": {
+    "serial": 239,
+    "voterId": "XUA8236341",
+    "partNumber": "201/140/700",
+    "name": "क्रषिकेश शरद शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "47",
+    "gender": "F"
+  },
+  "XUA8093478": {
+    "serial": 240,
+    "voterId": "XUA8093478",
+    "partNumber": "201/140/701",
+    "name": "सिद्धी अजय शितोळे",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8392763": {
+    "serial": 244,
+    "voterId": "XUA8392763",
+    "partNumber": "201/140/705",
+    "name": "विश्‍वजीत ढमाळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8383416": {
+    "serial": 245,
+    "voterId": "XUA8383416",
+    "partNumber": "201/140/706",
+    "name": "गौरी प्रदीप सूर्यवंशी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8397895": {
+    "serial": 246,
+    "voterId": "XUA8397895",
+    "partNumber": "201/140/707",
+    "name": "नेहा संजय साळुंके",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607107": {
+    "serial": 247,
+    "voterId": "XUA4607107",
+    "partNumber": "201/140/708",
+    "name": "ईव्वर काळुराम कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8195711": {
+    "serial": 248,
+    "voterId": "XUA8195711",
+    "partNumber": "201/140/709",
+    "name": "आशुतोष रंजन",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8581597": {
+    "serial": 249,
+    "voterId": "XUA8581597",
+    "partNumber": "201/140/710",
+    "name": "वसुंधरा धुमाळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607099": {
+    "serial": 253,
+    "voterId": "XUA4607099",
+    "partNumber": "201/140/714",
+    "name": "धनश्री धनंजय भुंजे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607131": {
+    "serial": 254,
+    "voterId": "XUA4607131",
+    "partNumber": "201/140/715",
+    "name": "काळुराम ज्ञानेश्‍वर कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607149": {
+    "serial": 255,
+    "voterId": "XUA4607149",
+    "partNumber": "201/140/716",
+    "name": "सिमा काळुराम कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607123": {
+    "serial": 256,
+    "voterId": "XUA4607123",
+    "partNumber": "201/140/717",
+    "name": "गिरीक्ष काळुराम कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607115": {
+    "serial": 257,
+    "voterId": "XUA4607115",
+    "partNumber": "201/140/718",
+    "name": "संदिप महादेव कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607156": {
+    "serial": 258,
+    "voterId": "XUA4607156",
+    "partNumber": "201/140/719",
+    "name": "अमृता महादेव कदम",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8458887": {
+    "serial": 259,
+    "voterId": "XUA8458887",
+    "partNumber": "201/140/720",
+    "name": "पियुष भुंजे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8330367": {
+    "serial": 260,
+    "voterId": "XUA8330367",
+    "partNumber": "201/140/721",
+    "name": "वेदांत खुळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8196008": {
+    "serial": 261,
+    "voterId": "XUA8196008",
+    "partNumber": "201/140/722",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8515991": {
+    "serial": 262,
+    "voterId": "XUA8515991",
+    "partNumber": "201/140/727",
+    "name": "साहिल उत्तम काळे",
+    "relation": "",
+    "house": "",
+    "age": "33",
+    "gender": "M"
+  },
+  "XUA8442501": {
+    "serial": 263,
+    "voterId": "XUA8442501",
+    "partNumber": "201/140/728",
+    "name": "शिवम मारुती ठणके",
+    "relation": "",
+    "house": "",
+    "age": "42",
+    "gender": "M"
+  },
+  "XUA8595514": {
+    "serial": 264,
+    "voterId": "XUA8595514",
+    "partNumber": "201/140/729",
+    "name": "अहिल्या राहुल देशमुख",
+    "relation": "",
+    "house": "",
+    "age": "48",
+    "gender": "M"
+  },
+  "XUA4607164": {
+    "serial": 268,
+    "voterId": "XUA4607164",
+    "partNumber": "201/140/733",
+    "name": "अमृता सौरभ माजगावकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8458978": {
+    "serial": 269,
+    "voterId": "XUA8458978",
+    "partNumber": "201/140/734",
+    "name": "तन्मय कल्याण बनकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8365660": {
+    "serial": 270,
+    "voterId": "XUA8365660",
+    "partNumber": "201/140/735",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8339236": {
+    "serial": 271,
+    "voterId": "XUA8339236",
+    "partNumber": "201/140/736",
+    "name": "श्रीयश मानसिंग लोणकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7553407": {
+    "serial": 272,
+    "voterId": "XUA7553407",
+    "partNumber": "201/140/737",
+    "name": "शुभांगी संतोष कोल्हे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472433": {
+    "serial": 273,
+    "voterId": "XUA8472433",
+    "partNumber": "201/140/738",
+    "name": "संगिता बरीकराव भवाळ T T T",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8470122": {
+    "serial": 274,
+    "voterId": "XUA8470122",
+    "partNumber": "201/140/739",
+    "name": "विकी बारीकराव भवाळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8470197": {
+    "serial": 275,
+    "voterId": "XUA8470197",
+    "partNumber": "201/140/740",
+    "name": "अशविनी विकी भवाळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8535148": {
+    "serial": 276,
+    "voterId": "XUA8535148",
+    "partNumber": "201/140/741",
+    "name": "मिनाज़ हुसैन दोख",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607180": {
+    "serial": 277,
+    "voterId": "XUA4607180",
+    "partNumber": "201/140/742",
+    "name": "T हर्षल मच्छींद्र A",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607198": {
+    "serial": 278,
+    "voterId": "XUA4607198",
+    "partNumber": "201/140/744",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8505216": {
+    "serial": 279,
+    "voterId": "XUA8505216",
+    "partNumber": "201/140/745",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8162422": {
+    "serial": 280,
+    "voterId": "XUA8162422",
+    "partNumber": "201/140/746",
+    "name": "सारिका साळुंके",
+    "relation": "विलास साळुंके न चच",
+    "house": "0-",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8162414": {
+    "serial": 281,
+    "voterId": "XUA8162414",
+    "partNumber": "201/140/747",
+    "name": "सई साळुंके",
+    "relation": "विलास साळुंके e | इतर :फ़ीरदौस शोएब काझी e",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA8372278": {
+    "serial": 282,
+    "voterId": "XUA8372278",
+    "partNumber": "201/140/748",
+    "name": "अमन काझी T T T",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8638561": {
+    "serial": 286,
+    "voterId": "XUA8638561",
+    "partNumber": "201/140/752",
+    "name": "निलाक्षी कुलकर्णी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607206": {
+    "serial": 287,
+    "voterId": "XUA4607206",
+    "partNumber": "201/140/753",
+    "name": "संतोष मच्छिंद्र रेणके",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607263": {
+    "serial": 288,
+    "voterId": "XUA4607263",
+    "partNumber": "201/140/754",
+    "name": "दत्तात्रय लक्षमण सोडनिसे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607271": {
+    "serial": 289,
+    "voterId": "XUA4607271",
+    "partNumber": "201/140/755",
+    "name": "कविता दत्तात्रय सोडनिसे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607214": {
+    "serial": 290,
+    "voterId": "XUA4607214",
+    "partNumber": "201/140/756",
+    "name": "भिमराव प्रल्हाद उबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607230": {
+    "serial": 291,
+    "voterId": "XUA4607230",
+    "partNumber": "201/140/757",
+    "name": "केशर भिमराव उबळे T T पर्ण;",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607222": {
+    "serial": 292,
+    "voterId": "XUA4607222",
+    "partNumber": "201/140/758",
+    "name": "नितिन भिमराव उबळे [",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607248": {
+    "serial": 293,
+    "voterId": "XUA4607248",
+    "partNumber": "201/140/759",
+    "name": "नलिनी नितीन उबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607255": {
+    "serial": 294,
+    "voterId": "XUA4607255",
+    "partNumber": "201/140/760",
+    "name": "सचिन भिमराव उबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8552259": {
+    "serial": 295,
+    "voterId": "XUA8552259",
+    "partNumber": "201/140/761",
+    "name": "सार्थक सुनील कंगाले",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8081036": {
+    "serial": 296,
+    "voterId": "XUA8081036",
+    "partNumber": "201/140/762",
+    "name": "सुमित रमेश गायकवाड",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8232241": {
+    "serial": 297,
+    "voterId": "XUA8232241",
+    "partNumber": "201/140/763",
+    "name": "स्वाती राजेश सोळस्कर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8361404": {
+    "serial": 298,
+    "voterId": "XUA8361404",
+    "partNumber": "201/140/764",
+    "name": "संतोष कर्णे",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8454761": {
+    "serial": 299,
+    "voterId": "XUA8454761",
+    "partNumber": "201/140/765",
+    "name": "प्रियांका विजय लगड",
+    "relation": "",
+    "house": "",
+    "age": "55",
+    "gender": ""
+  },
+  "XUA8555468": {
+    "serial": 300,
+    "voterId": "XUA8555468",
+    "partNumber": "201/140/766",
+    "name": "बसवराज शिवराज जलकोटे",
+    "relation": "",
+    "house": "",
+    "age": "31",
+    "gender": "M"
+  },
+  "XUA4607305": {
+    "serial": 304,
+    "voterId": "XUA4607305",
+    "partNumber": "201/140/770",
+    "name": "अशोक शंकर ठोंबरे",
+    "relation": "",
+    "house": "",
+    "age": "45",
+    "gender": "F"
+  },
+  "XUA4607297": {
+    "serial": 305,
+    "voterId": "XUA4607297",
+    "partNumber": "201/140/771",
+    "name": "अमृता अशोक ठोंबरे",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8467102": {
+    "serial": 310,
+    "voterId": "XUA8467102",
+    "partNumber": "201/140/776",
+    "name": "सागर देवाखैरे",
+    "relation": "तानाजी देशखैरे e |",
+    "house": "",
+    "age": "47",
+    "gender": "M"
+  },
+  "XUA8333569": {
+    "serial": 311,
+    "voterId": "XUA8333569",
+    "partNumber": "201/140/777",
+    "name": "प्रणव अर्जुन",
+    "relation": "रामचंद्र अर्जुन e | इतर :आकाश देवकाते e घर क्रमांक : ११ | घर क्रमांक : 99 VARADH APPARTMENT | घर क्रमांक : 99-Blossom Nest व",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8450462": {
+    "serial": 312,
+    "voterId": "XUA8450462",
+    "partNumber": "201/140/778",
+    "name": "अंजली देवकाते",
+    "relation": "",
+    "house": "",
+    "age": "28",
+    "gender": "F"
+  },
+  "XUA4607354": {
+    "serial": 313,
+    "voterId": "XUA4607354",
+    "partNumber": "201/140/779",
+    "name": "यशवंत बाळकृष्ण डुंबरे मतदाराचे पूर्ण; चंद्रकांत गजानन भेलके मतदाराचे पूर्ण; प्रियांका चंद्रकांत भेलके",
+    "relation": "बाळकृष्ण डुंबरे",
+    "house": "",
+    "age": "53",
+    "gender": "M"
+  },
+  "XUA4607362": {
+    "serial": 314,
+    "voterId": "XUA4607362",
+    "partNumber": "201/140/780",
+    "name": "",
+    "relation": "गजानन भेलके",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA4607370": {
+    "serial": 315,
+    "voterId": "XUA4607370",
+    "partNumber": "201/140/781",
+    "name": "",
+    "relation": "चंद्रकांत भेलके पि पि पि घर क्रमांक : ११० घर क्रमांक : ११० घर क्रमांक : ११४",
+    "house": "",
+    "age": "37",
+    "gender": "F"
+  },
+  "XUA8047102": {
+    "serial": 316,
+    "voterId": "XUA8047102",
+    "partNumber": "201/140/782",
+    "name": "चैतन सुहास भालवणकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8319493": {
+    "serial": 317,
+    "voterId": "XUA8319493",
+    "partNumber": "201/140/783",
+    "name": "नम्रता ठेंगल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8319501": {
+    "serial": 318,
+    "voterId": "XUA8319501",
+    "partNumber": "201/140/784",
+    "name": "क्रषिकेश् ठेंगल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8597593": {
+    "serial": 319,
+    "voterId": "XUA8597593",
+    "partNumber": "201/140/785",
+    "name": "प्रथमेश्व अशोक गायकवाड",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8533598": {
+    "serial": 320,
+    "voterId": "XUA8533598",
+    "partNumber": "201/140/786",
+    "name": "सारिका भंडारे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8624454": {
+    "serial": 322,
+    "voterId": "XUA8624454",
+    "partNumber": "201/140/788",
+    "name": "क्रध्बभ राहुल मोता",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8414039": {
+    "serial": 323,
+    "voterId": "XUA8414039",
+    "partNumber": "201/140/789",
+    "name": "श्रुति दिलीप सावंत",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8323719": {
+    "serial": 324,
+    "voterId": "XUA8323719",
+    "partNumber": "201/140/791",
+    "name": "अलका राहुल मोता राहुल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8238933": {
+    "serial": 325,
+    "voterId": "XUA8238933",
+    "partNumber": "201/140/792",
+    "name": "गायत्री जगदाळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8568446": {
+    "serial": 326,
+    "voterId": "XUA8568446",
+    "partNumber": "201/140/793",
+    "name": "मंगल प्रदीप झिंदे '",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8367724": {
+    "serial": 327,
+    "voterId": "XUA8367724",
+    "partNumber": "201/140/794",
+    "name": "परिवर्तना प्रीतम नरुळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8464448": {
+    "serial": 328,
+    "voterId": "XUA8464448",
+    "partNumber": "201/140/795",
+    "name": "दीपा नितिन पवार",
+    "relation": "",
+    "house": "",
+    "age": "33",
+    "gender": ""
+  },
+  "XUA8372302": {
+    "serial": 329,
+    "voterId": "XUA8372302",
+    "partNumber": "201/140/796",
+    "name": "ऑंकार दुधाल",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8464455": {
+    "serial": 330,
+    "voterId": "XUA8464455",
+    "partNumber": "201/140/797",
+    "name": "नितिन तुकाराम पवार",
+    "relation": "",
+    "house": "",
+    "age": "35",
+    "gender": "M"
+  },
+  "XUA8596348": {
+    "serial": 334,
+    "voterId": "XUA8596348",
+    "partNumber": "201/140/801",
+    "name": "सुबोध सुनिल बालगुडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8516809": {
+    "serial": 335,
+    "voterId": "XUA8516809",
+    "partNumber": "201/140/802",
+    "name": "उमेक् रमेश सरोदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8454845": {
+    "serial": 336,
+    "voterId": "XUA8454845",
+    "partNumber": "201/140/803",
+    "name": "सोमनाथ शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472623": {
+    "serial": 337,
+    "voterId": "XUA8472623",
+    "partNumber": "201/140/804",
+    "name": "प्रणीता शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8602906": {
+    "serial": 338,
+    "voterId": "XUA8602906",
+    "partNumber": "201/140/805",
+    "name": "शज्ञांक सुनिल बालगुडे मतदाराचे पूर्ण; माधुरी राजू मस्के",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8516825": {
+    "serial": 340,
+    "voterId": "XUA8516825",
+    "partNumber": "201/140/807",
+    "name": "रमेक्ष दामाजी सरोदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8569709": {
+    "serial": 341,
+    "voterId": "XUA8569709",
+    "partNumber": "201/140/808",
+    "name": "प्रणव सतिश कनिचे कनिचे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8569139": {
+    "serial": 342,
+    "voterId": "XUA8569139",
+    "partNumber": "201/140/809",
+    "name": "राणी बाबासो आटोळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7982168": {
+    "serial": 343,
+    "voterId": "XUA7982168",
+    "partNumber": "201/140/810",
+    "name": "प्रतीक्षा रामचंद्र माने",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8582322": {
+    "serial": 344,
+    "voterId": "XUA8582322",
+    "partNumber": "201/140/811",
+    "name": "प्रज्योत सुनीलदत्त डफळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607412": {
+    "serial": 345,
+    "voterId": "XUA4607412",
+    "partNumber": "201/140/813",
+    "name": "जगदिश रंगनाथ रामधवे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607420": {
+    "serial": 346,
+    "voterId": "XUA4607420",
+    "partNumber": "201/140/814",
+    "name": "रेखा जगदिश रामधवे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8463150": {
+    "serial": 347,
+    "voterId": "XUA8463150",
+    "partNumber": "201/140/815",
+    "name": "सुज्ञांत सुरवसे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8331076": {
+    "serial": 348,
+    "voterId": "XUA8331076",
+    "partNumber": "201/140/816",
+    "name": "सोहम सुरवसे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8082174": {
+    "serial": 349,
+    "voterId": "XUA8082174",
+    "partNumber": "201/140/817",
+    "name": "संकेत नवनाथ भोंग",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8191603": {
+    "serial": 350,
+    "voterId": "XUA8191603",
+    "partNumber": "201/140/818",
+    "name": "मंगल शिवाजी आवटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8428120": {
+    "serial": 351,
+    "voterId": "XUA8428120",
+    "partNumber": "201/140/819",
+    "name": "लक्ष्मीकांत दिनकर चौधरी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7982093": {
+    "serial": 352,
+    "voterId": "XUA7982093",
+    "partNumber": "201/140/820",
+    "name": "भाग्यश्री संकल्प घाटगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607446": {
+    "serial": 353,
+    "voterId": "XUA4607446",
+    "partNumber": "201/140/821",
+    "name": "संकल्प घाटगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8599631": {
+    "serial": 354,
+    "voterId": "XUA8599631",
+    "partNumber": "201/140/822",
+    "name": "सोनाली अक्षय घाटगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7982085": {
+    "serial": 355,
+    "voterId": "XUA7982085",
+    "partNumber": "201/140/823",
+    "name": "अक्षय अर्जुन घाटगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8490898": {
+    "serial": 357,
+    "voterId": "XUA8490898",
+    "partNumber": "201/140/825",
+    "name": "संतोष मगनलाल संघवी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607453": {
+    "serial": 358,
+    "voterId": "XUA4607453",
+    "partNumber": "201/140/826",
+    "name": "हर्षली हरीष विभुते",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8164543": {
+    "serial": 359,
+    "voterId": "XUA8164543",
+    "partNumber": "201/140/827",
+    "name": "आयुषकृष्णा लाल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8449563": {
+    "serial": 360,
+    "voterId": "XUA8449563",
+    "partNumber": "201/140/828",
+    "name": "गोपालकृष्ण लाल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8472276": {
+    "serial": 361,
+    "voterId": "XUA8472276",
+    "partNumber": "201/140/829",
+    "name": "अनुष्का लाल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8560781": {
+    "serial": 362,
+    "voterId": "XUA8560781",
+    "partNumber": "201/140/830",
+    "name": "स्वयम शिवलिंग डोंबे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8504755": {
+    "serial": 363,
+    "voterId": "XUA8504755",
+    "partNumber": "201/140/831",
+    "name": "सागर प्रकाश साठे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8504813": {
+    "serial": 364,
+    "voterId": "XUA8504813",
+    "partNumber": "201/140/832",
+    "name": "नितिन छगनराव काळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8488017": {
+    "serial": 365,
+    "voterId": "XUA8488017",
+    "partNumber": "201/140/833",
+    "name": "प्रियंका त्रहषिकेश लोहकरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7937543": {
+    "serial": 366,
+    "voterId": "XUA7937543",
+    "partNumber": "201/140/834",
+    "name": "मयुर प्रतापसिंह घाडगे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7492192": {
+    "serial": 367,
+    "voterId": "XUA7492192",
+    "partNumber": "201/140/835",
+    "name": "वृषाली दिनेश जगदाळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7750649": {
+    "serial": 368,
+    "voterId": "XUA7750649",
+    "partNumber": "201/140/836",
+    "name": "क्रषिकेश शेलार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8190878": {
+    "serial": 369,
+    "voterId": "XUA8190878",
+    "partNumber": "201/140/837",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8159105": {
+    "serial": 370,
+    "voterId": "XUA8159105",
+    "partNumber": "201/140/838",
+    "name": "क्रध्षिकेश रणसिंग",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8336638": {
+    "serial": 371,
+    "voterId": "XUA8336638",
+    "partNumber": "201/140/839",
+    "name": "अविनाश कुंभार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8253346": {
+    "serial": 372,
+    "voterId": "XUA8253346",
+    "partNumber": "201/140/840",
+    "name": "नेहा आवटी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8585028": {
+    "serial": 373,
+    "voterId": "XUA8585028",
+    "partNumber": "201/140/841",
+    "name": "तनिष्क शहा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8451585": {
+    "serial": 374,
+    "voterId": "XUA8451585",
+    "partNumber": "201/140/842",
+    "name": "कोमल कपूर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8332587": {
+    "serial": 376,
+    "voterId": "XUA8332587",
+    "partNumber": "201/140/845",
+    "name": "प्रतिक्षा केदार [",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8445843": {
+    "serial": 377,
+    "voterId": "XUA8445843",
+    "partNumber": "201/140/846",
+    "name": "ओम पोळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7788078": {
+    "serial": 378,
+    "voterId": "XUA7788078",
+    "partNumber": "201/140/847",
+    "name": "निलेज्कुमार सुखलाल",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8444051": {
+    "serial": 379,
+    "voterId": "XUA8444051",
+    "partNumber": "201/140/848",
+    "name": "तेजस कासवे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8596330": {
+    "serial": 380,
+    "voterId": "XUA8596330",
+    "partNumber": "201/140/849",
+    "name": "दिनेश मोतिराम चौधरी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8596652": {
+    "serial": 381,
+    "voterId": "XUA8596652",
+    "partNumber": "201/140/850",
+    "name": "ऐक्वर्या शहा",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8492274": {
+    "serial": 382,
+    "voterId": "XUA8492274",
+    "partNumber": "201/140/852",
+    "name": "योगेश् अंकुश राऊत",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8530107": {
+    "serial": 383,
+    "voterId": "XUA8530107",
+    "partNumber": "201/140/853",
+    "name": "हेमंत पोपट जगताप",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8235822": {
+    "serial": 384,
+    "voterId": "XUA8235822",
+    "partNumber": "201/140/854",
+    "name": "गौरी गणेज्ञ वनकुद्रे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8573180": {
+    "serial": 385,
+    "voterId": "XUA8573180",
+    "partNumber": "201/140/855",
+    "name": "चेतन पाटील",
+    "relation": "झ्षरणागौड़ा पाटील ७",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8596405": {
+    "serial": 386,
+    "voterId": "XUA8596405",
+    "partNumber": "201/140/856",
+    "name": "साक्षी नेताजी करळे",
+    "relation": "नेताजी करळे",
+    "house": "",
+    "age": "19",
+    "gender": "F"
+  },
+  "XUA8394660": {
+    "serial": 387,
+    "voterId": "XUA8394660",
+    "partNumber": "201/140/857",
+    "name": "आर्यन जिंदे",
+    "relation": "सुरेक्ष शिंदे घर क्रमांक :10(100 १४९ ] घर क्रमांक 49 NAVIYOT MAHILASOGETY | ™ | घर क्रमांक : १01४0 ५२ TAMBENAGAR | शि",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8589160": {
+    "serial": 388,
+    "voterId": "XUA8589160",
+    "partNumber": "201/140/858",
+    "name": "मोहिनी निलेश धुमाळ",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8618712": {
+    "serial": 389,
+    "voterId": "XUA8618712",
+    "partNumber": "201/140/859",
+    "name": "नम्रता प्रमोद धायगुडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8412520": {
+    "serial": 390,
+    "voterId": "XUA8412520",
+    "partNumber": "201/140/860",
+    "name": "देवयानी पाटील T kS T T kS",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8437287": {
+    "serial": 391,
+    "voterId": "XUA8437287",
+    "partNumber": "201/140/861",
+    "name": "किशोर किर्तिशाही",
+    "relation": "",
+    "house": "",
+    "age": "49",
+    "gender": "M"
+  },
+  "XUA8436164": {
+    "serial": 392,
+    "voterId": "XUA8436164",
+    "partNumber": "201/140/862",
+    "name": "शितल किर्तिशाही",
+    "relation": "",
+    "house": "",
+    "age": "43",
+    "gender": ""
+  },
+  "XUA8229916": {
+    "serial": 393,
+    "voterId": "XUA8229916",
+    "partNumber": "201/140/863",
+    "name": "पंकज कुलकर्णी",
+    "relation": "",
+    "house": "8909",
+    "age": "39",
+    "gender": "M"
+  },
+  "XUA8234148": {
+    "serial": 394,
+    "voterId": "XUA8234148",
+    "partNumber": "201/140/864",
+    "name": "सुषमा कुलकर्णी",
+    "relation": "पंकज कुलकर्णी ७",
+    "house": "",
+    "age": "38",
+    "gender": "F"
+  },
+  "XUA8330490": {
+    "serial": 395,
+    "voterId": "XUA8330490",
+    "partNumber": "201/140/865",
+    "name": "वैशाली गणपत कांबळी",
+    "relation": "गणपत कांबळी ७",
+    "house": "",
+    "age": "47",
+    "gender": "F"
+  },
+  "XUA8620379": {
+    "serial": 396,
+    "voterId": "XUA8620379",
+    "partNumber": "201/140/866",
+    "name": "प्रशांत शिंदे",
+    "relation": "रमेक्श शिंदे घर क्रमांक : 8१०१ Sanchavi Peradise e | घर क्रमांक : 7५0 न 909 | घर क्रमांक FlatNo 4१०१ ह",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA8190324": {
+    "serial": 397,
+    "voterId": "XUA8190324",
+    "partNumber": "201/140/867",
+    "name": "राजश्री पाटील मतदाराचे पूर्ण; माधुरी हनुमंत आहेरकर",
+    "relation": "आशुतोष पाटील स",
+    "house": "",
+    "age": "42",
+    "gender": ""
+  },
+  "XUA8503245": {
+    "serial": 399,
+    "voterId": "XUA8503245",
+    "partNumber": "201/140/869",
+    "name": "कमलेश राजू कुलकर्णी",
+    "relation": "हनुमंत e",
+    "house": "903/8903",
+    "age": "49",
+    "gender": ""
+  },
+  "XUA8621005": {
+    "serial": 400,
+    "voterId": "XUA8621005",
+    "partNumber": "201/140/870",
+    "name": "साहस पार्दर्वेन्द्र फरसोले",
+    "relation": "पार्वेन्द्र फरसोले. e |",
+    "house": "-908",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA4658233": {
+    "serial": 402,
+    "voterId": "XUA4658233",
+    "partNumber": "201/140/872",
+    "name": "समता संतोष संघवी",
+    "relation": "संतोष संघवी १८5... |",
+    "house": "",
+    "age": "58",
+    "gender": "F"
+  },
+  "XUA4658225": {
+    "serial": 403,
+    "voterId": "XUA4658225",
+    "partNumber": "201/140/873",
+    "name": "बाळासाहेब सोमनाथ देशमुख",
+    "relation": "सोमनाथ देशमुख e |",
+    "house": "",
+    "age": "42",
+    "gender": "M"
+  },
+  "XUA8542052": {
+    "serial": 404,
+    "voterId": "XUA8542052",
+    "partNumber": "201/140/874",
+    "name": "निरज राधेश्याम विश्‍वकर्मा मतदाराचे पूर्ण; सत्येंद्र तिर्थराज विश्‍वकर्मा",
+    "relation": "राधेश्याम विश्‍वकर्मा e |",
+    "house": "",
+    "age": "34",
+    "gender": "M"
+  },
+  "XUA8538654": {
+    "serial": 405,
+    "voterId": "XUA8538654",
+    "partNumber": "201/140/875",
+    "name": "",
+    "relation": "तिर्थराज विश्‍वकर्मा mae घर क्रमांक : FatNo १०५ ] घर क्रमांक :९100.8-१०६ ] घर क्रमांक :९10.8-१०६ प",
+    "house": "",
+    "age": "29",
+    "gender": "M"
+  },
+  "XUA8459257": {
+    "serial": 406,
+    "voterId": "XUA8459257",
+    "partNumber": "201/140/876",
+    "name": "प्रेमचंद्र कांता प्रसाद यादव",
+    "relation": "कांता प्रसाद यादव e |",
+    "house": "",
+    "age": "35",
+    "gender": "M"
+  },
+  "XUA8230831": {
+    "serial": 407,
+    "voterId": "XUA8230831",
+    "partNumber": "201/140/877",
+    "name": "दुर्योधन जाधव",
+    "relation": "चंद्रकांत जाधव",
+    "house": "",
+    "age": "43",
+    "gender": "M"
+  },
+  "XUA8230674": {
+    "serial": 408,
+    "voterId": "XUA8230674",
+    "partNumber": "201/140/878",
+    "name": "छाया जाधव",
+    "relation": "दुर्योधन जाधव भाच घर क्रमांक ALATNO १०६ ] घर क्रमांक : १०८ et | घर क्रमांक :१०८ ह",
+    "house": "",
+    "age": "40",
+    "gender": ""
+  },
+  "XUA8592131": {
+    "serial": 409,
+    "voterId": "XUA8592131",
+    "partNumber": "201/140/873",
+    "name": "साक्षी गणेश सावंत",
+    "relation": "गणेश रामचंद्र सावंत e |",
+    "house": "",
+    "age": "72",
+    "gender": "M"
+  },
+  "XUA8592982": {
+    "serial": 410,
+    "voterId": "XUA8592982",
+    "partNumber": "201/140/880",
+    "name": "विश्वास लिंबाजी बोराडे",
+    "relation": "लिंबाजी बोराडे १52. |",
+    "house": "",
+    "age": "44",
+    "gender": "M"
+  },
+  "XUA8600439": {
+    "serial": 411,
+    "voterId": "XUA8600439",
+    "partNumber": "201/140/881",
+    "name": "शिवाजी विश्‍वास बोराडे",
+    "relation": "विश्‍वास बोराडे भाच घर क्रमांक : १०८ e | घर क्रमांक : निक ५0१०८ , 8- WING | घर क्रमांक Fiatno.90¢/B न",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8345084": {
+    "serial": 412,
+    "voterId": "XUA8345084",
+    "partNumber": "201/140/882",
+    "name": "ऐक्वर्या et",
+    "relation": "अजय चंकेश्वरा nee |",
+    "house": "",
+    "age": "22",
+    "gender": ""
+  },
+  "XUA8460453": {
+    "serial": 413,
+    "voterId": "XUA8460453",
+    "partNumber": "201/140/883",
+    "name": "सुनीता विजय यादव",
+    "relation": "विजय ध्यानचंद यादव e |",
+    "house": "",
+    "age": "30",
+    "gender": "M"
+  },
+  "XUA7352156": {
+    "serial": 414,
+    "voterId": "XUA7352156",
+    "partNumber": "201/140/884",
+    "name": "स्वप्नील संजय शहा",
+    "relation": "संजय शहा *%k | o घर क्रमांक : १०९ ] घर क्रमांक : ALATNO १०९ e घर क्रमांक : ११४ व",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607461": {
+    "serial": 415,
+    "voterId": "XUA4607461",
+    "partNumber": "201/140/885",
+    "name": "तुषार बाळासाहेब निंबाळकर",
+    "relation": "बाळासाहेब निंबाळकर 5२.",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8405250": {
+    "serial": 416,
+    "voterId": "XUA8405250",
+    "partNumber": "201/140/886",
+    "name": "अहल्या सीमांचल प्रधान",
+    "relation": "सीमांचल प्रधान e | पतीचे नाव ज्ञानेश्‍वर दळवी. mae घर क्रमांक : ११८ et | घर क्रमांक : १२३ B | घर क्रमांक : १२४ ह",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8555443": {
+    "serial": 417,
+    "voterId": "XUA8555443",
+    "partNumber": "201/140/887",
+    "name": "दिपाली दळवी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8554370": {
+    "serial": 418,
+    "voterId": "XUA8554370",
+    "partNumber": "201/140/888",
+    "name": "स्वाती दळवी",
+    "relation": "विजय विठ्ठल दळवी १55... |",
+    "house": "",
+    "age": "31",
+    "gender": ""
+  },
+  "XUA8539884": {
+    "serial": 419,
+    "voterId": "XUA8539884",
+    "partNumber": "201/140/889",
+    "name": "सुषमा मनोज संगाई संगाई",
+    "relation": "मनोज संगाई संगाई (52... |",
+    "house": "",
+    "age": "51",
+    "gender": "F"
+  },
+  "XUA8420382": {
+    "serial": 427,
+    "voterId": "XUA8420382",
+    "partNumber": "201/140/897",
+    "name": "e दोख",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": ""
+  },
+  "XUA8465965": {
+    "serial": 428,
+    "voterId": "XUA8465965",
+    "partNumber": "201/140/898",
+    "name": "अथर्व विजय सनगर सनगर",
+    "relation": "",
+    "house": "",
+    "age": "58",
+    "gender": "M"
+  },
+  "XUA8379687": {
+    "serial": 429,
+    "voterId": "XUA8379687",
+    "partNumber": "201/140/899",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "48",
+    "gender": "F"
+  },
+  "XUA7352370": {
+    "serial": 433,
+    "voterId": "XUA7352370",
+    "partNumber": "201/140/903",
+    "name": "संदीप संपतलाल गादीया",
+    "relation": "संपतलाल गादीया *% e",
+    "house": "",
+    "age": "",
+    "gender": "M"
+  },
+  "XUA8550006": {
+    "serial": 434,
+    "voterId": "XUA8550006",
+    "partNumber": "201/140/904",
+    "name": "मिनाज़ सोहेल इनामदार",
+    "relation": "सोहेल इनामदार *% e",
+    "house": "0",
+    "age": "24",
+    "gender": "F"
+  },
+  "XUA8446601": {
+    "serial": 435,
+    "voterId": "XUA8446601",
+    "partNumber": "201/140/905",
+    "name": "सतीक्ष व्यासमुनी जयस्वाल",
+    "relation": "व्यासमुनी रामचंद्र जयस्वाल की",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8484776": {
+    "serial": 436,
+    "voterId": "XUA8484776",
+    "partNumber": "201/140/907",
+    "name": "उत्कर्ष नितिन कासार",
+    "relation": "",
+    "house": "",
+    "age": "25",
+    "gender": "M"
+  },
+  "XUA8358277": {
+    "serial": 437,
+    "voterId": "XUA8358277",
+    "partNumber": "201/140/908",
+    "name": "A नंदकुमार शहा",
+    "relation": "",
+    "house": "",
+    "age": "20",
+    "gender": "F"
+  },
+  "XUA8371296": {
+    "serial": 438,
+    "voterId": "XUA8371296",
+    "partNumber": "201/140/909",
+    "name": "आकांक्षा कांबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8061798": {
+    "serial": 442,
+    "voterId": "XUA8061798",
+    "partNumber": "201/140/913",
+    "name": "पायल सिद्धांत श्ञाह",
+    "relation": "",
+    "house": "",
+    "age": "27",
+    "gender": "M"
+  },
+  "XUA8359515": {
+    "serial": 443,
+    "voterId": "XUA8359515",
+    "partNumber": "201/140/914",
+    "name": "प्रथमेश किकले",
+    "relation": "",
+    "house": "",
+    "age": "53",
+    "gender": "M"
+  },
+  "XUA2326247": {
+    "serial": 445,
+    "voterId": "XUA2326247",
+    "partNumber": "201/140/916",
+    "name": "मीना विकास रायसोनी",
+    "relation": "संजय रायसोनी 5२.",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607487": {
+    "serial": 447,
+    "voterId": "XUA4607487",
+    "partNumber": "201/140/918",
+    "name": "मिना दिपक कानडे",
+    "relation": "विकास nee |",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7937568": {
+    "serial": 448,
+    "voterId": "XUA7937568",
+    "partNumber": "201/140/919",
+    "name": "राजबहादुर कल्पनाथ सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8560757": {
+    "serial": 449,
+    "voterId": "XUA8560757",
+    "partNumber": "201/140/920",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8460396": {
+    "serial": 450,
+    "voterId": "XUA8460396",
+    "partNumber": "201/140/922",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8460347": {
+    "serial": 451,
+    "voterId": "XUA8460347",
+    "partNumber": "201/140/923",
+    "name": "सोनल राजबहादुर सिंह",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8555716": {
+    "serial": 452,
+    "voterId": "XUA8555716",
+    "partNumber": "201/140/925",
+    "name": "अश्विनी तुषार देवरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8372310": {
+    "serial": 453,
+    "voterId": "XUA8372310",
+    "partNumber": "201/140/926",
+    "name": "अनिकेत संतोष काशिद",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8415770": {
+    "serial": 454,
+    "voterId": "XUA8415770",
+    "partNumber": "201/140/927",
+    "name": "अनिकेत संजय पोटे",
+    "relation": "संजय पोटे",
+    "house": "3",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8374936": {
+    "serial": 455,
+    "voterId": "XUA8374936",
+    "partNumber": "201/140/928",
+    "name": "सोहम दुनाखे",
+    "relation": "राजेंद्र दुनाखे",
+    "house": "3",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8135931": {
+    "serial": 456,
+    "voterId": "XUA8135931",
+    "partNumber": "201/140/929",
+    "name": "अक्षय दुनाखे",
+    "relation": "",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA8445397": {
+    "serial": 457,
+    "voterId": "XUA8445397",
+    "partNumber": "201/140/930",
+    "name": "आदित्य फराटे [",
+    "relation": "रंजीत फराटे e",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA2326296": {
+    "serial": 458,
+    "voterId": "XUA2326296",
+    "partNumber": "201/140/935",
+    "name": "महंमदभाई मनान आंनदवाला मतदाराचे पूर्ण; जितेंद्र सुधाकर भुजबळ",
+    "relation": "मनान आंनदवाला e",
+    "house": "",
+    "age": "57",
+    "gender": "M"
+  },
+  "XUA2326395": {
+    "serial": 484,
+    "voterId": "XUA2326395",
+    "partNumber": "201/140/964",
+    "name": "चित्रा कल्यान शिगांडे",
+    "relation": "कल्यान शिगांडे (",
+    "house": "",
+    "age": "48",
+    "gender": ""
+  },
+  "XUA2326403": {
+    "serial": 487,
+    "voterId": "XUA2326403",
+    "partNumber": "201/140/967",
+    "name": "गजानन ज्ञानदेव सुर्वे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326387": {
+    "serial": 488,
+    "voterId": "XUA2326387",
+    "partNumber": "201/140/968",
+    "name": "किरण बाळसाहेब तावरे '",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326379": {
+    "serial": 489,
+    "voterId": "XUA2326379",
+    "partNumber": "201/140/969",
+    "name": "सागर हनुमंत तावरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA4607495": {
+    "serial": 490,
+    "voterId": "XUA4607495",
+    "partNumber": "201/140/970",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "34",
+    "gender": "M"
+  },
+  "XUA2326486": {
+    "serial": 502,
+    "voterId": "XUA2326486",
+    "partNumber": "201/140/982",
+    "name": "संजय पोपटलाल शहा",
+    "relation": "पोपटलाल शहा nee |",
+    "house": "",
+    "age": "73",
+    "gender": "M"
+  },
+  "XUA2326494": {
+    "serial": 503,
+    "voterId": "XUA2326494",
+    "partNumber": "201/140/983",
+    "name": "सारीका संजय शहा",
+    "relation": "संजय शहा e |",
+    "house": "",
+    "age": "66",
+    "gender": ""
+  },
+  "XUA2605996": {
+    "serial": 529,
+    "voterId": "XUA2605996",
+    "partNumber": "201/140/100",
+    "name": "प्रभाकर दगडूराव वावरे",
+    "relation": "भगवान चिंधे e |",
+    "house": "",
+    "age": "49",
+    "gender": ""
+  },
+  "XUA2326601": {
+    "serial": 530,
+    "voterId": "XUA2326601",
+    "partNumber": "201/140/101",
+    "name": "कुमुदीनी शरदचंद शहा",
+    "relation": "दगडूराव वावरे nee | पतीचे o शहा e घर क्रमांक : ५१४ ] घर क्रमांक : ५१४ e घर क्रमांक :५२० प",
+    "house": "",
+    "age": "87",
+    "gender": "M"
+  },
+  "XUA4607552": {
+    "serial": 531,
+    "voterId": "XUA4607552",
+    "partNumber": "201/140/101",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "79",
+    "gender": "F"
+  },
+  "XUA8530669": {
+    "serial": 532,
+    "voterId": "XUA8530669",
+    "partNumber": "201/140/101",
+    "name": "शिवनेरी प्रकाश साबळे",
+    "relation": "प्रकाश साबळे ७",
+    "house": "",
+    "age": "20",
+    "gender": ""
+  },
+  "XUA8542730": {
+    "serial": 533,
+    "voterId": "XUA8542730",
+    "partNumber": "201/140/101",
+    "name": "गौरी जोशी",
+    "relation": "हृषीकेद् जोशी",
+    "house": "",
+    "age": "20",
+    "gender": "F"
+  },
+  "XUA8487381": {
+    "serial": 534,
+    "voterId": "XUA8487381",
+    "partNumber": "201/140/101",
+    "name": "क्रषिकेश निघोल",
+    "relation": "दिलीप निघोल",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA2326122": {
+    "serial": 535,
+    "voterId": "XUA2326122",
+    "partNumber": "201/140/101",
+    "name": "शारदा शंकर गावडे",
+    "relation": "",
+    "house": "1",
+    "age": "57",
+    "gender": "M"
+  },
+  "XUA2326130": {
+    "serial": 536,
+    "voterId": "XUA2326130",
+    "partNumber": "201/140/101",
+    "name": "दत्तात्रय केशव कुलकर्णी",
+    "relation": "",
+    "house": "",
+    "age": "50",
+    "gender": "F"
+  },
+  "XUA2326155": {
+    "serial": 553,
+    "voterId": "XUA2326155",
+    "partNumber": "201/140/103",
+    "name": "मंदाकिनी मारुती तावरे",
+    "relation": "",
+    "house": "",
+    "age": "57",
+    "gender": "M"
+  },
+  "XUA2326197": {
+    "serial": 565,
+    "voterId": "XUA2326197",
+    "partNumber": "201/140/104",
+    "name": "प्रशांत सुभाष कांबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326205": {
+    "serial": 566,
+    "voterId": "XUA2326205",
+    "partNumber": "201/140/104",
+    "name": "वाल्मीक रंगनाथ आवटे '",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326213": {
+    "serial": 567,
+    "voterId": "XUA2326213",
+    "partNumber": "201/140/104",
+    "name": "संध्या वाल्मीक आवटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8529927": {
+    "serial": 568,
+    "voterId": "XUA8529927",
+    "partNumber": "201/140/104",
+    "name": "चैत्राली निलेश पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8481921": {
+    "serial": 569,
+    "voterId": "XUA8481921",
+    "partNumber": "201/140/105",
+    "name": "प्रतीक तिवारी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8482358": {
+    "serial": 570,
+    "voterId": "XUA8482358",
+    "partNumber": "201/140/105",
+    "name": "लवलेश्ष तिवारी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8536047": {
+    "serial": 571,
+    "voterId": "XUA8536047",
+    "partNumber": "201/140/105",
+    "name": "पूर्णिमा कुश मलिक मतदाराचे पूर्ण; कुक मनमथ मलिक मतदाराचे पुर्ण; निपुण महावीर बंब",
+    "relation": "",
+    "house": "9180",
+    "age": "38",
+    "gender": "F"
+  },
+  "XUA8536351": {
+    "serial": 72,
+    "voterId": "XUA8536351",
+    "partNumber": "201/140/105",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "45",
+    "gender": "M"
+  },
+  "XUA8530156": {
+    "serial": 573,
+    "voterId": "XUA8530156",
+    "partNumber": "201/140/105",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "35",
+    "gender": "M"
+  },
+  "XUA8086134": {
+    "serial": 574,
+    "voterId": "XUA8086134",
+    "partNumber": "201/140/105",
+    "name": "शामली रमेश किर्वे",
+    "relation": "रमेश्श किर्वे e",
+    "house": "",
+    "age": "26",
+    "gender": "F"
+  },
+  "XUA8455263": {
+    "serial": 576,
+    "voterId": "XUA8455263",
+    "partNumber": "201/140/105",
+    "name": "मोनिका सुधीर कुलथे",
+    "relation": "सुधीर कुलथे y",
+    "house": "",
+    "age": "35",
+    "gender": "F"
+  },
+  "XUA8079378": {
+    "serial": 577,
+    "voterId": "XUA8079378",
+    "partNumber": "201/140/105",
+    "name": "चिन्मय विनायक जोगळेकर",
+    "relation": "विनायक जोगळेकर 5२. |",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA7937592": {
+    "serial": 578,
+    "voterId": "XUA7937592",
+    "partNumber": "201/140/106",
+    "name": "श्रेयस विवेक शिंदे",
+    "relation": "विवेक शिंदे 52. |",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA8460305": {
+    "serial": 579,
+    "voterId": "XUA8460305",
+    "partNumber": "201/140/106",
+    "name": "भाग्यश्री दिनेश झेंडे",
+    "relation": "दिनेश झेंडे ना घर क्रमांक : १७९० | घर क्रमांक : १९१३ | घर क्रमांक :९1७० २०५०१५४७०0 e",
+    "house": "",
+    "age": "40",
+    "gender": "F"
+  },
+  "XUA7352453": {
+    "serial": 583,
+    "voterId": "XUA7352453",
+    "partNumber": "201/140/106",
+    "name": "उपेंद्र दुर्गादास चौधरी",
+    "relation": "दुर्गादास चौधरी ३... |",
+    "house": "",
+    "age": "50",
+    "gender": "M"
+  },
+  "XUA2326288": {
+    "serial": 584,
+    "voterId": "XUA2326288",
+    "partNumber": "201/140/106",
+    "name": "संध्या अनिल चौधरी मतदाराचे पुर्ण; अपर्णा भुपेंद्र चौधरी",
+    "relation": "अनिल चौधरी o |",
+    "house": "",
+    "age": "46",
+    "gender": ""
+  },
+  "XUA7352461": {
+    "serial": 585,
+    "voterId": "XUA7352461",
+    "partNumber": "201/140/106",
+    "name": "",
+    "relation": "भुपेंद्र चौधरी \" घर क्रमांक : २३१३ | घर क्रमांक :२३१३ ] घर क्रमांक :२३१३ ह",
+    "house": "",
+    "age": "44",
+    "gender": "F"
+  },
+  "XUA8558181": {
+    "serial": 589,
+    "voterId": "XUA8558181",
+    "partNumber": "201/140/107",
+    "name": "अमृता संतोष चव्हाण",
+    "relation": "संतोष दत्तात्रय चव्हाण e |",
+    "house": "",
+    "age": "26",
+    "gender": "F"
+  },
+  "XUA8496622": {
+    "serial": 590,
+    "voterId": "XUA8496622",
+    "partNumber": "201/140/107",
+    "name": "योगीराज गोरखनाथ",
+    "relation": "गोरखनाथ वायफळकर 5२. |",
+    "house": "",
+    "age": "68",
+    "gender": "M"
+  },
+  "XUA3509965": {
+    "serial": 595,
+    "voterId": "XUA3509965",
+    "partNumber": "201/140/107",
+    "name": "नयन पंकज गांधी",
+    "relation": "",
+    "house": "",
+    "age": "55",
+    "gender": "F"
+  },
+  "XUA2603157": {
+    "serial": 597,
+    "voterId": "XUA2603157",
+    "partNumber": "201/140/107",
+    "name": "सरोज अरुण पोरे",
+    "relation": "",
+    "house": "",
+    "age": "60",
+    "gender": ""
+  },
+  "XUA2603140": {
+    "serial": 598,
+    "voterId": "XUA2603140",
+    "partNumber": "201/140/108",
+    "name": "स्नेहा महादेव पाटील मतदाराचे पूर्ण; प्रबोध भीकचंद शहा 'मतदाराचे पूर्ण; तनुजा प्रबोध शहा",
+    "relation": "महादेव पाटील e |",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA2326304": {
+    "serial": 601,
+    "voterId": "XUA2326304",
+    "partNumber": "201/140/108",
+    "name": "अनिल श्रीधर दाते",
+    "relation": "",
+    "house": "",
+    "age": "72",
+    "gender": "M"
+  },
+  "XUA2326312": {
+    "serial": 602,
+    "voterId": "XUA2326312",
+    "partNumber": "201/140/108",
+    "name": "प्रतिभा अनिल दाते",
+    "relation": "",
+    "house": "",
+    "age": "62",
+    "gender": "F"
+  },
+  "XUA2326320": {
+    "serial": 603,
+    "voterId": "XUA2326320",
+    "partNumber": "201/140/108",
+    "name": "ईद्रनील अनिल दाते",
+    "relation": "",
+    "house": "",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA2326429": {
+    "serial": 607,
+    "voterId": "XUA2326429",
+    "partNumber": "201/140/108",
+    "name": "हनुमंत नामदेव लकडे",
+    "relation": "नामदेव लकडे e",
+    "house": "",
+    "age": "67",
+    "gender": "M"
+  },
+  "XUA2326437": {
+    "serial": 608,
+    "voterId": "XUA2326437",
+    "partNumber": "201/140/109",
+    "name": "भारती हनुमंत लकडे",
+    "relation": "हनुमंत लकडे e",
+    "house": "",
+    "age": "59",
+    "gender": "F"
+  },
+  "XUA2326452": {
+    "serial": 613,
+    "voterId": "XUA2326452",
+    "partNumber": "201/140/109",
+    "name": "कृष्णा रामनीवास Tt",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA1832252": {
+    "serial": 616,
+    "voterId": "XUA1832252",
+    "partNumber": "201/140/109",
+    "name": "चंद्रकांत बापुराव गावडे",
+    "relation": "",
+    "house": "",
+    "age": "80",
+    "gender": "M"
+  },
+  "XUA1832260": {
+    "serial": 617,
+    "voterId": "XUA1832260",
+    "partNumber": "201/140/109",
+    "name": "पुष्पा चंद्रकांत गावडे",
+    "relation": "",
+    "house": "",
+    "age": "72",
+    "gender": "F"
+  },
+  "XUA1832278": {
+    "serial": 618,
+    "voterId": "XUA1832278",
+    "partNumber": "201/140/110",
+    "name": "स्वप्नील चंद्रकांत गावडे",
+    "relation": "",
+    "house": "",
+    "age": "60",
+    "gender": "M"
+  },
+  "XUA4607511": {
+    "serial": 628,
+    "voterId": "XUA4607511",
+    "partNumber": "201/140/111",
+    "name": "अजय राजकवर मनियार",
+    "relation": "",
+    "house": "",
+    "age": "54",
+    "gender": "M"
+  },
+  "XUA4607503": {
+    "serial": 629,
+    "voterId": "XUA4607503",
+    "partNumber": "201/140/111",
+    "name": "दिपा अजय मनियार",
+    "relation": "",
+    "house": "",
+    "age": "50",
+    "gender": "F"
+  },
+  "XUA4607529": {
+    "serial": 630,
+    "voterId": "XUA4607529",
+    "partNumber": "201/140/111",
+    "name": "अजिंक्य दिंगबर उंडे",
+    "relation": "",
+    "house": "",
+    "age": "36",
+    "gender": "M"
+  },
+  "XUA8553950": {
+    "serial": 637,
+    "voterId": "XUA8553950",
+    "partNumber": "201/140/111",
+    "name": "मोहन मदन पाटील मतदाराचे पूर्ण; शारदा मोहन पाटील",
+    "relation": "",
+    "house": "",
+    "age": "54",
+    "gender": "M"
+  },
+  "XUA4607065": {
+    "serial": 638,
+    "voterId": "XUA4607065",
+    "partNumber": "201/140/112",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "50",
+    "gender": "F"
+  },
+  "XUA4607073": {
+    "serial": 639,
+    "voterId": "XUA4607073",
+    "partNumber": "201/140/112",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "82",
+    "gender": "M"
+  },
+  "XUA2604049": {
+    "serial": 667,
+    "voterId": "XUA2604049",
+    "partNumber": "201/140/114",
+    "name": "अंबिका संतोष घाडगे",
+    "relation": "",
+    "house": "",
+    "age": "46",
+    "gender": "F"
+  },
+  "XUA8554834": {
+    "serial": 682,
+    "voterId": "XUA8554834",
+    "partNumber": "201/140/116",
+    "name": "क्रश्‍षिकेश अविनाश पाटणकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": "M"
+  },
+  "XUA8113938": {
+    "serial": 688,
+    "voterId": "XUA8113938",
+    "partNumber": "201/140/117",
+    "name": "वैभव मधुकर",
+    "relation": "जाधव मधुकर o",
+    "house": "9/",
+    "age": "41",
+    "gender": "M"
+  },
+  "XUA8566861": {
+    "serial": 689,
+    "voterId": "XUA8566861",
+    "partNumber": "201/140/117",
+    "name": "राधिका संजय दराडे",
+    "relation": "संजय संभाजी दराडे o",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8113672": {
+    "serial": 691,
+    "voterId": "XUA8113672",
+    "partNumber": "201/140/117",
+    "name": "ुुेशवर चंद्रदोखर",
+    "relation": "चंद्रदोखर हिरेमठ e",
+    "house": "",
+    "age": "58",
+    "gender": "M"
+  },
+  "XUA8535114": {
+    "serial": 693,
+    "voterId": "XUA8535114",
+    "partNumber": "201/140/117",
+    "name": "प्रविण नामदेव कोळे",
+    "relation": "नामदेव कोळे -",
+    "house": "",
+    "age": "56",
+    "gender": "M"
+  },
+  "XUA8576571": {
+    "serial": 721,
+    "voterId": "XUA8576571",
+    "partNumber": "201/140/120",
+    "name": "सरगम महावीर बेदमुथा मतदाराचे पूर्ण; खुजली महावीर बेदमुथा मतदाराचे पुर्ण;धनंजय बबन कारंडे",
+    "relation": "महावीर लीलाचंद बेदमुथा nee |",
+    "house": "",
+    "age": "44",
+    "gender": ""
+  },
+  "XUA8576167": {
+    "serial": 722,
+    "voterId": "XUA8576167",
+    "partNumber": "201/140/120",
+    "name": "",
+    "relation": "महावीर लीलाचंद बेदमुथा ५5... | [T नाव :बबन कारंडे » घर क्रमांक : &1100.१६३/१६४/१६२ ] घर क्रमांक : GATNO.983/988/962 ११११५९ | घर क्रमांक : 9807100 9CW/3PLOTNOOR | M",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA7606270": {
+    "serial": 723,
+    "voterId": "XUA7606270",
+    "partNumber": "201/140/120",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8508053": {
+    "serial": 724,
+    "voterId": "XUA8508053",
+    "partNumber": "201/140/120",
+    "name": "शिवाजी भोसले",
+    "relation": "रामभाऊ भोसले",
+    "house": "",
+    "age": "55",
+    "gender": "M"
+  },
+  "XUA7937576": {
+    "serial": 725,
+    "voterId": "XUA7937576",
+    "partNumber": "201/140/120",
+    "name": "नेहा राजेंद्र गालिंदे",
+    "relation": "राजेंद्र गालिंदे",
+    "house": "",
+    "age": "25",
+    "gender": "F"
+  },
+  "XUA8641003": {
+    "serial": 733,
+    "voterId": "XUA8641003",
+    "partNumber": "201/140/121",
+    "name": "जान्हवी अहिरराव",
+    "relation": "",
+    "house": "",
+    "age": "18",
+    "gender": "F"
+  },
+  "XUA8641383": {
+    "serial": 734,
+    "voterId": "XUA8641383",
+    "partNumber": "201/140/121",
+    "name": "अमृता सस्ते मतदाराचे पूर्ण; आर्या विभुते",
+    "relation": "",
+    "house": "8/0-/",
+    "age": "18",
+    "gender": ""
+  },
+  "XUA8641946": {
+    "serial": 735,
+    "voterId": "XUA8641946",
+    "partNumber": "201/140/121",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "19",
+    "gender": "F"
+  },
+  "XUA8694036": {
+    "serial": 739,
+    "voterId": "XUA8694036",
+    "partNumber": "201/140/122",
+    "name": "लक्ष्मी जंबगी [",
+    "relation": "सागर जंबगी ह. | VA :आयशा बासर e (",
+    "house": "",
+    "age": "30",
+    "gender": ""
+  },
+  "XUA8699670": {
+    "serial": 740,
+    "voterId": "XUA8699670",
+    "partNumber": "201/140/122",
+    "name": "मोहम्मद बासर",
+    "relation": "संजय बाबासाहेब साळुंके साळुंके e घर क्रमांक : fiatno ¢ Shram Comolex et | चर क्रमांक : BARAMATI et | घर क्रमांक 100100 & ह",
+    "house": "",
+    "age": "39",
+    "gender": "M"
+  },
+  "XUA8703100": {
+    "serial": 741,
+    "voterId": "XUA8703100",
+    "partNumber": "201/140/122",
+    "name": "प्रथमेश संजय साळुंके साळुंके",
+    "relation": "",
+    "house": "",
+    "age": "18",
+    "gender": "M"
+  },
+  "XUA8715666": {
+    "serial": 742,
+    "voterId": "XUA8715666",
+    "partNumber": "201/140/122",
+    "name": "तेजस साहेबराव पवार",
+    "relation": "साहेबराव पवार e",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8715740": {
+    "serial": 743,
+    "voterId": "XUA8715740",
+    "partNumber": "201/140/122",
+    "name": "वैश्वाली साहेबराव पवार",
+    "relation": "साहेबराव पवार स",
+    "house": "",
+    "age": "41",
+    "gender": "F"
+  },
+  "XUA8717365": {
+    "serial": 744,
+    "voterId": "XUA8717365",
+    "partNumber": "201/140/122",
+    "name": "पुर्वा पालिवाल",
+    "relation": "लक्ष्मीकांत पालिवाल की घर क्रमांक : Sadashiv Apertment Fiat १ \" | घर क्रमांक Sadashiv AvartmentAatN",
+    "house": "",
+    "age": "25",
+    "gender": "F"
+  },
+  "XUA8720906": {
+    "serial": 745,
+    "voterId": "XUA8720906",
+    "partNumber": "201/140/122",
+    "name": "अनुष्का विजय सपाटे",
+    "relation": "विजय जगन्नाथ सपाटे e |",
+    "house": "",
+    "age": "22",
+    "gender": "F"
+  },
+  "XUA8722316": {
+    "serial": 746,
+    "voterId": "XUA8722316",
+    "partNumber": "201/140/123",
+    "name": "रिया संदीप रायसोनी",
+    "relation": "संदीप धर्मिचंद रायसोनी e |",
+    "house": "",
+    "age": "24",
+    "gender": "F"
+  },
+  "XUA8722530": {
+    "serial": 747,
+    "voterId": "XUA8722530",
+    "partNumber": "201/140/123",
+    "name": "ओम जगदीश जोशी",
+    "relation": "जगदीक जोशी - घर क्रमांक Triveni apertment, flat no.2, et | घर क्रमांक : R0 et | घर क्रमांक Bal Nrikshan Grun ह",
+    "house": "",
+    "age": "20",
+    "gender": "M"
+  },
+  "XUA8724940": {
+    "serial": 748,
+    "voterId": "XUA8724940",
+    "partNumber": "201/140/123",
+    "name": "विवेक मदन निर्गुणकर मतदाराचे पूर्ण; पियुष श्रेणिक श्ञाह",
+    "relation": "मदन निर्गुणकर ७",
+    "house": "",
+    "age": "30",
+    "gender": "M"
+  },
+  "XUA8729782": {
+    "serial": 749,
+    "voterId": "XUA8729782",
+    "partNumber": "201/140/123",
+    "name": "अनुज अजित अरगडे",
+    "relation": "श्रेणिक शाह",
+    "house": "",
+    "age": "24",
+    "gender": "M"
+  },
+  "XUA8730798": {
+    "serial": 750,
+    "voterId": "XUA8730798",
+    "partNumber": "201/140/123",
+    "name": "",
+    "relation": "अजित अरगडे",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8730855": {
+    "serial": 751,
+    "voterId": "XUA8730855",
+    "partNumber": "201/140/123",
+    "name": "मनीषा गोरख माने",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8733586": {
+    "serial": 752,
+    "voterId": "XUA8733586",
+    "partNumber": "201/140/123",
+    "name": "तन्मय पळज्ञीकर मतदाराचे पूर्ण; पियुष कृष्णा ताटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8737835": {
+    "serial": 753,
+    "voterId": "XUA8737835",
+    "partNumber": "201/140/123",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8740797": {
+    "serial": 754,
+    "voterId": "XUA8740797",
+    "partNumber": "201/140/123",
+    "name": "रिचा नारायण भिसे",
+    "relation": "नारायण हरिदास भिसे",
+    "house": "",
+    "age": "21",
+    "gender": ""
+  },
+  "XUA8740789": {
+    "serial": 755,
+    "voterId": "XUA8740789",
+    "partNumber": "201/140/123",
+    "name": "मिताली नारायण भिसे",
+    "relation": "नारायण हरिदास भिसे (७० | |",
+    "house": "",
+    "age": "23",
+    "gender": "M"
+  },
+  "XUA8743494": {
+    "serial": 756,
+    "voterId": "XUA8743494",
+    "partNumber": "201/140/124",
+    "name": "सुज्ञांत बेलेकर",
+    "relation": "वंदना बेलेकर घर क्रमांक : १७1४0 ४ e | चर क्रमांक Sanchewi 009808 e | घर क्रमांक Flat No ४ Suvam Hights ह",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8745580": {
+    "serial": 757,
+    "voterId": "XUA8745580",
+    "partNumber": "201/140/124",
+    "name": "वृषाली हेमंत मोरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8747669": {
+    "serial": 758,
+    "voterId": "XUA8747669",
+    "partNumber": "201/140/124",
+    "name": "अर्पिता पवार",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8748410": {
+    "serial": 759,
+    "voterId": "XUA8748410",
+    "partNumber": "201/140/124",
+    "name": "अभिजीत बळवंत ससाणे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8750028": {
+    "serial": 760,
+    "voterId": "XUA8750028",
+    "partNumber": "201/140/124",
+    "name": "ज्ञानेश्‍वर गवळी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8751976": {
+    "serial": 762,
+    "voterId": "XUA8751976",
+    "partNumber": "201/140/124",
+    "name": "सारस बाबासाहेब कांबळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8752289": {
+    "serial": 763,
+    "voterId": "XUA8752289",
+    "partNumber": "201/140/124",
+    "name": "अनन्या अनिल मूंदरगी मतदाराचे पूर्ण; मनीषा राजेंद्र जाधव मतदाराचे पूर्ण; राजेंद्र लक्षण जाधव",
+    "relation": "",
+    "house": "",
+    "age": "18",
+    "gender": ""
+  },
+  "XUA8756041": {
+    "serial": 764,
+    "voterId": "XUA8756041",
+    "partNumber": "201/140/124",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "43",
+    "gender": ""
+  },
+  "XUA8756108": {
+    "serial": 765,
+    "voterId": "XUA8756108",
+    "partNumber": "201/140/124",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "61",
+    "gender": "M"
+  },
+  "XUA8759540": {
+    "serial": 766,
+    "voterId": "XUA8759540",
+    "partNumber": "201/140/125",
+    "name": "क्रश्‍षिकेश रविकांत बागल",
+    "relation": "",
+    "house": "",
+    "age": "26",
+    "gender": "M"
+  },
+  "XUA8762247": {
+    "serial": 767,
+    "voterId": "XUA8762247",
+    "partNumber": "201/140/125",
+    "name": "ओम श्ज्ञांक दंडवते",
+    "relation": "",
+    "house": "",
+    "age": "18",
+    "gender": "M"
+  },
+  "XUA8772659": {
+    "serial": 768,
+    "voterId": "XUA8772659",
+    "partNumber": "201/140/125",
+    "name": "शहीर सिराजूददीन दोख",
+    "relation": "",
+    "house": "",
+    "age": "46",
+    "gender": "M"
+  },
+  "XUA8775009": {
+    "serial": 769,
+    "voterId": "XUA8775009",
+    "partNumber": "201/140/125",
+    "name": "स्पंदन होळकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8781429": {
+    "serial": 770,
+    "voterId": "XUA8781429",
+    "partNumber": "201/140/125",
+    "name": "ज्ञानेश्‍वरी भागवत",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8781577": {
+    "serial": 771,
+    "voterId": "XUA8781577",
+    "partNumber": "201/140/125",
+    "name": "प्रियांका कुंडलिक नरळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8782112": {
+    "serial": 772,
+    "voterId": "XUA8782112",
+    "partNumber": "201/140/125",
+    "name": "ज्योत्सना तुकाडिया",
+    "relation": "लीलाभाई तुकाडिया KR भाच",
+    "house": "",
+    "age": "40",
+    "gender": ""
+  },
+  "XUA8782542": {
+    "serial": 773,
+    "voterId": "XUA8782542",
+    "partNumber": "201/140/125",
+    "name": "विजेता गोपालकृष्ण लाल",
+    "relation": "गोपालकृष्ण लाल *%",
+    "house": "",
+    "age": "51",
+    "gender": "F"
+  },
+  "XUA8785560": {
+    "serial": 774,
+    "voterId": "XUA8785560",
+    "partNumber": "201/140/125",
+    "name": "आदित्य राणे",
+    "relation": "मधुकर राणे क घर क्रमांक : 400 & anshika residency e | घर क्रमांक :0/२२, Sanchavi Townshio e | घर क्रमांक cuch Sanch vasahat e",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8789513": {
+    "serial": 778,
+    "voterId": "XUA8789513",
+    "partNumber": "201/140/126",
+    "name": "भूजंगा थिम्मपा दोट्टी मतदाराचे पूर्ण; सिद्धार्थ संतोष संघवी मतदाराचे पूर्ण; सुयश अभय शहा",
+    "relation": "थिम्मपा दोट्टी e",
+    "house": "",
+    "age": "66",
+    "gender": "M"
+  },
+  "XUA8790065": {
+    "serial": 779,
+    "voterId": "XUA8790065",
+    "partNumber": "201/140/126",
+    "name": "",
+    "relation": "संतोष संघवी भाच",
+    "house": "",
+    "age": "39",
+    "gender": "M"
+  },
+  "XUA8790776": {
+    "serial": 780,
+    "voterId": "XUA8790776",
+    "partNumber": "201/140/126",
+    "name": "",
+    "relation": "अभय माणिकलाल शहा",
+    "house": "",
+    "age": "36",
+    "gender": "M"
+  },
+  "XUA8791121": {
+    "serial": 781,
+    "voterId": "XUA8791121",
+    "partNumber": "201/140/126",
+    "name": "अनिकेत पोटे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8791600": {
+    "serial": 782,
+    "voterId": "XUA8791600",
+    "partNumber": "201/140/126",
+    "name": "जान्हवी सोन्ना",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8791675": {
+    "serial": 783,
+    "voterId": "XUA8791675",
+    "partNumber": "201/140/126",
+    "name": "तेजस विकास लोणकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8794372": {
+    "serial": 784,
+    "voterId": "XUA8794372",
+    "partNumber": "201/140/126",
+    "name": "रंगनाथ क्षीरसागर",
+    "relation": "विजयनाथ उपाध्याय",
+    "house": "",
+    "age": "83",
+    "gender": "M"
+  },
+  "XUA8794695": {
+    "serial": 785,
+    "voterId": "XUA8794695",
+    "partNumber": "201/140/127",
+    "name": "अरुण कुमार उपाध्याय",
+    "relation": "किजोर सिंह *% घर क्रमांक near Durca devi mendir e | e क्रमांक : TEJASVIP \"1 | घर क्रमांक Hotel Akshay Garden ह",
+    "house": "",
+    "age": "48",
+    "gender": "M"
+  },
+  "XUA8795403": {
+    "serial": 786,
+    "voterId": "XUA8795403",
+    "partNumber": "201/140/127",
+    "name": "दिपंकर सिंह",
+    "relation": "",
+    "house": "",
+    "age": "30",
+    "gender": "M"
+  },
+  "XUA8796310": {
+    "serial": 787,
+    "voterId": "XUA8796310",
+    "partNumber": "201/140/127",
+    "name": "मनिषा हरिष ik",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8796351": {
+    "serial": 788,
+    "voterId": "XUA8796351",
+    "partNumber": "201/140/127",
+    "name": "हरीष गणपत शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8797102": {
+    "serial": 789,
+    "voterId": "XUA8797102",
+    "partNumber": "201/140/127",
+    "name": "सुनैना देवी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8797722": {
+    "serial": 790,
+    "voterId": "XUA8797722",
+    "partNumber": "201/140/127",
+    "name": "साक्षी आदर्श दोशी",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": ""
+  },
+  "XUA8799637": {
+    "serial": 791,
+    "voterId": "XUA8799637",
+    "partNumber": "201/140/127",
+    "name": "भावना सिद्धार्थ संघवी",
+    "relation": "",
+    "house": "",
+    "age": "36",
+    "gender": ""
+  },
+  "XUA8799801": {
+    "serial": 792,
+    "voterId": "XUA8799801",
+    "partNumber": "201/140/127",
+    "name": "सिद्धार्थ संतोष संघवी",
+    "relation": "",
+    "house": "",
+    "age": "51",
+    "gender": "M"
+  },
+  "XUA8805236": {
+    "serial": 796,
+    "voterId": "XUA8805236",
+    "partNumber": "201/140/128",
+    "name": "वंदना बेलेकर",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8806200": {
+    "serial": 797,
+    "voterId": "XUA8806200",
+    "partNumber": "201/140/128",
+    "name": "सानिका देशपांडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8808636": {
+    "serial": 798,
+    "voterId": "XUA8808636",
+    "partNumber": "201/140/128",
+    "name": "रवींद्र जोशी",
+    "relation": "",
+    "house": "",
+    "age": "47",
+    "gender": "M"
+  },
+  "XUA8814493": {
+    "serial": 799,
+    "voterId": "XUA8814493",
+    "partNumber": "201/140/128",
+    "name": "सोनल तिवाटणे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8814683": {
+    "serial": 800,
+    "voterId": "XUA8814683",
+    "partNumber": "201/140/128",
+    "name": "योगीराज संजय साळुंके",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8814857": {
+    "serial": 801,
+    "voterId": "XUA8814857",
+    "partNumber": "201/140/128",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8815631": {
+    "serial": 802,
+    "voterId": "XUA8815631",
+    "partNumber": "201/140/128",
+    "name": "सोनाली किर्वे",
+    "relation": "",
+    "house": "",
+    "age": "27",
+    "gender": ""
+  },
+  "XUA8816423": {
+    "serial": 803,
+    "voterId": "XUA8816423",
+    "partNumber": "201/140/128",
+    "name": "प्रतीक्षा संतोष मोरे",
+    "relation": "",
+    "house": "",
+    "age": "29",
+    "gender": "F"
+  },
+  "XUA8816779": {
+    "serial": 804,
+    "voterId": "XUA8816779",
+    "partNumber": "201/140/128",
+    "name": "रकमी नरेश वांकर",
+    "relation": "",
+    "house": "",
+    "age": "42",
+    "gender": "F"
+  },
+  "XUA8817249": {
+    "serial": 805,
+    "voterId": "XUA8817249",
+    "partNumber": "201/140/129",
+    "name": "जैनाब सिंगपुरवाला",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8817868": {
+    "serial": 806,
+    "voterId": "XUA8817868",
+    "partNumber": "201/140/129",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8821498": {
+    "serial": 807,
+    "voterId": "XUA8821498",
+    "partNumber": "201/140/129",
+    "name": "यज् ज्ञानेश्वर शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  },
+  "XUA8822983": {
+    "serial": 808,
+    "voterId": "XUA8822983",
+    "partNumber": "201/140/129",
+    "name": "अश्‍विनी संतोष उघाडे",
+    "relation": "संतोष उघाडे",
+    "house": "",
+    "age": "27",
+    "gender": "F"
+  },
+  "XUA8823080": {
+    "serial": 809,
+    "voterId": "XUA8823080",
+    "partNumber": "201/140/129",
+    "name": "ज्ञानदेव बाबूराव तावरे",
+    "relation": "",
+    "house": "",
+    "age": "63",
+    "gender": "M"
+  },
+  "XUA8823098": {
+    "serial": 810,
+    "voterId": "XUA8823098",
+    "partNumber": "201/140/129",
+    "name": "वनमाला ज्ञानदेव तावरे मतदाराचे पूर्ण; प्रतीक्षा भारत शिंदे",
+    "relation": "",
+    "house": "",
+    "age": "57",
+    "gender": "F"
+  },
+  "XUA8841371": {
+    "serial": 813,
+    "voterId": "XUA8841371",
+    "partNumber": "201/140/129",
+    "name": "दीपक सोनवणे",
+    "relation": "आनंदराव कदम भाच",
+    "house": "",
+    "age": "29",
+    "gender": "M"
+  },
+  "XUA8840811": {
+    "serial": 814,
+    "voterId": "XUA8840811",
+    "partNumber": "201/140/129",
+    "name": "आदित्य आनंदराव कदम",
+    "relation": "सुनील नाझीरकर - घर क्रमांक Sai hospital back side \"1 | चर क्रमांक RatNo. D-29 Shefall Garden e | घर क्रमांक : MAHATI COMPLEX, ह",
+    "house": "",
+    "age": "21",
+    "gender": "M"
+  },
+  "XUA8846016": {
+    "serial": 815,
+    "voterId": "XUA8846016",
+    "partNumber": "201/140/130",
+    "name": "गोविंद सुनील नाझीरकर",
+    "relation": "",
+    "house": "",
+    "age": "27",
+    "gender": "M"
+  },
+  "XUA8853574": {
+    "serial": 816,
+    "voterId": "XUA8853574",
+    "partNumber": "201/140/130",
+    "name": "ज्योत्सना लीलाभाई",
+    "relation": "",
+    "house": "",
+    "age": "40",
+    "gender": ""
+  },
+  "XUA8856262": {
+    "serial": 817,
+    "voterId": "XUA8856262",
+    "partNumber": "201/140/130",
+    "name": "शकुंतला रंगनाथ क्षीरसागर",
+    "relation": "",
+    "house": "",
+    "age": "80",
+    "gender": "F"
+  },
+  "XUA8415754": {
+    "serial": 818,
+    "voterId": "XUA8415754",
+    "partNumber": "201/140/130",
+    "name": "मीना दिलीप सावंत",
+    "relation": "दिलीप सावंत क मिग घर क्रमांक : नक्ष0॥0० १२",
+    "house": "",
+    "age": "58",
+    "gender": "F"
+  },
+  "XUA8415697": {
+    "serial": 819,
+    "voterId": "XUA8415697",
+    "partNumber": "201/140/130",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8858524": {
+    "serial": 820,
+    "voterId": "XUA8858524",
+    "partNumber": "201/140/130",
+    "name": "ग्रीष्मा गुळवे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA7351729": {
+    "serial": 821,
+    "voterId": "XUA7351729",
+    "partNumber": "201/140/130",
+    "name": "ऐक्वर्या शिरीष कुलकर्णी",
+    "relation": "शिरीष कुलकर्णी कळ मिग घर क्रमांक : ४०९ Laxmi bunglow",
+    "house": "",
+    "age": "28",
+    "gender": ""
+  },
+  "XUA8865735": {
+    "serial": 822,
+    "voterId": "XUA8865735",
+    "partNumber": "201/140/130",
+    "name": "श्रीनिवास दत्ताजीराव काकडे",
+    "relation": "दत्ताजीराव काकडे लाळ मिग घर क्रमांक : १11५0०३",
+    "house": "",
+    "age": "61",
+    "gender": "M"
+  },
+  "XUA8870222": {
+    "serial": 823,
+    "voterId": "XUA8870222",
+    "partNumber": "201/140/131",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8870859": {
+    "serial": 824,
+    "voterId": "XUA8870859",
+    "partNumber": "201/140/131",
+    "name": "सिद्धी संदीप बनकर",
+    "relation": "",
+    "house": "",
+    "age": "39",
+    "gender": "F"
+  },
+  "XUA8872475": {
+    "serial": 826,
+    "voterId": "XUA8872475",
+    "partNumber": "201/140/131",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8875577": {
+    "serial": 828,
+    "voterId": "XUA8875577",
+    "partNumber": "201/140/131",
+    "name": "क्रध्तुजा सागर शितोळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8878506": {
+    "serial": 829,
+    "voterId": "XUA8878506",
+    "partNumber": "201/140/131",
+    "name": "सपना प्रमोद मोरे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8878738": {
+    "serial": 830,
+    "voterId": "XUA8878738",
+    "partNumber": "201/140/131",
+    "name": "सोनाली किर्वे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8879173": {
+    "serial": 831,
+    "voterId": "XUA8879173",
+    "partNumber": "201/140/132",
+    "name": "गौरव अनंत काळे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8881500": {
+    "serial": 832,
+    "voterId": "XUA8881500",
+    "partNumber": "201/140/132",
+    "name": "मयूर शिवाजी बोराडे",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8881724": {
+    "serial": 833,
+    "voterId": "XUA8881724",
+    "partNumber": "201/140/132",
+    "name": "शुभदा नितीन कासार",
+    "relation": "",
+    "house": "",
+    "age": "51",
+    "gender": ""
+  },
+  "XUA8888224": {
+    "serial": 837,
+    "voterId": "XUA8888224",
+    "partNumber": "201/140/133",
+    "name": "आकाश बाबूलाल सोनवणे",
+    "relation": "",
+    "house": "",
+    "age": "31",
+    "gender": "M"
+  },
+  "XUA8904971": {
+    "serial": 841,
+    "voterId": "XUA8904971",
+    "partNumber": "201/140/133",
+    "name": "मेहुल पोपटलाल ओसवाल",
+    "relation": "पोपटलाल चंदनमल ओसवाल e |",
+    "house": "",
+    "age": "36",
+    "gender": "M"
+  },
+  "XUA8909541": {
+    "serial": 842,
+    "voterId": "XUA8909541",
+    "partNumber": "201/140/133",
+    "name": "गजानन रामचंद्र राऊत",
+    "relation": "रामचंद्र राऊत कश»... | [पतीचेनाव e घर क्रमांक : CHANDAN FARM | घर क्रमांक AatNo & et | घर क्रमांक Moropant Society e",
+    "house": "",
+    "age": "50",
+    "gender": "M"
+  },
+  "XUA8910069": {
+    "serial": 844,
+    "voterId": "XUA8910069",
+    "partNumber": "201/140/133",
+    "name": "",
+    "relation": "",
+    "house": "870007",
+    "age": "37",
+    "gender": "F"
+  },
+  "XUA8910416": {
+    "serial": 845,
+    "voterId": "XUA8910416",
+    "partNumber": "201/140/134",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": "F"
+  },
+  "XUA8907354": {
+    "serial": 847,
+    "voterId": "XUA8907354",
+    "partNumber": "201/140/134",
+    "name": "पोपटलाल चंदनमल",
+    "relation": "",
+    "house": "",
+    "age": "62",
+    "gender": "M"
+  },
+  "XUA8908980": {
+    "serial": 848,
+    "voterId": "XUA8908980",
+    "partNumber": "201/140/134",
+    "name": "अमर माधव भोसले",
+    "relation": "",
+    "house": "",
+    "age": "47",
+    "gender": "M"
+  },
+  "XUA8912529": {
+    "serial": 849,
+    "voterId": "XUA8912529",
+    "partNumber": "201/140/134",
+    "name": "सिद्धी दुधाळ",
+    "relation": "",
+    "house": "",
+    "age": "23",
+    "gender": "F"
+  },
+  "XUA8914111": {
+    "serial": 850,
+    "voterId": "XUA8914111",
+    "partNumber": "201/140/134",
+    "name": "आलिशा मुनाफ A",
+    "relation": "",
+    "house": "",
+    "age": "18",
+    "gender": "F"
+  },
+  "XUA8915175": {
+    "serial": 851,
+    "voterId": "XUA8915175",
+    "partNumber": "201/140/134",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8915217": {
+    "serial": 852,
+    "voterId": "XUA8915217",
+    "partNumber": "201/140/134",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8918914": {
+    "serial": 853,
+    "voterId": "XUA8918914",
+    "partNumber": "201/140/134",
+    "name": "खेताराम भूराजी चौधरी",
+    "relation": "",
+    "house": "",
+    "age": "34",
+    "gender": "M"
+  },
+  "XUA8923864": {
+    "serial": 854,
+    "voterId": "XUA8923864",
+    "partNumber": "201/140/135",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8928053": {
+    "serial": 855,
+    "voterId": "XUA8928053",
+    "partNumber": "201/140/135",
+    "name": "हर्षा अजय चंकेश्वरा",
+    "relation": "",
+    "house": "",
+    "age": "47",
+    "gender": "F"
+  },
+  "XUA8936478": {
+    "serial": 857,
+    "voterId": "XUA8936478",
+    "partNumber": "201/140/135",
+    "name": "मनोज गांधी",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8936924": {
+    "serial": 858,
+    "voterId": "XUA8936924",
+    "partNumber": "201/140/135",
+    "name": "सारिका केतन मखरे",
+    "relation": "केतन मखरे कळ मिग घर क्रमांक : FatNo.9, Mai Mukta Residency",
+    "house": "",
+    "age": "38",
+    "gender": ""
+  },
+  "XUA8943508": {
+    "serial": 859,
+    "voterId": "XUA8943508",
+    "partNumber": "201/140/135",
+    "name": "तनुजा आकाश पवार",
+    "relation": "",
+    "house": "",
+    "age": "33",
+    "gender": "F"
+  },
+  "XUA8944837": {
+    "serial": 860,
+    "voterId": "XUA8944837",
+    "partNumber": "201/140/135",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "",
+    "gender": ""
+  },
+  "XUA8945917": {
+    "serial": 861,
+    "voterId": "XUA8945917",
+    "partNumber": "201/140/135",
+    "name": "श्रेयांस सुरेश कापसे",
+    "relation": "",
+    "house": "",
+    "age": "19",
+    "gender": "M"
+  },
+  "XUA8947293": {
+    "serial": 862,
+    "voterId": "XUA8947293",
+    "partNumber": "201/140/135",
+    "name": "",
+    "relation": "",
+    "house": "",
+    "age": "22",
+    "gender": "M"
+  }
+}

@@ -1,0 +1,1514 @@
+[
+  {
+    "serial": 4,
+    "name": "ज्योती संतोष देवकाते",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 5,
+    "name": "अश्विनी भिवा मलगुंडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 12,
+    "name": "गागीर निकिता मुरारीलाल [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 14,
+    "name": "अकांक्ा रामचंद्र AT [वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 22,
+    "name": "प्रियंका दत्तात्रय सांगळे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 23,
+    "name": "प्राजक्ता महादेव सांगळे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 43,
+    "name": "ध्रुविका दिनेश गलिंदे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 48,
+    "name": "प्रीति टिंगारे वडिलांचे :बापूराव",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 53,
+    "name": "सुखदेव महादेव शिवशञरण पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 64,
+    "name": "आविष्कार शेळके",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 73,
+    "name": "व्यंकटेश असमपेल्ली",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 76,
+    "name": "शोभा तानाजी कदम",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 77,
+    "name": "अस्मिता किरण माने",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 87,
+    "name": "वर्धन रायसोनी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 91,
+    "name": "आयुष सचिन गुप्ता",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 94,
+    "name": "सुजाता दत्तात्रय काळे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 95,
+    "name": "स्मृती संजय गीर्मे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 103,
+    "name": "क्रतुजा प्रकाश हिरोली",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 105,
+    "name": "खंडेराव निवृत्ती जाधव पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 106,
+    "name": "सोहम राजेश गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 107,
+    "name": "साक्षी राकेश भाटिया",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 109,
+    "name": "सर्वेश प्रकाश जोशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 113,
+    "name": "जयश्री हनुमंत माळी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 114,
+    "name": "संगीता प्रभाकर तांबे [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 119,
+    "name": "सागर बाळासो मळेकर [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 123,
+    "name": "गोपीचंद शंकर पवार [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 129,
+    "name": "अमीन हंबीर दोख [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 132,
+    "name": "संगीता सूर्यकांत जाधव झोंबाडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 138,
+    "name": "विलास नानासो साळुंके [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 139,
+    "name": "कविता दत्ता शिंदे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 140,
+    "name": "सुनीता विजय यादव वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 145,
+    "name": "प्रिती सचिन सूर्यवंशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 148,
+    "name": "पुनम निवृत्ती घाडगे मतदाराचे पूर्ण; मनिषा मुकुंद अत्रे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 158,
+    "name": "मीना सिंह मतदाराचे पूर्ण सिद्धार्थ सिंह",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 160,
+    "name": "साक्षी गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 162,
+    "name": "कृतिका सोनी [पतीचे :रिषभ",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 169,
+    "name": "विठ्ठल जोरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 170,
+    "name": "मृणाल जोरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 178,
+    "name": "विदीशा आर्दश शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 179,
+    "name": "रसिका सुनिल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 187,
+    "name": "सचिन कांतिलाल संचेती",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 193,
+    "name": "रूपाली तिवाटणे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 194,
+    "name": "श्रुतीका सूर्यवंशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 195,
+    "name": "रूपाली पलीवाल",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 201,
+    "name": "सुनिता अभिमन्यु मोटे&0 वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 207,
+    "name": "श्रद्धा गालिंदे वडिलांचे :",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 215,
+    "name": "वैशाली राजेंद्र खोमणे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 218,
+    "name": "सायली राजेंद्र मोरे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 219,
+    "name": "ज्योती शुभम साबळे वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 221,
+    "name": "सार्थक चौधरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 222,
+    "name": "सात्विक मनोज दश पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 24,
+    "name": "प्रियंका प्रितम तपकिरे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 227,
+    "name": "सपना शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 230,
+    "name": "स्वरूप कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 241,
+    "name": "स्नेहा लोंढे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 242,
+    "name": "सविता दत्तात्रय वाच",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 252,
+    "name": "अन्नपूर्णा साहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 255,
+    "name": "सिमा काळुराम कदम [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 267,
+    "name": "लीलाभाई तुकाडिया",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 269,
+    "name": "तन्मय कल्याण बनकर [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 272,
+    "name": "शुभांगी संतोष कोल्हे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 284,
+    "name": "अक्षता राजेश गवळी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 286,
+    "name": "निलाक्षी कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 289,
+    "name": "कविता दत्तात्रय सोडनिसे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 297,
+    "name": "स्वाती राजेश सोळस्कर वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 317,
+    "name": "नम्रता ठेंगल",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 322,
+    "name": "क्रध्बभ राहुल मोता",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 330,
+    "name": "नितिन तुकाराम पवार पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 331,
+    "name": "लक्ष्मी सुमेध सरपते",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 333,
+    "name": "रिना गोकुळदास लढे [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 346,
+    "name": "रेखा जगदिश रामधवे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 351,
+    "name": "लक्ष्मीकांत दिनकर चौधरी वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 352,
+    "name": "भाग्यश्री संकल्प घाटगे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 356,
+    "name": "संतोष मगनलाल संघवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 360,
+    "name": "गोपालकृष्ण लाल [पतीचे :हरीष",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 365,
+    "name": "प्रियंका त्रहषिकेश लोहकरे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 373,
+    "name": "तनिष्क शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 380,
+    "name": "दिनेश मोतिराम चौधरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 381,
+    "name": "ऐक्वर्या शहा [आईचे :राधिका",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 384,
+    "name": "गौरी गणेज्ञ वनकुद्रे [आईचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 389,
+    "name": "नम्रता प्रमोद धायगुडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 391,
+    "name": "किशोर किर्तिशाही",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 392,
+    "name": "शितल किर्तिशाही",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 393,
+    "name": "पंकज कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 394,
+    "name": "सुषमा कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 401,
+    "name": "समता संतोष संघवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 404,
+    "name": "निरज राधेश्याम विश्‍वकर्मा मतदाराचे पूर्ण; सत्येंद्र तिर्थराज विश्‍वकर्मा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 413,
+    "name": "सुनीता विजय यादव",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 416,
+    "name": "अहल्या सीमांचल प्रधान",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "relation",
+    "confidence": 1
+  },
+  {
+    "serial": 417,
+    "name": "दिपाली दळवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 418,
+    "name": "स्वाती दळवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 425,
+    "name": "पुष्पा धरमीचंद रायसोनी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 431,
+    "name": "कल्याणी जाधव",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 433,
+    "name": "संदीप संपतलाल गादीया",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 441,
+    "name": "बिपिन विठ्ठल दळवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 445,
+    "name": "मीना विकास रायसोनी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 461,
+    "name": "सुनिल हुकुमचंद शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 462,
+    "name": "मेधा सुनिल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 466,
+    "name": "लक्ष्मीबाई शंकर डोंबाळे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 468,
+    "name": "ज्ञानेश्‍वर विश्‍वनाथ जाधव पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 470,
+    "name": "सुनिता आण्णा खोमणे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 476,
+    "name": "वैभव मोहनलाल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 477,
+    "name": "वृषाली वैभव शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 478,
+    "name": "महावीर ताराचंद गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 479,
+    "name": "मेघना महावीर गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 481,
+    "name": "रोहन महावीर गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 482,
+    "name": "सोहनलाल चत्रभुज शर्मा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 486,
+    "name": "उर्मिला ज्ञानदेव सुर्वे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 495,
+    "name": "वंदना संजय भोसले वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 496,
+    "name": "बाहुबली हिरालाल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 497,
+    "name": "मंजिरी बाहुबली शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 499,
+    "name": "बिजल मेहलु दोशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 504,
+    "name": "राजुलाल रमणलाल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 505,
+    "name": "वासंतीबाई राजुलाल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 507,
+    "name": "संगीता कल्यपेक्षकुमार शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 509,
+    "name": "मंजुषा राजुलाल शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 520,
+    "name": "सुनिता दज्षरथ पवार",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 522,
+    "name": "सरोजिनी हरिदास पवार पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 526,
+    "name": "श्ञामराव दत्तात्रय कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 527,
+    "name": "प्रभावती श्ञामराव कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 530,
+    "name": "कुमुदीनी शरदचंद शहा",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 532,
+    "name": "शिवनेरी प्रकाश साबळे",
+    "oldGender": "F",
+    "newGender": "M",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 535,
+    "name": "शारदा शंकर गावडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 536,
+    "name": "दत्तात्रय केशव कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 538,
+    "name": "श्ञांताराम बळवंत कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 541,
+    "name": "मिनल महेश कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 542,
+    "name": "अर्चना अशोक वारे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 543,
+    "name": "अरुणा भिमराव जगताप पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 545,
+    "name": "उषा रामचंद्र कदम",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 555,
+    "name": "सायबाना चांदप्पा पांचाळ [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 558,
+    "name": "लक्ष्मी धोंडीराम पांचाळ वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 561,
+    "name": "ललिता चेनप्पा कांबळे वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 562,
+    "name": "सिताराम नारायण गोसावी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 567,
+    "name": "संध्या वाल्मीक आवटे वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 569,
+    "name": "प्रतीक तिवारी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 570,
+    "name": "लवलेश्ष तिवारी पतीचे Ao",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 579,
+    "name": "भाग्यश्री दिनेश झेंडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 582,
+    "name": "अनिल सिताराम चौधरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 583,
+    "name": "उपेंद्र दुर्गादास चौधरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 584,
+    "name": "संध्या अनिल चौधरी मतदाराचे पुर्ण; अपर्णा भुपेंद्र चौधरी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 586,
+    "name": "वैशाली शिशीकांत डोंबाळे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 593,
+    "name": "मंगला जंबुकुमार गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 594,
+    "name": "पंकज जंबुकुमार गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 595,
+    "name": "नयन पंकज गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 610,
+    "name": "गीता ललीत पटेल",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 612,
+    "name": "राम निवास et पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 623,
+    "name": "सविता राजकुमार पोतेकर",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 625,
+    "name": "लता राजेश्वर राईकवार",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 637,
+    "name": "मोहन मदन पाटील मतदाराचे पूर्ण; शारदा मोहन पाटील",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 642,
+    "name": "हकीम उद्दीन आर. सिंगापुरवाला",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 650,
+    "name": "अनुराधा मुकुंद बडवे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 652,
+    "name": "शोभा v सुर्यवंशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 654,
+    "name": "निर्मला गुरुनाथ सहखबुध्दे पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 659,
+    "name": "वंदना बबन करे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 666,
+    "name": "वंदना संग्राम राणे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 675,
+    "name": "उषा राजेंद्र साळुंके वडिलांचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 678,
+    "name": "रेखा मल्लिकार्जुन होलमणी पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 694,
+    "name": "रेखा शिरीष हुद्दार",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 697,
+    "name": "सविता चंद्रेश शिर्के",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 701,
+    "name": "सुरेखा कृष्णा ताटे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 704,
+    "name": "एकनाथ बबन फुले पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 709,
+    "name": "वंदना शिवाजी काकडे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 718,
+    "name": "स्वाती दुर्गेश दिवाडकर",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 737,
+    "name": "दिव्या संचेती",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 739,
+    "name": "लक्ष्मी जंबगी [",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 746,
+    "name": "रिया संदीप रायसोनी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 747,
+    "name": "ओम जगदीश जोशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 759,
+    "name": "अभिजीत बळवंत ससाणे [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 760,
+    "name": "ज्ञानेश्‍वर गवळी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 762,
+    "name": "सारस बाबासाहेब कांबळे [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 772,
+    "name": "ज्योत्सना तुकाडिया",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.9
+  },
+  {
+    "serial": 782,
+    "name": "जान्हवी सोन्ना",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.7
+  },
+  {
+    "serial": 787,
+    "name": "मनिषा हरिष ik",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 789,
+    "name": "सुनैना देवी [पतीचे :हरिष",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 790,
+    "name": "साक्षी आदर्श दोशी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 791,
+    "name": "भावना सिद्धार्थ संघवी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 794,
+    "name": "सरस्वती संभाजी पाटील",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 795,
+    "name": "संभाजी वसंत पाटील [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 796,
+    "name": "वंदना बेलेकर",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 803,
+    "name": "प्रतीक्षा संतोष मोरे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 805,
+    "name": "जैनाब सिंगपुरवाला पतीचे :ताहेर",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 808,
+    "name": "अश्‍विनी संतोष उघाडे",
+    "oldGender": "F",
+    "newGender": "M",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 821,
+    "name": "ऐक्वर्या शिरीष कुलकर्णी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 825,
+    "name": "रेणुका अरविंद उपाळे पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 830,
+    "name": "सोनाली किर्वे पतीचे :सागर",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 833,
+    "name": "शुभदा नितीन कासार [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  },
+  {
+    "serial": 835,
+    "name": "वीर पंकज गांधी",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-pattern",
+    "confidence": 0.8
+  },
+  {
+    "serial": 855,
+    "name": "हर्षा अजय चंकेश्वरा",
+    "oldGender": "F",
+    "newGender": "M",
+    "method": "name-pattern",
+    "confidence": 1
+  },
+  {
+    "serial": 859,
+    "name": "तनुजा आकाश पवार [पतीचे",
+    "oldGender": "M",
+    "newGender": "F",
+    "method": "name-context",
+    "confidence": 0.95
+  }
+]

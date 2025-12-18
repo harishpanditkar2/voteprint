@@ -1,0 +1,644 @@
+[
+  {
+    "serial": 36,
+    "name": "माधुरी नितीन वाईकर",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 110,
+    "name": "देवराम शिवराम जगताप",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 111,
+    "name": "योगेश देवराम जगताप",
+    "inferredAge": 47,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 113,
+    "name": "जयश्री हनुमंत माळी",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 144,
+    "name": "विजयकुमार बालकिसन जोशी",
+    "inferredAge": 43,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 201,
+    "name": "सुनिता अभिमन्यु मोटे&0",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 227,
+    "name": "सपना शहा",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 228,
+    "name": "योगेव बंडू जंत्रे जंत्रे",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 306,
+    "name": "माणिक गणपतराव शिंदे",
+    "inferredAge": 40,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 356,
+    "name": "संतोष मगनलाल संघवी",
+    "inferredAge": 46,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 420,
+    "name": "संपत मारुतराव टकले.",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 422,
+    "name": "सोपान बाबुराव तांबे",
+    "inferredAge": 41,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 425,
+    "name": "पुष्पा धरमीचंद रायसोनी",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 440,
+    "name": "दिगंबर पडुळकर",
+    "inferredAge": 42,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 444,
+    "name": "विकास धरमीचंद रायसोनी",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 446,
+    "name": "मिना दिपक कानडे",
+    "inferredAge": 47,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 461,
+    "name": "सुनिल हुकुमचंद शहा",
+    "inferredAge": 28,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 462,
+    "name": "मेधा सुनिल शहा",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 464,
+    "name": "दिपा जगदीप देशपांडे मतदाराचे",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 467,
+    "name": "श्रीकांत शंकर डोंबाळे",
+    "inferredAge": 41,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 468,
+    "name": "ज्ञानेश्‍वर विश्‍वनाथ जाधव",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 470,
+    "name": "सुनिता आण्णा खोमणे",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 471,
+    "name": "महेश मधुसुदन लंके",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 473,
+    "name": "भिमराव गेनबा साळुंके",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 474,
+    "name": "कुंदा भीनराव साळुंके",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 476,
+    "name": "वैभव मोहनलाल शहा",
+    "inferredAge": 29,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 477,
+    "name": "वृषाली वैभव शहा",
+    "inferredAge": 45,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 479,
+    "name": "मेघना महावीर गांधी",
+    "inferredAge": 31,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 482,
+    "name": "सोहनलाल चत्रभुज शर्मा",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 483,
+    "name": "कैलासदेवी सोहनलाल ज्ञर्मा",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 485,
+    "name": "ज्ञानदेव उत्तम सुर्वे",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 486,
+    "name": "उर्मिला ज्ञानदेव सुर्वे",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 494,
+    "name": "संजय मल्हारी भोसले",
+    "inferredAge": 46,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 495,
+    "name": "वंदना संजय भोसले",
+    "inferredAge": 42,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 497,
+    "name": "मंजिरी बाहुबली शहा",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 500,
+    "name": "निखिल सुनील बेदमुथा",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 504,
+    "name": "राजुलाल रमणलाल शहा",
+    "inferredAge": 44,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 506,
+    "name": "कल्पेशकुमार राजुलाल शहा",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 507,
+    "name": "संगीता कल्यपेक्षकुमार शहा",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 509,
+    "name": "मंजुषा राजुलाल शहा",
+    "inferredAge": 29,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 510,
+    "name": "राहुल आप्पासो कुदळे",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 512,
+    "name": "विद्या व्यंकटेश पटाले",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 513,
+    "name": "कल्पना रणजित पटाले",
+    "inferredAge": 29,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 515,
+    "name": "बेबीताई झ्ामराव सोरटे",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 516,
+    "name": "विजय शामराव सोरटे",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 521,
+    "name": "हरिदास तात्याबा पवार",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 522,
+    "name": "सरोजिनी हरिदास पवार",
+    "inferredAge": 32,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 524,
+    "name": "दिपाली विश्वंभर पवार",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 525,
+    "name": "प्रफुल्लकुमार दशरथ पवार",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 539,
+    "name": "अल्का शांताराम कुलकर्णी मतदाराचे",
+    "inferredAge": 44,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 542,
+    "name": "अर्चना अशोक वारे",
+    "inferredAge": 42,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 543,
+    "name": "अरुणा भिमराव जगताप",
+    "inferredAge": 31,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 545,
+    "name": "उषा रामचंद्र कदम",
+    "inferredAge": 31,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 546,
+    "name": "मिनाक्षी रामचंद्र कदम",
+    "inferredAge": 29,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 554,
+    "name": "रामदास सखाहारी पांचाळ",
+    "inferredAge": 45,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 555,
+    "name": "सायबाना चांदप्पा पांचाळ",
+    "inferredAge": 44,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 557,
+    "name": "मिरा रामदास पांचाळ",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 558,
+    "name": "लक्ष्मी धोंडीराम पांचाळ",
+    "inferredAge": 28,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 560,
+    "name": "नगमा सायबाना कांबळे",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 561,
+    "name": "ललिता चेनप्पा कांबळे",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 587,
+    "name": "माधुरी सुरेद्र नांदुरकर '",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 591,
+    "name": "भिका दादा मिसाळ",
+    "inferredAge": 31,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 605,
+    "name": "सुरेश बाळकृष्ण चिटणीस मतदाराचे",
+    "inferredAge": 47,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 611,
+    "name": "विज्ञाल ललीत पटेल",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 614,
+    "name": "कमलाकर सोमनाथ टेकवडे मतदाराचे",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 620,
+    "name": "ताश मोहन पोतेकर",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 621,
+    "name": "राजकुमार मोहन पोतेकर",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 623,
+    "name": "सविता राजकुमार पोतेकर",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 624,
+    "name": "राजेश्वर कृष्णराव राईकवार",
+    "inferredAge": 32,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 626,
+    "name": "अशोक शामराव साळुंखे",
+    "inferredAge": 32,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 627,
+    "name": "संगिता अशोक साळुंखे",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 635,
+    "name": "आनंद नागनाथ शिंदे",
+    "inferredAge": 45,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 641,
+    "name": "प्रज्ञा ज्ञानदेव सरवदे",
+    "inferredAge": 32,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 650,
+    "name": "अनुराधा मुकुंद बडवे",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 651,
+    "name": "यशवंत कृष्णा सुर्यवंशी",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 653,
+    "name": "गुरुनाथ नारायण सहखबुध्दे",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 654,
+    "name": "निर्मला गुरुनाथ सहखबुध्दे",
+    "inferredAge": 31,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 656,
+    "name": "सई केदार पानसे",
+    "inferredAge": 36,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 657,
+    "name": "नलीनी श्रीविल्लभ पानसे",
+    "inferredAge": 38,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 659,
+    "name": "वंदना बबन करे",
+    "inferredAge": 35,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 665,
+    "name": "संग्राम बाबुराव राणे",
+    "inferredAge": 28,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 666,
+    "name": "वंदना संग्राम राणे",
+    "inferredAge": 44,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 668,
+    "name": "सुनिल किसन घाडगे मतदाराचे",
+    "inferredAge": 40,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 671,
+    "name": "भागुबाई निनोद घाडगे",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 672,
+    "name": "तानुबाई शंकर साबळे",
+    "inferredAge": 46,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 674,
+    "name": "संजय जगन्नाथ साळुंके",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 675,
+    "name": "उषा राजेंद्र साळुंके",
+    "inferredAge": 43,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 677,
+    "name": "राजेंद्र महादेव साळुंके",
+    "inferredAge": 45,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 678,
+    "name": "रेखा मल्लिकार्जुन होलमणी",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 686,
+    "name": "पुनम प्रदीप दोडमीसे",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 687,
+    "name": "प्रशांत त्रिंबक दोडमीसे",
+    "inferredAge": 41,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 692,
+    "name": "प्रविण नामदेव कोळे",
+    "inferredAge": 40,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 695,
+    "name": "चंद्रेश दत्तात्रय शिर्के",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 698,
+    "name": "आप्पासो राजाराम होळकर",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 701,
+    "name": "सुरेखा कृष्णा ताटे",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 702,
+    "name": "जयराम नारायण खाडे",
+    "inferredAge": 28,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 704,
+    "name": "एकनाथ बबन फुले",
+    "inferredAge": 34,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 710,
+    "name": "रामचंद्र बापुराव माने मतदाराचे",
+    "inferredAge": 46,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 713,
+    "name": "आज्ञा अशोक पेटकर",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 714,
+    "name": "आरती निलेश पेठकर",
+    "inferredAge": 42,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 726,
+    "name": "मुकुंद जगन्नाथ खंडागळे",
+    "inferredAge": 37,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 728,
+    "name": "नितीन मुकुंद खंडागळे",
+    "inferredAge": 39,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 729,
+    "name": "वृषाली नितीन खंडागळे",
+    "inferredAge": 41,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 776,
+    "name": "सीमा संजय ईनामके",
+    "inferredAge": 30,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 793,
+    "name": "अमृता योगेश आवटे",
+    "inferredAge": 33,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 794,
+    "name": "सरस्वती संभाजी पाटील",
+    "inferredAge": 43,
+    "reason": "statistical-avg"
+  },
+  {
+    "serial": 795,
+    "name": "संभाजी वसंत पाटील",
+    "inferredAge": 46,
+    "reason": "statistical-avg"
+  }
+]
