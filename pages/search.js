@@ -545,8 +545,8 @@ export default function SearchPage() {
                   <span class="info-value">${voter.name || 'N/A'}</span>
                 </div>
                 <div class="info-line">
-                  <span class="info-label">वय/लिंग:</span>
-                  <span class="info-value">${voter.age || 'N/A'} / ${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : 'N/A'}</span>
+                  <span class="info-label">लिंग/वय:</span>
+                  <span class="info-value">${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : 'N/A'} / ${voter.age || 'N/A'}</span>
                 </div>
                 <div class="info-line">
                   <span class="info-label">मतदान कार्ड:</span>
@@ -767,8 +767,8 @@ export default function SearchPage() {
             <span class="info-value">${voter.name || 'N/A'}</span>
           </div>
           ${(voter.age || voter.gender) ? `<div class="info-line">
-            <span class="info-label">वय/लिंग:</span>
-            <span class="info-value">${voter.age || '-'} / ${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : '-'}</span>
+            <span class="info-label">लिंग/वय:</span>
+            <span class="info-value">${voter.gender === 'M' ? 'पुरुष' : voter.gender === 'F' ? 'स्त्री' : '-'} / ${voter.age || '-'}</span>
           </div>` : ''}
           ${voter.voterId ? `<div class="info-line">
             <span class="info-label">मतदान कार्ड:</span>
