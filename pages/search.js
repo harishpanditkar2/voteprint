@@ -553,8 +553,8 @@ export default function SearchPage() {
                   <span class="info-value">${voter.voterId || 'N/A'}</span>
                 </div>
                 <div class="info-line">
-                  <span class="info-label">प्रभाग/अनु क्र:</span>
-                  <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || 'N/A'}</span>
+                  <span class="info-label">प्रभाग:</span>
+                  <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'}</span>
                 </div>
               </div>
               <div class="info-box">
@@ -774,9 +774,9 @@ export default function SearchPage() {
             <span class="info-label">मतदान कार्ड:</span>
             <span class="info-value">${voter.voterId}</span>
           </div>` : ''}
-          ${(voter.actualWard || voter.ward || voter.serialNumber) ? `<div class="info-line">
-            <span class="info-label">प्रभाग/अनु क्र:</span>
-            <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || '-'} / ${voter.partNumber ? voter.partNumber.split('/')[2] : voter.serialNumber || '-'}</span>
+          ${(voter.actualWard || voter.ward) ? `<div class="info-line">
+            <span class="info-label">प्रभाग:</span>
+            <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || '-'}</span>
           </div>` : ''}
         </div>
         <div class="info-box">
