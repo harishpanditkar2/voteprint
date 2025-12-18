@@ -579,8 +579,8 @@ export default function SearchPage() {
                 <img src="/logo.png" alt="Logo" class="candidate-logo" />
                 <div class="candidates-box">
                   <div class="candidate-line"><strong>नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</strong></div>
-                  <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
-                  <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>
+                  ${(voter.actualWard || voter.ward) === '16' ? `<div class="candidate-line"><strong>नगरसेवक प्रभाग 16 ब: मेघा सुरेंद्र जेवरे</strong></div>` : `<div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
+                  <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>`}
                 </div>
               </div>
               <div class="qr-section">
@@ -801,8 +801,8 @@ export default function SearchPage() {
           <img src="/logo.png" alt="Logo" class="candidate-logo" />
           <div class="candidates-box">
             <div class="candidate-line"><strong>नगर अध्यक्ष: सुरेंद्र शामसुंदर जेवरे</strong></div>
-            <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
-            <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>
+            ${(voter.actualWard || voter.ward) === '16' ? `<div class="candidate-line"><strong>नगरसेवक प्रभाग 16 ब: मेघा सुरेंद्र जेवरे</strong></div>` : `<div class="candidate-line"><strong>नगरसेवक प्रभाग 7 अ: सुरेंद्र शामसुंदर जेवरे</strong></div>
+            <div class="candidate-line"><strong>नगरसेवक प्रभाग 7 ब: मेघा सुरेंद्र जेवरे</strong></div>`}
           </div>
         </div>
         <div class="qr-section">
