@@ -585,11 +585,11 @@ export default function SearchPage() {
               </div>
               <div class="qr-section">
                 <div class="qr-title">डेमो मतदान करण्यासाठी QR कोड स्कॅन करा</div>
-                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://dhanushyaban7.matdan.in" 
+                <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://dhanushyaban${voter.actualWard || voter.ward || '7'}.matdan.in" 
                      alt="QR Code" 
                      class="qr-code" />
                 <div class="qr-url">
-                  किंवा https://dhanushyaban7.matdan.in<br/>
+                  किंवा https://dhanushyaban${voter.actualWard || voter.ward || '7'}.matdan.in<br/>
                   वेबसाइट उघडून डेमो मतदान करा
                 </div>
               </div>
@@ -807,11 +807,11 @@ export default function SearchPage() {
         </div>
         <div class="qr-section">
           <div class="qr-title">डेमो मतदान करण्यासाठी QR कोड स्कॅन करा</div>
-          <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://dhanushyaban7.matdan.in" 
+          <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=https://dhanushyaban${voter.actualWard || voter.ward || '7'}.matdan.in" 
                alt="QR Code" 
                class="qr-code" />
           <div class="qr-url">
-            किंवा https://dhanushyaban7.matdan.in<br/>
+            किंवा https://dhanushyaban${voter.actualWard || voter.ward || '7'}.matdan.in<br/>
             वेबसाइट उघडून डेमो मतदान करा
           </div>
         </div>
