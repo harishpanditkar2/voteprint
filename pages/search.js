@@ -27,7 +27,7 @@ export default function SearchPage() {
     name: '',
     age: '',
     gender: '',
-    ward: '',
+    ward: '7',
     booth: '1',
     relation: '',
     house: ''
@@ -888,7 +888,7 @@ export default function SearchPage() {
                   name: '',
                   age: '',
                   gender: 'M',
-                  ward: '',
+                  ward: '7',
                   booth: '1',
                   relation: '',
                   house: ''
@@ -2412,11 +2412,9 @@ export default function SearchPage() {
                     }}>
                       प्रभाग (Ward)
                     </label>
-                    <input
-                      type="text"
+                    <select
                       value={customPrintForm.ward}
                       onChange={(e) => setCustomPrintForm(prev => ({ ...prev, ward: e.target.value }))}
-                      placeholder="Ward"
                       style={{
                         width: '100%',
                         padding: '12px',
@@ -2424,9 +2422,13 @@ export default function SearchPage() {
                         borderRadius: '8px',
                         fontSize: '16px',
                         fontWeight: '600',
-                        outline: 'none'
+                        outline: 'none',
+                        background: 'white'
                       }}
-                    />
+                    >
+                      <option value="7">प्रभाग 7</option>
+                      <option value="16">प्रभाग 16</option>
+                    </select>
                   </div>
 
                   <div>
