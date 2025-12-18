@@ -553,7 +553,7 @@ export default function SearchPage() {
                   <span class="info-value">${voter.voterId || 'N/A'}</span>
                 </div>
                 <div class="info-line">
-                  <span class="info-label">प्रभाग:</span>
+                  <span class="info-label">प्रभाग क्र.:</span>
                   <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || 'N/A'}</span>
                 </div>
               </div>
@@ -775,7 +775,7 @@ export default function SearchPage() {
             <span class="info-value">${voter.voterId}</span>
           </div>` : ''}
           ${(voter.actualWard || voter.ward) ? `<div class="info-line">
-            <span class="info-label">प्रभाग:</span>
+            <span class="info-label">प्रभाग क्र.:</span>
             <span class="info-value">${voter.actualWard || (voter.partNumber ? voter.partNumber.split('/')[1] : voter.ward) || '-'}</span>
           </div>` : ''}
         </div>
