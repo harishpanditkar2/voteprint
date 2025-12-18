@@ -2088,11 +2088,12 @@ export default function SearchPage() {
                     }}>
                       प्रभाग (Ward)
                     </label>
-                    <input
-                      type="text"
+                    <select
                       value={editForm.ward}
-                      onChange={(e) => handleEditFormChange('ward', e.target.value)}
-                      placeholder="Ward"
+                      onChange={(e) => {
+                        handleEditFormChange('ward', e.target.value);
+                        handleEditFormChange('booth', '1');
+                      }}
                       style={{
                         width: '100%',
                         padding: '12px',
@@ -2100,11 +2101,15 @@ export default function SearchPage() {
                         borderRadius: '8px',
                         fontSize: '16px',
                         fontWeight: '600',
-                        outline: 'none'
+                        outline: 'none',
+                        background: 'white'
                       }}
                       onFocus={(e) => e.target.style.borderColor = '#ff6b35'}
                       onBlur={(e) => e.target.style.borderColor = '#e5e7eb'}
-                    />
+                    >
+                      <option value="7">प्रभाग 7</option>
+                      <option value="16">प्रभाग 16</option>
+                    </select>
                   </div>
 
                   <div>
